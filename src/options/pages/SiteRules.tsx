@@ -1,1 +1,174 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IGJyb3dzZXJBcGkgfSBmcm9tICdAL3NoYXJlZC91dGlscy9icm93c2VyQXBpJzsKaW1wb3J0IHsgREVGQVVMVF9TRVRUSU5HUywgU1RPUkFHRV9LRVlTIH0gZnJvbSAnQC9zaGFyZWQvY29uc3RhbnRzJzsKaW1wb3J0IHR5cGUgeyBFeHRlbnNpb25TZXR0aW5ncywgU2l0ZVJ1bGUgfSBmcm9tICdAL3NoYXJlZC90eXBlcyc7CmltcG9ydCB7IHQgfSBmcm9tICdAL3NoYXJlZC91dGlscy9pMThuJzsKCnR5cGUgRGltZW5zaW9uID0gJ3Rha2VvdmVyJyB8ICdmbG9hdEJ1dHRvbicgfCAnc25pZmZpbmcnOwoKLy8g5LiJ5oCB5YC8IDwtPiDkuIvmi4nlrZfnrKbkuLIKZnVuY3Rpb24gdG9UcmlWYWx1ZSh2OiBib29sZWFuIHwgdW5kZWZpbmVkKTogc3RyaW5nIHsKICBpZiAodiA9PT0gdHJ1ZSkgcmV0dXJuICdvbic7CiAgaWYgKHYgPT09IGZhbHNlKSByZXR1cm4gJ29mZic7CiAgcmV0dXJuICdkZWZhdWx0JzsKfQpmdW5jdGlvbiBmcm9tVHJpVmFsdWUoczogc3RyaW5nKTogYm9vbGVhbiB8IHVuZGVmaW5lZCB7CiAgaWYgKHMgPT09ICdvbicpIHJldHVybiB0cnVlOwogIGlmIChzID09PSAnb2ZmJykgcmV0dXJuIGZhbHNlOwogIHJldHVybiB1bmRlZmluZWQ7Cn0KCmZ1bmN0aW9uIFNpdGVSdWxlcygpIHsKICBjb25zdCBbc2V0dGluZ3MsIHNldFNldHRpbmdzXSA9IHVzZVN0YXRlPEV4dGVuc2lvblNldHRpbmdzPihERUZBVUxUX1NFVFRJTkdTKTsKICBjb25zdCBbc2F2ZWQsIHNldFNhdmVkXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbbmV3RG9tYWluLCBzZXROZXdEb21haW5dID0gdXNlU3RhdGUoJycpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgKGFzeW5jICgpID0+IHsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgYnJvd3NlckFwaS5zdG9yYWdlLmdldChbU1RPUkFHRV9LRVlTLlNFVFRJTkdTXSk7CiAgICAgIGlmIChyZXN1bHRbU1RPUkFHRV9LRVlTLlNFVFRJTkdTXSkgewogICAgICAgIHNldFNldHRpbmdzKHsgLi4uREVGQVVMVF9TRVRUSU5HUywgLi4ucmVzdWx0W1NUT1JBR0VfS0VZUy5TRVRUSU5HU10gfSk7CiAgICAgIH0KICAgIH0pKCk7CiAgfSwgW10pOwoKICBjb25zdCBzYXZlID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgYnJvd3NlckFwaS5zdG9yYWdlLnNldCh7IFtTVE9SQUdFX0tFWVMuU0VUVElOR1NdOiBzZXR0aW5ncyB9KTsKICAgIHNldFNhdmVkKHRydWUpOwogICAgc2V0VGltZW91dCgoKSA9PiBzZXRTYXZlZChmYWxzZSksIDIwMDApOwogIH07CgogIGNvbnN0IHJ1bGVzID0gc2V0dGluZ3Muc2l0ZVJ1bGVzIHx8IFtdOwoKICBjb25zdCBhZGRSdWxlID0gKCkgPT4gewogICAgY29uc3QgZG9tYWluID0gbmV3RG9tYWluLnRyaW0oKS50b0xvd2VyQ2FzZSgpOwogICAgaWYgKCFkb21haW4gfHwgcnVsZXMuc29tZSgocikgPT4gci5kb21haW4udG9Mb3dlckNhc2UoKSA9PT0gZG9tYWluKSkgewogICAgICByZXR1cm47CiAgICB9CiAgICBzZXRTZXR0aW5ncyh7IC4uLnNldHRpbmdzLCBzaXRlUnVsZXM6IFsuLi5ydWxlcywgeyBkb21haW4gfV0gfSk7CiAgICBzZXROZXdEb21haW4oJycpOwogIH07CgogIGNvbnN0IHJlbW92ZVJ1bGUgPSAoZG9tYWluOiBzdHJpbmcpID0+IHsKICAgIHNldFNldHRpbmdzKHsgLi4uc2V0dGluZ3MsIHNpdGVSdWxlczogcnVsZXMuZmlsdGVyKChyKSA9PiByLmRvbWFpbiAhPT0gZG9tYWluKSB9KTsKICB9OwoKICBjb25zdCB1cGRhdGVEaW1lbnNpb24gPSAoZG9tYWluOiBzdHJpbmcsIGRpbTogRGltZW5zaW9uLCB2YWx1ZTogYm9vbGVhbiB8IHVuZGVmaW5lZCkgPT4gewogICAgc2V0U2V0dGluZ3MoewogICAgICAuLi5zZXR0aW5ncywKICAgICAgc2l0ZVJ1bGVzOiBydWxlcy5tYXAoKHIpID0+IHsKICAgICAgICBpZiAoci5kb21haW4gIT09IGRvbWFpbikgcmV0dXJuIHI7CiAgICAgICAgY29uc3QgbmV4dDogU2l0ZVJ1bGUgPSB7IC4uLnIgfTsKICAgICAgICBpZiAodmFsdWUgPT09IHVuZGVmaW5lZCkgewogICAgICAgICAgZGVsZXRlIG5leHRbZGltXTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgbmV4dFtkaW1dID0gdmFsdWU7CiAgICAgICAgfQogICAgICAgIHJldHVybiBuZXh0OwogICAgICB9KQogICAgfSk7CiAgfTsKCiAgY29uc3QgZGltZW5zaW9uczogeyBrZXk6IERpbWVuc2lvbjsgbGFiZWw6IHN0cmluZyB9W10gPSBbCiAgICB7IGtleTogJ3Rha2VvdmVyJywgbGFiZWw6IHQoJ3J1bGVUYWtlb3ZlcicpIH0sCiAgICB7IGtleTogJ2Zsb2F0QnV0dG9uJywgbGFiZWw6IHQoJ3J1bGVGbG9hdEJ1dHRvbicpIH0sCiAgICB7IGtleTogJ3NuaWZmaW5nJywgbGFiZWw6IHQoJ3J1bGVTbmlmZmluZycpIH0KICBdOwoKICByZXR1cm4gKAogICAgPGRpdj4KICAgICAgPGgxIHN0eWxlPXt7IGZvbnRTaXplOiAnMjRweCcsIGZvbnRXZWlnaHQ6IDYwMCwgbWFyZ2luQm90dG9tOiAndmFyKC0tc3BhY2UteGwpJyB9fT4KICAgICAgICB7dCgnc2l0ZVJ1bGVzVGl0bGUnKX0KICAgICAgPC9oMT4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJvcHRpb25zLXNlY3Rpb24iPgogICAgICAgIDxkaXYgc3R5bGU9e3sgZm9udFNpemU6ICcxNHB4JywgY29sb3I6ICd2YXIoLS10ZXh0LXNlY29uZGFyeSknLCBtYXJnaW5Cb3R0b206ICd2YXIoLS1zcGFjZS1tZCknIH19PgogICAgICAgICAge3QoJ3NpdGVSdWxlc0Rlc2MnKX0KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIOa3u+WKoOWfn+WQjSAqL30KICAgICAgICA8ZGl2IHN0eWxlPXt7IGRpc3BsYXk6ICdmbGV4JywgZ2FwOiAndmFyKC0tc3BhY2Utc20pJywgbWFyZ2luQm90dG9tOiAndmFyKC0tc3BhY2UtbGcpJyB9fT4KICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICB0eXBlPSJ0ZXh0IgogICAgICAgICAgICBjbGFzc05hbWU9ImZvcm0taW5wdXQiCiAgICAgICAgICAgIHZhbHVlPXtuZXdEb21haW59CiAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0TmV3RG9tYWluKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgb25LZXlEb3duPXsoZSkgPT4gZS5rZXkgPT09ICdFbnRlcicgJiYgYWRkUnVsZSgpfQogICAgICAgICAgICBwbGFjZWhvbGRlcj0iZXhhbXBsZS5jb20iCiAgICAgICAgICAvPgogICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9ImZvcm0tYnV0dG9uIiBvbkNsaWNrPXthZGRSdWxlfT57dCgnYWRkJyl9PC9idXR0b24+CiAgICAgICAgPC9kaXY+CgogICAgICAgIHtydWxlcy5sZW5ndGggPT09IDAgPyAoCiAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiAnMTNweCcsIGNvbG9yOiAndmFyKC0tdGV4dC1zZWNvbmRhcnkpJyB9fT57dCgnc2l0ZVJ1bGVzRW1wdHknKX08L2Rpdj4KICAgICAgICApIDogKAogICAgICAgICAgPHRhYmxlIHN0eWxlPXt7IHdpZHRoOiAnMTAwJScsIGJvcmRlckNvbGxhcHNlOiAnY29sbGFwc2UnLCBmb250U2l6ZTogJzEzcHgnIH19PgogICAgICAgICAgICA8dGhlYWQ+CiAgICAgICAgICAgICAgPHRyIHN0eWxlPXt7IHRleHRBbGlnbjogJ2xlZnQnLCBjb2xvcjogJ3ZhcigtLXRleHQtc2Vjb25kYXJ5KScgfX0+CiAgICAgICAgICAgICAgICA8dGggc3R5bGU9e3sgcGFkZGluZzogJzZweCA0cHgnIH19Pnt0KCdydWxlRG9tYWluJyl9PC90aD4KICAgICAgICAgICAgICAgIHtkaW1lbnNpb25zLm1hcCgoZCkgPT4gKAogICAgICAgICAgICAgICAgICA8dGgga2V5PXtkLmtleX0gc3R5bGU9e3sgcGFkZGluZzogJzZweCA0cHgnIH19PntkLmxhYmVsfTwvdGg+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgIDx0aD48L3RoPgogICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgIDwvdGhlYWQ+CiAgICAgICAgICAgIDx0Ym9keT4KICAgICAgICAgICAgICB7cnVsZXMubWFwKChydWxlKSA9PiAoCiAgICAgICAgICAgICAgICA8dHIga2V5PXtydWxlLmRvbWFpbn0gc3R5bGU9e3sgYm9yZGVyVG9wOiAnMXB4IHNvbGlkIHZhcigtLWJvcmRlci1saWdodGVyKScgfX0+CiAgICAgICAgICAgICAgICAgIDx0ZCBzdHlsZT17eyBwYWRkaW5nOiAnNnB4IDRweCcsIGZvbnRGYW1pbHk6ICdtb25vc3BhY2UnIH19PntydWxlLmRvbWFpbn08L3RkPgogICAgICAgICAgICAgICAgICB7ZGltZW5zaW9ucy5tYXAoKGQpID0+ICgKICAgICAgICAgICAgICAgICAgICA8dGQga2V5PXtkLmtleX0gc3R5bGU9e3sgcGFkZGluZzogJzZweCA0cHgnIH19PgogICAgICAgICAgICAgICAgICAgICAgPHNlbGVjdAogICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17dG9UcmlWYWx1ZShydWxlW2Qua2V5XSl9CiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gdXBkYXRlRGltZW5zaW9uKHJ1bGUuZG9tYWluLCBkLmtleSwgZnJvbVRyaVZhbHVlKGUudGFyZ2V0LnZhbHVlKSl9CiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemU6ICcxMnB4JywKICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAnM3B4IDZweCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiAndmFyKC0tcmFkaXVzLWJhc2UpJywKICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6ICcxcHggc29saWQgdmFyKC0tYm9yZGVyLWJhc2UpJywKICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAndmFyKC0tYmctd2hpdGUpJywKICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogJ3ZhcigtLXRleHQtcmVndWxhciknCiAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9ImRlZmF1bHQiPnt0KCdydWxlRGVmYXVsdCcpfTwvb3B0aW9uPgogICAgICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJvbiI+e3QoJ3J1bGVPbicpfTwvb3B0aW9uPgogICAgICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJvZmYiPnt0KCdydWxlT2ZmJyl9PC9vcHRpb24+CiAgICAgICAgICAgICAgICAgICAgICA8L3NlbGVjdD4KICAgICAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgPHRkIHN0eWxlPXt7IHBhZGRpbmc6ICc2cHggNHB4JywgdGV4dEFsaWduOiAncmlnaHQnIH19PgogICAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHJlbW92ZVJ1bGUocnVsZS5kb21haW4pfQogICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJ3ZhcigtLWNvbG9yLWRhbmdlciknLAogICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogJyNmZmYnLAogICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6ICdub25lJywKICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiAndmFyKC0tcmFkaXVzLXNtYWxsKScsCiAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6ICczcHggOHB4JywKICAgICAgICAgICAgICAgICAgICAgICAgY3Vyc29yOiAncG9pbnRlcicsCiAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiAnMTJweCcKICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAge3QoJ3JlbW92ZScpfQogICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC90Ym9keT4KICAgICAgICAgIDwvdGFibGU+CiAgICAgICAgKX0KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IHN0eWxlPXt7IGRpc3BsYXk6ICdmbGV4JywgZ2FwOiAndmFyKC0tc3BhY2UtbWQpJyB9fT4KICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT0iZm9ybS1idXR0b24iIG9uQ2xpY2s9e3NhdmV9Pnt0KCdzYXZlJyl9PC9idXR0b24+CiAgICAgICAge3NhdmVkICYmICgKICAgICAgICAgIDxkaXYgc3R5bGU9e3sgcGFkZGluZzogJzhweCAxNnB4JywgY29sb3I6ICd2YXIoLS1jb2xvci1zdWNjZXNzKScsIGZvbnRTaXplOiAnMTRweCcsIGRpc3BsYXk6ICdmbGV4JywgYWxpZ25JdGVtczogJ2NlbnRlcicgfX0+CiAgICAgICAgICAgIOKckyB7dCgnc2F2ZWQnKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQoKZXhwb3J0IGRlZmF1bHQgU2l0ZVJ1bGVzOwo=
+import React, { useEffect, useState } from 'react';
+import { browserApi } from '@/shared/utils/browserApi';
+import { DEFAULT_SETTINGS, STORAGE_KEYS } from '@/shared/constants';
+import type { ExtensionSettings, SiteRule } from '@/shared/types';
+import { t } from '@/shared/utils/i18n';
+
+type Dimension = 'takeover' | 'floatButton' | 'sniffing';
+
+// 三态值 <-> 下拉字符串
+function toTriValue(v: boolean | undefined): string {
+  if (v === true) return 'on';
+  if (v === false) return 'off';
+  return 'default';
+}
+function fromTriValue(s: string): boolean | undefined {
+  if (s === 'on') return true;
+  if (s === 'off') return false;
+  return undefined;
+}
+
+function SiteRules() {
+  const [settings, setSettings] = useState<ExtensionSettings>(DEFAULT_SETTINGS);
+  const [saved, setSaved] = useState(false);
+  const [newDomain, setNewDomain] = useState('');
+
+  useEffect(() => {
+    (async () => {
+      const result = await browserApi.storage.get([STORAGE_KEYS.SETTINGS]);
+      if (result[STORAGE_KEYS.SETTINGS]) {
+        setSettings({ ...DEFAULT_SETTINGS, ...result[STORAGE_KEYS.SETTINGS] });
+      }
+    })();
+  }, []);
+
+  const save = async () => {
+    await browserApi.storage.set({ [STORAGE_KEYS.SETTINGS]: settings });
+    setSaved(true);
+    setTimeout(() => setSaved(false), 2000);
+  };
+
+  const rules = settings.siteRules || [];
+
+  const addRule = () => {
+    const domain = newDomain.trim().toLowerCase();
+    if (!domain || rules.some((r) => r.domain.toLowerCase() === domain)) {
+      return;
+    }
+    setSettings({ ...settings, siteRules: [...rules, { domain }] });
+    setNewDomain('');
+  };
+
+  const removeRule = (domain: string) => {
+    setSettings({ ...settings, siteRules: rules.filter((r) => r.domain !== domain) });
+  };
+
+  const updateDimension = (domain: string, dim: Dimension, value: boolean | undefined) => {
+    setSettings({
+      ...settings,
+      siteRules: rules.map((r) => {
+        if (r.domain !== domain) return r;
+        const next: SiteRule = { ...r };
+        if (value === undefined) {
+          delete next[dim];
+        } else {
+          next[dim] = value;
+        }
+        return next;
+      })
+    });
+  };
+
+  const dimensions: { key: Dimension; label: string }[] = [
+    { key: 'takeover', label: t('ruleTakeover') },
+    { key: 'floatButton', label: t('ruleFloatButton') },
+    { key: 'sniffing', label: t('ruleSniffing') }
+  ];
+
+  return (
+    <div>
+      <h1 style={{ fontSize: '24px', fontWeight: 600, marginBottom: 'var(--space-xl)' }}>
+        {t('siteRulesTitle')}
+      </h1>
+
+      <div className="options-section">
+        <div style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: 'var(--space-md)' }}>
+          {t('siteRulesDesc')}
+        </div>
+
+        {/* 添加域名 */}
+        <div style={{ display: 'flex', gap: 'var(--space-sm)', marginBottom: 'var(--space-lg)' }}>
+          <input
+            type="text"
+            className="form-input"
+            value={newDomain}
+            onChange={(e) => setNewDomain(e.target.value)}
+            onKeyDown={(e) => e.key === 'Enter' && addRule()}
+            placeholder="example.com"
+          />
+          <button className="form-button" onClick={addRule}>{t('add')}</button>
+        </div>
+
+        {rules.length === 0 ? (
+          <div style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>{t('siteRulesEmpty')}</div>
+        ) : (
+          <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '13px' }}>
+            <thead>
+              <tr style={{ textAlign: 'left', color: 'var(--text-secondary)' }}>
+                <th style={{ padding: '6px 4px' }}>{t('ruleDomain')}</th>
+                {dimensions.map((d) => (
+                  <th key={d.key} style={{ padding: '6px 4px' }}>{d.label}</th>
+                ))}
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              {rules.map((rule) => (
+                <tr key={rule.domain} style={{ borderTop: '1px solid var(--border-lighter)' }}>
+                  <td style={{ padding: '6px 4px', fontFamily: 'monospace' }}>{rule.domain}</td>
+                  {dimensions.map((d) => (
+                    <td key={d.key} style={{ padding: '6px 4px' }}>
+                      <select
+                        value={toTriValue(rule[d.key])}
+                        onChange={(e) => updateDimension(rule.domain, d.key, fromTriValue(e.target.value))}
+                        style={{
+                          fontSize: '12px',
+                          padding: '3px 6px',
+                          borderRadius: 'var(--radius-base)',
+                          border: '1px solid var(--border-base)',
+                          background: 'var(--bg-white)',
+                          color: 'var(--text-regular)'
+                        }}
+                      >
+                        <option value="default">{t('ruleDefault')}</option>
+                        <option value="on">{t('ruleOn')}</option>
+                        <option value="off">{t('ruleOff')}</option>
+                      </select>
+                    </td>
+                  ))}
+                  <td style={{ padding: '6px 4px', textAlign: 'right' }}>
+                    <button
+                      onClick={() => removeRule(rule.domain)}
+                      style={{
+                        background: 'var(--color-danger)',
+                        color: '#fff',
+                        border: 'none',
+                        borderRadius: 'var(--radius-small)',
+                        padding: '3px 8px',
+                        cursor: 'pointer',
+                        fontSize: '12px'
+                      }}
+                    >
+                      {t('remove')}
+                    </button>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        )}
+      </div>
+
+      <div style={{ display: 'flex', gap: 'var(--space-md)' }}>
+        <button className="form-button" onClick={save}>{t('save')}</button>
+        {saved && (
+          <div style={{ padding: '8px 16px', color: 'var(--color-success)', fontSize: '14px', display: 'flex', alignItems: 'center' }}>
+            ✓ {t('saved')}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export default SiteRules;

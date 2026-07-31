@@ -1,1 +1,329 @@
-aW1wb3J0IHR5cGUgeyBBcmlhMkNvbmZpZywgQXJpYTJScGNSZXF1ZXN0LCBBcmlhMlJwY1Jlc3BvbnNlIH0gZnJvbSAnQC9zaGFyZWQvdHlwZXMnOwoKLyoqIGFyaWEyIOacjeWKoeerr+aOqOmAgemAmuefpeeahOWkhOeQhuWbnuiwg++8jHBhcmFtcyDkuLrljp/lp4vpgJrnn6Xlj4LmlbDmlbDnu4QgKi8KZXhwb3J0IHR5cGUgTm90aWZpY2F0aW9uSGFuZGxlciA9IChwYXJhbXM6IGFueSkgPT4gdm9pZDsKLyoqIOi/nuaOpeeKtuaAgeWPmOWMluWbnuiwg++8iHRydWU95bey6L+e5o6l77yMZmFsc2U95pat5byA77yJICovCmV4cG9ydCB0eXBlIENvbm5lY3Rpb25TdGF0ZUhhbmRsZXIgPSAoY29ubmVjdGVkOiBib29sZWFuKSA9PiB2b2lkOwoKLyoqCiAqIGFyaWEyIEpTT04tUlBDIFdlYlNvY2tldCDlrqLmiLfnq68KICog6LSf6LSj5LiOIGFyaWEyYyDlu7rnq4sgV2ViU29ja2V0IOi/nuaOpeW5tui/m+ihjCBSUEMg6YCa5L+hCiAqIOaUr+aMge+8muaXoOmZkOaMh+aVsOmAgOmBv+iHquWKqOmHjei/nuOAgeacjeWKoeerr+mAmuefpeWIhuWPkeOAgei/nuaOpeeKtuaAgeW5v+aSrQogKi8KZXhwb3J0IGNsYXNzIEFyaWEyUnBjQ2xpZW50IHsKICBwcml2YXRlIHdzOiBXZWJTb2NrZXQgfCBudWxsID0gbnVsbDsKICBwcml2YXRlIHJwY1VybDogc3RyaW5nOwogIHByaXZhdGUgc2VjcmV0OiBzdHJpbmc7CiAgcHJpdmF0ZSByZXF1ZXN0VGltZW91dDogbnVtYmVyOwogIHByaXZhdGUgbWVzc2FnZUlkID0gMDsKICBwcml2YXRlIHBlbmRpbmdSZXF1ZXN0cyA9IG5ldyBNYXA8c3RyaW5nLCB7CiAgICByZXNvbHZlOiAodmFsdWU6IGFueSkgPT4gdm9pZDsKICAgIHJlamVjdDogKGVycm9yOiBhbnkpID0+IHZvaWQ7CiAgfT4oKTsKICBwcml2YXRlIHJlY29ubmVjdEF0dGVtcHRzID0gMDsKICBwcml2YXRlIGJhc2VSZWNvbm5lY3REZWxheSA9IDEwMDA7CiAgcHJpdmF0ZSBtYXhSZWNvbm5lY3REZWxheSA9IDMwMDAwOwogIHByaXZhdGUgY29ubmVjdFByb21pc2U6IFByb21pc2U8dm9pZD4gfCBudWxsID0gbnVsbDsKICBwcml2YXRlIHJlY29ubmVjdFRpbWVyOiBSZXR1cm5UeXBlPHR5cGVvZiBzZXRUaW1lb3V0PiB8IG51bGwgPSBudWxsOwogIC8vIOS4u+WKqOaWreW8gOagh+W/l++8muS4uiB0cnVlIOaXtuS4jeWGjeinpuWPkeiHquWKqOmHjei/ngogIHByaXZhdGUgbWFudWFsRGlzY29ubmVjdCA9IGZhbHNlOwogIC8vIOacjeWKoeerr+mAmuefpeWkhOeQhuWZqOazqOWGjOihqO+8mm1ldGhvZCAtPiBoYW5kbGVyIOmbhuWQiAogIHByaXZhdGUgbm90aWZpY2F0aW9uSGFuZGxlcnMgPSBuZXcgTWFwPHN0cmluZywgU2V0PE5vdGlmaWNhdGlvbkhhbmRsZXI+PigpOwogIC8vIOi/nuaOpeeKtuaAgeWPmOWMluWkhOeQhuWZqOmbhuWQiAogIHByaXZhdGUgc3RhdGVIYW5kbGVycyA9IG5ldyBTZXQ8Q29ubmVjdGlvblN0YXRlSGFuZGxlcj4oKTsKCiAgY29uc3RydWN0b3IoY29uZmlnOiBBcmlhMkNvbmZpZykgewogICAgdGhpcy5ycGNVcmwgPSBjb25maWcudXJsOwogICAgdGhpcy5zZWNyZXQgPSBjb25maWcuc2VjcmV0OwogICAgdGhpcy5yZXF1ZXN0VGltZW91dCA9IGNvbmZpZy5yZXF1ZXN0VGltZW91dCA+IDAgPyBjb25maWcucmVxdWVzdFRpbWVvdXQgOiAzMDAwMDsKICB9CgogIC8qKgogICAqIOazqOWGjOacjeWKoeerr+mAmuefpeWkhOeQhuWZqAogICAqIEByZXR1cm5zIOWPlua2iOazqOWGjOeahOWHveaVsAogICAqLwogIG9uTm90aWZpY2F0aW9uKG1ldGhvZDogc3RyaW5nLCBoYW5kbGVyOiBOb3RpZmljYXRpb25IYW5kbGVyKTogKCkgPT4gdm9pZCB7CiAgICBsZXQgaGFuZGxlcnMgPSB0aGlzLm5vdGlmaWNhdGlvbkhhbmRsZXJzLmdldChtZXRob2QpOwogICAgaWYgKCFoYW5kbGVycykgewogICAgICBoYW5kbGVycyA9IG5ldyBTZXQoKTsKICAgICAgdGhpcy5ub3RpZmljYXRpb25IYW5kbGVycy5zZXQobWV0aG9kLCBoYW5kbGVycyk7CiAgICB9CiAgICBoYW5kbGVycy5hZGQoaGFuZGxlcik7CiAgICByZXR1cm4gKCkgPT4gewogICAgICB0aGlzLm5vdGlmaWNhdGlvbkhhbmRsZXJzLmdldChtZXRob2QpPy5kZWxldGUoaGFuZGxlcik7CiAgICB9OwogIH0KCiAgLyoqCiAgICog5rOo5YaM6L+e5o6l54q25oCB5Y+Y5YyW5aSE55CG5ZmoCiAgICogQHJldHVybnMg5Y+W5raI5rOo5YaM55qE5Ye95pWwCiAgICovCiAgb25Db25uZWN0aW9uU3RhdGVDaGFuZ2UoaGFuZGxlcjogQ29ubmVjdGlvblN0YXRlSGFuZGxlcik6ICgpID0+IHZvaWQgewogICAgdGhpcy5zdGF0ZUhhbmRsZXJzLmFkZChoYW5kbGVyKTsKICAgIHJldHVybiAoKSA9PiB7CiAgICAgIHRoaXMuc3RhdGVIYW5kbGVycy5kZWxldGUoaGFuZGxlcik7CiAgICB9OwogIH0KCiAgLyoqCiAgICog5bm/5pKt6L+e5o6l54q25oCB5Y+Y5YyWCiAgICovCiAgcHJpdmF0ZSBlbWl0U3RhdGUoY29ubmVjdGVkOiBib29sZWFuKSB7CiAgICBmb3IgKGNvbnN0IGhhbmRsZXIgb2YgdGhpcy5zdGF0ZUhhbmRsZXJzKSB7CiAgICAgIHRyeSB7CiAgICAgICAgaGFuZGxlcihjb25uZWN0ZWQpOwogICAgICB9IGNhdGNoIChlcnJvcikgewogICAgICAgIGNvbnNvbGUuZXJyb3IoJ0Nvbm5lY3Rpb24gc3RhdGUgaGFuZGxlciBlcnJvcjonLCBlcnJvcik7CiAgICAgIH0KICAgIH0KICB9CgogIC8qKgogICAqIOW7uueriyBXZWJTb2NrZXQg6L+e5o6lCiAgICovCiAgYXN5bmMgY29ubmVjdCgpOiBQcm9taXNlPHZvaWQ+IHsKICAgIHRoaXMubWFudWFsRGlzY29ubmVjdCA9IGZhbHNlOwogICAgdGhpcy5jbGVhclJlY29ubmVjdFRpbWVyKCk7CgogICAgLy8g5bey6L+e5o6l5oiW5q2j5Zyo6L+e5o6l5YiZ55u05o6l6L+U5Zue77yM6YG/5YWN6YeN5aSN5bu66L+eCiAgICBpZiAodGhpcy53cyAmJiAodGhpcy53cy5yZWFkeVN0YXRlID09PSBXZWJTb2NrZXQuT1BFTiB8fCB0aGlzLndzLnJlYWR5U3RhdGUgPT09IFdlYlNvY2tldC5DT05ORUNUSU5HKSkgewogICAgICBpZiAodGhpcy53cy5yZWFkeVN0YXRlID09PSBXZWJTb2NrZXQuT1BFTikgewogICAgICAgIHJldHVybjsKICAgICAgfQogICAgfQoKICAgIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICAgIGxldCBzZXR0bGVkID0gZmFsc2U7CgogICAgICB0cnkgewogICAgICAgIHRoaXMud3MgPSBuZXcgV2ViU29ja2V0KHRoaXMucnBjVXJsKTsKICAgICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgICByZWplY3QoZXJyb3IpOwogICAgICAgIHRoaXMuc2NoZWR1bGVSZWNvbm5lY3QoKTsKICAgICAgICByZXR1cm47CiAgICAgIH0KCiAgICAgIHRoaXMud3Mub25vcGVuID0gKCkgPT4gewogICAgICAgIGNvbnNvbGUubG9nKCdDb25uZWN0ZWQgdG8gYXJpYTJjJyk7CiAgICAgICAgdGhpcy5yZWNvbm5lY3RBdHRlbXB0cyA9IDA7CiAgICAgICAgdGhpcy5jbGVhclJlY29ubmVjdFRpbWVyKCk7CiAgICAgICAgdGhpcy5lbWl0U3RhdGUodHJ1ZSk7CiAgICAgICAgc2V0dGxlZCA9IHRydWU7CiAgICAgICAgcmVzb2x2ZSgpOwogICAgICB9OwoKICAgICAgdGhpcy53cy5vbmVycm9yID0gKGVycm9yKSA9PiB7CiAgICAgICAgY29uc29sZS5lcnJvcignV2ViU29ja2V0IGVycm9yOicsIGVycm9yKTsKICAgICAgICBpZiAoIXNldHRsZWQpIHsKICAgICAgICAgIHNldHRsZWQgPSB0cnVlOwogICAgICAgICAgcmVqZWN0KGVycm9yKTsKICAgICAgICB9CiAgICAgIH07CgogICAgICB0aGlzLndzLm9ubWVzc2FnZSA9IChldmVudCkgPT4gewogICAgICAgIHRoaXMuaGFuZGxlTWVzc2FnZShldmVudC5kYXRhKTsKICAgICAgfTsKCiAgICAgIHRoaXMud3Mub25jbG9zZSA9ICgpID0+IHsKICAgICAgICBjb25zb2xlLmxvZygnRGlzY29ubmVjdGVkIGZyb20gYXJpYTJjJyk7CiAgICAgICAgdGhpcy5lbWl0U3RhdGUoZmFsc2UpOwogICAgICAgIHRoaXMuaGFuZGxlRGlzY29ubmVjdCgpOwogICAgICB9OwogICAgfSk7CiAgfQoKICAvKioKICAgKiDlpITnkIbmjqXmlLbliLDnmoTmtojmga8KICAgKiDljLrliIbvvJror7fmsYLlk43lupTvvIjmnIkgaWTvvInkuI7mnI3liqHnq6/mjqjpgIHpgJrnn6XvvIjmnIkgbWV0aG9k44CB5pegIGlk77yJCiAgICovCiAgcHJpdmF0ZSBoYW5kbGVNZXNzYWdlKGRhdGE6IHN0cmluZykgewogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzcG9uc2U6IEFyaWEyUnBjUmVzcG9uc2UgJiB7IG1ldGhvZD86IHN0cmluZzsgcGFyYW1zPzogYW55IH0gPSBKU09OLnBhcnNlKGRhdGEpOwoKICAgICAgLy8g5pyN5Yqh56uv5o6o6YCB6YCa55+l77yaYXJpYTIub25Eb3dubG9hZFN0YXJ0IC8gb25Eb3dubG9hZENvbXBsZXRlIOetiQogICAgICBpZiAocmVzcG9uc2UubWV0aG9kICYmIChyZXNwb25zZS5pZCA9PT0gdW5kZWZpbmVkIHx8IHJlc3BvbnNlLmlkID09PSBudWxsKSkgewogICAgICAgIHRoaXMuZGlzcGF0Y2hOb3RpZmljYXRpb24ocmVzcG9uc2UubWV0aG9kLCByZXNwb25zZS5wYXJhbXMpOwogICAgICAgIHJldHVybjsKICAgICAgfQoKICAgICAgLy8g6K+35rGC5ZON5bqUCiAgICAgIGlmIChyZXNwb25zZS5pZCAhPT0gdW5kZWZpbmVkICYmIHJlc3BvbnNlLmlkICE9PSBudWxsKSB7CiAgICAgICAgY29uc3QgcGVuZGluZyA9IHRoaXMucGVuZGluZ1JlcXVlc3RzLmdldChTdHJpbmcocmVzcG9uc2UuaWQpKTsKICAgICAgICBpZiAocGVuZGluZykgewogICAgICAgICAgdGhpcy5wZW5kaW5nUmVxdWVzdHMuZGVsZXRlKFN0cmluZyhyZXNwb25zZS5pZCkpOwoKICAgICAgICAgIGlmIChyZXNwb25zZS5lcnJvcikgewogICAgICAgICAgICBwZW5kaW5nLnJlamVjdChuZXcgRXJyb3IocmVzcG9uc2UuZXJyb3IubWVzc2FnZSkpOwogICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgcGVuZGluZy5yZXNvbHZlKHJlc3BvbnNlLnJlc3VsdCk7CiAgICAgICAgICB9CiAgICAgICAgfQogICAgICB9CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBjb25zb2xlLmVycm9yKCdGYWlsZWQgdG8gcGFyc2UgcmVzcG9uc2U6JywgZXJyb3IpOwogICAgfQogIH0KCiAgLyoqCiAgICog5YiG5Y+R5pyN5Yqh56uv6YCa55+l5Yiw5bey5rOo5YaM5aSE55CG5ZmoCiAgICovCiAgcHJpdmF0ZSBkaXNwYXRjaE5vdGlmaWNhdGlvbihtZXRob2Q6IHN0cmluZywgcGFyYW1zOiBhbnkpIHsKICAgIGNvbnN0IGhhbmRsZXJzID0gdGhpcy5ub3RpZmljYXRpb25IYW5kbGVycy5nZXQobWV0aG9kKTsKICAgIGlmICghaGFuZGxlcnMgfHwgaGFuZGxlcnMuc2l6ZSA9PT0gMCkgewogICAgICByZXR1cm47CiAgICB9CiAgICBmb3IgKGNvbnN0IGhhbmRsZXIgb2YgaGFuZGxlcnMpIHsKICAgICAgdHJ5IHsKICAgICAgICBoYW5kbGVyKHBhcmFtcyk7CiAgICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgICAgY29uc29sZS5lcnJvcihgTm90aWZpY2F0aW9uIGhhbmRsZXIgZXJyb3IgZm9yICR7bWV0aG9kfTpgLCBlcnJvcik7CiAgICAgIH0KICAgIH0KICB9CgogIC8qKgogICAqIOehruS/neW3sui/nuaOpQogICAqLwogIGFzeW5jIGVuc3VyZUNvbm5lY3RlZCgpOiBQcm9taXNlPHZvaWQ+IHsKICAgIGlmICh0aGlzLndzICYmIHRoaXMud3MucmVhZHlTdGF0ZSA9PT0gV2ViU29ja2V0Lk9QRU4pIHsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGlmICh0aGlzLmNvbm5lY3RQcm9taXNlKSB7CiAgICAgIHJldHVybiB0aGlzLmNvbm5lY3RQcm9taXNlOwogICAgfQoKICAgIHRoaXMuY29ubmVjdFByb21pc2UgPSB0aGlzLmNvbm5lY3QoKTsKICAgIHRyeSB7CiAgICAgIGF3YWl0IHRoaXMuY29ubmVjdFByb21pc2U7CiAgICB9IGZpbmFsbHkgewogICAgICB0aGlzLmNvbm5lY3RQcm9taXNlID0gbnVsbDsKICAgIH0KICB9CgogIC8qKgogICAqIOiwg+eUqCBhcmlhMiBSUEMg5pa55rOVCiAgICovCiAgYXN5bmMgY2FsbChtZXRob2Q6IHN0cmluZywgLi4ucGFyYW1zOiBhbnlbXSk6IFByb21pc2U8YW55PiB7CiAgICBhd2FpdCB0aGlzLmVuc3VyZUNvbm5lY3RlZCgpOwoKICAgIGlmICghdGhpcy53cyB8fCB0aGlzLndzLnJlYWR5U3RhdGUgIT09IFdlYlNvY2tldC5PUEVOKSB7CiAgICAgIHRocm93IG5ldyBFcnJvcignV2ViU29ja2V0IG5vdCBjb25uZWN0ZWQnKTsKICAgIH0KCiAgICBjb25zdCBpZCA9ICgrK3RoaXMubWVzc2FnZUlkKS50b1N0cmluZygpOwoKICAgIGNvbnN0IHJlcXVlc3Q6IEFyaWEyUnBjUmVxdWVzdCA9IHsKICAgICAganNvbnJwYzogJzIuMCcsCiAgICAgIGlkLAogICAgICBtZXRob2QsCiAgICAgIHBhcmFtczogW2B0b2tlbjoke3RoaXMuc2VjcmV0fWAsIC4uLnBhcmFtc10KICAgIH07CgogICAgcmV0dXJuIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgICAgdGhpcy5wZW5kaW5nUmVxdWVzdHMuc2V0KGlkLCB7IHJlc29sdmUsIHJlamVjdCB9KTsKCiAgICAgIHRoaXMud3MhLnNlbmQoSlNPTi5zdHJpbmdpZnkocmVxdWVzdCkpOwoKICAgICAgLy8g6K+35rGC6LaF5pe277yI5LuO6YWN572u6K+75Y+W77yM6buY6K6kIDMwIOenku+8iQogICAgICBzZXRUaW1lb3V0KCgpID0+IHsKICAgICAgICBpZiAodGhpcy5wZW5kaW5nUmVxdWVzdHMuaGFzKGlkKSkgewogICAgICAgICAgdGhpcy5wZW5kaW5nUmVxdWVzdHMuZGVsZXRlKGlkKTsKICAgICAgICAgIHJlamVjdChuZXcgRXJyb3IoJ1JlcXVlc3QgdGltZW91dCcpKTsKICAgICAgICB9CiAgICAgIH0sIHRoaXMucmVxdWVzdFRpbWVvdXQpOwogICAgfSk7CiAgfQoKICAvKioKICAgKiDkuLvliqjmlq3lvIDov57mjqXvvIjkuI3op6blj5Hoh6rliqjph43ov57vvIkKICAgKi8KICBkaXNjb25uZWN0KCkgewogICAgdGhpcy5tYW51YWxEaXNjb25uZWN0ID0gdHJ1ZTsKICAgIHRoaXMuY2xlYXJSZWNvbm5lY3RUaW1lcigpOwogICAgaWYgKHRoaXMud3MpIHsKICAgICAgdGhpcy53cy5jbG9zZSgpOwogICAgICB0aGlzLndzID0gbnVsbDsKICAgIH0KICB9CgogIC8qKgogICAqIFNXIOWUpOmGkiAvIOS/nea0u+aXtuiwg+eUqO+8muiLpeW3suaWree6v+WImeeri+WNs+WPkei1t+S4gOasoemHjei/ngogICAqLwogIHJlY29ubmVjdE5vdygpIHsKICAgIGlmICh0aGlzLm1hbnVhbERpc2Nvbm5lY3QpIHsKICAgICAgcmV0dXJuOwogICAgfQogICAgaWYgKHRoaXMud3MgJiYgKHRoaXMud3MucmVhZHlTdGF0ZSA9PT0gV2ViU29ja2V0Lk9QRU4gfHwgdGhpcy53cy5yZWFkeVN0YXRlID09PSBXZWJTb2NrZXQuQ09OTkVDVElORykpIHsKICAgICAgcmV0dXJuOwogICAgfQogICAgdGhpcy5jbGVhclJlY29ubmVjdFRpbWVyKCk7CiAgICB0aGlzLnJlY29ubmVjdEF0dGVtcHRzID0gMDsKICAgIHRoaXMuY29ubmVjdCgpLmNhdGNoKCgpID0+IHsKICAgICAgLy8g5aSx6LSl5ZCOIG9uY2xvc2UgLT4gc2NoZWR1bGVSZWNvbm5lY3Qg5Lya57un57ut6YeN6K+VCiAgICB9KTsKICB9CgogIC8qKgogICAqIOWkhOeQhuaWreW8gOi/nuaOpe+8muaLkue7neW+heWkhOeQhuivt+axgu+8jOW5tuaMiemcgOiwg+W6puiHquWKqOmHjei/ngogICAqLwogIHByaXZhdGUgaGFuZGxlRGlzY29ubmVjdCgpIHsKICAgIC8vIOaLkue7neaJgOacieW+heWkhOeQhueahOivt+axggogICAgZm9yIChjb25zdCBbLCB7IHJlamVjdCB9XSBvZiB0aGlzLnBlbmRpbmdSZXF1ZXN0cykgewogICAgICByZWplY3QobmV3IEVycm9yKCdDb25uZWN0aW9uIGNsb3NlZCcpKTsKICAgIH0KICAgIHRoaXMucGVuZGluZ1JlcXVlc3RzLmNsZWFyKCk7CgogICAgaWYgKCF0aGlzLm1hbnVhbERpc2Nvbm5lY3QpIHsKICAgICAgdGhpcy5zY2hlZHVsZVJlY29ubmVjdCgpOwogICAgfQogIH0KCiAgLyoqCiAgICog6LCD5bqm6Ieq5Yqo6YeN6L+e77ya5peg6ZmQ5qyh5oyH5pWw6YCA6YG/77yIMXMg5Z+65pWwIC8gMzBzIOS4iumZkO+8iQogICAqLwogIHByaXZhdGUgc2NoZWR1bGVSZWNvbm5lY3QoKSB7CiAgICBpZiAodGhpcy5tYW51YWxEaXNjb25uZWN0IHx8IHRoaXMucmVjb25uZWN0VGltZXIpIHsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGNvbnN0IGRlbGF5ID0gTWF0aC5taW4oCiAgICAgIHRoaXMuYmFzZVJlY29ubmVjdERlbGF5ICogTWF0aC5wb3coMiwgdGhpcy5yZWNvbm5lY3RBdHRlbXB0cyksCiAgICAgIHRoaXMubWF4UmVjb25uZWN0RGVsYXkKICAgICk7CgogICAgY29uc29sZS5sb2coYFJlY29ubmVjdGluZyBpbiAke2RlbGF5fW1zIChhdHRlbXB0ICR7dGhpcy5yZWNvbm5lY3RBdHRlbXB0cyArIDF9KWApOwoKICAgIHRoaXMucmVjb25uZWN0VGltZXIgPSBzZXRUaW1lb3V0KCgpID0+IHsKICAgICAgdGhpcy5yZWNvbm5lY3RUaW1lciA9IG51bGw7CiAgICAgIHRoaXMucmVjb25uZWN0QXR0ZW1wdHMrKzsKICAgICAgdGhpcy5jb25uZWN0KCkuY2F0Y2goKCkgPT4gewogICAgICAgIC8vIG9uY2xvc2UgLT4gc2NoZWR1bGVSZWNvbm5lY3Qg5Lya57un57ut5LiL5LiA6L2uCiAgICAgIH0pOwogICAgfSwgZGVsYXkpOwogIH0KCiAgLyoqCiAgICog5riF6Zmk5b6F6Kem5Y+R55qE6YeN6L+e5a6a5pe25ZmoCiAgICovCiAgcHJpdmF0ZSBjbGVhclJlY29ubmVjdFRpbWVyKCkgewogICAgaWYgKHRoaXMucmVjb25uZWN0VGltZXIpIHsKICAgICAgY2xlYXJUaW1lb3V0KHRoaXMucmVjb25uZWN0VGltZXIpOwogICAgICB0aGlzLnJlY29ubmVjdFRpbWVyID0gbnVsbDsKICAgIH0KICB9CgogIC8qKgogICAqIOajgOafpei/nuaOpeeKtuaAgQogICAqLwogIGlzQ29ubmVjdGVkKCk6IGJvb2xlYW4gewogICAgcmV0dXJuIHRoaXMud3MgIT09IG51bGwgJiYgdGhpcy53cy5yZWFkeVN0YXRlID09PSBXZWJTb2NrZXQuT1BFTjsKICB9CgogIC8qKgogICAqIOiOt+WPliBXZWJTb2NrZXQg54q25oCBCiAgICovCiAgZ2V0UmVhZHlTdGF0ZSgpOiBudW1iZXIgewogICAgcmV0dXJuIHRoaXMud3M/LnJlYWR5U3RhdGUgPz8gV2ViU29ja2V0LkNMT1NFRDsKICB9Cn0K
+import type { Aria2Config, Aria2RpcRequest, Aria2RpcResponse } from '@/shared/types';
+
+/** aria2 服务端推送通知的处理回调，params 为原始通知参数数组 */
+export type NotificationHandler = (params: any) => void;
+/** 连接状态变化回调（true=已连接，false=断开） */
+export type ConnectionStateHandler = (connected: boolean) => void;
+
+/**
+ * aria2 JSON-RPC WebSocket 客户端
+ * 负责与 aria2c 建立 WebSocket 连接并进行 RPC 通信
+ * 支持：无限指数退避自动重连、服务端通知分发、连接状态广播
+ */
+export class Aria2RpcClient {
+  private ws: WebSocket | null = null;
+  private rpcUrl: string;
+  private secret: string;
+  private requestTimeout: number;
+  private messageId = 0;
+  private pendingRequests = new Map<string, {
+    resolve: (value: any) => void;
+    reject: (error: any) => void;
+  }>();
+  private reconnectAttempts = 0;
+  private baseReconnectDelay = 1000;
+  private maxReconnectDelay = 30000;
+  private connectPromise: Promise<void> | null = null;
+  private reconnectTimer: ReturnType<typeof setTimeout> | null = null;
+  // 主动断开标志：为 true 时不再触发自动重连
+  private manualDisconnect = false;
+  // 服务端通知处理器注册表：method -> handler 集合
+  private notificationHandlers = new Map<string, Set<NotificationHandler>>();
+  // 连接状态变化处理器集合
+  private stateHandlers = new Set<ConnectionStateHandler>();
+
+  constructor(config: Aria2Config) {
+    this.rpcUrl = config.url;
+    this.secret = config.secret;
+    this.requestTimeout = config.requestTimeout > 0 ? config.requestTimeout : 30000;
+  }
+
+  /**
+   * 注册服务端通知处理器
+   * @returns 取消注册的函数
+   */
+  onNotification(method: string, handler: NotificationHandler): () => void {
+    let handlers = this.notificationHandlers.get(method);
+    if (!handlers) {
+      handlers = new Set();
+      this.notificationHandlers.set(method, handlers);
+    }
+    handlers.add(handler);
+    return () => {
+      this.notificationHandlers.get(method)?.delete(handler);
+    };
+  }
+
+  /**
+   * 注册连接状态变化处理器
+   * @returns 取消注册的函数
+   */
+  onConnectionStateChange(handler: ConnectionStateHandler): () => void {
+    this.stateHandlers.add(handler);
+    return () => {
+      this.stateHandlers.delete(handler);
+    };
+  }
+
+  /**
+   * 广播连接状态变化
+   */
+  private emitState(connected: boolean) {
+    for (const handler of this.stateHandlers) {
+      try {
+        handler(connected);
+      } catch (error) {
+        console.error('Connection state handler error:', error);
+      }
+    }
+  }
+
+  /**
+   * 建立 WebSocket 连接
+   */
+  async connect(): Promise<void> {
+    this.manualDisconnect = false;
+    this.clearReconnectTimer();
+
+    // 已连接或正在连接则直接返回，避免重复建连
+    if (this.ws && (this.ws.readyState === WebSocket.OPEN || this.ws.readyState === WebSocket.CONNECTING)) {
+      if (this.ws.readyState === WebSocket.OPEN) {
+        return;
+      }
+    }
+
+    return new Promise((resolve, reject) => {
+      let settled = false;
+
+      try {
+        this.ws = new WebSocket(this.rpcUrl);
+      } catch (error) {
+        reject(error);
+        this.scheduleReconnect();
+        return;
+      }
+
+      this.ws.onopen = () => {
+        console.log('Connected to aria2c');
+        this.reconnectAttempts = 0;
+        this.clearReconnectTimer();
+        this.emitState(true);
+        settled = true;
+        resolve();
+      };
+
+      this.ws.onerror = (error) => {
+        console.error('WebSocket error:', error);
+        if (!settled) {
+          settled = true;
+          reject(error);
+        }
+      };
+
+      this.ws.onmessage = (event) => {
+        this.handleMessage(event.data);
+      };
+
+      this.ws.onclose = () => {
+        console.log('Disconnected from aria2c');
+        this.emitState(false);
+        this.handleDisconnect();
+      };
+    });
+  }
+
+  /**
+   * 处理接收到的消息
+   * 区分：请求响应（有 id）与服务端推送通知（有 method、无 id）
+   */
+  private handleMessage(data: string) {
+    try {
+      const response: Aria2RpcResponse & { method?: string; params?: any } = JSON.parse(data);
+
+      // 服务端推送通知：aria2.onDownloadStart / onDownloadComplete 等
+      if (response.method && (response.id === undefined || response.id === null)) {
+        this.dispatchNotification(response.method, response.params);
+        return;
+      }
+
+      // 请求响应
+      if (response.id !== undefined && response.id !== null) {
+        const pending = this.pendingRequests.get(String(response.id));
+        if (pending) {
+          this.pendingRequests.delete(String(response.id));
+
+          if (response.error) {
+            pending.reject(new Error(response.error.message));
+          } else {
+            pending.resolve(response.result);
+          }
+        }
+      }
+    } catch (error) {
+      console.error('Failed to parse response:', error);
+    }
+  }
+
+  /**
+   * 分发服务端通知到已注册处理器
+   */
+  private dispatchNotification(method: string, params: any) {
+    const handlers = this.notificationHandlers.get(method);
+    if (!handlers || handlers.size === 0) {
+      return;
+    }
+    for (const handler of handlers) {
+      try {
+        handler(params);
+      } catch (error) {
+        console.error(`Notification handler error for ${method}:`, error);
+      }
+    }
+  }
+
+  /**
+   * 确保已连接
+   */
+  async ensureConnected(): Promise<void> {
+    if (this.ws && this.ws.readyState === WebSocket.OPEN) {
+      return;
+    }
+
+    if (this.connectPromise) {
+      return this.connectPromise;
+    }
+
+    this.connectPromise = this.connect();
+    try {
+      await this.connectPromise;
+    } finally {
+      this.connectPromise = null;
+    }
+  }
+
+  /**
+   * 调用 aria2 RPC 方法
+   */
+  async call(method: string, ...params: any[]): Promise<any> {
+    await this.ensureConnected();
+
+    if (!this.ws || this.ws.readyState !== WebSocket.OPEN) {
+      throw new Error('WebSocket not connected');
+    }
+
+    const id = (++this.messageId).toString();
+
+    const request: Aria2RpcRequest = {
+      jsonrpc: '2.0',
+      id,
+      method,
+      params: [`token:${this.secret}`, ...params]
+    };
+
+    return new Promise((resolve, reject) => {
+      this.pendingRequests.set(id, { resolve, reject });
+
+      this.ws!.send(JSON.stringify(request));
+
+      // 请求超时（从配置读取，默认 30 秒）
+      setTimeout(() => {
+        if (this.pendingRequests.has(id)) {
+          this.pendingRequests.delete(id);
+          reject(new Error('Request timeout'));
+        }
+      }, this.requestTimeout);
+    });
+  }
+
+  /**
+   * 主动断开连接（不触发自动重连）
+   */
+  disconnect() {
+    this.manualDisconnect = true;
+    this.clearReconnectTimer();
+    if (this.ws) {
+      this.ws.close();
+      this.ws = null;
+    }
+  }
+
+  /**
+   * SW 唤醒 / 保活时调用：若已断线则立即发起一次重连
+   */
+  reconnectNow() {
+    if (this.manualDisconnect) {
+      return;
+    }
+    if (this.ws && (this.ws.readyState === WebSocket.OPEN || this.ws.readyState === WebSocket.CONNECTING)) {
+      return;
+    }
+    this.clearReconnectTimer();
+    this.reconnectAttempts = 0;
+    this.connect().catch(() => {
+      // 失败后 onclose -> scheduleReconnect 会继续重试
+    });
+  }
+
+  /**
+   * 处理断开连接：拒绝待处理请求，并按需调度自动重连
+   */
+  private handleDisconnect() {
+    // 拒绝所有待处理的请求
+    for (const [, { reject }] of this.pendingRequests) {
+      reject(new Error('Connection closed'));
+    }
+    this.pendingRequests.clear();
+
+    if (!this.manualDisconnect) {
+      this.scheduleReconnect();
+    }
+  }
+
+  /**
+   * 调度自动重连：无限次指数退避（1s 基数 / 30s 上限）
+   */
+  private scheduleReconnect() {
+    if (this.manualDisconnect || this.reconnectTimer) {
+      return;
+    }
+
+    const delay = Math.min(
+      this.baseReconnectDelay * Math.pow(2, this.reconnectAttempts),
+      this.maxReconnectDelay
+    );
+
+    console.log(`Reconnecting in ${delay}ms (attempt ${this.reconnectAttempts + 1})`);
+
+    this.reconnectTimer = setTimeout(() => {
+      this.reconnectTimer = null;
+      this.reconnectAttempts++;
+      this.connect().catch(() => {
+        // onclose -> scheduleReconnect 会继续下一轮
+      });
+    }, delay);
+  }
+
+  /**
+   * 清除待触发的重连定时器
+   */
+  private clearReconnectTimer() {
+    if (this.reconnectTimer) {
+      clearTimeout(this.reconnectTimer);
+      this.reconnectTimer = null;
+    }
+  }
+
+  /**
+   * 检查连接状态
+   */
+  isConnected(): boolean {
+    return this.ws !== null && this.ws.readyState === WebSocket.OPEN;
+  }
+
+  /**
+   * 获取 WebSocket 状态
+   */
+  getReadyState(): number {
+    return this.ws?.readyState ?? WebSocket.CLOSED;
+  }
+}

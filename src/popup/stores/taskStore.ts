@@ -1,1 +1,71 @@
-aW1wb3J0IHsgY3JlYXRlIH0gZnJvbSAnenVzdGFuZCc7CmltcG9ydCB0eXBlIHsgQWN0aXZlVGFzayB9IGZyb20gJ0Avc2hhcmVkL3R5cGVzJzsKaW1wb3J0IHsgYnJvd3NlckFwaSB9IGZyb20gJ0Avc2hhcmVkL3V0aWxzL2Jyb3dzZXJBcGknOwoKaW50ZXJmYWNlIFRhc2tTdG9yZSB7CiAgdGFza3M6IEFjdGl2ZVRhc2tbXTsKICBsb2FkaW5nOiBib29sZWFuOwogIHBvbGxUaW1lcjogUmV0dXJuVHlwZTx0eXBlb2Ygc2V0SW50ZXJ2YWw+IHwgbnVsbDsKCiAgLy8gQWN0aW9ucwogIHN0YXJ0UG9sbGluZzogKCkgPT4gdm9pZDsKICBzdG9wUG9sbGluZzogKCkgPT4gdm9pZDsKICByZWZyZXNoOiAoKSA9PiBQcm9taXNlPHZvaWQ+OwogIHBhdXNlOiAoZ2lkOiBzdHJpbmcpID0+IFByb21pc2U8dm9pZD47CiAgcmVzdW1lOiAoZ2lkOiBzdHJpbmcpID0+IFByb21pc2U8dm9pZD47CiAgY2FuY2VsOiAoZ2lkOiBzdHJpbmcpID0+IFByb21pc2U8dm9pZD47Cn0KCmV4cG9ydCBjb25zdCB1c2VUYXNrU3RvcmUgPSBjcmVhdGU8VGFza1N0b3JlPigoc2V0LCBnZXQpID0+ICh7CiAgdGFza3M6IFtdLAogIGxvYWRpbmc6IGZhbHNlLAogIHBvbGxUaW1lcjogbnVsbCwKCiAgc3RhcnRQb2xsaW5nOiAoKSA9PiB7CiAgICBpZiAoZ2V0KCkucG9sbFRpbWVyICE9PSBudWxsKSB7CiAgICAgIHJldHVybjsgLy8g5bey5Zyo6L2u6K+iCiAgICB9CiAgICAvLyDnq4vljbPmi4nkuIDmrKHvvIzpmo/lkI7mr4/np5LliLfmlrAKICAgIHZvaWQgZ2V0KCkucmVmcmVzaCgpOwogICAgY29uc3QgdGltZXIgPSBzZXRJbnRlcnZhbCgoKSA9PiB7CiAgICAgIHZvaWQgZ2V0KCkucmVmcmVzaCgpOwogICAgfSwgMTAwMCk7CiAgICBzZXQoeyBwb2xsVGltZXI6IHRpbWVyIH0pOwogIH0sCgogIHN0b3BQb2xsaW5nOiAoKSA9PiB7CiAgICBjb25zdCB7IHBvbGxUaW1lciB9ID0gZ2V0KCk7CiAgICBpZiAocG9sbFRpbWVyICE9PSBudWxsKSB7CiAgICAgIGNsZWFySW50ZXJ2YWwocG9sbFRpbWVyKTsKICAgICAgc2V0KHsgcG9sbFRpbWVyOiBudWxsIH0pOwogICAgfQogIH0sCgogIHJlZnJlc2g6IGFzeW5jICgpID0+IHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgYnJvd3NlckFwaS5ydW50aW1lLnNlbmRNZXNzYWdlKHsgYWN0aW9uOiAnZ2V0QWN0aXZlVGFza3MnIH0pOwogICAgICBpZiAocmVzcG9uc2U/LnN1Y2Nlc3MgJiYgcmVzcG9uc2UuZGF0YT8udGFza3MpIHsKICAgICAgICBzZXQoeyB0YXNrczogcmVzcG9uc2UuZGF0YS50YXNrcywgbG9hZGluZzogZmFsc2UgfSk7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgc2V0KHsgdGFza3M6IFtdLCBsb2FkaW5nOiBmYWxzZSB9KTsKICAgICAgfQogICAgfSBjYXRjaCB7CiAgICAgIHNldCh7IHRhc2tzOiBbXSwgbG9hZGluZzogZmFsc2UgfSk7CiAgICB9CiAgfSwKCiAgcGF1c2U6IGFzeW5jIChnaWQpID0+IHsKICAgIGF3YWl0IGJyb3dzZXJBcGkucnVudGltZS5zZW5kTWVzc2FnZSh7IGFjdGlvbjogJ3BhdXNlVGFzaycsIGdpZCB9KTsKICAgIGF3YWl0IGdldCgpLnJlZnJlc2goKTsKICB9LAoKICByZXN1bWU6IGFzeW5jIChnaWQpID0+IHsKICAgIGF3YWl0IGJyb3dzZXJBcGkucnVudGltZS5zZW5kTWVzc2FnZSh7IGFjdGlvbjogJ3Jlc3VtZVRhc2snLCBnaWQgfSk7CiAgICBhd2FpdCBnZXQoKS5yZWZyZXNoKCk7CiAgfSwKCiAgY2FuY2VsOiBhc3luYyAoZ2lkKSA9PiB7CiAgICBhd2FpdCBicm93c2VyQXBpLnJ1bnRpbWUuc2VuZE1lc3NhZ2UoeyBhY3Rpb246ICdjYW5jZWxUYXNrJywgZ2lkIH0pOwogICAgYXdhaXQgZ2V0KCkucmVmcmVzaCgpOwogIH0KfSkpOwo=
+import { create } from 'zustand';
+import type { ActiveTask } from '@/shared/types';
+import { browserApi } from '@/shared/utils/browserApi';
+
+interface TaskStore {
+  tasks: ActiveTask[];
+  loading: boolean;
+  pollTimer: ReturnType<typeof setInterval> | null;
+
+  // Actions
+  startPolling: () => void;
+  stopPolling: () => void;
+  refresh: () => Promise<void>;
+  pause: (gid: string) => Promise<void>;
+  resume: (gid: string) => Promise<void>;
+  cancel: (gid: string) => Promise<void>;
+}
+
+export const useTaskStore = create<TaskStore>((set, get) => ({
+  tasks: [],
+  loading: false,
+  pollTimer: null,
+
+  startPolling: () => {
+    if (get().pollTimer !== null) {
+      return; // 已在轮询
+    }
+    // 立即拉一次，随后每秒刷新
+    void get().refresh();
+    const timer = setInterval(() => {
+      void get().refresh();
+    }, 1000);
+    set({ pollTimer: timer });
+  },
+
+  stopPolling: () => {
+    const { pollTimer } = get();
+    if (pollTimer !== null) {
+      clearInterval(pollTimer);
+      set({ pollTimer: null });
+    }
+  },
+
+  refresh: async () => {
+    try {
+      const response = await browserApi.runtime.sendMessage({ action: 'getActiveTasks' });
+      if (response?.success && response.data?.tasks) {
+        set({ tasks: response.data.tasks, loading: false });
+      } else {
+        set({ tasks: [], loading: false });
+      }
+    } catch {
+      set({ tasks: [], loading: false });
+    }
+  },
+
+  pause: async (gid) => {
+    await browserApi.runtime.sendMessage({ action: 'pauseTask', gid });
+    await get().refresh();
+  },
+
+  resume: async (gid) => {
+    await browserApi.runtime.sendMessage({ action: 'resumeTask', gid });
+    await get().refresh();
+  },
+
+  cancel: async (gid) => {
+    await browserApi.runtime.sendMessage({ action: 'cancelTask', gid });
+    await get().refresh();
+  }
+}));

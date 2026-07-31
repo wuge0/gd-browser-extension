@@ -1,1 +1,178 @@
-bmFtZTogUmVsZWFzZSBFeHRlbnNpb24KCm9uOgogIHB1c2g6CiAgICB0YWdzOgogICAgICAtICd2Ki4qLionICAjIOinpuWPkeadoeS7tu+8muaOqOmAgeeJiOacrOagh+etvu+8iOWmgiB2MS4wLjDvvIkKCmpvYnM6CiAgYnVpbGQtYW5kLXJlbGVhc2U6CiAgICBuYW1lOiBCdWlsZCBhbmQgUmVsZWFzZSBFeHRlbnNpb24KICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKCiAgICBwZXJtaXNzaW9uczoKICAgICAgY29udGVudHM6IHdyaXRlICAjIOWFgeiuuOWIm+W7uiByZWxlYXNlIOWSjOS4iuS8oOaWh+S7tgoKICAgIHN0ZXBzOgogICAgICAjIDEuIOajgOWHuuS7o+eggQogICAgICAtIG5hbWU6IENoZWNrb3V0IGNvZGUKICAgICAgICB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QHY0CiAgICAgICAgd2l0aDoKICAgICAgICAgIGZldGNoLWRlcHRoOiAwICAjIOiOt+WPluWujOaVtOWOhuWPsu+8jOeUqOS6juaPkOWPliBjb21taXQg5L+h5oGvCgogICAgICAjIDIuIOiuvue9riBOb2RlLmpzIOeOr+WigwogICAgICAtIG5hbWU6IFNldHVwIE5vZGUuanMKICAgICAgICB1c2VzOiBhY3Rpb25zL3NldHVwLW5vZGVAdjQKICAgICAgICB3aXRoOgogICAgICAgICAgbm9kZS12ZXJzaW9uOiAnMjAnCgogICAgICAjIDMuIOWuieijheS+nei1lgogICAgICAtIG5hbWU6IEluc3RhbGwgZGVwZW5kZW5jaWVzCiAgICAgICAgcnVuOiBucG0gY2kKCiAgICAgICMgNC4g5o+Q5Y+W54mI5pys5Y+377yI5LuOIHRhZyDkuK3ljrvmjokgJ3YnIOWJjee8gO+8iQogICAgICAtIG5hbWU6IEV4dHJhY3QgdmVyc2lvbgogICAgICAgIGlkOiB2ZXJzaW9uCiAgICAgICAgcnVuOiBlY2hvICJWRVJTSU9OPSR7R0lUSFVCX1JFRiNyZWZzL3RhZ3Mvdn0iID4+ICRHSVRIVUJfT1VUUFVUCgogICAgICAjIDUuIOabtOaWsCBtYW5pZmVzdC5qc29uIOWSjCBwYWNrYWdlLmpzb24g5Lit55qE54mI5pys5Y+3CiAgICAgIC0gbmFtZTogVXBkYXRlIHZlcnNpb24gaW4gbWFuaWZlc3QgYW5kIHBhY2thZ2UuanNvbgogICAgICAgIHJ1bjogfAogICAgICAgICAgIyDmm7TmlrAgbWFuaWZlc3QuanNvbgogICAgICAgICAgc2VkIC1pICJzL1widmVyc2lvblwiOiBcIi4qXCIvXCJ2ZXJzaW9uXCI6IFwiJHt7IHN0ZXBzLnZlcnNpb24ub3V0cHV0cy5WRVJTSU9OIH19XCIvIiBtYW5pZmVzdC5qc29uCgogICAgICAgICAgIyDmm7TmlrAgcGFja2FnZS5qc29uCiAgICAgICAgICBzZWQgLWkgInMvXCJ2ZXJzaW9uXCI6IFwiLipcIi9cInZlcnNpb25cIjogXCIke3sgc3RlcHMudmVyc2lvbi5vdXRwdXRzLlZFUlNJT04gfX1cIi8iIHBhY2thZ2UuanNvbgoKICAgICAgIyA2LiDnvJbor5HmianlsZXvvIhDaHJvbWUg54mI5pys77yJCiAgICAgIC0gbmFtZTogQnVpbGQgQ2hyb21lIEV4dGVuc2lvbgogICAgICAgIHJ1bjogbnBtIHJ1biBidWlsZDpjaHJvbWUKCiAgICAgICMgNy4g5omT5YyFIENocm9tZSDniYjmnKwKICAgICAgLSBuYW1lOiBQYWNrYWdlIENocm9tZSBFeHRlbnNpb24KICAgICAgICBydW46IHwKICAgICAgICAgIGNkIGRpc3QKICAgICAgICAgIHppcCAtciAuLi9nZG93bmxvYWQtZXh0ZW5zaW9uLWNocm9tZS12JHt7IHN0ZXBzLnZlcnNpb24ub3V0cHV0cy5WRVJTSU9OIH19LnppcCAqCiAgICAgICAgICBjZCAuLgoKICAgICAgIyA4LiDmuIXnkIYgZGlzdCDnm67lvZUKICAgICAgLSBuYW1lOiBDbGVhbiBkaXN0IGRpcmVjdG9yeQogICAgICAgIHJ1bjogcm0gLXJmIGRpc3QKCiAgICAgICMgOS4g57yW6K+R5omp5bGV77yIRmlyZWZveCDniYjmnKzvvIkKICAgICAgLSBuYW1lOiBCdWlsZCBGaXJlZm94IEV4dGVuc2lvbgogICAgICAgIHJ1bjogbnBtIHJ1biBidWlsZDpmaXJlZm94CgogICAgICAjIDEwLiDmiZPljIUgRmlyZWZveCDniYjmnKwKICAgICAgLSBuYW1lOiBQYWNrYWdlIEZpcmVmb3ggRXh0ZW5zaW9uCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBjZCBkaXN0CiAgICAgICAgICB6aXAgLXIgLi4vZ2Rvd25sb2FkLWV4dGVuc2lvbi1maXJlZm94LXYke3sgc3RlcHMudmVyc2lvbi5vdXRwdXRzLlZFUlNJT04gfX0uemlwICoKICAgICAgICAgIGNkIC4uCgogICAgICAjIDExLiDmuIXnkIYgZGlzdCDnm67lvZUKICAgICAgLSBuYW1lOiBDbGVhbiBkaXN0IGRpcmVjdG9yeSBhZ2FpbgogICAgICAgIHJ1bjogcm0gLXJmIGRpc3QKCiAgICAgICMgMTIuIOe8luivkeaJqeWxle+8iEVkZ2Ug54mI5pys77yJCiAgICAgIC0gbmFtZTogQnVpbGQgRWRnZSBFeHRlbnNpb24KICAgICAgICBydW46IG5wbSBydW4gYnVpbGQ6ZWRnZQoKICAgICAgIyAxMy4g5omT5YyFIEVkZ2Ug54mI5pysCiAgICAgIC0gbmFtZTogUGFja2FnZSBFZGdlIEV4dGVuc2lvbgogICAgICAgIHJ1bjogfAogICAgICAgICAgY2QgZGlzdAogICAgICAgICAgemlwIC1yIC4uL2dkb3dubG9hZC1leHRlbnNpb24tZWRnZS12JHt7IHN0ZXBzLnZlcnNpb24ub3V0cHV0cy5WRVJTSU9OIH19LnppcCAqCiAgICAgICAgICBjZCAuLgoKICAgICAgIyAxNC4g6I635Y+W5pyA5ZCO5LiA5qyhIGNvbW1pdCDkv6Hmga/kvZzkuLogcmVsZWFzZSBib2R5CiAgICAgIC0gbmFtZTogR2V0IGxhc3QgY29tbWl0IG1lc3NhZ2UKICAgICAgICBpZDogY29tbWl0X21lc3NhZ2UKICAgICAgICBydW46IHwKICAgICAgICAgIENPTU1JVF9NU0c9JChnaXQgbG9nIC0xIC0tcHJldHR5PWZvcm1hdDoiJXMlbiVuJWIiKQogICAgICAgICAgZWNobyAiQ09NTUlUX01TRzw8RU9GIiA+PiAkR0lUSFVCX09VVFBVVAogICAgICAgICAgZWNobyAiJENPTU1JVF9NU0ciID4+ICRHSVRIVUJfT1VUUFVUCiAgICAgICAgICBlY2hvICJFT0YiID4+ICRHSVRIVUJfT1VUUFVUCgogICAgICAjIDE1LiDnlJ/miJAgcmVsZWFzZSBub3RlcwogICAgICAtIG5hbWU6IEdlbmVyYXRlIHJlbGVhc2Ugbm90ZXMKICAgICAgICBpZDogcmVsZWFzZV9ub3RlcwogICAgICAgIHJ1bjogfAogICAgICAgICAgY2F0ID4gcmVsZWFzZV9ub3Rlcy5tZCA8PCAnRU9GJwogICAgICAgICAgIyMg8J+agCBHRG93bmxvYWQgQnJvd3NlciBFeHRlbnNpb24gJHt7IHN0ZXBzLnZlcnNpb24ub3V0cHV0cy5WRVJTSU9OIH19CgogICAgICAgICAgIyMjIPCfk50g5pu05paw5YaF5a65CgogICAgICAgICAgJHt7IHN0ZXBzLmNvbW1pdF9tZXNzYWdlLm91dHB1dHMuQ09NTUlUX01TRyB9fQoKICAgICAgICAgIC0tLQoKICAgICAgICAgICMjIyDwn5OmIOS4i+i9veivtOaYjgoKICAgICAgICAgIOivt+agueaNruS9oOeahOa1j+iniOWZqOmAieaLqeWvueW6lOeahOeJiOacrOS4i+i9ve+8mgoKICAgICAgICAgIHwg5rWP6KeI5ZmoIHwg5paH5Lu2IHwg6K+05piOIHwKICAgICAgICAgIHwtLS0tLS0tLXwtLS0tLS18LS0tLS0tfAogICAgICAgICAgfCAqKkNocm9tZSoqIHwgYGdkb3dubG9hZC1leHRlbnNpb24tY2hyb21lLXYke3sgc3RlcHMudmVyc2lvbi5vdXRwdXRzLlZFUlNJT04gfX0uemlwYCB8IOmAgueUqOS6jiBDaHJvbWUgMTEwKyB8CiAgICAgICAgICB8ICoqRmlyZWZveCoqIHwgYGdkb3dubG9hZC1leHRlbnNpb24tZmlyZWZveC12JHt7IHN0ZXBzLnZlcnNpb24ub3V0cHV0cy5WRVJTSU9OIH19LnppcGAgfCDpgILnlKjkuo4gRmlyZWZveCAxMTUrIHwKICAgICAgICAgIHwgKipFZGdlKiogfCBgZ2Rvd25sb2FkLWV4dGVuc2lvbi1lZGdlLXYke3sgc3RlcHMudmVyc2lvbi5vdXRwdXRzLlZFUlNJT04gfX0uemlwYCB8IOmAgueUqOS6jiBFZGdlIDExMCsgfAoKICAgICAgICAgICMjIyDwn5OWIOWuieijheatpemqpAoKICAgICAgICAgICMjIyMgQ2hyb21lIC8gRWRnZQoKICAgICAgICAgIDEuIOS4i+i9veWvueW6lOeahCBgLnppcGAg5paH5Lu2CiAgICAgICAgICAyLiDop6PljovliLDku7vmhI/nm67lvZUKICAgICAgICAgIDMuIOaJk+W8gCBgY2hyb21lOi8vZXh0ZW5zaW9ucy9g77yIQ2hyb21l77yJ5oiWIGBlZGdlOi8vZXh0ZW5zaW9ucy9g77yIRWRnZe+8iQogICAgICAgICAgNC4g5ZCv55SoIuW8gOWPkeiAheaooeW8jyIKICAgICAgICAgIDUuIOeCueWHuyLliqDovb3lt7Lop6PljovnmoTmianlsZXnqIvluo8iCiAgICAgICAgICA2LiDpgInmi6nop6PljovlkI7nmoTmlofku7blpLkKCiAgICAgICAgICAjIyMjIEZpcmVmb3gKCiAgICAgICAgICAxLiDkuIvovb0gYC56aXBgIOaWh+S7tgogICAgICAgICAgMi4g5omT5byAIGBhYm91dDpkZWJ1Z2dpbmcjL3J1bnRpbWUvdGhpcy1maXJlZm94YAogICAgICAgICAgMy4g54K55Ye7IuS4tOaXtui9veWFpemZhOWKoOe7hOS7tiIKICAgICAgICAgIDQuIOmAieaLqeino+WOi+WQjuaWh+S7tuWkueS4reeahCBgbWFuaWZlc3QuanNvbmAKCiAgICAgICAgICAjIyMg8J+UlyDnm7jlhbPpk77mjqUKCiAgICAgICAgICAtIFtHRG93bmxvYWQg5Li756iL5bqPXShodHRwczovL2dpdGh1Yi5jb20vd3VnZTAvR0Rvd25sb2FkKQogICAgICAgICAgLSBb5a6M5pW05paH5qGjXShodHRwczovL2dpdGh1Yi5jb20vd3VnZTAvZ2QtYnJvd3Nlci1leHRlbnNpb24vYmxvYi9tYWluL1JFQURNRS56aC1DTi5tZCkKICAgICAgICAgIC0gW+mXrumimOWPjemmiF0oaHR0cHM6Ly9naXRodWIuY29tL3d1Z2UwL2dkLWJyb3dzZXItZXh0ZW5zaW9uL2lzc3VlcykKCiAgICAgICAgICAjIyMg4pyFIOezu+e7n+imgeaxggoKICAgICAgICAgIC0gKirmtY/op4jlmagqKjogQ2hyb21lIDExMCsgLyBGaXJlZm94IDExNSsgLyBFZGdlIDExMCsKICAgICAgICAgIC0gKipHRG93bmxvYWQqKjogMS4wLjArICjpnIDlkK/nlKggYXJpYTJjKQogICAgICAgICAgLSAqKmFyaWEyYyoqOiAxLjM2LjArIChHRG93bmxvYWQg6Ieq5bimKQogICAgICAgICAgRU9GCgogICAgICAgICAgIyDovpPlh7rlrozmlbTnmoQgcmVsZWFzZSBub3RlcwogICAgICAgICAgY2F0IHJlbGVhc2Vfbm90ZXMubWQKCiAgICAgICMgMTYuIOWIm+W7uiBHaXRIdWIgUmVsZWFzZQogICAgICAtIG5hbWU6IENyZWF0ZSBHaXRIdWIgUmVsZWFzZQogICAgICAgIHVzZXM6IHNvZnRwcm9wcy9hY3Rpb24tZ2gtcmVsZWFzZUB2MQogICAgICAgIHdpdGg6CiAgICAgICAgICBuYW1lOiBHRG93bmxvYWQgRXh0ZW5zaW9uIHYke3sgc3RlcHMudmVyc2lvbi5vdXRwdXRzLlZFUlNJT04gfX0KICAgICAgICAgIGJvZHlfcGF0aDogcmVsZWFzZV9ub3Rlcy5tZAogICAgICAgICAgZHJhZnQ6IGZhbHNlCiAgICAgICAgICBwcmVyZWxlYXNlOiBmYWxzZQogICAgICAgICAgZmlsZXM6IHwKICAgICAgICAgICAgZ2Rvd25sb2FkLWV4dGVuc2lvbi1jaHJvbWUtdiR7eyBzdGVwcy52ZXJzaW9uLm91dHB1dHMuVkVSU0lPTiB9fS56aXAKICAgICAgICAgICAgZ2Rvd25sb2FkLWV4dGVuc2lvbi1maXJlZm94LXYke3sgc3RlcHMudmVyc2lvbi5vdXRwdXRzLlZFUlNJT04gfX0uemlwCiAgICAgICAgICAgIGdkb3dubG9hZC1leHRlbnNpb24tZWRnZS12JHt7IHN0ZXBzLnZlcnNpb24ub3V0cHV0cy5WRVJTSU9OIH19LnppcAogICAgICAgIGVudjoKICAgICAgICAgIEdJVEhVQl9UT0tFTjogJHt7IHNlY3JldHMuR0lUSFVCX1RPS0VOIH19CgogICAgICAjIDE3LiDkuIrkvKDmnoTlu7rkuqfnianvvIjlj6/pgInvvIznlKjkuo7osIPor5XvvIkKICAgICAgLSBuYW1lOiBVcGxvYWQgYnVpbGQgYXJ0aWZhY3RzCiAgICAgICAgdXNlczogYWN0aW9ucy91cGxvYWQtYXJ0aWZhY3RAdjQKICAgICAgICB3aXRoOgogICAgICAgICAgbmFtZTogZXh0ZW5zaW9uLXBhY2thZ2VzLXYke3sgc3RlcHMudmVyc2lvbi5vdXRwdXRzLlZFUlNJT04gfX0KICAgICAgICAgIHBhdGg6IHwKICAgICAgICAgICAgZ2Rvd25sb2FkLWV4dGVuc2lvbi1jaHJvbWUtdiR7eyBzdGVwcy52ZXJzaW9uLm91dHB1dHMuVkVSU0lPTiB9fS56aXAKICAgICAgICAgICAgZ2Rvd25sb2FkLWV4dGVuc2lvbi1maXJlZm94LXYke3sgc3RlcHMudmVyc2lvbi5vdXRwdXRzLlZFUlNJT04gfX0uemlwCiAgICAgICAgICAgIGdkb3dubG9hZC1leHRlbnNpb24tZWRnZS12JHt7IHN0ZXBzLnZlcnNpb24ub3V0cHV0cy5WRVJTSU9OIH19LnppcAogICAgICAgICAgcmV0ZW50aW9uLWRheXM6IDMwCg==
+name: Release Extension
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'  # 触发条件：推送版本标签（如 v1.0.0）
+
+jobs:
+  build-and-release:
+    name: Build and Release Extension
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # 允许创建 release 和上传文件
+
+    steps:
+      # 1. 检出代码
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 获取完整历史，用于提取 commit 信息
+
+      # 2. 设置 Node.js 环境
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 3. 安装依赖
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. 提取版本号（从 tag 中去掉 'v' 前缀）
+      - name: Extract version
+        id: version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+
+      # 5. 更新 manifest.json 和 package.json 中的版本号
+      - name: Update version in manifest and package.json
+        run: |
+          # 更新 manifest.json
+          sed -i "s/\"version\": \".*\"/\"version\": \"${{ steps.version.outputs.VERSION }}\"/" manifest.json
+
+          # 更新 package.json
+          sed -i "s/\"version\": \".*\"/\"version\": \"${{ steps.version.outputs.VERSION }}\"/" package.json
+
+      # 6. 编译扩展（Chrome 版本）
+      - name: Build Chrome Extension
+        run: npm run build:chrome
+
+      # 7. 打包 Chrome 版本
+      - name: Package Chrome Extension
+        run: |
+          cd dist
+          zip -r ../gdownload-extension-chrome-v${{ steps.version.outputs.VERSION }}.zip *
+          cd ..
+
+      # 8. 清理 dist 目录
+      - name: Clean dist directory
+        run: rm -rf dist
+
+      # 9. 编译扩展（Firefox 版本）
+      - name: Build Firefox Extension
+        run: npm run build:firefox
+
+      # 10. 打包 Firefox 版本
+      - name: Package Firefox Extension
+        run: |
+          cd dist
+          zip -r ../gdownload-extension-firefox-v${{ steps.version.outputs.VERSION }}.zip *
+          cd ..
+
+      # 11. 清理 dist 目录
+      - name: Clean dist directory again
+        run: rm -rf dist
+
+      # 12. 编译扩展（Edge 版本）
+      - name: Build Edge Extension
+        run: npm run build:edge
+
+      # 13. 打包 Edge 版本
+      - name: Package Edge Extension
+        run: |
+          cd dist
+          zip -r ../gdownload-extension-edge-v${{ steps.version.outputs.VERSION }}.zip *
+          cd ..
+
+      # 14. 获取最后一次 commit 信息作为 release body
+      - name: Get last commit message
+        id: commit_message
+        run: |
+          COMMIT_MSG=$(git log -1 --pretty=format:"%s%n%n%b")
+          echo "COMMIT_MSG<<EOF" >> $GITHUB_OUTPUT
+          echo "$COMMIT_MSG" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      # 15. 生成 release notes
+      - name: Generate release notes
+        id: release_notes
+        run: |
+          cat > release_notes.md << 'EOF'
+          ## 🚀 GDownload Browser Extension ${{ steps.version.outputs.VERSION }}
+
+          ### 📝 更新内容
+
+          ${{ steps.commit_message.outputs.COMMIT_MSG }}
+
+          ---
+
+          ### 📦 下载说明
+
+          请根据你的浏览器选择对应的版本下载：
+
+          | 浏览器 | 文件 | 说明 |
+          |--------|------|------|
+          | **Chrome** | `gdownload-extension-chrome-v${{ steps.version.outputs.VERSION }}.zip` | 适用于 Chrome 110+ |
+          | **Firefox** | `gdownload-extension-firefox-v${{ steps.version.outputs.VERSION }}.zip` | 适用于 Firefox 115+ |
+          | **Edge** | `gdownload-extension-edge-v${{ steps.version.outputs.VERSION }}.zip` | 适用于 Edge 110+ |
+
+          ### 📖 安装步骤
+
+          #### Chrome / Edge
+
+          1. 下载对应的 `.zip` 文件
+          2. 解压到任意目录
+          3. 打开 `chrome://extensions/`（Chrome）或 `edge://extensions/`（Edge）
+          4. 启用"开发者模式"
+          5. 点击"加载已解压的扩展程序"
+          6. 选择解压后的文件夹
+
+          #### Firefox
+
+          1. 下载 `.zip` 文件
+          2. 打开 `about:debugging#/runtime/this-firefox`
+          3. 点击"临时载入附加组件"
+          4. 选择解压后文件夹中的 `manifest.json`
+
+          ### 🔗 相关链接
+
+          - [GDownload 主程序](https://github.com/wuge0/GDownload)
+          - [完整文档](https://github.com/wuge0/gd-browser-extension/blob/main/README.zh-CN.md)
+          - [问题反馈](https://github.com/wuge0/gd-browser-extension/issues)
+
+          ### ✅ 系统要求
+
+          - **浏览器**: Chrome 110+ / Firefox 115+ / Edge 110+
+          - **GDownload**: 1.0.0+ (需启用 aria2c)
+          - **aria2c**: 1.36.0+ (GDownload 自带)
+          EOF
+
+          # 输出完整的 release notes
+          cat release_notes.md
+
+      # 16. 创建 GitHub Release
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: GDownload Extension v${{ steps.version.outputs.VERSION }}
+          body_path: release_notes.md
+          draft: false
+          prerelease: false
+          files: |
+            gdownload-extension-chrome-v${{ steps.version.outputs.VERSION }}.zip
+            gdownload-extension-firefox-v${{ steps.version.outputs.VERSION }}.zip
+            gdownload-extension-edge-v${{ steps.version.outputs.VERSION }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 17. 上传构建产物（可选，用于调试）
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: extension-packages-v${{ steps.version.outputs.VERSION }}
+          path: |
+            gdownload-extension-chrome-v${{ steps.version.outputs.VERSION }}.zip
+            gdownload-extension-firefox-v${{ steps.version.outputs.VERSION }}.zip
+            gdownload-extension-edge-v${{ steps.version.outputs.VERSION }}.zip
+          retention-days: 30

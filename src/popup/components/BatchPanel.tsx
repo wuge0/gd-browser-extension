@@ -1,1 +1,235 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgeyBYIH0gZnJvbSAnbHVjaWRlLXJlYWN0JzsKaW1wb3J0IHsgYnJvd3NlckFwaSB9IGZyb20gJ0Avc2hhcmVkL3V0aWxzL2Jyb3dzZXJBcGknOwppbXBvcnQgeyBleHBhbmRTZXF1ZW5jZSB9IGZyb20gJ0Avc2hhcmVkL3V0aWxzL3VybFNlcXVlbmNlJzsKaW1wb3J0IHR5cGUgeyBMaW5rIH0gZnJvbSAnQC9zaGFyZWQvdHlwZXMnOwppbXBvcnQgeyB0IH0gZnJvbSAnQC9zaGFyZWQvdXRpbHMvaTE4bic7CgppbnRlcmZhY2UgQ2FwdHVyZWRJbWFnZSB7CiAgdXJsOiBzdHJpbmc7CiAgd2lkdGg6IG51bWJlcjsKICBoZWlnaHQ6IG51bWJlcjsKfQoKdHlwZSBUb29sID0gJ2ltYWdlcycgfCAnc2VxdWVuY2UnIHwgJ2RyYWcnOwoKYXN5bmMgZnVuY3Rpb24gYWN0aXZlVGFiSWQoKTogUHJvbWlzZTxudW1iZXIgfCB1bmRlZmluZWQ+IHsKICBjb25zdCB0YWJzID0gYXdhaXQgYnJvd3NlckFwaS50YWJzLnF1ZXJ5KHsgYWN0aXZlOiB0cnVlLCBjdXJyZW50V2luZG93OiB0cnVlIH0pOwogIHJldHVybiB0YWJzWzBdPy5pZDsKfQoKZnVuY3Rpb24gdG9MaW5rKHVybDogc3RyaW5nLCBpbmRleDogbnVtYmVyKTogTGluayB7CiAgY29uc3QgZmlsZW5hbWUgPSBkZWNvZGVVUklDb21wb25lbnQodXJsLnNwbGl0KCcvJykucG9wKCk/LnNwbGl0KCc/JylbMF0gfHwgYGZpbGVfJHtpbmRleH1gKTsKICByZXR1cm4gewogICAgaWQ6IGBiYXRjaF8ke0RhdGUubm93KCl9XyR7aW5kZXh9YCwKICAgIHVybCwKICAgIGZpbGVuYW1lLAogICAgc2l6ZTogbnVsbCwKICAgIGZpbGVUeXBlOiBmaWxlbmFtZS5tYXRjaCgvXC5bXi5dKyQvKT8uWzBdIHx8ICcnLAogICAgc2VsZWN0ZWQ6IHRydWUsCiAgICBjYXB0dXJlZEF0OiBEYXRlLm5vdygpLAogICAgc291cmNlOiAnbWFudWFsJwogIH07Cn0KCmFzeW5jIGZ1bmN0aW9uIHNlbmRMaW5rcyh1cmxzOiBzdHJpbmdbXSk6IFByb21pc2U8dm9pZD4gewogIGNvbnN0IGxpbmtzID0gdXJscy5tYXAodG9MaW5rKTsKICBhd2FpdCBicm93c2VyQXBpLnJ1bnRpbWUuc2VuZE1lc3NhZ2UoeyBhY3Rpb246ICdzZW5kVG9HRG93bmxvYWQnLCBsaW5rcyB9KTsKfQoKZnVuY3Rpb24gQmF0Y2hQYW5lbCh7IG9uQ2xvc2UgfTogeyBvbkNsb3NlOiAoKSA9PiB2b2lkIH0pIHsKICBjb25zdCBbdG9vbCwgc2V0VG9vbF0gPSB1c2VTdGF0ZTxUb29sPignaW1hZ2VzJyk7CgogIC8vIOWbvueJh+eUu+W7igogIGNvbnN0IFtpbWFnZXMsIHNldEltYWdlc10gPSB1c2VTdGF0ZTxDYXB0dXJlZEltYWdlW10+KFtdKTsKICBjb25zdCBbbWluU2l6ZSwgc2V0TWluU2l6ZV0gPSB1c2VTdGF0ZSgyMDApOwogIGNvbnN0IFtzZWxlY3RlZCwgc2V0U2VsZWN0ZWRdID0gdXNlU3RhdGU8U2V0PHN0cmluZz4+KG5ldyBTZXQoKSk7CiAgY29uc3QgW3NjYW5uZWQsIHNldFNjYW5uZWRdID0gdXNlU3RhdGUoZmFsc2UpOwoKICAvLyDluo/liJcKICBjb25zdCBbcGF0dGVybiwgc2V0UGF0dGVybl0gPSB1c2VTdGF0ZSgnJyk7CgogIGNvbnN0IFttZXNzYWdlLCBzZXRNZXNzYWdlXSA9IHVzZVN0YXRlKCcnKTsKCiAgY29uc3Qgc2NhbkltYWdlcyA9IGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHRhYklkID0gYXdhaXQgYWN0aXZlVGFiSWQoKTsKICAgIGlmICh0YWJJZCA9PT0gdW5kZWZpbmVkKSByZXR1cm47CiAgICB0cnkgewogICAgICBjb25zdCByZXMgPSBhd2FpdCBicm93c2VyQXBpLnRhYnMuc2VuZE1lc3NhZ2UodGFiSWQsIHsgYWN0aW9uOiAnY2FwdHVyZUltYWdlcycgfSk7CiAgICAgIGNvbnN0IGltZ3M6IENhcHR1cmVkSW1hZ2VbXSA9IHJlcz8uaW1hZ2VzIHx8IFtdOwogICAgICBzZXRJbWFnZXMoaW1ncyk7CiAgICAgIHNldFNlbGVjdGVkKG5ldyBTZXQoaW1ncy5tYXAoKGkpID0+IGkudXJsKSkpOwogICAgICBzZXRTY2FubmVkKHRydWUpOwogICAgfSBjYXRjaCB7CiAgICAgIHNldE1lc3NhZ2UodCgnYmF0Y2hTY2FuRmFpbGVkJykpOwogICAgfQogIH07CgogIGNvbnN0IGZpbHRlcmVkID0gaW1hZ2VzLmZpbHRlcigoaW1nKSA9PiBpbWcud2lkdGggPj0gbWluU2l6ZSB8fCBpbWcuaGVpZ2h0ID49IG1pblNpemUgfHwgKGltZy53aWR0aCA9PT0gMCAmJiBpbWcuaGVpZ2h0ID09PSAwKSk7CgogIGNvbnN0IHRvZ2dsZSA9ICh1cmw6IHN0cmluZykgPT4gewogICAgc2V0U2VsZWN0ZWQoKHByZXYpID0+IHsKICAgICAgY29uc3QgbmV4dCA9IG5ldyBTZXQocHJldik7CiAgICAgIG5leHQuaGFzKHVybCkgPyBuZXh0LmRlbGV0ZSh1cmwpIDogbmV4dC5hZGQodXJsKTsKICAgICAgcmV0dXJuIG5leHQ7CiAgICB9KTsKICB9OwoKICBjb25zdCBzZW5kSW1hZ2VzID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgdXJscyA9IGZpbHRlcmVkLmZpbHRlcigoaSkgPT4gc2VsZWN0ZWQuaGFzKGkudXJsKSkubWFwKChpKSA9PiBpLnVybCk7CiAgICBpZiAodXJscy5sZW5ndGggPT09IDApIHJldHVybjsKICAgIGF3YWl0IHNlbmRMaW5rcyh1cmxzKTsKICAgIHNldE1lc3NhZ2UodCgnYmF0Y2hTZW50JywgU3RyaW5nKHVybHMubGVuZ3RoKSkpOwogICAgc2V0VGltZW91dCgoKSA9PiBzZXRNZXNzYWdlKCcnKSwgMjUwMCk7CiAgfTsKCiAgY29uc3QgZXhwYW5kZWQgPSBwYXR0ZXJuID8gZXhwYW5kU2VxdWVuY2UocGF0dGVybikgOiBbXTsKICBjb25zdCBzZW5kU2VxdWVuY2UgPSBhc3luYyAoKSA9PiB7CiAgICBpZiAoZXhwYW5kZWQubGVuZ3RoID09PSAwKSByZXR1cm47CiAgICBhd2FpdCBzZW5kTGlua3MoZXhwYW5kZWQpOwogICAgc2V0TWVzc2FnZSh0KCdiYXRjaFNlbnQnLCBTdHJpbmcoZXhwYW5kZWQubGVuZ3RoKSkpOwogICAgc2V0VGltZW91dCgoKSA9PiBzZXRNZXNzYWdlKCcnKSwgMjUwMCk7CiAgfTsKCiAgY29uc3Qgc3RhcnREcmFnID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgdGFiSWQgPSBhd2FpdCBhY3RpdmVUYWJJZCgpOwogICAgaWYgKHRhYklkID09PSB1bmRlZmluZWQpIHJldHVybjsKICAgIGF3YWl0IGJyb3dzZXJBcGkudGFicy5zZW5kTWVzc2FnZSh0YWJJZCwgeyBhY3Rpb246ICdzdGFydERyYWdTZWxlY3QnIH0pOwogICAgd2luZG93LmNsb3NlKCk7IC8vIOWFs+mXrSBwb3B1cCDorqnnlKjmiLfmi5bmoYYKICB9OwoKICByZXR1cm4gKAogICAgPGRpdiBzdHlsZT17ewogICAgICBwb3NpdGlvbjogJ2Fic29sdXRlJywKICAgICAgaW5zZXQ6IDAsCiAgICAgIGJhY2tncm91bmRDb2xvcjogJ3ZhcigtLWJnLXdoaXRlKScsCiAgICAgIHpJbmRleDogMTAwLAogICAgICBkaXNwbGF5OiAnZmxleCcsCiAgICAgIGZsZXhEaXJlY3Rpb246ICdjb2x1bW4nCiAgICB9fT4KICAgICAgPGRpdiBzdHlsZT17ewogICAgICAgIGRpc3BsYXk6ICdmbGV4JywKICAgICAgICBhbGlnbkl0ZW1zOiAnY2VudGVyJywKICAgICAgICBwYWRkaW5nOiAndmFyKC0tc3BhY2UtbWQpJywKICAgICAgICBib3JkZXJCb3R0b206ICcxcHggc29saWQgdmFyKC0tYm9yZGVyLWJhc2UpJwogICAgICB9fT4KICAgICAgICA8c3BhbiBzdHlsZT17eyBmbGV4OiAxLCBmb250U2l6ZTogJzE1cHgnLCBmb250V2VpZ2h0OiA2MDAgfX0+e3QoJ2JhdGNoVGl0bGUnKX08L3NwYW4+CiAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXtvbkNsb3NlfSBzdHlsZT17eyBiYWNrZ3JvdW5kOiAnbm9uZScsIGJvcmRlcjogJ25vbmUnLCBjdXJzb3I6ICdwb2ludGVyJywgY29sb3I6ICd2YXIoLS10ZXh0LXJlZ3VsYXIpJyB9fT4KICAgICAgICAgIDxYIHNpemU9ezE4fSAvPgogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiDlt6XlhbfliIfmjaIgKi99CiAgICAgIDxkaXYgc3R5bGU9e3sgZGlzcGxheTogJ2ZsZXgnLCBib3JkZXJCb3R0b206ICcxcHggc29saWQgdmFyKC0tYm9yZGVyLWxpZ2h0ZXIpJyB9fT4KICAgICAgICA8VG9vbFRhYiBhY3RpdmU9e3Rvb2wgPT09ICdpbWFnZXMnfSBvbkNsaWNrPXsoKSA9PiBzZXRUb29sKCdpbWFnZXMnKX0+e3QoJ2JhdGNoSW1hZ2VzJyl9PC9Ub29sVGFiPgogICAgICAgIDxUb29sVGFiIGFjdGl2ZT17dG9vbCA9PT0gJ3NlcXVlbmNlJ30gb25DbGljaz17KCkgPT4gc2V0VG9vbCgnc2VxdWVuY2UnKX0+e3QoJ2JhdGNoU2VxdWVuY2UnKX08L1Rvb2xUYWI+CiAgICAgICAgPFRvb2xUYWIgYWN0aXZlPXt0b29sID09PSAnZHJhZyd9IG9uQ2xpY2s9eygpID0+IHNldFRvb2woJ2RyYWcnKX0+e3QoJ2JhdGNoRHJhZycpfTwvVG9vbFRhYj4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IHN0eWxlPXt7IGZsZXg6IDEsIG92ZXJmbG93WTogJ2F1dG8nLCBwYWRkaW5nOiAndmFyKC0tc3BhY2UtbWQpJyB9fT4KICAgICAgICB7dG9vbCA9PT0gJ2ltYWdlcycgJiYgKAogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgeyFzY2FubmVkID8gKAogICAgICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPSJmb3JtLWJ1dHRvbiIgb25DbGljaz17c2NhbkltYWdlc30+e3QoJ2JhdGNoU2NhbkltYWdlcycpfTwvYnV0dG9uPgogICAgICAgICAgICApIDogKAogICAgICAgICAgICAgIDw+CiAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGRpc3BsYXk6ICdmbGV4JywgYWxpZ25JdGVtczogJ2NlbnRlcicsIGdhcDogJzhweCcsIG1hcmdpbkJvdHRvbTogJzhweCcgfX0+CiAgICAgICAgICAgICAgICAgIDxzcGFuIHN0eWxlPXt7IGZvbnRTaXplOiAnMTJweCcsIGNvbG9yOiAndmFyKC0tdGV4dC1zZWNvbmRhcnkpJyB9fT57dCgnYmF0Y2hNaW5TaXplJyl9PC9zcGFuPgogICAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgICB0eXBlPSJudW1iZXIiCiAgICAgICAgICAgICAgICAgICAgdmFsdWU9e21pblNpemV9CiAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRNaW5TaXplKE1hdGgubWF4KDAsIHBhcnNlSW50KGUudGFyZ2V0LnZhbHVlKSB8fCAwKSl9CiAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgd2lkdGg6ICc3MHB4JywgcGFkZGluZzogJzNweCA2cHgnLCBmb250U2l6ZTogJzEycHgnLCBib3JkZXI6ICcxcHggc29saWQgdmFyKC0tYm9yZGVyLWJhc2UpJywgYm9yZGVyUmFkaXVzOiAnNHB4JyB9fQogICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT17eyBmb250U2l6ZTogJzEycHgnLCBjb2xvcjogJ3ZhcigtLXRleHQtc2Vjb25kYXJ5KScgfX0+CiAgICAgICAgICAgICAgICAgICAge2ZpbHRlcmVkLmxlbmd0aH0gLyB7aW1hZ2VzLmxlbmd0aH0KICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGRpc3BsYXk6ICdncmlkJywgZ3JpZFRlbXBsYXRlQ29sdW1uczogJ3JlcGVhdCgzLCAxZnIpJywgZ2FwOiAnNnB4JyB9fT4KICAgICAgICAgICAgICAgICAge2ZpbHRlcmVkLm1hcCgoaW1nKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgICAga2V5PXtpbWcudXJsfQogICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gdG9nZ2xlKGltZy51cmwpfQogICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246ICdyZWxhdGl2ZScsCiAgICAgICAgICAgICAgICAgICAgICAgIGFzcGVjdFJhdGlvOiAnMScsCiAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogc2VsZWN0ZWQuaGFzKGltZy51cmwpID8gJzJweCBzb2xpZCB2YXIoLS1jb2xvci1wcmltYXJ5KScgOiAnMnB4IHNvbGlkIHZhcigtLWJvcmRlci1saWdodGVyKScsCiAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlclJhZGl1czogJzRweCcsCiAgICAgICAgICAgICAgICAgICAgICAgIG92ZXJmbG93OiAnaGlkZGVuJywKICAgICAgICAgICAgICAgICAgICAgICAgY3Vyc29yOiAncG9pbnRlcicKICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9e2ltZy51cmx9IHN0eWxlPXt7IHdpZHRoOiAnMTAwJScsIGhlaWdodDogJzEwMCUnLCBvYmplY3RGaXQ6ICdjb3ZlcicgfX0gbG9hZGluZz0ibGF6eSIgLz4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPSJmb3JtLWJ1dHRvbiIgc3R5bGU9e3sgbWFyZ2luVG9wOiAnMTBweCcgfX0gb25DbGljaz17c2VuZEltYWdlc30+CiAgICAgICAgICAgICAgICAgIHt0KCdiYXRjaFNlbmRTZWxlY3RlZCcpfQogICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgPC8+CiAgICAgICAgICAgICl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQoKICAgICAgICB7dG9vbCA9PT0gJ3NlcXVlbmNlJyAmJiAoCiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiAnMTJweCcsIGNvbG9yOiAndmFyKC0tdGV4dC1zZWNvbmRhcnkpJywgbWFyZ2luQm90dG9tOiAnNnB4JyB9fT4KICAgICAgICAgICAgICB7dCgnYmF0Y2hTZXF1ZW5jZUhpbnQnKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgIHR5cGU9InRleHQiCiAgICAgICAgICAgICAgdmFsdWU9e3BhdHRlcm59CiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRQYXR0ZXJuKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iaHR0cHM6Ly9leGFtcGxlLmNvbS9maWxlWzAxLTIwXS56aXAiCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmb3JtLWlucHV0IgogICAgICAgICAgICAvPgogICAgICAgICAgICB7cGF0dGVybiAmJiAoCiAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBmb250U2l6ZTogJzEycHgnLCBjb2xvcjogJ3ZhcigtLXRleHQtc2Vjb25kYXJ5KScsIG1hcmdpbjogJzZweCAwJyB9fT4KICAgICAgICAgICAgICAgIHt0KCdiYXRjaEV4cGFuZENvdW50JywgU3RyaW5nKGV4cGFuZGVkLmxlbmd0aCkpfQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApfQogICAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT0iZm9ybS1idXR0b24iIG9uQ2xpY2s9e3NlbmRTZXF1ZW5jZX0gZGlzYWJsZWQ9e2V4cGFuZGVkLmxlbmd0aCA9PT0gMH0+CiAgICAgICAgICAgICAge3QoJ2JhdGNoU2VuZFNlcXVlbmNlJyl9CiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKX0KCiAgICAgICAge3Rvb2wgPT09ICdkcmFnJyAmJiAoCiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiAnMTJweCcsIGNvbG9yOiAndmFyKC0tdGV4dC1zZWNvbmRhcnkpJywgbWFyZ2luQm90dG9tOiAnMTBweCcgfX0+CiAgICAgICAgICAgICAge3QoJ2JhdGNoRHJhZ0hpbnQnKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPSJmb3JtLWJ1dHRvbiIgb25DbGljaz17c3RhcnREcmFnfT57dCgnYmF0Y2hTdGFydERyYWcnKX08L2J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CgogICAgICAgIHttZXNzYWdlICYmICgKICAgICAgICAgIDxkaXYgc3R5bGU9e3sgbWFyZ2luVG9wOiAnMTBweCcsIGZvbnRTaXplOiAnMTJweCcsIGNvbG9yOiAndmFyKC0tY29sb3Itc3VjY2VzcyknIH19PnttZXNzYWdlfTwvZGl2PgogICAgICAgICl9CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQoKZnVuY3Rpb24gVG9vbFRhYih7IGFjdGl2ZSwgb25DbGljaywgY2hpbGRyZW4gfTogeyBhY3RpdmU6IGJvb2xlYW47IG9uQ2xpY2s6ICgpID0+IHZvaWQ7IGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGUgfSkgewogIHJldHVybiAoCiAgICA8YnV0dG9uCiAgICAgIG9uQ2xpY2s9e29uQ2xpY2t9CiAgICAgIHN0eWxlPXt7CiAgICAgICAgZmxleDogMSwKICAgICAgICBwYWRkaW5nOiAnOHB4JywKICAgICAgICBmb250U2l6ZTogJzEycHgnLAogICAgICAgIGZvbnRXZWlnaHQ6IGFjdGl2ZSA/IDYwMCA6IDQwMCwKICAgICAgICBjb2xvcjogYWN0aXZlID8gJ3ZhcigtLWNvbG9yLXByaW1hcnkpJyA6ICd2YXIoLS10ZXh0LXJlZ3VsYXIpJywKICAgICAgICBiYWNrZ3JvdW5kQ29sb3I6ICd0cmFuc3BhcmVudCcsCiAgICAgICAgYm9yZGVyOiAnbm9uZScsCiAgICAgICAgYm9yZGVyQm90dG9tOiBhY3RpdmUgPyAnMnB4IHNvbGlkIHZhcigtLWNvbG9yLXByaW1hcnkpJyA6ICcycHggc29saWQgdHJhbnNwYXJlbnQnLAogICAgICAgIGN1cnNvcjogJ3BvaW50ZXInCiAgICAgIH19CiAgICA+CiAgICAgIHtjaGlsZHJlbn0KICAgIDwvYnV0dG9uPgogICk7Cn0KCmV4cG9ydCBkZWZhdWx0IEJhdGNoUGFuZWw7Cg==
+import React, { useState } from 'react';
+import { X } from 'lucide-react';
+import { browserApi } from '@/shared/utils/browserApi';
+import { expandSequence } from '@/shared/utils/urlSequence';
+import type { Link } from '@/shared/types';
+import { t } from '@/shared/utils/i18n';
+
+interface CapturedImage {
+  url: string;
+  width: number;
+  height: number;
+}
+
+type Tool = 'images' | 'sequence' | 'drag';
+
+async function activeTabId(): Promise<number | undefined> {
+  const tabs = await browserApi.tabs.query({ active: true, currentWindow: true });
+  return tabs[0]?.id;
+}
+
+function toLink(url: string, index: number): Link {
+  const filename = decodeURIComponent(url.split('/').pop()?.split('?')[0] || `file_${index}`);
+  return {
+    id: `batch_${Date.now()}_${index}`,
+    url,
+    filename,
+    size: null,
+    fileType: filename.match(/\.[^.]+$/)?.[0] || '',
+    selected: true,
+    capturedAt: Date.now(),
+    source: 'manual'
+  };
+}
+
+async function sendLinks(urls: string[]): Promise<void> {
+  const links = urls.map(toLink);
+  await browserApi.runtime.sendMessage({ action: 'sendToGDownload', links });
+}
+
+function BatchPanel({ onClose }: { onClose: () => void }) {
+  const [tool, setTool] = useState<Tool>('images');
+
+  // 图片画廊
+  const [images, setImages] = useState<CapturedImage[]>([]);
+  const [minSize, setMinSize] = useState(200);
+  const [selected, setSelected] = useState<Set<string>>(new Set());
+  const [scanned, setScanned] = useState(false);
+
+  // 序列
+  const [pattern, setPattern] = useState('');
+
+  const [message, setMessage] = useState('');
+
+  const scanImages = async () => {
+    const tabId = await activeTabId();
+    if (tabId === undefined) return;
+    try {
+      const res = await browserApi.tabs.sendMessage(tabId, { action: 'captureImages' });
+      const imgs: CapturedImage[] = res?.images || [];
+      setImages(imgs);
+      setSelected(new Set(imgs.map((i) => i.url)));
+      setScanned(true);
+    } catch {
+      setMessage(t('batchScanFailed'));
+    }
+  };
+
+  const filtered = images.filter((img) => img.width >= minSize || img.height >= minSize || (img.width === 0 && img.height === 0));
+
+  const toggle = (url: string) => {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      next.has(url) ? next.delete(url) : next.add(url);
+      return next;
+    });
+  };
+
+  const sendImages = async () => {
+    const urls = filtered.filter((i) => selected.has(i.url)).map((i) => i.url);
+    if (urls.length === 0) return;
+    await sendLinks(urls);
+    setMessage(t('batchSent', String(urls.length)));
+    setTimeout(() => setMessage(''), 2500);
+  };
+
+  const expanded = pattern ? expandSequence(pattern) : [];
+  const sendSequence = async () => {
+    if (expanded.length === 0) return;
+    await sendLinks(expanded);
+    setMessage(t('batchSent', String(expanded.length)));
+    setTimeout(() => setMessage(''), 2500);
+  };
+
+  const startDrag = async () => {
+    const tabId = await activeTabId();
+    if (tabId === undefined) return;
+    await browserApi.tabs.sendMessage(tabId, { action: 'startDragSelect' });
+    window.close(); // 关闭 popup 让用户拖框
+  };
+
+  return (
+    <div style={{
+      position: 'absolute',
+      inset: 0,
+      backgroundColor: 'var(--bg-white)',
+      zIndex: 100,
+      display: 'flex',
+      flexDirection: 'column'
+    }}>
+      <div style={{
+        display: 'flex',
+        alignItems: 'center',
+        padding: 'var(--space-md)',
+        borderBottom: '1px solid var(--border-base)'
+      }}>
+        <span style={{ flex: 1, fontSize: '15px', fontWeight: 600 }}>{t('batchTitle')}</span>
+        <button onClick={onClose} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--text-regular)' }}>
+          <X size={18} />
+        </button>
+      </div>
+
+      {/* 工具切换 */}
+      <div style={{ display: 'flex', borderBottom: '1px solid var(--border-lighter)' }}>
+        <ToolTab active={tool === 'images'} onClick={() => setTool('images')}>{t('batchImages')}</ToolTab>
+        <ToolTab active={tool === 'sequence'} onClick={() => setTool('sequence')}>{t('batchSequence')}</ToolTab>
+        <ToolTab active={tool === 'drag'} onClick={() => setTool('drag')}>{t('batchDrag')}</ToolTab>
+      </div>
+
+      <div style={{ flex: 1, overflowY: 'auto', padding: 'var(--space-md)' }}>
+        {tool === 'images' && (
+          <div>
+            {!scanned ? (
+              <button className="form-button" onClick={scanImages}>{t('batchScanImages')}</button>
+            ) : (
+              <>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+                  <span style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>{t('batchMinSize')}</span>
+                  <input
+                    type="number"
+                    value={minSize}
+                    onChange={(e) => setMinSize(Math.max(0, parseInt(e.target.value) || 0))}
+                    style={{ width: '70px', padding: '3px 6px', fontSize: '12px', border: '1px solid var(--border-base)', borderRadius: '4px' }}
+                  />
+                  <span style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
+                    {filtered.length} / {images.length}
+                  </span>
+                </div>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '6px' }}>
+                  {filtered.map((img) => (
+                    <div
+                      key={img.url}
+                      onClick={() => toggle(img.url)}
+                      style={{
+                        position: 'relative',
+                        aspectRatio: '1',
+                        border: selected.has(img.url) ? '2px solid var(--color-primary)' : '2px solid var(--border-lighter)',
+                        borderRadius: '4px',
+                        overflow: 'hidden',
+                        cursor: 'pointer'
+                      }}
+                    >
+                      <img src={img.url} style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" />
+                    </div>
+                  ))}
+                </div>
+                <button className="form-button" style={{ marginTop: '10px' }} onClick={sendImages}>
+                  {t('batchSendSelected')}
+                </button>
+              </>
+            )}
+          </div>
+        )}
+
+        {tool === 'sequence' && (
+          <div>
+            <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginBottom: '6px' }}>
+              {t('batchSequenceHint')}
+            </div>
+            <input
+              type="text"
+              value={pattern}
+              onChange={(e) => setPattern(e.target.value)}
+              placeholder="https://example.com/file[01-20].zip"
+              className="form-input"
+            />
+            {pattern && (
+              <div style={{ fontSize: '12px', color: 'var(--text-secondary)', margin: '6px 0' }}>
+                {t('batchExpandCount', String(expanded.length))}
+              </div>
+            )}
+            <button className="form-button" onClick={sendSequence} disabled={expanded.length === 0}>
+              {t('batchSendSequence')}
+            </button>
+          </div>
+        )}
+
+        {tool === 'drag' && (
+          <div>
+            <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginBottom: '10px' }}>
+              {t('batchDragHint')}
+            </div>
+            <button className="form-button" onClick={startDrag}>{t('batchStartDrag')}</button>
+          </div>
+        )}
+
+        {message && (
+          <div style={{ marginTop: '10px', fontSize: '12px', color: 'var(--color-success)' }}>{message}</div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function ToolTab({ active, onClick, children }: { active: boolean; onClick: () => void; children: React.ReactNode }) {
+  return (
+    <button
+      onClick={onClick}
+      style={{
+        flex: 1,
+        padding: '8px',
+        fontSize: '12px',
+        fontWeight: active ? 600 : 400,
+        color: active ? 'var(--color-primary)' : 'var(--text-regular)',
+        backgroundColor: 'transparent',
+        border: 'none',
+        borderBottom: active ? '2px solid var(--color-primary)' : '2px solid transparent',
+        cursor: 'pointer'
+      }}
+    >
+      {children}
+    </button>
+  );
+}
+
+export default BatchPanel;

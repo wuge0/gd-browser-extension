@@ -1,1 +1,204 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IGJyb3dzZXJBcGkgfSBmcm9tICdAL3NoYXJlZC91dGlscy9icm93c2VyQXBpJzsKaW1wb3J0IHsgREVGQVVMVF9TRVRUSU5HUywgU1RPUkFHRV9LRVlTIH0gZnJvbSAnQC9zaGFyZWQvY29uc3RhbnRzJzsKaW1wb3J0IHR5cGUgeyBFeHRlbnNpb25TZXR0aW5ncyB9IGZyb20gJ0Avc2hhcmVkL3R5cGVzJzsKaW1wb3J0IHsgdCB9IGZyb20gJ0Avc2hhcmVkL3V0aWxzL2kxOG4nOwoKZnVuY3Rpb24gR2VuZXJhbCgpIHsKICBjb25zdCBbc2V0dGluZ3MsIHNldFNldHRpbmdzXSA9IHVzZVN0YXRlPEV4dGVuc2lvblNldHRpbmdzPihERUZBVUxUX1NFVFRJTkdTKTsKICBjb25zdCBbc2F2ZWQsIHNldFNhdmVkXSA9IHVzZVN0YXRlKGZhbHNlKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGxvYWRTZXR0aW5ncygpOwogIH0sIFtdKTsKCiAgY29uc3QgbG9hZFNldHRpbmdzID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgYnJvd3NlckFwaS5zdG9yYWdlLmdldChbU1RPUkFHRV9LRVlTLlNFVFRJTkdTXSk7CiAgICBjb25zdCBzdG9yZWRTZXR0aW5ncyA9IHJlc3VsdFtTVE9SQUdFX0tFWVMuU0VUVElOR1NdOwogICAgCiAgICBpZiAoc3RvcmVkU2V0dGluZ3MpIHsKICAgICAgc2V0U2V0dGluZ3MoeyAuLi5ERUZBVUxUX1NFVFRJTkdTLCAuLi5zdG9yZWRTZXR0aW5ncyB9KTsKICAgIH0KICB9OwoKICBjb25zdCBzYXZlU2V0dGluZ3MgPSBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBicm93c2VyQXBpLnN0b3JhZ2Uuc2V0KHsgW1NUT1JBR0VfS0VZUy5TRVRUSU5HU106IHNldHRpbmdzIH0pOwogICAgc2V0U2F2ZWQodHJ1ZSk7CiAgICBzZXRUaW1lb3V0KCgpID0+IHNldFNhdmVkKGZhbHNlKSwgMjAwMCk7CiAgfTsKCiAgcmV0dXJuICgKICAgIDxkaXY+CiAgICAgIDxoMSBzdHlsZT17eyBmb250U2l6ZTogJzI0cHgnLCBmb250V2VpZ2h0OiA2MDAsIG1hcmdpbkJvdHRvbTogJ3ZhcigtLXNwYWNlLXhsKScgfX0+CiAgICAgICAge3QoJ2dlbmVyYWxUaXRsZScpfQogICAgICA8L2gxPgoKICAgICAgPGRpdiBjbGFzc05hbWU9Im9wdGlvbnMtc2VjdGlvbiI+CiAgICAgICAgPGgyIGNsYXNzTmFtZT0ib3B0aW9ucy1zZWN0aW9uLXRpdGxlIj57dCgnY2FwdHVyZUJlaGF2aW9yJyl9PC9oMj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZvcm0taXRlbSI+CiAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJmb3JtLWNoZWNrYm94Ij4KICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgdHlwZT0iY2hlY2tib3giCiAgICAgICAgICAgICAgY2hlY2tlZD17c2V0dGluZ3MuYXV0b0NhcHR1cmV9CiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRTZXR0aW5ncyh7IC4uLnNldHRpbmdzLCBhdXRvQ2FwdHVyZTogZS50YXJnZXQuY2hlY2tlZCB9KX0KICAgICAgICAgICAgLz4KICAgICAgICAgICAgPHNwYW4+e3QoJ2F1dG9DYXB0dXJlJyl9PC9zcGFuPgogICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgIDxkaXYgc3R5bGU9e3sgZm9udFNpemU6ICcxMnB4JywgY29sb3I6ICd2YXIoLS10ZXh0LXNlY29uZGFyeSknLCBtYXJnaW5Ub3A6ICc0cHgnLCBtYXJnaW5MZWZ0OiAnMjRweCcgfX0+CiAgICAgICAgICAgIHt0KCdhdXRvQ2FwdHVyZURlc2MnKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZm9ybS1pdGVtIj4KICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImZvcm0tY2hlY2tib3giPgogICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICB0eXBlPSJjaGVja2JveCIKICAgICAgICAgICAgICBjaGVja2VkPXtzZXR0aW5ncy5zaG93Tm90aWZpY2F0aW9uc30KICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFNldHRpbmdzKHsgLi4uc2V0dGluZ3MsIHNob3dOb3RpZmljYXRpb25zOiBlLnRhcmdldC5jaGVja2VkIH0pfQogICAgICAgICAgICAvPgogICAgICAgICAgICA8c3Bhbj57dCgnc2hvd05vdGlmaWNhdGlvbnMnKX08L3NwYW4+CiAgICAgICAgICA8L2xhYmVsPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZm9ybS1pdGVtIj4KICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImZvcm0tY2hlY2tib3giPgogICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICB0eXBlPSJjaGVja2JveCIKICAgICAgICAgICAgICBjaGVja2VkPXtzZXR0aW5ncy5hdXRvU2VuZH0KICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFNldHRpbmdzKHsgLi4uc2V0dGluZ3MsIGF1dG9TZW5kOiBlLnRhcmdldC5jaGVja2VkIH0pfQogICAgICAgICAgICAvPgogICAgICAgICAgICA8c3Bhbj57dCgnYXV0b1NlbmQnKX08L3NwYW4+CiAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgPGRpdiBzdHlsZT17eyBmb250U2l6ZTogJzEycHgnLCBjb2xvcjogJ3ZhcigtLXRleHQtc2Vjb25kYXJ5KScsIG1hcmdpblRvcDogJzRweCcsIG1hcmdpbkxlZnQ6ICcyNHB4JyB9fT4KICAgICAgICAgICAge3QoJ2F1dG9TZW5kRGVzYycpfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzc05hbWU9Im9wdGlvbnMtc2VjdGlvbiI+CiAgICAgICAgPGgyIGNsYXNzTmFtZT0ib3B0aW9ucy1zZWN0aW9uLXRpdGxlIj57dCgndGFrZW92ZXJUaXRsZScpfTwvaDI+CgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmb3JtLWl0ZW0iPgogICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iZm9ybS1jaGVja2JveCI+CiAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgIHR5cGU9ImNoZWNrYm94IgogICAgICAgICAgICAgIGNoZWNrZWQ9e3NldHRpbmdzLnRha2VvdmVyRW5hYmxlZH0KICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFNldHRpbmdzKHsgLi4uc2V0dGluZ3MsIHRha2VvdmVyRW5hYmxlZDogZS50YXJnZXQuY2hlY2tlZCB9KX0KICAgICAgICAgICAgLz4KICAgICAgICAgICAgPHNwYW4+e3QoJ3Rha2VvdmVyRW5hYmxlZCcpfTwvc3Bhbj4KICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiAnMTJweCcsIGNvbG9yOiAndmFyKC0tdGV4dC1zZWNvbmRhcnkpJywgbWFyZ2luVG9wOiAnNHB4JywgbWFyZ2luTGVmdDogJzI0cHgnIH19PgogICAgICAgICAgICB7dCgndGFrZW92ZXJFbmFibGVkRGVzYycpfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmb3JtLWl0ZW0iPgogICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iZm9ybS1sYWJlbCI+e3QoJ3Rha2VvdmVyTWluU2l6ZScpfTwvbGFiZWw+CiAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgdHlwZT0ibnVtYmVyIgogICAgICAgICAgICBjbGFzc05hbWU9ImZvcm0taW5wdXQiCiAgICAgICAgICAgIHZhbHVlPXtNYXRoLnJvdW5kKHNldHRpbmdzLnRha2VvdmVyTWluU2l6ZSAvICgxMDI0ICogMTAyNCkpfQogICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFNldHRpbmdzKHsKICAgICAgICAgICAgICAuLi5zZXR0aW5ncywKICAgICAgICAgICAgICB0YWtlb3Zlck1pblNpemU6IE1hdGgubWF4KDAsIHBhcnNlSW50KGUudGFyZ2V0LnZhbHVlKSB8fCAwKSAqIDEwMjQgKiAxMDI0CiAgICAgICAgICAgIH0pfQogICAgICAgICAgICBtaW49IjAiCiAgICAgICAgICAgIHN0ZXA9IjEiCiAgICAgICAgICAvPgogICAgICAgICAgPGRpdiBzdHlsZT17eyBmb250U2l6ZTogJzEycHgnLCBjb2xvcjogJ3ZhcigtLXRleHQtc2Vjb25kYXJ5KScsIG1hcmdpblRvcDogJzRweCcgfX0+CiAgICAgICAgICAgIHt0KCd0YWtlb3Zlck1pblNpemVEZXNjJyl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0ib3B0aW9ucy1zZWN0aW9uIj4KICAgICAgICA8aDIgY2xhc3NOYW1lPSJvcHRpb25zLXNlY3Rpb24tdGl0bGUiPnt0KCdtZWRpYVRpdGxlJyl9PC9oMj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZvcm0taXRlbSI+CiAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJmb3JtLWNoZWNrYm94Ij4KICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgdHlwZT0iY2hlY2tib3giCiAgICAgICAgICAgICAgY2hlY2tlZD17c2V0dGluZ3MubWVkaWFTbmlmZmluZ0VuYWJsZWR9CiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRTZXR0aW5ncyh7IC4uLnNldHRpbmdzLCBtZWRpYVNuaWZmaW5nRW5hYmxlZDogZS50YXJnZXQuY2hlY2tlZCB9KX0KICAgICAgICAgICAgLz4KICAgICAgICAgICAgPHNwYW4+e3QoJ21lZGlhU25pZmZpbmdFbmFibGVkJyl9PC9zcGFuPgogICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgIDxkaXYgc3R5bGU9e3sgZm9udFNpemU6ICcxMnB4JywgY29sb3I6ICd2YXIoLS10ZXh0LXNlY29uZGFyeSknLCBtYXJnaW5Ub3A6ICc0cHgnLCBtYXJnaW5MZWZ0OiAnMjRweCcgfX0+CiAgICAgICAgICAgIHt0KCdtZWRpYVNuaWZmaW5nRW5hYmxlZERlc2MnKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZm9ybS1pdGVtIj4KICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImZvcm0tY2hlY2tib3giPgogICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICB0eXBlPSJjaGVja2JveCIKICAgICAgICAgICAgICBjaGVja2VkPXtzZXR0aW5ncy5mbG9hdEJ1dHRvbkVuYWJsZWR9CiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRTZXR0aW5ncyh7IC4uLnNldHRpbmdzLCBmbG9hdEJ1dHRvbkVuYWJsZWQ6IGUudGFyZ2V0LmNoZWNrZWQgfSl9CiAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDxzcGFuPnt0KCdmbG9hdEJ1dHRvbkVuYWJsZWQnKX08L3NwYW4+CiAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgPGRpdiBzdHlsZT17eyBmb250U2l6ZTogJzEycHgnLCBjb2xvcjogJ3ZhcigtLXRleHQtc2Vjb25kYXJ5KScsIG1hcmdpblRvcDogJzRweCcsIG1hcmdpbkxlZnQ6ICcyNHB4JyB9fT4KICAgICAgICAgICAge3QoJ2Zsb2F0QnV0dG9uRW5hYmxlZERlc2MnKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJvcHRpb25zLXNlY3Rpb24iPgogICAgICAgIDxoMiBjbGFzc05hbWU9Im9wdGlvbnMtc2VjdGlvbi10aXRsZSI+e3QoJ2xpbmtGaWx0ZXJpbmcnKX08L2gyPgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZm9ybS1pdGVtIj4KICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImZvcm0tbGFiZWwiPnt0KCdtaW5GaWxlU2l6ZScpfTwvbGFiZWw+CiAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgdHlwZT0ibnVtYmVyIgogICAgICAgICAgICBjbGFzc05hbWU9ImZvcm0taW5wdXQiCiAgICAgICAgICAgIHZhbHVlPXtNYXRoLnJvdW5kKHNldHRpbmdzLm1pbkZpbGVTaXplIC8gKDEwMjQgKiAxMDI0KSl9CiAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0U2V0dGluZ3MoewogICAgICAgICAgICAgIC4uLnNldHRpbmdzLAogICAgICAgICAgICAgIG1pbkZpbGVTaXplOiBwYXJzZUludChlLnRhcmdldC52YWx1ZSkgKiAxMDI0ICogMTAyNAogICAgICAgICAgICB9KX0KICAgICAgICAgICAgbWluPSIwIgogICAgICAgICAgICBzdGVwPSIxIgogICAgICAgICAgLz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0ib3B0aW9ucy1zZWN0aW9uIj4KICAgICAgICA8aDIgY2xhc3NOYW1lPSJvcHRpb25zLXNlY3Rpb24tdGl0bGUiPnt0KCdhcHBlYXJhbmNlVGl0bGUnKX08L2gyPgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZm9ybS1pdGVtIj4KICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImZvcm0tbGFiZWwiPnt0KCd0aGVtZUxhYmVsJyl9PC9sYWJlbD4KICAgICAgICAgIDxzZWxlY3QKICAgICAgICAgICAgY2xhc3NOYW1lPSJmb3JtLWlucHV0IgogICAgICAgICAgICB2YWx1ZT17c2V0dGluZ3MudGhlbWV9CiAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0U2V0dGluZ3MoeyAuLi5zZXR0aW5ncywgdGhlbWU6IGUudGFyZ2V0LnZhbHVlIGFzIEV4dGVuc2lvblNldHRpbmdzWyd0aGVtZSddIH0pfQogICAgICAgICAgPgogICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJhdXRvIj57dCgndGhlbWVBdXRvJyl9PC9vcHRpb24+CiAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9ImxpZ2h0Ij57dCgndGhlbWVMaWdodCcpfTwvb3B0aW9uPgogICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJkYXJrIj57dCgndGhlbWVEYXJrJyl9PC9vcHRpb24+CiAgICAgICAgICA8L3NlbGVjdD4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IHN0eWxlPXt7IGRpc3BsYXk6ICdmbGV4JywgZ2FwOiAndmFyKC0tc3BhY2UtbWQpJyB9fT4KICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT0iZm9ybS1idXR0b24iIG9uQ2xpY2s9e3NhdmVTZXR0aW5nc30+CiAgICAgICAgICB7dCgnc2F2ZScpfQogICAgICAgIDwvYnV0dG9uPgoKICAgICAgICB7c2F2ZWQgJiYgKAogICAgICAgICAgPGRpdiBzdHlsZT17ewogICAgICAgICAgICBwYWRkaW5nOiAnOHB4IDE2cHgnLAogICAgICAgICAgICBjb2xvcjogJ3ZhcigtLWNvbG9yLXN1Y2Nlc3MpJywKICAgICAgICAgICAgZm9udFNpemU6ICcxNHB4JywKICAgICAgICAgICAgZGlzcGxheTogJ2ZsZXgnLAogICAgICAgICAgICBhbGlnbkl0ZW1zOiAnY2VudGVyJwogICAgICAgICAgfX0+CiAgICAgICAgICAgIOKckyB7dCgnc2F2ZWQnKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQoKZXhwb3J0IGRlZmF1bHQgR2VuZXJhbDsK
+import React, { useEffect, useState } from 'react';
+import { browserApi } from '@/shared/utils/browserApi';
+import { DEFAULT_SETTINGS, STORAGE_KEYS } from '@/shared/constants';
+import type { ExtensionSettings } from '@/shared/types';
+import { t } from '@/shared/utils/i18n';
+
+function General() {
+  const [settings, setSettings] = useState<ExtensionSettings>(DEFAULT_SETTINGS);
+  const [saved, setSaved] = useState(false);
+
+  useEffect(() => {
+    loadSettings();
+  }, []);
+
+  const loadSettings = async () => {
+    const result = await browserApi.storage.get([STORAGE_KEYS.SETTINGS]);
+    const storedSettings = result[STORAGE_KEYS.SETTINGS];
+    
+    if (storedSettings) {
+      setSettings({ ...DEFAULT_SETTINGS, ...storedSettings });
+    }
+  };
+
+  const saveSettings = async () => {
+    await browserApi.storage.set({ [STORAGE_KEYS.SETTINGS]: settings });
+    setSaved(true);
+    setTimeout(() => setSaved(false), 2000);
+  };
+
+  return (
+    <div>
+      <h1 style={{ fontSize: '24px', fontWeight: 600, marginBottom: 'var(--space-xl)' }}>
+        {t('generalTitle')}
+      </h1>
+
+      <div className="options-section">
+        <h2 className="options-section-title">{t('captureBehavior')}</h2>
+
+        <div className="form-item">
+          <label className="form-checkbox">
+            <input
+              type="checkbox"
+              checked={settings.autoCapture}
+              onChange={(e) => setSettings({ ...settings, autoCapture: e.target.checked })}
+            />
+            <span>{t('autoCapture')}</span>
+          </label>
+          <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '4px', marginLeft: '24px' }}>
+            {t('autoCaptureDesc')}
+          </div>
+        </div>
+
+        <div className="form-item">
+          <label className="form-checkbox">
+            <input
+              type="checkbox"
+              checked={settings.showNotifications}
+              onChange={(e) => setSettings({ ...settings, showNotifications: e.target.checked })}
+            />
+            <span>{t('showNotifications')}</span>
+          </label>
+        </div>
+
+        <div className="form-item">
+          <label className="form-checkbox">
+            <input
+              type="checkbox"
+              checked={settings.autoSend}
+              onChange={(e) => setSettings({ ...settings, autoSend: e.target.checked })}
+            />
+            <span>{t('autoSend')}</span>
+          </label>
+          <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '4px', marginLeft: '24px' }}>
+            {t('autoSendDesc')}
+          </div>
+        </div>
+      </div>
+
+      <div className="options-section">
+        <h2 className="options-section-title">{t('takeoverTitle')}</h2>
+
+        <div className="form-item">
+          <label className="form-checkbox">
+            <input
+              type="checkbox"
+              checked={settings.takeoverEnabled}
+              onChange={(e) => setSettings({ ...settings, takeoverEnabled: e.target.checked })}
+            />
+            <span>{t('takeoverEnabled')}</span>
+          </label>
+          <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '4px', marginLeft: '24px' }}>
+            {t('takeoverEnabledDesc')}
+          </div>
+        </div>
+
+        <div className="form-item">
+          <label className="form-label">{t('takeoverMinSize')}</label>
+          <input
+            type="number"
+            className="form-input"
+            value={Math.round(settings.takeoverMinSize / (1024 * 1024))}
+            onChange={(e) => setSettings({
+              ...settings,
+              takeoverMinSize: Math.max(0, parseInt(e.target.value) || 0) * 1024 * 1024
+            })}
+            min="0"
+            step="1"
+          />
+          <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '4px' }}>
+            {t('takeoverMinSizeDesc')}
+          </div>
+        </div>
+      </div>
+
+      <div className="options-section">
+        <h2 className="options-section-title">{t('mediaTitle')}</h2>
+
+        <div className="form-item">
+          <label className="form-checkbox">
+            <input
+              type="checkbox"
+              checked={settings.mediaSniffingEnabled}
+              onChange={(e) => setSettings({ ...settings, mediaSniffingEnabled: e.target.checked })}
+            />
+            <span>{t('mediaSniffingEnabled')}</span>
+          </label>
+          <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '4px', marginLeft: '24px' }}>
+            {t('mediaSniffingEnabledDesc')}
+          </div>
+        </div>
+
+        <div className="form-item">
+          <label className="form-checkbox">
+            <input
+              type="checkbox"
+              checked={settings.floatButtonEnabled}
+              onChange={(e) => setSettings({ ...settings, floatButtonEnabled: e.target.checked })}
+            />
+            <span>{t('floatButtonEnabled')}</span>
+          </label>
+          <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '4px', marginLeft: '24px' }}>
+            {t('floatButtonEnabledDesc')}
+          </div>
+        </div>
+      </div>
+
+      <div className="options-section">
+        <h2 className="options-section-title">{t('linkFiltering')}</h2>
+
+        <div className="form-item">
+          <label className="form-label">{t('minFileSize')}</label>
+          <input
+            type="number"
+            className="form-input"
+            value={Math.round(settings.minFileSize / (1024 * 1024))}
+            onChange={(e) => setSettings({
+              ...settings,
+              minFileSize: parseInt(e.target.value) * 1024 * 1024
+            })}
+            min="0"
+            step="1"
+          />
+        </div>
+      </div>
+
+      <div className="options-section">
+        <h2 className="options-section-title">{t('appearanceTitle')}</h2>
+
+        <div className="form-item">
+          <label className="form-label">{t('themeLabel')}</label>
+          <select
+            className="form-input"
+            value={settings.theme}
+            onChange={(e) => setSettings({ ...settings, theme: e.target.value as ExtensionSettings['theme'] })}
+          >
+            <option value="auto">{t('themeAuto')}</option>
+            <option value="light">{t('themeLight')}</option>
+            <option value="dark">{t('themeDark')}</option>
+          </select>
+        </div>
+      </div>
+
+      <div style={{ display: 'flex', gap: 'var(--space-md)' }}>
+        <button className="form-button" onClick={saveSettings}>
+          {t('save')}
+        </button>
+
+        {saved && (
+          <div style={{
+            padding: '8px 16px',
+            color: 'var(--color-success)',
+            fontSize: '14px',
+            display: 'flex',
+            alignItems: 'center'
+          }}>
+            ✓ {t('saved')}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export default General;

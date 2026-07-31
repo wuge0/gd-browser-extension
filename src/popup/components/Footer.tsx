@@ -1,1 +1,129 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgdXNlTGlua1N0b3JlIH0gZnJvbSAnLi4vc3RvcmVzL2xpbmtTdG9yZSc7CmltcG9ydCB7IEFycm93UmlnaHQgfSBmcm9tICdsdWNpZGUtcmVhY3QnOwppbXBvcnQgeyB0IH0gZnJvbSAnQC9zaGFyZWQvdXRpbHMvaTE4bic7CgpmdW5jdGlvbiBGb290ZXIoKSB7CiAgY29uc3QgeyBzZWxlY3RlZENvdW50LCBpc0Nvbm5lY3RlZCwgY2xlYXJBbGwsIHNlbmRUb0dEb3dubG9hZCB9ID0gdXNlTGlua1N0b3JlKCk7CiAgY29uc3QgW2lzU2VuZGluZywgc2V0SXNTZW5kaW5nXSA9IFJlYWN0LnVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbbWVzc2FnZSwgc2V0TWVzc2FnZV0gPSBSZWFjdC51c2VTdGF0ZSgnJyk7CgogIGNvbnN0IGhhbmRsZVNlbmQgPSBhc3luYyAoKSA9PiB7CiAgICBpZiAoc2VsZWN0ZWRDb3VudCA9PT0gMCkgcmV0dXJuOwoKICAgIHNldElzU2VuZGluZyh0cnVlKTsKICAgIHNldE1lc3NhZ2UoJycpOwoKICAgIHRyeSB7CiAgICAgIGF3YWl0IHNlbmRUb0dEb3dubG9hZCgpOwogICAgICBzZXRNZXNzYWdlKHQoJ3BvcHVwU2VudCcpKTsKICAgICAgc2V0VGltZW91dCgoKSA9PiBzZXRNZXNzYWdlKCcnKSwgMzAwMCk7CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBzZXRNZXNzYWdlKGVycm9yIGluc3RhbmNlb2YgRXJyb3IgPyBlcnJvci5tZXNzYWdlIDogdCgncG9wdXBFcnJvcicpKTsKICAgICAgc2V0VGltZW91dCgoKSA9PiBzZXRNZXNzYWdlKCcnKSwgMzAwMCk7CiAgICB9IGZpbmFsbHkgewogICAgICBzZXRJc1NlbmRpbmcoZmFsc2UpOwogICAgfQogIH07CgogIHJldHVybiAoCiAgICA8ZGl2IHN0eWxlPXt7CiAgICAgIGJvcmRlclRvcDogJzFweCBzb2xpZCB2YXIoLS1ib3JkZXItYmFzZSknLAogICAgICBwYWRkaW5nOiAndmFyKC0tc3BhY2UtbGcpJywKICAgICAgYmFja2dyb3VuZENvbG9yOiAndmFyKC0tYmctd2hpdGUpJywKICAgICAgaGVpZ2h0OiAnNzBweCcsCiAgICAgIGRpc3BsYXk6ICdmbGV4JywKICAgICAgZmxleERpcmVjdGlvbjogJ2NvbHVtbicsCiAgICAgIGdhcDogJ3ZhcigtLXNwYWNlLXNtKScKICAgIH19PgogICAgICB7bWVzc2FnZSAmJiAoCiAgICAgICAgPGRpdiBzdHlsZT17ewogICAgICAgICAgZm9udFNpemU6ICcxMnB4JywKICAgICAgICAgIGNvbG9yOiBtZXNzYWdlLmluY2x1ZGVzKCdGYWlsZWQnKSA/ICd2YXIoLS1jb2xvci1kYW5nZXIpJyA6ICd2YXIoLS1jb2xvci1zdWNjZXNzKScsCiAgICAgICAgICB0ZXh0QWxpZ246ICdjZW50ZXInCiAgICAgICAgfX0+CiAgICAgICAgICB7bWVzc2FnZX0KICAgICAgICA8L2Rpdj4KICAgICAgKX0KICAgICAgCiAgICAgIDxkaXYgc3R5bGU9e3sgZGlzcGxheTogJ2ZsZXgnLCBhbGlnbkl0ZW1zOiAnY2VudGVyJywgZ2FwOiAndmFyKC0tc3BhY2UtbWQpJyB9fT4KICAgICAgICA8ZGl2IHN0eWxlPXt7CiAgICAgICAgICBkaXNwbGF5OiAnZmxleCcsCiAgICAgICAgICBhbGlnbkl0ZW1zOiAnY2VudGVyJywKICAgICAgICAgIGdhcDogJ3ZhcigtLXNwYWNlLXhzKScsCiAgICAgICAgICBmb250U2l6ZTogJzEycHgnCiAgICAgICAgfX0+CiAgICAgICAgICA8ZGl2IHN0eWxlPXt7CiAgICAgICAgICAgIHdpZHRoOiAnOHB4JywKICAgICAgICAgICAgaGVpZ2h0OiAnOHB4JywKICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiAnNTAlJywKICAgICAgICAgICAgYmFja2dyb3VuZENvbG9yOiBpc0Nvbm5lY3RlZCA/ICd2YXIoLS1jb2xvci1zdWNjZXNzKScgOiAndmFyKC0tY29sb3ItZGFuZ2VyKScKICAgICAgICAgIH19IC8+CiAgICAgICAgICA8c3BhbiBzdHlsZT17eyBjb2xvcjogJ3ZhcigtLXRleHQtc2Vjb25kYXJ5KScgfX0+CiAgICAgICAgICAgIHtpc0Nvbm5lY3RlZCA/IHQoJ3BvcHVwQ29ubmVjdGVkJykgOiB0KCdwb3B1cERpc2Nvbm5lY3RlZCcpfQogICAgICAgICAgPC9zcGFuPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IHN0eWxlPXt7IGZsZXg6IDEgfX0gLz4KCiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgb25DbGljaz17Y2xlYXJBbGx9CiAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICBwYWRkaW5nOiAnNnB4IDEycHgnLAogICAgICAgICAgICBiYWNrZ3JvdW5kQ29sb3I6ICd0cmFuc3BhcmVudCcsCiAgICAgICAgICAgIGJvcmRlcjogJzFweCBzb2xpZCB2YXIoLS1ib3JkZXItYmFzZSknLAogICAgICAgICAgICBib3JkZXJSYWRpdXM6ICd2YXIoLS1yYWRpdXMtYmFzZSknLAogICAgICAgICAgICBjb2xvcjogJ3ZhcigtLXRleHQtcmVndWxhciknLAogICAgICAgICAgICBmb250U2l6ZTogJzEycHgnLAogICAgICAgICAgICBjdXJzb3I6ICdwb2ludGVyJywKICAgICAgICAgICAgdHJhbnNpdGlvbjogJ2FsbCAwLjJzJwogICAgICAgICAgfX0KICAgICAgICAgIG9uTW91c2VFbnRlcj17KGUpID0+IHsKICAgICAgICAgICAgZS5jdXJyZW50VGFyZ2V0LnN0eWxlLmJvcmRlckNvbG9yID0gJ3ZhcigtLWNvbG9yLXByaW1hcnkpJzsKICAgICAgICAgICAgZS5jdXJyZW50VGFyZ2V0LnN0eWxlLmNvbG9yID0gJ3ZhcigtLWNvbG9yLXByaW1hcnkpJzsKICAgICAgICAgIH19CiAgICAgICAgICBvbk1vdXNlTGVhdmU9eyhlKSA9PiB7CiAgICAgICAgICAgIGUuY3VycmVudFRhcmdldC5zdHlsZS5ib3JkZXJDb2xvciA9ICd2YXIoLS1ib3JkZXItYmFzZSknOwogICAgICAgICAgICBlLmN1cnJlbnRUYXJnZXQuc3R5bGUuY29sb3IgPSAndmFyKC0tdGV4dC1yZWd1bGFyKSc7CiAgICAgICAgICB9fQogICAgICAgID4KICAgICAgICAgIHt0KCdwb3B1cENsZWFyJyl9CiAgICAgICAgPC9idXR0b24+CgogICAgICAgIDxidXR0b24KICAgICAgICAgIG9uQ2xpY2s9e2hhbmRsZVNlbmR9CiAgICAgICAgICBkaXNhYmxlZD17c2VsZWN0ZWRDb3VudCA9PT0gMCB8fCBpc1NlbmRpbmd9CiAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICBwYWRkaW5nOiAnOHB4IDE2cHgnLAogICAgICAgICAgICBiYWNrZ3JvdW5kQ29sb3I6IHNlbGVjdGVkQ291bnQgPiAwID8gJ3ZhcigtLWNvbG9yLXByaW1hcnkpJyA6ICd2YXIoLS1maWxsLWJhc2UpJywKICAgICAgICAgICAgY29sb3I6IHNlbGVjdGVkQ291bnQgPiAwID8gJyNmZmYnIDogJ3ZhcigtLXRleHQtZGlzYWJsZWQpJywKICAgICAgICAgICAgYm9yZGVyOiAnbm9uZScsCiAgICAgICAgICAgIGJvcmRlclJhZGl1czogJ3ZhcigtLXJhZGl1cy1iYXNlKScsCiAgICAgICAgICAgIGZvbnRTaXplOiAnMTNweCcsCiAgICAgICAgICAgIGZvbnRXZWlnaHQ6IDUwMCwKICAgICAgICAgICAgY3Vyc29yOiBzZWxlY3RlZENvdW50ID4gMCA/ICdwb2ludGVyJyA6ICdub3QtYWxsb3dlZCcsCiAgICAgICAgICAgIGRpc3BsYXk6ICdmbGV4JywKICAgICAgICAgICAgYWxpZ25JdGVtczogJ2NlbnRlcicsCiAgICAgICAgICAgIGdhcDogJ3ZhcigtLXNwYWNlLXhzKScsCiAgICAgICAgICAgIHRyYW5zaXRpb246ICdhbGwgMC4ycycKICAgICAgICAgIH19CiAgICAgICAgICBvbk1vdXNlRW50ZXI9eyhlKSA9PiB7CiAgICAgICAgICAgIGlmIChzZWxlY3RlZENvdW50ID4gMCkgewogICAgICAgICAgICAgIGUuY3VycmVudFRhcmdldC5zdHlsZS5iYWNrZ3JvdW5kQ29sb3IgPSAnIzY2YjFmZic7CiAgICAgICAgICAgIH0KICAgICAgICAgIH19CiAgICAgICAgICBvbk1vdXNlTGVhdmU9eyhlKSA9PiB7CiAgICAgICAgICAgIGlmIChzZWxlY3RlZENvdW50ID4gMCkgewogICAgICAgICAgICAgIGUuY3VycmVudFRhcmdldC5zdHlsZS5iYWNrZ3JvdW5kQ29sb3IgPSAndmFyKC0tY29sb3ItcHJpbWFyeSknOwogICAgICAgICAgICB9CiAgICAgICAgICB9fQogICAgICAgID4KICAgICAgICAgIHtpc1NlbmRpbmcgPyB0KCdwb3B1cFNlbmRpbmcnKSA6IGAke3QoJ3BvcHVwU2VuZFRvR0Rvd25sb2FkJyl9ICgke3NlbGVjdGVkQ291bnR9KWB9CiAgICAgICAgICB7IWlzU2VuZGluZyAmJiA8QXJyb3dSaWdodCBzaXplPXsxNH0gLz59CiAgICAgICAgPC9idXR0b24+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQoKZXhwb3J0IGRlZmF1bHQgRm9vdGVyOwo=
+import React from 'react';
+import { useLinkStore } from '../stores/linkStore';
+import { ArrowRight } from 'lucide-react';
+import { t } from '@/shared/utils/i18n';
+
+function Footer() {
+  const { selectedCount, isConnected, clearAll, sendToGDownload } = useLinkStore();
+  const [isSending, setIsSending] = React.useState(false);
+  const [message, setMessage] = React.useState('');
+
+  const handleSend = async () => {
+    if (selectedCount === 0) return;
+
+    setIsSending(true);
+    setMessage('');
+
+    try {
+      await sendToGDownload();
+      setMessage(t('popupSent'));
+      setTimeout(() => setMessage(''), 3000);
+    } catch (error) {
+      setMessage(error instanceof Error ? error.message : t('popupError'));
+      setTimeout(() => setMessage(''), 3000);
+    } finally {
+      setIsSending(false);
+    }
+  };
+
+  return (
+    <div style={{
+      borderTop: '1px solid var(--border-base)',
+      padding: 'var(--space-lg)',
+      backgroundColor: 'var(--bg-white)',
+      height: '70px',
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-sm)'
+    }}>
+      {message && (
+        <div style={{
+          fontSize: '12px',
+          color: message.includes('Failed') ? 'var(--color-danger)' : 'var(--color-success)',
+          textAlign: 'center'
+        }}>
+          {message}
+        </div>
+      )}
+      
+      <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-md)' }}>
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: 'var(--space-xs)',
+          fontSize: '12px'
+        }}>
+          <div style={{
+            width: '8px',
+            height: '8px',
+            borderRadius: '50%',
+            backgroundColor: isConnected ? 'var(--color-success)' : 'var(--color-danger)'
+          }} />
+          <span style={{ color: 'var(--text-secondary)' }}>
+            {isConnected ? t('popupConnected') : t('popupDisconnected')}
+          </span>
+        </div>
+
+        <div style={{ flex: 1 }} />
+
+        <button
+          onClick={clearAll}
+          style={{
+            padding: '6px 12px',
+            backgroundColor: 'transparent',
+            border: '1px solid var(--border-base)',
+            borderRadius: 'var(--radius-base)',
+            color: 'var(--text-regular)',
+            fontSize: '12px',
+            cursor: 'pointer',
+            transition: 'all 0.2s'
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.borderColor = 'var(--color-primary)';
+            e.currentTarget.style.color = 'var(--color-primary)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.borderColor = 'var(--border-base)';
+            e.currentTarget.style.color = 'var(--text-regular)';
+          }}
+        >
+          {t('popupClear')}
+        </button>
+
+        <button
+          onClick={handleSend}
+          disabled={selectedCount === 0 || isSending}
+          style={{
+            padding: '8px 16px',
+            backgroundColor: selectedCount > 0 ? 'var(--color-primary)' : 'var(--fill-base)',
+            color: selectedCount > 0 ? '#fff' : 'var(--text-disabled)',
+            border: 'none',
+            borderRadius: 'var(--radius-base)',
+            fontSize: '13px',
+            fontWeight: 500,
+            cursor: selectedCount > 0 ? 'pointer' : 'not-allowed',
+            display: 'flex',
+            alignItems: 'center',
+            gap: 'var(--space-xs)',
+            transition: 'all 0.2s'
+          }}
+          onMouseEnter={(e) => {
+            if (selectedCount > 0) {
+              e.currentTarget.style.backgroundColor = '#66b1ff';
+            }
+          }}
+          onMouseLeave={(e) => {
+            if (selectedCount > 0) {
+              e.currentTarget.style.backgroundColor = 'var(--color-primary)';
+            }
+          }}
+        >
+          {isSending ? t('popupSending') : `${t('popupSendToGDownload')} (${selectedCount})`}
+          {!isSending && <ArrowRight size={14} />}
+        </button>
+      </div>
+    </div>
+  );
+}
+
+export default Footer;

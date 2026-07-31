@@ -1,1 +1,164 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IERvd25sb2FkLCBGaWxtIH0gZnJvbSAnbHVjaWRlLXJlYWN0JzsKaW1wb3J0IHsgdXNlTWVkaWFTdG9yZSB9IGZyb20gJy4uL3N0b3Jlcy9tZWRpYVN0b3JlJzsKaW1wb3J0IHR5cGUgeyBNZWRpYUl0ZW0gfSBmcm9tICdAL3NoYXJlZC90eXBlcyc7CmltcG9ydCB7IHQgfSBmcm9tICdAL3NoYXJlZC91dGlscy9pMThuJzsKCmZ1bmN0aW9uIE1lZGlhUm93KHsgaXRlbSB9OiB7IGl0ZW06IE1lZGlhSXRlbSB9KSB7CiAgY29uc3QgeyBkb3dubG9hZCB9ID0gdXNlTWVkaWFTdG9yZSgpOwogIGNvbnN0IFt2YXJpYW50SW5kZXgsIHNldFZhcmlhbnRJbmRleF0gPSB1c2VTdGF0ZSgwKTsKICBjb25zdCBbYnVzeSwgc2V0QnVzeV0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW21lc3NhZ2UsIHNldE1lc3NhZ2VdID0gdXNlU3RhdGUoJycpOwoKICBjb25zdCBpc0Rhc2ggPSBpdGVtLnR5cGUgPT09ICdkYXNoJzsKICBjb25zdCBoYXNWYXJpYW50cyA9IGl0ZW0udmFyaWFudHMubGVuZ3RoID4gMDsKCiAgY29uc3QgaGFuZGxlRG93bmxvYWQgPSBhc3luYyAoKSA9PiB7CiAgICBzZXRCdXN5KHRydWUpOwogICAgc2V0TWVzc2FnZSgnJyk7CiAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBkb3dubG9hZChpdGVtLmlkLCB2YXJpYW50SW5kZXgpOwogICAgc2V0QnVzeShmYWxzZSk7CiAgICBpZiAocmVzdWx0Lm9rKSB7CiAgICAgIHNldE1lc3NhZ2UodCgnbWVkaWFTZW50JykpOwogICAgfSBlbHNlIGlmIChyZXN1bHQuZXJyb3IgPT09ICdFTkNSWVBURUQnKSB7CiAgICAgIHNldE1lc3NhZ2UodCgnbWVkaWFFbmNyeXB0ZWQnKSk7CiAgICB9IGVsc2UgewogICAgICBzZXRNZXNzYWdlKHJlc3VsdC5lcnJvciB8fCB0KCdtZWRpYUZhaWxlZCcpKTsKICAgIH0KICAgIHNldFRpbWVvdXQoKCkgPT4gc2V0TWVzc2FnZSgnJyksIDQwMDApOwogIH07CgogIHJldHVybiAoCiAgICA8ZGl2IHN0eWxlPXt7CiAgICAgIHBhZGRpbmc6ICd2YXIoLS1zcGFjZS1tZCknLAogICAgICBib3JkZXJCb3R0b206ICcxcHggc29saWQgdmFyKC0tYm9yZGVyLWxpZ2h0ZXIpJywKICAgICAgZGlzcGxheTogJ2ZsZXgnLAogICAgICBmbGV4RGlyZWN0aW9uOiAnY29sdW1uJywKICAgICAgZ2FwOiAnNnB4JwogICAgfX0+CiAgICAgIDxkaXYgc3R5bGU9e3sgZGlzcGxheTogJ2ZsZXgnLCBhbGlnbkl0ZW1zOiAnY2VudGVyJywgZ2FwOiAndmFyKC0tc3BhY2Utc20pJyB9fT4KICAgICAgICA8RmlsbSBzaXplPXsxNH0gY29sb3I9InZhcigtLXRleHQtc2Vjb25kYXJ5KSIgc3R5bGU9e3sgZmxleFNocmluazogMCB9fSAvPgogICAgICAgIDxzcGFuIHN0eWxlPXt7CiAgICAgICAgICBmbGV4OiAxLAogICAgICAgICAgZm9udFNpemU6ICcxM3B4JywKICAgICAgICAgIGNvbG9yOiAndmFyKC0tdGV4dC1wcmltYXJ5KScsCiAgICAgICAgICBvdmVyZmxvdzogJ2hpZGRlbicsCiAgICAgICAgICB0ZXh0T3ZlcmZsb3c6ICdlbGxpcHNpcycsCiAgICAgICAgICB3aGl0ZVNwYWNlOiAnbm93cmFwJwogICAgICAgIH19IHRpdGxlPXtpdGVtLnBhZ2VUaXRsZX0+CiAgICAgICAgICB7aXRlbS5wYWdlVGl0bGV9CiAgICAgICAgPC9zcGFuPgogICAgICAgIDxzcGFuIHN0eWxlPXt7CiAgICAgICAgICBmb250U2l6ZTogJzEwcHgnLAogICAgICAgICAgcGFkZGluZzogJzFweCA2cHgnLAogICAgICAgICAgYm9yZGVyUmFkaXVzOiAnNHB4JywKICAgICAgICAgIGJhY2tncm91bmRDb2xvcjogJ3ZhcigtLWZpbGwtYmFzZSknLAogICAgICAgICAgY29sb3I6ICd2YXIoLS10ZXh0LXNlY29uZGFyeSknLAogICAgICAgICAgdGV4dFRyYW5zZm9ybTogJ3VwcGVyY2FzZScKICAgICAgICB9fT4KICAgICAgICAgIHtpdGVtLnR5cGV9CiAgICAgICAgPC9zcGFuPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgc3R5bGU9e3sgZGlzcGxheTogJ2ZsZXgnLCBhbGlnbkl0ZW1zOiAnY2VudGVyJywgZ2FwOiAndmFyKC0tc3BhY2Utc20pJyB9fT4KICAgICAgICB7aXNEYXNoID8gKAogICAgICAgICAgPHNwYW4gc3R5bGU9e3sgZmxleDogMSwgZm9udFNpemU6ICcxMXB4JywgY29sb3I6ICd2YXIoLS1jb2xvci13YXJuaW5nKScgfX0+CiAgICAgICAgICAgIHt0KCdtZWRpYURhc2hVbnN1cHBvcnRlZCcpfQogICAgICAgICAgPC9zcGFuPgogICAgICAgICkgOiAoCiAgICAgICAgICA8c2VsZWN0CiAgICAgICAgICAgIHZhbHVlPXt2YXJpYW50SW5kZXh9CiAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0VmFyaWFudEluZGV4KE51bWJlcihlLnRhcmdldC52YWx1ZSkpfQogICAgICAgICAgICBkaXNhYmxlZD17IWhhc1ZhcmlhbnRzfQogICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgIGZsZXg6IDEsCiAgICAgICAgICAgICAgZm9udFNpemU6ICcxMnB4JywKICAgICAgICAgICAgICBwYWRkaW5nOiAnNHB4IDZweCcsCiAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiAndmFyKC0tcmFkaXVzLWJhc2UpJywKICAgICAgICAgICAgICBib3JkZXI6ICcxcHggc29saWQgdmFyKC0tYm9yZGVyLWJhc2UpJywKICAgICAgICAgICAgICBiYWNrZ3JvdW5kQ29sb3I6ICd2YXIoLS1iZy13aGl0ZSknLAogICAgICAgICAgICAgIGNvbG9yOiAndmFyKC0tdGV4dC1yZWd1bGFyKScKICAgICAgICAgICAgfX0KICAgICAgICAgID4KICAgICAgICAgICAge2l0ZW0udmFyaWFudHMubWFwKCh2LCBpKSA9PiAoCiAgICAgICAgICAgICAgPG9wdGlvbiBrZXk9e2l9IHZhbHVlPXtpfT4KICAgICAgICAgICAgICAgIHt2Lm5hbWV9e3YuYmFuZHdpZHRoID4gMCA/IGAgwrcgJHsodi5iYW5kd2lkdGggLyAxXzAwMF8wMDApLnRvRml4ZWQoMSl9IE1icHNgIDogJyd9CiAgICAgICAgICAgICAgPC9vcHRpb24+CiAgICAgICAgICAgICkpfQogICAgICAgICAgPC9zZWxlY3Q+CiAgICAgICAgKX0KCiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgb25DbGljaz17aGFuZGxlRG93bmxvYWR9CiAgICAgICAgICBkaXNhYmxlZD17YnVzeSB8fCBpc0Rhc2ggfHwgIWhhc1ZhcmlhbnRzfQogICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgZGlzcGxheTogJ2ZsZXgnLAogICAgICAgICAgICBhbGlnbkl0ZW1zOiAnY2VudGVyJywKICAgICAgICAgICAgZ2FwOiAnNHB4JywKICAgICAgICAgICAgcGFkZGluZzogJzZweCAxMnB4JywKICAgICAgICAgICAgZm9udFNpemU6ICcxMnB4JywKICAgICAgICAgICAgZm9udFdlaWdodDogNTAwLAogICAgICAgICAgICBjb2xvcjogJyNmZmYnLAogICAgICAgICAgICBiYWNrZ3JvdW5kQ29sb3I6IChidXN5IHx8IGlzRGFzaCB8fCAhaGFzVmFyaWFudHMpID8gJ3ZhcigtLWZpbGwtYmFzZSknIDogJ3ZhcigtLWNvbG9yLXByaW1hcnkpJywKICAgICAgICAgICAgYm9yZGVyOiAnbm9uZScsCiAgICAgICAgICAgIGJvcmRlclJhZGl1czogJ3ZhcigtLXJhZGl1cy1iYXNlKScsCiAgICAgICAgICAgIGN1cnNvcjogKGJ1c3kgfHwgaXNEYXNoIHx8ICFoYXNWYXJpYW50cykgPyAnbm90LWFsbG93ZWQnIDogJ3BvaW50ZXInCiAgICAgICAgICB9fQogICAgICAgID4KICAgICAgICAgIDxEb3dubG9hZCBzaXplPXsxM30gLz4KICAgICAgICAgIHtidXN5ID8gdCgnbWVkaWFTZW5kaW5nJykgOiB0KCdtZWRpYURvd25sb2FkJyl9CiAgICAgICAgPC9idXR0b24+CiAgICAgIDwvZGl2PgoKICAgICAge21lc3NhZ2UgJiYgKAogICAgICAgIDxkaXYgc3R5bGU9e3sKICAgICAgICAgIGZvbnRTaXplOiAnMTFweCcsCiAgICAgICAgICBjb2xvcjogbWVzc2FnZSA9PT0gdCgnbWVkaWFTZW50JykgPyAndmFyKC0tY29sb3Itc3VjY2VzcyknIDogJ3ZhcigtLWNvbG9yLWRhbmdlciknCiAgICAgICAgfX0+CiAgICAgICAgICB7bWVzc2FnZX0KICAgICAgICA8L2Rpdj4KICAgICAgKX0KICAgIDwvZGl2PgogICk7Cn0KCmZ1bmN0aW9uIE1lZGlhVmlldygpIHsKICBjb25zdCB7IGl0ZW1zLCBsb2FkIH0gPSB1c2VNZWRpYVN0b3JlKCk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBsb2FkKCk7CiAgICAvLyDnm5HlkKzlkI7lj7DmjqjpgIHnmoTmlrDmjZXojrfpobnvvIzliLfmlrDliJfooagKICAgIGNvbnN0IGhhbmRsZXIgPSAobWVzc2FnZTogYW55KSA9PiB7CiAgICAgIGlmIChtZXNzYWdlPy5hY3Rpb24gPT09ICdtZWRpYUNhcHR1cmVkJykgewogICAgICAgIGxvYWQoKTsKICAgICAgfQogICAgfTsKICAgIGNocm9tZS5ydW50aW1lLm9uTWVzc2FnZS5hZGRMaXN0ZW5lcihoYW5kbGVyKTsKICAgIHJldHVybiAoKSA9PiBjaHJvbWUucnVudGltZS5vbk1lc3NhZ2UucmVtb3ZlTGlzdGVuZXIoaGFuZGxlcik7CiAgfSwgW2xvYWRdKTsKCiAgaWYgKGl0ZW1zLmxlbmd0aCA9PT0gMCkgewogICAgcmV0dXJuICgKICAgICAgPGRpdiBzdHlsZT17ewogICAgICAgIGZsZXg6IDEsCiAgICAgICAgZGlzcGxheTogJ2ZsZXgnLAogICAgICAgIGFsaWduSXRlbXM6ICdjZW50ZXInLAogICAgICAgIGp1c3RpZnlDb250ZW50OiAnY2VudGVyJywKICAgICAgICBjb2xvcjogJ3ZhcigtLXRleHQtc2Vjb25kYXJ5KScsCiAgICAgICAgZm9udFNpemU6ICcxM3B4JwogICAgICB9fT4KICAgICAgICB7dCgnbWVkaWFOb0l0ZW1zJyl9CiAgICAgIDwvZGl2PgogICAgKTsKICB9CgogIHJldHVybiAoCiAgICA8ZGl2IHN0eWxlPXt7IGZsZXg6IDEsIG92ZXJmbG93WTogJ2F1dG8nIH19PgogICAgICB7aXRlbXMubWFwKChpdGVtKSA9PiAoCiAgICAgICAgPE1lZGlhUm93IGtleT17aXRlbS5pZH0gaXRlbT17aXRlbX0gLz4KICAgICAgKSl9CiAgICA8L2Rpdj4KICApOwp9CgpleHBvcnQgZGVmYXVsdCBNZWRpYVZpZXc7Cg==
+import React, { useEffect, useState } from 'react';
+import { Download, Film } from 'lucide-react';
+import { useMediaStore } from '../stores/mediaStore';
+import type { MediaItem } from '@/shared/types';
+import { t } from '@/shared/utils/i18n';
+
+function MediaRow({ item }: { item: MediaItem }) {
+  const { download } = useMediaStore();
+  const [variantIndex, setVariantIndex] = useState(0);
+  const [busy, setBusy] = useState(false);
+  const [message, setMessage] = useState('');
+
+  const isDash = item.type === 'dash';
+  const hasVariants = item.variants.length > 0;
+
+  const handleDownload = async () => {
+    setBusy(true);
+    setMessage('');
+    const result = await download(item.id, variantIndex);
+    setBusy(false);
+    if (result.ok) {
+      setMessage(t('mediaSent'));
+    } else if (result.error === 'ENCRYPTED') {
+      setMessage(t('mediaEncrypted'));
+    } else {
+      setMessage(result.error || t('mediaFailed'));
+    }
+    setTimeout(() => setMessage(''), 4000);
+  };
+
+  return (
+    <div style={{
+      padding: 'var(--space-md)',
+      borderBottom: '1px solid var(--border-lighter)',
+      display: 'flex',
+      flexDirection: 'column',
+      gap: '6px'
+    }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-sm)' }}>
+        <Film size={14} color="var(--text-secondary)" style={{ flexShrink: 0 }} />
+        <span style={{
+          flex: 1,
+          fontSize: '13px',
+          color: 'var(--text-primary)',
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+          whiteSpace: 'nowrap'
+        }} title={item.pageTitle}>
+          {item.pageTitle}
+        </span>
+        <span style={{
+          fontSize: '10px',
+          padding: '1px 6px',
+          borderRadius: '4px',
+          backgroundColor: 'var(--fill-base)',
+          color: 'var(--text-secondary)',
+          textTransform: 'uppercase'
+        }}>
+          {item.type}
+        </span>
+      </div>
+
+      <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-sm)' }}>
+        {isDash ? (
+          <span style={{ flex: 1, fontSize: '11px', color: 'var(--color-warning)' }}>
+            {t('mediaDashUnsupported')}
+          </span>
+        ) : (
+          <select
+            value={variantIndex}
+            onChange={(e) => setVariantIndex(Number(e.target.value))}
+            disabled={!hasVariants}
+            style={{
+              flex: 1,
+              fontSize: '12px',
+              padding: '4px 6px',
+              borderRadius: 'var(--radius-base)',
+              border: '1px solid var(--border-base)',
+              backgroundColor: 'var(--bg-white)',
+              color: 'var(--text-regular)'
+            }}
+          >
+            {item.variants.map((v, i) => (
+              <option key={i} value={i}>
+                {v.name}{v.bandwidth > 0 ? ` · ${(v.bandwidth / 1_000_000).toFixed(1)} Mbps` : ''}
+              </option>
+            ))}
+          </select>
+        )}
+
+        <button
+          onClick={handleDownload}
+          disabled={busy || isDash || !hasVariants}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '4px',
+            padding: '6px 12px',
+            fontSize: '12px',
+            fontWeight: 500,
+            color: '#fff',
+            backgroundColor: (busy || isDash || !hasVariants) ? 'var(--fill-base)' : 'var(--color-primary)',
+            border: 'none',
+            borderRadius: 'var(--radius-base)',
+            cursor: (busy || isDash || !hasVariants) ? 'not-allowed' : 'pointer'
+          }}
+        >
+          <Download size={13} />
+          {busy ? t('mediaSending') : t('mediaDownload')}
+        </button>
+      </div>
+
+      {message && (
+        <div style={{
+          fontSize: '11px',
+          color: message === t('mediaSent') ? 'var(--color-success)' : 'var(--color-danger)'
+        }}>
+          {message}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function MediaView() {
+  const { items, load } = useMediaStore();
+
+  useEffect(() => {
+    load();
+    // 监听后台推送的新捕获项，刷新列表
+    const handler = (message: any) => {
+      if (message?.action === 'mediaCaptured') {
+        load();
+      }
+    };
+    chrome.runtime.onMessage.addListener(handler);
+    return () => chrome.runtime.onMessage.removeListener(handler);
+  }, [load]);
+
+  if (items.length === 0) {
+    return (
+      <div style={{
+        flex: 1,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        color: 'var(--text-secondary)',
+        fontSize: '13px'
+      }}>
+        {t('mediaNoItems')}
+      </div>
+    );
+  }
+
+  return (
+    <div style={{ flex: 1, overflowY: 'auto' }}>
+      {items.map((item) => (
+        <MediaRow key={item.id} item={item} />
+      ))}
+    </div>
+  );
+}
+
+export default MediaView;

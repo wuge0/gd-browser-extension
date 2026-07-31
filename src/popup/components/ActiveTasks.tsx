@@ -1,1 +1,140 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgUGF1c2UsIFBsYXksIFggfSBmcm9tICdsdWNpZGUtcmVhY3QnOwppbXBvcnQgeyB1c2VUYXNrU3RvcmUgfSBmcm9tICcuLi9zdG9yZXMvdGFza1N0b3JlJzsKaW1wb3J0IHR5cGUgeyBBY3RpdmVUYXNrIH0gZnJvbSAnQC9zaGFyZWQvdHlwZXMnOwppbXBvcnQgeyBmb3JtYXRGaWxlU2l6ZSB9IGZyb20gJ0Avc2hhcmVkL3V0aWxzL2ZpbGVTaXplJzsKaW1wb3J0IHsgdCB9IGZyb20gJ0Avc2hhcmVkL3V0aWxzL2kxOG4nOwoKLyoqCiAqIOagvOW8j+WMluWJqeS9meaXtumXtO+8iOenkiAtPiBtbTpzcyDmiJYgaGg6bW06c3PvvIkKICovCmZ1bmN0aW9uIGZvcm1hdEV0YShzZWNvbmRzOiBudW1iZXIpOiBzdHJpbmcgewogIGlmICghaXNGaW5pdGUoc2Vjb25kcykgfHwgc2Vjb25kcyA8PSAwKSB7CiAgICByZXR1cm4gJy0tOi0tJzsKICB9CiAgY29uc3QgaCA9IE1hdGguZmxvb3Ioc2Vjb25kcyAvIDM2MDApOwogIGNvbnN0IG0gPSBNYXRoLmZsb29yKChzZWNvbmRzICUgMzYwMCkgLyA2MCk7CiAgY29uc3QgcyA9IE1hdGguZmxvb3Ioc2Vjb25kcyAlIDYwKTsKICBjb25zdCBwYWQgPSAobjogbnVtYmVyKSA9PiBTdHJpbmcobikucGFkU3RhcnQoMiwgJzAnKTsKICByZXR1cm4gaCA+IDAgPyBgJHtofToke3BhZChtKX06JHtwYWQocyl9YCA6IGAke3BhZChtKX06JHtwYWQocyl9YDsKfQoKZnVuY3Rpb24gVGFza1Jvdyh7IHRhc2sgfTogeyB0YXNrOiBBY3RpdmVUYXNrIH0pIHsKICBjb25zdCB7IHBhdXNlLCByZXN1bWUsIGNhbmNlbCB9ID0gdXNlVGFza1N0b3JlKCk7CgogIGNvbnN0IHRvdGFsID0gcGFyc2VJbnQodGFzay50b3RhbExlbmd0aCwgMTApIHx8IDA7CiAgY29uc3QgY29tcGxldGVkID0gcGFyc2VJbnQodGFzay5jb21wbGV0ZWRMZW5ndGgsIDEwKSB8fCAwOwogIGNvbnN0IHNwZWVkID0gcGFyc2VJbnQodGFzay5kb3dubG9hZFNwZWVkLCAxMCkgfHwgMDsKICBjb25zdCBwZXJjZW50ID0gdG90YWwgPiAwID8gTWF0aC5taW4oMTAwLCBNYXRoLnJvdW5kKChjb21wbGV0ZWQgLyB0b3RhbCkgKiAxMDApKSA6IDA7CiAgY29uc3QgZXRhID0gc3BlZWQgPiAwICYmIHRvdGFsID4gY29tcGxldGVkID8gKHRvdGFsIC0gY29tcGxldGVkKSAvIHNwZWVkIDogSW5maW5pdHk7CiAgY29uc3QgaXNQYXVzZWQgPSB0YXNrLnN0YXR1cyA9PT0gJ3BhdXNlZCc7CgogIHJldHVybiAoCiAgICA8ZGl2IHN0eWxlPXt7CiAgICAgIHBhZGRpbmc6ICd2YXIoLS1zcGFjZS1tZCknLAogICAgICBib3JkZXJCb3R0b206ICcxcHggc29saWQgdmFyKC0tYm9yZGVyLWxpZ2h0ZXIpJywKICAgICAgZGlzcGxheTogJ2ZsZXgnLAogICAgICBmbGV4RGlyZWN0aW9uOiAnY29sdW1uJywKICAgICAgZ2FwOiAnNnB4JwogICAgfX0+CiAgICAgIDxkaXYgc3R5bGU9e3sgZGlzcGxheTogJ2ZsZXgnLCBhbGlnbkl0ZW1zOiAnY2VudGVyJywgZ2FwOiAndmFyKC0tc3BhY2Utc20pJyB9fT4KICAgICAgICA8c3BhbiBzdHlsZT17ewogICAgICAgICAgZmxleDogMSwKICAgICAgICAgIGZvbnRTaXplOiAnMTNweCcsCiAgICAgICAgICBjb2xvcjogJ3ZhcigtLXRleHQtcHJpbWFyeSknLAogICAgICAgICAgb3ZlcmZsb3c6ICdoaWRkZW4nLAogICAgICAgICAgdGV4dE92ZXJmbG93OiAnZWxsaXBzaXMnLAogICAgICAgICAgd2hpdGVTcGFjZTogJ25vd3JhcCcKICAgICAgICB9fSB0aXRsZT17dGFzay5maWxlbmFtZX0+CiAgICAgICAgICB7dGFzay5maWxlbmFtZX0KICAgICAgICA8L3NwYW4+CgogICAgICAgIDxidXR0b24KICAgICAgICAgIG9uQ2xpY2s9eygpID0+IChpc1BhdXNlZCA/IHJlc3VtZSh0YXNrLmdpZCkgOiBwYXVzZSh0YXNrLmdpZCkpfQogICAgICAgICAgdGl0bGU9e2lzUGF1c2VkID8gdCgndGFza1Jlc3VtZScpIDogdCgndGFza1BhdXNlJyl9CiAgICAgICAgICBzdHlsZT17aWNvbkJ0blN0eWxlfQogICAgICAgID4KICAgICAgICAgIHtpc1BhdXNlZCA/IDxQbGF5IHNpemU9ezE0fSAvPiA6IDxQYXVzZSBzaXplPXsxNH0gLz59CiAgICAgICAgPC9idXR0b24+CiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgb25DbGljaz17KCkgPT4gY2FuY2VsKHRhc2suZ2lkKX0KICAgICAgICAgIHRpdGxlPXt0KCd0YXNrQ2FuY2VsJyl9CiAgICAgICAgICBzdHlsZT17aWNvbkJ0blN0eWxlfQogICAgICAgID4KICAgICAgICAgIDxYIHNpemU9ezE0fSAvPgogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiDov5vluqbmnaEgKi99CiAgICAgIDxkaXYgc3R5bGU9e3sKICAgICAgICBoZWlnaHQ6ICc0cHgnLAogICAgICAgIGJvcmRlclJhZGl1czogJzJweCcsCiAgICAgICAgYmFja2dyb3VuZENvbG9yOiAndmFyKC0tZmlsbC1iYXNlKScsCiAgICAgICAgb3ZlcmZsb3c6ICdoaWRkZW4nCiAgICAgIH19PgogICAgICAgIDxkaXYgc3R5bGU9e3sKICAgICAgICAgIHdpZHRoOiBgJHtwZXJjZW50fSVgLAogICAgICAgICAgaGVpZ2h0OiAnMTAwJScsCiAgICAgICAgICBiYWNrZ3JvdW5kQ29sb3I6IGlzUGF1c2VkID8gJ3ZhcigtLWNvbG9yLXdhcm5pbmcpJyA6ICd2YXIoLS1jb2xvci1wcmltYXJ5KScsCiAgICAgICAgICB0cmFuc2l0aW9uOiAnd2lkdGggMC4zcycKICAgICAgICB9fSAvPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgc3R5bGU9e3sKICAgICAgICBkaXNwbGF5OiAnZmxleCcsCiAgICAgICAganVzdGlmeUNvbnRlbnQ6ICdzcGFjZS1iZXR3ZWVuJywKICAgICAgICBmb250U2l6ZTogJzExcHgnLAogICAgICAgIGNvbG9yOiAndmFyKC0tdGV4dC1zZWNvbmRhcnkpJwogICAgICB9fT4KICAgICAgICA8c3Bhbj4KICAgICAgICAgIHtmb3JtYXRGaWxlU2l6ZShjb21wbGV0ZWQpfSAvIHt0b3RhbCA+IDAgPyBmb3JtYXRGaWxlU2l6ZSh0b3RhbCkgOiAnPyd9ICh7cGVyY2VudH0lKQogICAgICAgIDwvc3Bhbj4KICAgICAgICA8c3Bhbj4KICAgICAgICAgIHtpc1BhdXNlZCA/IHQoJ3Rhc2tQYXVzZWQnKSA6IGAke2Zvcm1hdEZpbGVTaXplKHNwZWVkKX0vcyDCtyAke2Zvcm1hdEV0YShldGEpfWB9CiAgICAgICAgPC9zcGFuPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0KCmNvbnN0IGljb25CdG5TdHlsZTogUmVhY3QuQ1NTUHJvcGVydGllcyA9IHsKICB3aWR0aDogJzI0cHgnLAogIGhlaWdodDogJzI0cHgnLAogIGRpc3BsYXk6ICdmbGV4JywKICBhbGlnbkl0ZW1zOiAnY2VudGVyJywKICBqdXN0aWZ5Q29udGVudDogJ2NlbnRlcicsCiAgYmFja2dyb3VuZENvbG9yOiAndHJhbnNwYXJlbnQnLAogIGJvcmRlcjogJ25vbmUnLAogIGJvcmRlclJhZGl1czogJ3ZhcigtLXJhZGl1cy1iYXNlKScsCiAgY3Vyc29yOiAncG9pbnRlcicsCiAgY29sb3I6ICd2YXIoLS10ZXh0LXJlZ3VsYXIpJwp9OwoKZnVuY3Rpb24gQWN0aXZlVGFza3MoKSB7CiAgY29uc3QgdGFza3MgPSB1c2VUYXNrU3RvcmUoKHMpID0+IHMudGFza3MpOwoKICBpZiAodGFza3MubGVuZ3RoID09PSAwKSB7CiAgICByZXR1cm4gKAogICAgICA8ZGl2IHN0eWxlPXt7CiAgICAgICAgZmxleDogMSwKICAgICAgICBkaXNwbGF5OiAnZmxleCcsCiAgICAgICAgYWxpZ25JdGVtczogJ2NlbnRlcicsCiAgICAgICAganVzdGlmeUNvbnRlbnQ6ICdjZW50ZXInLAogICAgICAgIGNvbG9yOiAndmFyKC0tdGV4dC1zZWNvbmRhcnkpJywKICAgICAgICBmb250U2l6ZTogJzEzcHgnCiAgICAgIH19PgogICAgICAgIHt0KCdub0FjdGl2ZVRhc2tzJyl9CiAgICAgIDwvZGl2PgogICAgKTsKICB9CgogIHJldHVybiAoCiAgICA8ZGl2IHN0eWxlPXt7IGZsZXg6IDEsIG92ZXJmbG93WTogJ2F1dG8nIH19PgogICAgICB7dGFza3MubWFwKCh0YXNrKSA9PiAoCiAgICAgICAgPFRhc2tSb3cga2V5PXt0YXNrLmdpZH0gdGFzaz17dGFza30gLz4KICAgICAgKSl9CiAgICA8L2Rpdj4KICApOwp9CgpleHBvcnQgZGVmYXVsdCBBY3RpdmVUYXNrczsK
+import React from 'react';
+import { Pause, Play, X } from 'lucide-react';
+import { useTaskStore } from '../stores/taskStore';
+import type { ActiveTask } from '@/shared/types';
+import { formatFileSize } from '@/shared/utils/fileSize';
+import { t } from '@/shared/utils/i18n';
+
+/**
+ * 格式化剩余时间（秒 -> mm:ss 或 hh:mm:ss）
+ */
+function formatEta(seconds: number): string {
+  if (!isFinite(seconds) || seconds <= 0) {
+    return '--:--';
+  }
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  const s = Math.floor(seconds % 60);
+  const pad = (n: number) => String(n).padStart(2, '0');
+  return h > 0 ? `${h}:${pad(m)}:${pad(s)}` : `${pad(m)}:${pad(s)}`;
+}
+
+function TaskRow({ task }: { task: ActiveTask }) {
+  const { pause, resume, cancel } = useTaskStore();
+
+  const total = parseInt(task.totalLength, 10) || 0;
+  const completed = parseInt(task.completedLength, 10) || 0;
+  const speed = parseInt(task.downloadSpeed, 10) || 0;
+  const percent = total > 0 ? Math.min(100, Math.round((completed / total) * 100)) : 0;
+  const eta = speed > 0 && total > completed ? (total - completed) / speed : Infinity;
+  const isPaused = task.status === 'paused';
+
+  return (
+    <div style={{
+      padding: 'var(--space-md)',
+      borderBottom: '1px solid var(--border-lighter)',
+      display: 'flex',
+      flexDirection: 'column',
+      gap: '6px'
+    }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-sm)' }}>
+        <span style={{
+          flex: 1,
+          fontSize: '13px',
+          color: 'var(--text-primary)',
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+          whiteSpace: 'nowrap'
+        }} title={task.filename}>
+          {task.filename}
+        </span>
+
+        <button
+          onClick={() => (isPaused ? resume(task.gid) : pause(task.gid))}
+          title={isPaused ? t('taskResume') : t('taskPause')}
+          style={iconBtnStyle}
+        >
+          {isPaused ? <Play size={14} /> : <Pause size={14} />}
+        </button>
+        <button
+          onClick={() => cancel(task.gid)}
+          title={t('taskCancel')}
+          style={iconBtnStyle}
+        >
+          <X size={14} />
+        </button>
+      </div>
+
+      {/* 进度条 */}
+      <div style={{
+        height: '4px',
+        borderRadius: '2px',
+        backgroundColor: 'var(--fill-base)',
+        overflow: 'hidden'
+      }}>
+        <div style={{
+          width: `${percent}%`,
+          height: '100%',
+          backgroundColor: isPaused ? 'var(--color-warning)' : 'var(--color-primary)',
+          transition: 'width 0.3s'
+        }} />
+      </div>
+
+      <div style={{
+        display: 'flex',
+        justifyContent: 'space-between',
+        fontSize: '11px',
+        color: 'var(--text-secondary)'
+      }}>
+        <span>
+          {formatFileSize(completed)} / {total > 0 ? formatFileSize(total) : '?'} ({percent}%)
+        </span>
+        <span>
+          {isPaused ? t('taskPaused') : `${formatFileSize(speed)}/s · ${formatEta(eta)}`}
+        </span>
+      </div>
+    </div>
+  );
+}
+
+const iconBtnStyle: React.CSSProperties = {
+  width: '24px',
+  height: '24px',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  backgroundColor: 'transparent',
+  border: 'none',
+  borderRadius: 'var(--radius-base)',
+  cursor: 'pointer',
+  color: 'var(--text-regular)'
+};
+
+function ActiveTasks() {
+  const tasks = useTaskStore((s) => s.tasks);
+
+  if (tasks.length === 0) {
+    return (
+      <div style={{
+        flex: 1,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        color: 'var(--text-secondary)',
+        fontSize: '13px'
+      }}>
+        {t('noActiveTasks')}
+      </div>
+    );
+  }
+
+  return (
+    <div style={{ flex: 1, overflowY: 'auto' }}>
+      {tasks.map((task) => (
+        <TaskRow key={task.gid} task={task} />
+      ))}
+    </div>
+  );
+}
+
+export default ActiveTasks;

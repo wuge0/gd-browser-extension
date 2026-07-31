@@ -1,1 +1,220 @@
-LyoqCiAqIOS4i+i9vemTvuaOpeS/oeaBrwogKi8KZXhwb3J0IGludGVyZmFjZSBMaW5rIHsKICBpZDogc3RyaW5nOwogIHVybDogc3RyaW5nOwogIGZpbGVuYW1lOiBzdHJpbmc7CiAgc2l6ZTogbnVtYmVyIHwgbnVsbDsKICBmaWxlVHlwZTogc3RyaW5nOwogIHNlbGVjdGVkOiBib29sZWFuOwogIGNhcHR1cmVkQXQ6IG51bWJlcjsKICBzb3VyY2U6ICdwYWdlJyB8ICdjb250ZXh0TWVudScgfCAnbWFudWFsJzsKCiAgLy8g572R57uc5bGC6YeH6ZuG55qE5LiK5LiL5paH5L+h5oGv77yI5LuF6L+Q6KGM5pe25YaF5a2Y77yM5LiN5oyB5LmF5YyW77yJCiAgY29udGVudFR5cGU/OiBzdHJpbmc7CiAgcmVmZXJlcj86IHN0cmluZzsKICB1c2VyQWdlbnQ/OiBzdHJpbmc7CiAgY29va2llcz86IHN0cmluZzsKICBhdXRob3JpemF0aW9uPzogc3RyaW5nOwogIGFjY2VwdFJhbmdlcz86IHN0cmluZzsKfQoKLyoqCiAqIGFyaWEyIOmFjee9rgogKi8KZXhwb3J0IGludGVyZmFjZSBBcmlhMkNvbmZpZyB7CiAgdXJsOiBzdHJpbmc7CiAgc2VjcmV0OiBzdHJpbmc7CiAgYXV0b0Nvbm5lY3Q6IGJvb2xlYW47CiAgcmVjb25uZWN0SW50ZXJ2YWw6IG51bWJlcjsKICByZXF1ZXN0VGltZW91dDogbnVtYmVyOwp9CgovKioKICog56uZ54K56KeE5YiZ77ya5oyJ5Z+f5ZCN6KaG55uW6buY6K6k6KGM5Li6CiAqLwpleHBvcnQgaW50ZXJmYWNlIFNpdGVSdWxlIHsKICAvLyDljLnphY3ln5/lkI3vvIjlkKvlrZDln5/vvIzlpoIgZXhhbXBsZS5jb20g5ZG95LitIGEuZXhhbXBsZS5jb23vvIkKICBkb21haW46IHN0cmluZzsKICAvLyDmmK/lkKbmjqXnrqHor6Xln5/lkI3nmoTkuIvovb3vvIhmYWxzZSA9IOaUvuihjOa1j+iniOWZqOWOn+eUn+S4i+i9ve+8iQogIHRha2VvdmVyPzogYm9vbGVhbjsKICAvLyDmmK/lkKblnKjor6Xln5/lkI3mmL7npLrmgqzmta7kuIvovb3mjInpkq7vvIhmYWxzZSA9IOacrOermeS4jeaYvuekuu+8iQogIGZsb2F0QnV0dG9uPzogYm9vbGVhbjsKICAvLyDmmK/lkKblnKjor6Xln5/lkI3ll4XmjqLmtYHlqpLkvZPvvIhmYWxzZSA9IOacrOermeS4jeWXheaOou+8iQogIHNuaWZmaW5nPzogYm9vbGVhbjsKfQoKLyoqCiAqIOaJqeWxleiuvue9rgogKi8KZXhwb3J0IGludGVyZmFjZSBFeHRlbnNpb25TZXR0aW5ncyB7CiAgLy8gR2VuZXJhbAogIGF1dG9DYXB0dXJlOiBib29sZWFuOwogIHNob3dOb3RpZmljYXRpb25zOiBib29sZWFuOwogIGF1dG9TZW5kOiBib29sZWFuOwogIG1pbmltaXplQWZ0ZXJTZW5kOiBib29sZWFuOwoKICAvLyBEb3dubG9hZCBUYWtlb3Zlcu+8iOaOpeeuoea1j+iniOWZqOS4i+i9ve+8iQogIHRha2VvdmVyRW5hYmxlZDogYm9vbGVhbjsKICB0YWtlb3Zlck1pblNpemU6IG51bWJlcjsgLy8g5bCP5LqO5q2k5L2T56ev77yI5a2X6IqC77yJ55qE5LiL6L295pS+6KGM5rWP6KeI5ZmoCiAgc2l0ZVJ1bGVzOiBTaXRlUnVsZVtdOwoKICAvLyBNZWRpYSBTbmlmZmluZ++8iOa1geWqkuS9k+WXheaOou+8iQogIG1lZGlhU25pZmZpbmdFbmFibGVkOiBib29sZWFuOwoKICAvLyBGbG9hdCBCdXR0b27vvIjop4bpopHmgqzmta7kuIvovb3mjInpkq7vvIkKICBmbG9hdEJ1dHRvbkVuYWJsZWQ6IGJvb2xlYW47CgogIC8vIExpbmsgQ2FwdHVyZQogIG1pbkZpbGVTaXplOiBudW1iZXI7CiAgZmlsZVR5cGVzOiBzdHJpbmdbXTsKICB1cmxCbGFja2xpc3Q6IHN0cmluZ1tdOwogIGRvbWFpbldoaXRlbGlzdDogc3RyaW5nW107CgogIC8vIENvbm5lY3Rpb24KICBhcmlhMkNvbmZpZzogQXJpYTJDb25maWc7CgogIC8vIEFwcGVhcmFuY2UKICB0aGVtZTogJ2xpZ2h0JyB8ICdkYXJrJyB8ICdhdXRvJzsKICBsYW5ndWFnZTogJ2VuJyB8ICd6aC1DTic7CgogIC8vIEFkdmFuY2VkCiAgZW5hYmxlQW5hbHl0aWNzOiBib29sZWFuOwogIGRlYnVnTW9kZTogYm9vbGVhbjsKCiAgLy8gUHJpdmFjeSAmIFNlY3VyaXR5CiAgc2VuZFVzZXJBZ2VudDogYm9vbGVhbjsKICBzZW5kUmVmZXJlcjogYm9vbGVhbjsKICBzZW5kQ29va2llczogYm9vbGVhbjsKICBzZW5kQXV0aG9yaXphdGlvbjogYm9vbGVhbjsKfQoKLyoqCiAqIGFyaWEyIFJQQyDor7fmsYIKICovCmV4cG9ydCBpbnRlcmZhY2UgQXJpYTJScGNSZXF1ZXN0IHsKICBqc29ucnBjOiAnMi4wJzsKICBpZDogc3RyaW5nIHwgbnVtYmVyOwogIG1ldGhvZDogc3RyaW5nOwogIHBhcmFtczogYW55W107Cn0KCi8qKgogKiBhcmlhMiBSUEMg5ZON5bqUCiAqLwpleHBvcnQgaW50ZXJmYWNlIEFyaWEyUnBjUmVzcG9uc2U8VCA9IGFueT4gewogIGpzb25ycGM6ICcyLjAnOwogIGlkOiBzdHJpbmcgfCBudW1iZXI7CiAgcmVzdWx0PzogVDsKICBlcnJvcj86IHsKICAgIGNvZGU6IG51bWJlcjsKICAgIG1lc3NhZ2U6IHN0cmluZzsKICB9Owp9CgovKioKICogYXJpYTIg5LiL6L295Lu75Yqh54q25oCBCiAqLwpleHBvcnQgaW50ZXJmYWNlIEFyaWEyRG93bmxvYWRTdGF0dXMgewogIGdpZDogc3RyaW5nOwogIHN0YXR1czogJ2FjdGl2ZScgfCAnd2FpdGluZycgfCAncGF1c2VkJyB8ICdlcnJvcicgfCAnY29tcGxldGUnIHwgJ3JlbW92ZWQnOwogIHRvdGFsTGVuZ3RoOiBzdHJpbmc7CiAgY29tcGxldGVkTGVuZ3RoOiBzdHJpbmc7CiAgZG93bmxvYWRTcGVlZDogc3RyaW5nOwogIHVwbG9hZFNwZWVkOiBzdHJpbmc7CiAgY29ubmVjdGlvbnM6IHN0cmluZzsKICBmaWxlczogQXJpYTJGaWxlW107Cn0KCmV4cG9ydCBpbnRlcmZhY2UgQXJpYTJGaWxlIHsKICBpbmRleDogc3RyaW5nOwogIHBhdGg6IHN0cmluZzsKICBsZW5ndGg6IHN0cmluZzsKICBjb21wbGV0ZWRMZW5ndGg6IHN0cmluZzsKICBzZWxlY3RlZDogc3RyaW5nOwogIHVyaXM6IEFyaWEyVXJpW107Cn0KCmV4cG9ydCBpbnRlcmZhY2UgQXJpYTJVcmkgewogIHVyaTogc3RyaW5nOwogIHN0YXR1czogJ3VzZWQnIHwgJ3dhaXRpbmcnOwp9CgovKioKICog5Y+R6YCB5LiL6L295Lu75Yqh55qE57uT5p6cCiAqLwpleHBvcnQgaW50ZXJmYWNlIFNlbmRSZXN1bHQgewogIGxpbms6IExpbms7CiAgc3VjY2VzczogYm9vbGVhbjsKICBnaWQ/OiBzdHJpbmc7CiAgZXJyb3I/OiBzdHJpbmc7Cn0KCi8qKgogKiDmtojmga/nsbvlnovvvIhCYWNrZ3JvdW5kIDwtPiBDb250ZW50IFNjcmlwdO+8iQogKi8KZXhwb3J0IHR5cGUgTWVzc2FnZSA9CiAgfCB7IGFjdGlvbjogJ2NhcHR1cmVBbGxMaW5rcycgfQogIHwgeyBhY3Rpb246ICdjYXB0dXJlTGluayc7IHVybDogc3RyaW5nOyBmaWxlbmFtZTogc3RyaW5nIH0KICB8IHsgYWN0aW9uOiAnc2VuZFRvR0Rvd25sb2FkJzsgbGlua3M6IExpbmtbXSB9CiAgfCB7IGFjdGlvbjogJ3Rlc3RDb25uZWN0aW9uJzsgY29uZmlnPzogQXJpYTJDb25maWcgfQogIHwgeyBhY3Rpb246ICdnZXRDb25uZWN0aW9uU3RhdHVzJyB9CiAgfCB7IGFjdGlvbjogJ2J5cGFzc05leHQnIH0KICB8IHsgYWN0aW9uOiAnZ2V0QWN0aXZlVGFza3MnIH0KICB8IHsgYWN0aW9uOiAncGF1c2VUYXNrJzsgZ2lkOiBzdHJpbmcgfQogIHwgeyBhY3Rpb246ICdyZXN1bWVUYXNrJzsgZ2lkOiBzdHJpbmcgfQogIHwgeyBhY3Rpb246ICdjYW5jZWxUYXNrJzsgZ2lkOiBzdHJpbmcgfQogIHwgeyBhY3Rpb246ICdnZXRDb25uZWN0aW9uSW5mbycgfQogIHwgeyBhY3Rpb246ICdnZXRNZWRpYUl0ZW1zJyB9CiAgfCB7IGFjdGlvbjogJ2Rvd25sb2FkTWVkaWEnOyBtZWRpYUlkOiBzdHJpbmc7IHZhcmlhbnRJbmRleDogbnVtYmVyIH0KICB8IHsgYWN0aW9uOiAnbWFuaWZlc3RDYW5kaWRhdGUnOyB1cmw6IHN0cmluZzsgcGFnZVVybD86IHN0cmluZyB9CiAgfCB7IGFjdGlvbjogJ2Zsb2F0QnV0dG9uRG93bmxvYWQnOyB2aWRlb1NyYz86IHN0cmluZyB9CiAgfCB7IGFjdGlvbjogJ2NhcHR1cmVJbWFnZXMnIH0KICB8IHsgYWN0aW9uOiAnc3RhcnREcmFnU2VsZWN0JyB9CiAgfCB7IGFjdGlvbjogJ2JhdGNoTGlua3NDYXB0dXJlZCc7IGxpbmtzOiBBcnJheTx7IHVybDogc3RyaW5nOyBmaWxlbmFtZTogc3RyaW5nIH0+IH07CgovKioKICog5rWB5aqS5L2T5qGj5L2NCiAqLwpleHBvcnQgaW50ZXJmYWNlIE1lZGlhVmFyaWFudCB7CiAgdXJsOiBzdHJpbmc7CiAgYmFuZHdpZHRoOiBudW1iZXI7CiAgcmVzb2x1dGlvbj86IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7Cn0KCi8qKgogKiDll4XmjqLliLDnmoTmtYHlqpLkvZPmnaHnm67vvIhITFMvREFTSCBtYW5pZmVzdO+8iQogKi8KZXhwb3J0IGludGVyZmFjZSBNZWRpYUl0ZW0gewogIGlkOiBzdHJpbmc7CiAgdGFiSWQ6IG51bWJlcjsKICBwYWdlVXJsOiBzdHJpbmc7CiAgcGFnZVRpdGxlOiBzdHJpbmc7CiAgbWFuaWZlc3RVcmw6IHN0cmluZzsKICB0eXBlOiAnaGxzJyB8ICdkYXNoJzsKICB2YXJpYW50czogTWVkaWFWYXJpYW50W107CiAgdGltZXN0YW1wOiBudW1iZXI7Cn0KCi8qKgogKiDmtLvliqjkuIvovb3ku7vliqHvvIjkvpsgcG9wdXAg6L+b5bqm5Zue5pi+77yJCiAqLwpleHBvcnQgaW50ZXJmYWNlIEFjdGl2ZVRhc2sgewogIGdpZDogc3RyaW5nOwogIHN0YXR1czogJ2FjdGl2ZScgfCAnd2FpdGluZycgfCAncGF1c2VkJyB8ICdlcnJvcicgfCAnY29tcGxldGUnIHwgJ3JlbW92ZWQnOwogIHRvdGFsTGVuZ3RoOiBzdHJpbmc7ICAgICAgLy8g5a2X6IqC5a2X56ym5LiyCiAgY29tcGxldGVkTGVuZ3RoOiBzdHJpbmc7ICAvLyDlrZfoioLlrZfnrKbkuLIKICBkb3dubG9hZFNwZWVkOiBzdHJpbmc7ICAgIC8vIOWtl+iKgi/np5LlrZfnrKbkuLIKICBmaWxlbmFtZTogc3RyaW5nOwp9CgovKioKICog5raI5oGv5ZON5bqUCiAqLwpleHBvcnQgaW50ZXJmYWNlIE1lc3NhZ2VSZXNwb25zZTxUID0gYW55PiB7CiAgc3VjY2VzczogYm9vbGVhbjsKICBkYXRhPzogVDsKICBlcnJvcj86IHN0cmluZzsKfQo=
+/**
+ * 下载链接信息
+ */
+export interface Link {
+  id: string;
+  url: string;
+  filename: string;
+  size: number | null;
+  fileType: string;
+  selected: boolean;
+  capturedAt: number;
+  source: 'page' | 'contextMenu' | 'manual';
+
+  // 网络层采集的上下文信息（仅运行时内存，不持久化）
+  contentType?: string;
+  referer?: string;
+  userAgent?: string;
+  cookies?: string;
+  authorization?: string;
+  acceptRanges?: string;
+}
+
+/**
+ * aria2 配置
+ */
+export interface Aria2Config {
+  url: string;
+  secret: string;
+  autoConnect: boolean;
+  reconnectInterval: number;
+  requestTimeout: number;
+}
+
+/**
+ * 站点规则：按域名覆盖默认行为
+ */
+export interface SiteRule {
+  // 匹配域名（含子域，如 example.com 命中 a.example.com）
+  domain: string;
+  // 是否接管该域名的下载（false = 放行浏览器原生下载）
+  takeover?: boolean;
+  // 是否在该域名显示悬浮下载按钮（false = 本站不显示）
+  floatButton?: boolean;
+  // 是否在该域名嗅探流媒体（false = 本站不嗅探）
+  sniffing?: boolean;
+}
+
+/**
+ * 扩展设置
+ */
+export interface ExtensionSettings {
+  // General
+  autoCapture: boolean;
+  showNotifications: boolean;
+  autoSend: boolean;
+  minimizeAfterSend: boolean;
+
+  // Download Takeover（接管浏览器下载）
+  takeoverEnabled: boolean;
+  takeoverMinSize: number; // 小于此体积（字节）的下载放行浏览器
+  siteRules: SiteRule[];
+
+  // Media Sniffing（流媒体嗅探）
+  mediaSniffingEnabled: boolean;
+
+  // Float Button（视频悬浮下载按钮）
+  floatButtonEnabled: boolean;
+
+  // Link Capture
+  minFileSize: number;
+  fileTypes: string[];
+  urlBlacklist: string[];
+  domainWhitelist: string[];
+
+  // Connection
+  aria2Config: Aria2Config;
+
+  // Appearance
+  theme: 'light' | 'dark' | 'auto';
+  language: 'en' | 'zh-CN';
+
+  // Advanced
+  enableAnalytics: boolean;
+  debugMode: boolean;
+
+  // Privacy & Security
+  sendUserAgent: boolean;
+  sendReferer: boolean;
+  sendCookies: boolean;
+  sendAuthorization: boolean;
+}
+
+/**
+ * aria2 RPC 请求
+ */
+export interface Aria2RpcRequest {
+  jsonrpc: '2.0';
+  id: string | number;
+  method: string;
+  params: any[];
+}
+
+/**
+ * aria2 RPC 响应
+ */
+export interface Aria2RpcResponse<T = any> {
+  jsonrpc: '2.0';
+  id: string | number;
+  result?: T;
+  error?: {
+    code: number;
+    message: string;
+  };
+}
+
+/**
+ * aria2 下载任务状态
+ */
+export interface Aria2DownloadStatus {
+  gid: string;
+  status: 'active' | 'waiting' | 'paused' | 'error' | 'complete' | 'removed';
+  totalLength: string;
+  completedLength: string;
+  downloadSpeed: string;
+  uploadSpeed: string;
+  connections: string;
+  files: Aria2File[];
+}
+
+export interface Aria2File {
+  index: string;
+  path: string;
+  length: string;
+  completedLength: string;
+  selected: string;
+  uris: Aria2Uri[];
+}
+
+export interface Aria2Uri {
+  uri: string;
+  status: 'used' | 'waiting';
+}
+
+/**
+ * 发送下载任务的结果
+ */
+export interface SendResult {
+  link: Link;
+  success: boolean;
+  gid?: string;
+  error?: string;
+}
+
+/**
+ * 消息类型（Background <-> Content Script）
+ */
+export type Message =
+  | { action: 'captureAllLinks' }
+  | { action: 'captureLink'; url: string; filename: string }
+  | { action: 'sendToGDownload'; links: Link[] }
+  | { action: 'testConnection'; config?: Aria2Config }
+  | { action: 'getConnectionStatus' }
+  | { action: 'bypassNext' }
+  | { action: 'getActiveTasks' }
+  | { action: 'pauseTask'; gid: string }
+  | { action: 'resumeTask'; gid: string }
+  | { action: 'cancelTask'; gid: string }
+  | { action: 'getConnectionInfo' }
+  | { action: 'getMediaItems' }
+  | { action: 'downloadMedia'; mediaId: string; variantIndex: number }
+  | { action: 'manifestCandidate'; url: string; pageUrl?: string }
+  | { action: 'floatButtonDownload'; videoSrc?: string }
+  | { action: 'captureImages' }
+  | { action: 'startDragSelect' }
+  | { action: 'batchLinksCaptured'; links: Array<{ url: string; filename: string }> };
+
+/**
+ * 流媒体档位
+ */
+export interface MediaVariant {
+  url: string;
+  bandwidth: number;
+  resolution?: string;
+  name: string;
+}
+
+/**
+ * 嗅探到的流媒体条目（HLS/DASH manifest）
+ */
+export interface MediaItem {
+  id: string;
+  tabId: number;
+  pageUrl: string;
+  pageTitle: string;
+  manifestUrl: string;
+  type: 'hls' | 'dash';
+  variants: MediaVariant[];
+  timestamp: number;
+}
+
+/**
+ * 活动下载任务（供 popup 进度回显）
+ */
+export interface ActiveTask {
+  gid: string;
+  status: 'active' | 'waiting' | 'paused' | 'error' | 'complete' | 'removed';
+  totalLength: string;      // 字节字符串
+  completedLength: string;  // 字节字符串
+  downloadSpeed: string;    // 字节/秒字符串
+  filename: string;
+}
+
+/**
+ * 消息响应
+ */
+export interface MessageResponse<T = any> {
+  success: boolean;
+  data?: T;
+  error?: string;
+}

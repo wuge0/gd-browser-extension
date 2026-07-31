@@ -1,1 +1,43 @@
-IyBEZXBlbmRlbmNpZXMKbm9kZV9tb2R1bGVzLwojIHBhY2thZ2UtbG9jay5qc29uIHNob3VsZCBiZSBjb21taXR0ZWQgZm9yIHJlcHJvZHVjaWJsZSBidWlsZHMKeWFybi5sb2NrCnBucG0tbG9jay55YW1sCgojIEJ1aWxkIG91dHB1dApkaXN0LwpidWlsZC8KKi56aXAKCiMgRGV2ZWxvcG1lbnQKLnZzY29kZS8KLmlkZWEvCioubG9nCiouc3dwCiouc3dvCip+CgojIENvdmVyYWdlCmNvdmVyYWdlLwoubnljX291dHB1dC8KCiMgRW52aXJvbm1lbnQKLmVudgouZW52LmxvY2FsCi5lbnYucHJvZHVjdGlvbgoKIyBPUwouRFNfU3RvcmUKVGh1bWJzLmRiCmRlc2t0b3AuaW5pCgojIEV4dGVuc2lvbiBzcGVjaWZpYwoqLmNyeAoqLnBlbQp3ZWItZXh0LWFydGlmYWN0cy8KCiMg5omT5YyF56eB6ZKl77yI5Y+R54mI5py65a+G77yM57ud5LiN5o+Q5Lqk77yJCmtleS5wZW0KKi5wZW0KZ2Rvd25sb2FkLmNyeAp1cGRhdGUueG1sCg==
+# Dependencies
+node_modules/
+# package-lock.json should be committed for reproducible builds
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+*.zip
+
+# Development
+.vscode/
+.idea/
+*.log
+*.swp
+*.swo
+*~
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Extension specific
+*.crx
+*.pem
+web-ext-artifacts/
+
+# 打包私钥（发版机密，绝不提交）
+key.pem
+*.pem
+gdownload.crx
+update.xml

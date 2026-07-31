@@ -1,1 +1,215 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IGJyb3dzZXJBcGkgfSBmcm9tICdAL3NoYXJlZC91dGlscy9icm93c2VyQXBpJzsKaW1wb3J0IHsgREVGQVVMVF9BUklBMl9DT05GSUcsIFNUT1JBR0VfS0VZUyB9IGZyb20gJ0Avc2hhcmVkL2NvbnN0YW50cyc7CmltcG9ydCB0eXBlIHsgQXJpYTJDb25maWcgfSBmcm9tICdAL3NoYXJlZC90eXBlcyc7CmltcG9ydCB7IHQgfSBmcm9tICdAL3NoYXJlZC91dGlscy9pMThuJzsKCmludGVyZmFjZSBDb25uZWN0aW9uSW5mbyB7CiAgY29ubmVjdGVkOiBib29sZWFuOwp9CgpmdW5jdGlvbiBDb25uZWN0aW9uKCkgewogIGNvbnN0IFtjb25maWcsIHNldENvbmZpZ10gPSB1c2VTdGF0ZTxBcmlhMkNvbmZpZz4oREVGQVVMVF9BUklBMl9DT05GSUcpOwogIGNvbnN0IFtzYXZlZCwgc2V0U2F2ZWRdID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFt0ZXN0aW5nLCBzZXRUZXN0aW5nXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbdGVzdFJlc3VsdCwgc2V0VGVzdFJlc3VsdF0gPSB1c2VTdGF0ZTx7IHN1Y2Nlc3M6IGJvb2xlYW47IG1lc3NhZ2U6IHN0cmluZyB9IHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW2Nvbm5JbmZvLCBzZXRDb25uSW5mb10gPSB1c2VTdGF0ZTxDb25uZWN0aW9uSW5mbyB8IG51bGw+KG51bGwpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgbG9hZENvbmZpZygpOwogIH0sIFtdKTsKCiAgLy8g6L2u6K+iIGFyaWEyIFJQQyDov57mjqXnirbmgIEKICB1c2VFZmZlY3QoKCkgPT4gewogICAgbGV0IGFjdGl2ZSA9IHRydWU7CiAgICBjb25zdCBmZXRjaEluZm8gPSBhc3luYyAoKSA9PiB7CiAgICAgIHRyeSB7CiAgICAgICAgY29uc3QgcmVzID0gYXdhaXQgYnJvd3NlckFwaS5ydW50aW1lLnNlbmRNZXNzYWdlKHsgYWN0aW9uOiAnZ2V0Q29ubmVjdGlvbkluZm8nIH0pOwogICAgICAgIGlmIChhY3RpdmUgJiYgcmVzPy5zdWNjZXNzKSB7CiAgICAgICAgICBzZXRDb25uSW5mbyhyZXMuZGF0YSk7CiAgICAgICAgfQogICAgICB9IGNhdGNoIHsKICAgICAgICAvLyDlv73nlaUKICAgICAgfQogICAgfTsKICAgIGZldGNoSW5mbygpOwogICAgY29uc3QgdGltZXIgPSBzZXRJbnRlcnZhbChmZXRjaEluZm8sIDIwMDApOwogICAgcmV0dXJuICgpID0+IHsKICAgICAgYWN0aXZlID0gZmFsc2U7CiAgICAgIGNsZWFySW50ZXJ2YWwodGltZXIpOwogICAgfTsKICB9LCBbXSk7CgogIGNvbnN0IGxvYWRDb25maWcgPSBhc3luYyAoKSA9PiB7CiAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBicm93c2VyQXBpLnN0b3JhZ2UuZ2V0KFtTVE9SQUdFX0tFWVMuU0VUVElOR1NdKTsKICAgIGNvbnN0IHNldHRpbmdzID0gcmVzdWx0W1NUT1JBR0VfS0VZUy5TRVRUSU5HU107CiAgICAKICAgIGlmIChzZXR0aW5ncz8uYXJpYTJDb25maWcpIHsKICAgICAgc2V0Q29uZmlnKHNldHRpbmdzLmFyaWEyQ29uZmlnKTsKICAgIH0KICB9OwoKICBjb25zdCBzYXZlQ29uZmlnID0gYXN5bmMgKCkgPT4gewogICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgYnJvd3NlckFwaS5zdG9yYWdlLmdldChbU1RPUkFHRV9LRVlTLlNFVFRJTkdTXSk7CiAgICBjb25zdCBzZXR0aW5ncyA9IHJlc3VsdFtTVE9SQUdFX0tFWVMuU0VUVElOR1NdIHx8IHt9OwogICAgCiAgICBhd2FpdCBicm93c2VyQXBpLnN0b3JhZ2Uuc2V0KHsKICAgICAgW1NUT1JBR0VfS0VZUy5TRVRUSU5HU106IHsKICAgICAgICAuLi5zZXR0aW5ncywKICAgICAgICBhcmlhMkNvbmZpZzogY29uZmlnCiAgICAgIH0KICAgIH0pOwogICAgCiAgICBzZXRTYXZlZCh0cnVlKTsKICAgIHNldFRpbWVvdXQoKCkgPT4gc2V0U2F2ZWQoZmFsc2UpLCAyMDAwKTsKICB9OwoKICBjb25zdCB0ZXN0Q29ubmVjdGlvbiA9IGFzeW5jICgpID0+IHsKICAgIHNldFRlc3RpbmcodHJ1ZSk7CiAgICBzZXRUZXN0UmVzdWx0KG51bGwpOwoKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgYnJvd3NlckFwaS5ydW50aW1lLnNlbmRNZXNzYWdlKHsKICAgICAgICBhY3Rpb246ICd0ZXN0Q29ubmVjdGlvbicsCiAgICAgICAgY29uZmlnICAvLyDnm7TmjqXmtYvor5XooajljZXlvZPliY3phY3nva7vvIzml6DpnIDlhYjkv53lrZgKICAgICAgfSk7CgogICAgICBpZiAocmVzcG9uc2Uuc3VjY2VzcykgewogICAgICAgIHNldFRlc3RSZXN1bHQoewogICAgICAgICAgc3VjY2VzczogdHJ1ZSwKICAgICAgICAgIG1lc3NhZ2U6ICdDb25uZWN0aW9uIHN1Y2Nlc3NmdWwhIGFyaWEyYyBpcyBydW5uaW5nLicKICAgICAgICB9KTsKICAgICAgfSBlbHNlIHsKICAgICAgICBzZXRUZXN0UmVzdWx0KHsKICAgICAgICAgIHN1Y2Nlc3M6IGZhbHNlLAogICAgICAgICAgbWVzc2FnZTogcmVzcG9uc2UuZXJyb3IgfHwgJ0Nvbm5lY3Rpb24gZmFpbGVkJwogICAgICAgIH0pOwogICAgICB9CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBzZXRUZXN0UmVzdWx0KHsKICAgICAgICBzdWNjZXNzOiBmYWxzZSwKICAgICAgICBtZXNzYWdlOiBlcnJvciBpbnN0YW5jZW9mIEVycm9yID8gZXJyb3IubWVzc2FnZSA6ICdDb25uZWN0aW9uIGZhaWxlZCcKICAgICAgfSk7CiAgICB9IGZpbmFsbHkgewogICAgICBzZXRUZXN0aW5nKGZhbHNlKTsKICAgIH0KICB9OwoKICByZXR1cm4gKAogICAgPGRpdj4KICAgICAgPGgxIHN0eWxlPXt7IGZvbnRTaXplOiAnMjRweCcsIGZvbnRXZWlnaHQ6IDYwMCwgbWFyZ2luQm90dG9tOiAndmFyKC0tc3BhY2UteGwpJyB9fT4KICAgICAgICB7dCgnY29ubmVjdGlvblRpdGxlJyl9CiAgICAgIDwvaDE+CgogICAgICB7Lyog6L+e5o6l54q25oCB5Y2h54mHICovfQogICAgICB7Y29ubkluZm8gJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJvcHRpb25zLXNlY3Rpb24iIHN0eWxlPXt7CiAgICAgICAgICBkaXNwbGF5OiAnZmxleCcsCiAgICAgICAgICBhbGlnbkl0ZW1zOiAnY2VudGVyJywKICAgICAgICAgIGdhcDogJ3ZhcigtLXNwYWNlLW1kKScKICAgICAgICB9fT4KICAgICAgICAgIDxkaXYgc3R5bGU9e3sKICAgICAgICAgICAgd2lkdGg6ICcxMHB4JywKICAgICAgICAgICAgaGVpZ2h0OiAnMTBweCcsCiAgICAgICAgICAgIGJvcmRlclJhZGl1czogJzUwJScsCiAgICAgICAgICAgIGZsZXhTaHJpbms6IDAsCiAgICAgICAgICAgIGJhY2tncm91bmRDb2xvcjogY29ubkluZm8uY29ubmVjdGVkCiAgICAgICAgICAgICAgPyAndmFyKC0tY29sb3Itc3VjY2VzcyknCiAgICAgICAgICAgICAgOiAndmFyKC0tY29sb3ItZGFuZ2VyKScKICAgICAgICAgIH19IC8+CiAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZsZXg6IDEgfX0+CiAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgZm9udFNpemU6ICcxNHB4JywgZm9udFdlaWdodDogNjAwLCBjb2xvcjogJ3ZhcigtLXRleHQtcHJpbWFyeSknIH19PgogICAgICAgICAgICAgIHtjb25uSW5mby5jb25uZWN0ZWQgPyB0KCdjb25uQ29ubmVjdGVkJykgOiB0KCdjb25uRGlzY29ubmVjdGVkJyl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiAnMTJweCcsIGNvbG9yOiAndmFyKC0tdGV4dC1zZWNvbmRhcnkpJywgbWFyZ2luVG9wOiAnMnB4JyB9fT4KICAgICAgICAgICAgICB7dCgnY29ubk1hbnVhbEhpbnQnKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgKX0KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJvcHRpb25zLXNlY3Rpb24iPgogICAgICAgIDxoMiBjbGFzc05hbWU9Im9wdGlvbnMtc2VjdGlvbi10aXRsZSI+e3QoJ2FyaWEyQ29uZmlnJyl9PC9oMj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZvcm0taXRlbSI+CiAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJmb3JtLWxhYmVsIj57dCgnd2Vic29ja2V0VXJsJyl9PC9sYWJlbD4KICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICB0eXBlPSJ0ZXh0IgogICAgICAgICAgICBjbGFzc05hbWU9ImZvcm0taW5wdXQiCiAgICAgICAgICAgIHZhbHVlPXtjb25maWcudXJsfQogICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldENvbmZpZyh7IC4uLmNvbmZpZywgdXJsOiBlLnRhcmdldC52YWx1ZSB9KX0KICAgICAgICAgICAgcGxhY2Vob2xkZXI9IndzOi8vMTI3LjAuMC4xOjE2ODg4L2pzb25ycGMiCiAgICAgICAgICAvPgogICAgICAgICAgPGRpdiBzdHlsZT17eyBmb250U2l6ZTogJzEycHgnLCBjb2xvcjogJ3ZhcigtLXRleHQtc2Vjb25kYXJ5KScsIG1hcmdpblRvcDogJzRweCcgfX0+CiAgICAgICAgICAgIHt0KCd3ZWJzb2NrZXRVcmxEZXNjJyl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZvcm0taXRlbSI+CiAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJmb3JtLWxhYmVsIj57dCgncnBjU2VjcmV0Jyl9PC9sYWJlbD4KICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICB0eXBlPSJwYXNzd29yZCIKICAgICAgICAgICAgY2xhc3NOYW1lPSJmb3JtLWlucHV0IgogICAgICAgICAgICB2YWx1ZT17Y29uZmlnLnNlY3JldH0KICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRDb25maWcoeyAuLi5jb25maWcsIHNlY3JldDogZS50YXJnZXQudmFsdWUgfSl9CiAgICAgICAgICAgIHBsYWNlaG9sZGVyPXt0KCdycGNTZWNyZXRQbGFjZWhvbGRlcicpfQogICAgICAgICAgLz4KICAgICAgICAgIDxkaXYgc3R5bGU9e3sgZm9udFNpemU6ICcxMnB4JywgY29sb3I6ICd2YXIoLS10ZXh0LXNlY29uZGFyeSknLCBtYXJnaW5Ub3A6ICc0cHgnIH19PgogICAgICAgICAgICB7dCgncnBjU2VjcmV0RGVzYycpfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmb3JtLWl0ZW0iPgogICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iZm9ybS1jaGVja2JveCI+CiAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgIHR5cGU9ImNoZWNrYm94IgogICAgICAgICAgICAgIGNoZWNrZWQ9e2NvbmZpZy5hdXRvQ29ubmVjdH0KICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldENvbmZpZyh7IC4uLmNvbmZpZywgYXV0b0Nvbm5lY3Q6IGUudGFyZ2V0LmNoZWNrZWQgfSl9CiAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDxzcGFuPnt0KCdhdXRvQ29ubmVjdCcpfTwvc3Bhbj4KICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgc3R5bGU9e3sgZGlzcGxheTogJ2ZsZXgnLCBnYXA6ICd2YXIoLS1zcGFjZS1tZCknLCBhbGlnbkl0ZW1zOiAnY2VudGVyJyB9fT4KICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPSJmb3JtLWJ1dHRvbiIgb25DbGljaz17dGVzdENvbm5lY3Rpb259IGRpc2FibGVkPXt0ZXN0aW5nfT4KICAgICAgICAgICAge3Rlc3RpbmcgPyB0KCd0ZXN0aW5nJykgOiB0KCd0ZXN0Q29ubmVjdGlvbicpfQogICAgICAgICAgPC9idXR0b24+CgogICAgICAgICAge3Rlc3RSZXN1bHQgJiYgKAogICAgICAgICAgICA8ZGl2IHN0eWxlPXt7CiAgICAgICAgICAgICAgcGFkZGluZzogJzhweCAxNnB4JywKICAgICAgICAgICAgICBib3JkZXJSYWRpdXM6ICd2YXIoLS1yYWRpdXMtYmFzZSknLAogICAgICAgICAgICAgIGZvbnRTaXplOiAnMTRweCcsCiAgICAgICAgICAgICAgYmFja2dyb3VuZENvbG9yOiB0ZXN0UmVzdWx0LnN1Y2Nlc3MgPyAndmFyKC0tZmlsbC1leHRyYS1saWdodCknIDogJyNmZWYwZjAnLAogICAgICAgICAgICAgIGNvbG9yOiB0ZXN0UmVzdWx0LnN1Y2Nlc3MgPyAndmFyKC0tY29sb3Itc3VjY2VzcyknIDogJ3ZhcigtLWNvbG9yLWRhbmdlciknLAogICAgICAgICAgICAgIGJvcmRlcjogJzFweCBzb2xpZCcsCiAgICAgICAgICAgICAgYm9yZGVyQ29sb3I6IHRlc3RSZXN1bHQuc3VjY2VzcyA/ICd2YXIoLS1jb2xvci1zdWNjZXNzKScgOiAndmFyKC0tY29sb3ItZGFuZ2VyKScKICAgICAgICAgICAgfX0+CiAgICAgICAgICAgICAge3Rlc3RSZXN1bHQuc3VjY2VzcyA/IHQoJ2Nvbm5lY3Rpb25TdWNjZXNzZnVsJykgOiB0KCdjb25uZWN0aW9uRmFpbGVkJyl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IHN0eWxlPXt7IGRpc3BsYXk6ICdmbGV4JywgZ2FwOiAndmFyKC0tc3BhY2UtbWQpJyB9fT4KICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT0iZm9ybS1idXR0b24iIG9uQ2xpY2s9e3NhdmVDb25maWd9PgogICAgICAgICAge3QoJ3NhdmUnKX0KICAgICAgICA8L2J1dHRvbj4KCiAgICAgICAge3NhdmVkICYmICgKICAgICAgICAgIDxkaXYgc3R5bGU9e3sKICAgICAgICAgICAgcGFkZGluZzogJzhweCAxNnB4JywKICAgICAgICAgICAgY29sb3I6ICd2YXIoLS1jb2xvci1zdWNjZXNzKScsCiAgICAgICAgICAgIGZvbnRTaXplOiAnMTRweCcsCiAgICAgICAgICAgIGRpc3BsYXk6ICdmbGV4JywKICAgICAgICAgICAgYWxpZ25JdGVtczogJ2NlbnRlcicKICAgICAgICAgIH19PgogICAgICAgICAgICDinJMge3QoJ3NhdmVkJyl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0KCmV4cG9ydCBkZWZhdWx0IENvbm5lY3Rpb247Cg==
+import React, { useEffect, useState } from 'react';
+import { browserApi } from '@/shared/utils/browserApi';
+import { DEFAULT_ARIA2_CONFIG, STORAGE_KEYS } from '@/shared/constants';
+import type { Aria2Config } from '@/shared/types';
+import { t } from '@/shared/utils/i18n';
+
+interface ConnectionInfo {
+  connected: boolean;
+}
+
+function Connection() {
+  const [config, setConfig] = useState<Aria2Config>(DEFAULT_ARIA2_CONFIG);
+  const [saved, setSaved] = useState(false);
+  const [testing, setTesting] = useState(false);
+  const [testResult, setTestResult] = useState<{ success: boolean; message: string } | null>(null);
+  const [connInfo, setConnInfo] = useState<ConnectionInfo | null>(null);
+
+  useEffect(() => {
+    loadConfig();
+  }, []);
+
+  // 轮询 aria2 RPC 连接状态
+  useEffect(() => {
+    let active = true;
+    const fetchInfo = async () => {
+      try {
+        const res = await browserApi.runtime.sendMessage({ action: 'getConnectionInfo' });
+        if (active && res?.success) {
+          setConnInfo(res.data);
+        }
+      } catch {
+        // 忽略
+      }
+    };
+    fetchInfo();
+    const timer = setInterval(fetchInfo, 2000);
+    return () => {
+      active = false;
+      clearInterval(timer);
+    };
+  }, []);
+
+  const loadConfig = async () => {
+    const result = await browserApi.storage.get([STORAGE_KEYS.SETTINGS]);
+    const settings = result[STORAGE_KEYS.SETTINGS];
+    
+    if (settings?.aria2Config) {
+      setConfig(settings.aria2Config);
+    }
+  };
+
+  const saveConfig = async () => {
+    const result = await browserApi.storage.get([STORAGE_KEYS.SETTINGS]);
+    const settings = result[STORAGE_KEYS.SETTINGS] || {};
+    
+    await browserApi.storage.set({
+      [STORAGE_KEYS.SETTINGS]: {
+        ...settings,
+        aria2Config: config
+      }
+    });
+    
+    setSaved(true);
+    setTimeout(() => setSaved(false), 2000);
+  };
+
+  const testConnection = async () => {
+    setTesting(true);
+    setTestResult(null);
+
+    try {
+      const response = await browserApi.runtime.sendMessage({
+        action: 'testConnection',
+        config  // 直接测试表单当前配置，无需先保存
+      });
+
+      if (response.success) {
+        setTestResult({
+          success: true,
+          message: 'Connection successful! aria2c is running.'
+        });
+      } else {
+        setTestResult({
+          success: false,
+          message: response.error || 'Connection failed'
+        });
+      }
+    } catch (error) {
+      setTestResult({
+        success: false,
+        message: error instanceof Error ? error.message : 'Connection failed'
+      });
+    } finally {
+      setTesting(false);
+    }
+  };
+
+  return (
+    <div>
+      <h1 style={{ fontSize: '24px', fontWeight: 600, marginBottom: 'var(--space-xl)' }}>
+        {t('connectionTitle')}
+      </h1>
+
+      {/* 连接状态卡片 */}
+      {connInfo && (
+        <div className="options-section" style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: 'var(--space-md)'
+        }}>
+          <div style={{
+            width: '10px',
+            height: '10px',
+            borderRadius: '50%',
+            flexShrink: 0,
+            backgroundColor: connInfo.connected
+              ? 'var(--color-success)'
+              : 'var(--color-danger)'
+          }} />
+          <div style={{ flex: 1 }}>
+            <div style={{ fontSize: '14px', fontWeight: 600, color: 'var(--text-primary)' }}>
+              {connInfo.connected ? t('connConnected') : t('connDisconnected')}
+            </div>
+            <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '2px' }}>
+              {t('connManualHint')}
+            </div>
+          </div>
+        </div>
+      )}
+
+      <div className="options-section">
+        <h2 className="options-section-title">{t('aria2Config')}</h2>
+
+        <div className="form-item">
+          <label className="form-label">{t('websocketUrl')}</label>
+          <input
+            type="text"
+            className="form-input"
+            value={config.url}
+            onChange={(e) => setConfig({ ...config, url: e.target.value })}
+            placeholder="ws://127.0.0.1:16888/jsonrpc"
+          />
+          <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '4px' }}>
+            {t('websocketUrlDesc')}
+          </div>
+        </div>
+
+        <div className="form-item">
+          <label className="form-label">{t('rpcSecret')}</label>
+          <input
+            type="password"
+            className="form-input"
+            value={config.secret}
+            onChange={(e) => setConfig({ ...config, secret: e.target.value })}
+            placeholder={t('rpcSecretPlaceholder')}
+          />
+          <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '4px' }}>
+            {t('rpcSecretDesc')}
+          </div>
+        </div>
+
+        <div className="form-item">
+          <label className="form-checkbox">
+            <input
+              type="checkbox"
+              checked={config.autoConnect}
+              onChange={(e) => setConfig({ ...config, autoConnect: e.target.checked })}
+            />
+            <span>{t('autoConnect')}</span>
+          </label>
+        </div>
+
+        <div style={{ display: 'flex', gap: 'var(--space-md)', alignItems: 'center' }}>
+          <button className="form-button" onClick={testConnection} disabled={testing}>
+            {testing ? t('testing') : t('testConnection')}
+          </button>
+
+          {testResult && (
+            <div style={{
+              padding: '8px 16px',
+              borderRadius: 'var(--radius-base)',
+              fontSize: '14px',
+              backgroundColor: testResult.success ? 'var(--fill-extra-light)' : '#fef0f0',
+              color: testResult.success ? 'var(--color-success)' : 'var(--color-danger)',
+              border: '1px solid',
+              borderColor: testResult.success ? 'var(--color-success)' : 'var(--color-danger)'
+            }}>
+              {testResult.success ? t('connectionSuccessful') : t('connectionFailed')}
+            </div>
+          )}
+        </div>
+      </div>
+
+      <div style={{ display: 'flex', gap: 'var(--space-md)' }}>
+        <button className="form-button" onClick={saveConfig}>
+          {t('save')}
+        </button>
+
+        {saved && (
+          <div style={{
+            padding: '8px 16px',
+            color: 'var(--color-success)',
+            fontSize: '14px',
+            display: 'flex',
+            alignItems: 'center'
+          }}>
+            ✓ {t('saved')}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export default Connection;

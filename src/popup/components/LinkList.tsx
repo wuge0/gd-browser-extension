@@ -1,1 +1,127 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHR5cGUgeyBMaW5rIH0gZnJvbSAnQC9zaGFyZWQvdHlwZXMnOwppbXBvcnQgTGlua0l0ZW0gZnJvbSAnLi9MaW5rSXRlbSc7CmltcG9ydCB7IFNlYXJjaCwgQ2hlY2tTcXVhcmUsIFNxdWFyZSB9IGZyb20gJ2x1Y2lkZS1yZWFjdCc7CmltcG9ydCB7IHVzZUxpbmtTdG9yZSB9IGZyb20gJy4uL3N0b3Jlcy9saW5rU3RvcmUnOwppbXBvcnQgeyB0IH0gZnJvbSAnQC9zaGFyZWQvdXRpbHMvaTE4bic7CgppbnRlcmZhY2UgTGlua0xpc3RQcm9wcyB7CiAgbGlua3M6IExpbmtbXTsKfQoKZnVuY3Rpb24gTGlua0xpc3QoeyBsaW5rcyB9OiBMaW5rTGlzdFByb3BzKSB7CiAgY29uc3QgeyBzZWFyY2hRdWVyeSwgc2V0U2VhcmNoUXVlcnksIHRvZ2dsZUFsbCB9ID0gdXNlTGlua1N0b3JlKCk7CiAgY29uc3QgYWxsU2VsZWN0ZWQgPSBsaW5rcy5sZW5ndGggPiAwICYmIGxpbmtzLmV2ZXJ5KGwgPT4gbC5zZWxlY3RlZCk7CgogIGlmIChsaW5rcy5sZW5ndGggPT09IDAgJiYgIXNlYXJjaFF1ZXJ5KSB7CiAgICByZXR1cm4gKAogICAgICA8ZGl2IHN0eWxlPXt7CiAgICAgICAgZmxleDogMSwKICAgICAgICBkaXNwbGF5OiAnZmxleCcsCiAgICAgICAgZmxleERpcmVjdGlvbjogJ2NvbHVtbicsCiAgICAgICAgYWxpZ25JdGVtczogJ2NlbnRlcicsCiAgICAgICAganVzdGlmeUNvbnRlbnQ6ICdjZW50ZXInLAogICAgICAgIGNvbG9yOiAndmFyKC0tdGV4dC1zZWNvbmRhcnkpJywKICAgICAgICBnYXA6ICd2YXIoLS1zcGFjZS1tZCknCiAgICAgIH19PgogICAgICAgIDxkaXYgc3R5bGU9e3sgZm9udFNpemU6ICc0OHB4Jywgb3BhY2l0eTogMC41IH19PvCfk6U8L2Rpdj4KICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiAnMTRweCcgfX0+e3QoJ3BvcHVwTm9MaW5rcycpfTwvZGl2PgogICAgICAgIDxkaXYgc3R5bGU9e3sgZm9udFNpemU6ICcxMnB4JywgY29sb3I6ICd2YXIoLS10ZXh0LXBsYWNlaG9sZGVyKScgfX0+CiAgICAgICAgICBCcm93c2Ugd2ViIHBhZ2VzIHRvIGNhcHR1cmUgZG93bmxvYWQgbGlua3MKICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICApOwogIH0KCiAgcmV0dXJuICgKICAgIDxkaXYgc3R5bGU9e3sgZmxleDogMSwgZGlzcGxheTogJ2ZsZXgnLCBmbGV4RGlyZWN0aW9uOiAnY29sdW1uJyB9fT4KICAgICAgey8qIEZpbHRlciBCYXIgKi99CiAgICAgIDxkaXYgc3R5bGU9e3sKICAgICAgICBwYWRkaW5nOiAndmFyKC0tc3BhY2UtbWQpJywKICAgICAgICBib3JkZXJCb3R0b206ICcxcHggc29saWQgdmFyKC0tYm9yZGVyLWxpZ2h0ZXIpJywKICAgICAgICBkaXNwbGF5OiAnZmxleCcsCiAgICAgICAgZ2FwOiAndmFyKC0tc3BhY2Utc20pJywKICAgICAgICBhbGlnbkl0ZW1zOiAnY2VudGVyJwogICAgICB9fT4KICAgICAgICA8ZGl2IHN0eWxlPXt7CiAgICAgICAgICBmbGV4OiAxLAogICAgICAgICAgZGlzcGxheTogJ2ZsZXgnLAogICAgICAgICAgYWxpZ25JdGVtczogJ2NlbnRlcicsCiAgICAgICAgICBnYXA6ICd2YXIoLS1zcGFjZS1zbSknLAogICAgICAgICAgcGFkZGluZzogJzZweCAxMnB4JywKICAgICAgICAgIGJhY2tncm91bmRDb2xvcjogJ3ZhcigtLWZpbGwtbGlnaHQpJywKICAgICAgICAgIGJvcmRlclJhZGl1czogJ3ZhcigtLXJhZGl1cy1iYXNlKScsCiAgICAgICAgICBib3JkZXI6ICcxcHggc29saWQgdmFyKC0tYm9yZGVyLWxpZ2h0ZXIpJwogICAgICAgIH19PgogICAgICAgICAgPFNlYXJjaCBzaXplPXsxNn0gY29sb3I9InZhcigtLXRleHQtcGxhY2Vob2xkZXIpIiAvPgogICAgICAgICAgPGlucHV0CiAgICAgICAgICAgIHR5cGU9InRleHQiCiAgICAgICAgICAgIHBsYWNlaG9sZGVyPXt0KCdwb3B1cFNlYXJjaCcpfQogICAgICAgICAgICB2YWx1ZT17c2VhcmNoUXVlcnl9CiAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0U2VhcmNoUXVlcnkoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgIGZsZXg6IDEsCiAgICAgICAgICAgICAgYm9yZGVyOiAnbm9uZScsCiAgICAgICAgICAgICAgYmFja2dyb3VuZENvbG9yOiAndHJhbnNwYXJlbnQnLAogICAgICAgICAgICAgIGZvbnRTaXplOiAnMTNweCcsCiAgICAgICAgICAgICAgY29sb3I6ICd2YXIoLS10ZXh0LXByaW1hcnkpJwogICAgICAgICAgICB9fQogICAgICAgICAgLz4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgb25DbGljaz17KCkgPT4gdG9nZ2xlQWxsKCFhbGxTZWxlY3RlZCl9CiAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICB3aWR0aDogJzI4cHgnLAogICAgICAgICAgICBoZWlnaHQ6ICcyOHB4JywKICAgICAgICAgICAgZGlzcGxheTogJ2ZsZXgnLAogICAgICAgICAgICBhbGlnbkl0ZW1zOiAnY2VudGVyJywKICAgICAgICAgICAganVzdGlmeUNvbnRlbnQ6ICdjZW50ZXInLAogICAgICAgICAgICBiYWNrZ3JvdW5kQ29sb3I6ICd0cmFuc3BhcmVudCcsCiAgICAgICAgICAgIGJvcmRlcjogJ25vbmUnLAogICAgICAgICAgICBib3JkZXJSYWRpdXM6ICd2YXIoLS1yYWRpdXMtYmFzZSknLAogICAgICAgICAgICBjdXJzb3I6ICdwb2ludGVyJywKICAgICAgICAgICAgdHJhbnNpdGlvbjogJ2JhY2tncm91bmQtY29sb3IgMC4ycycKICAgICAgICAgIH19CiAgICAgICAgICBvbk1vdXNlRW50ZXI9eyhlKSA9PiB7CiAgICAgICAgICAgIGUuY3VycmVudFRhcmdldC5zdHlsZS5iYWNrZ3JvdW5kQ29sb3IgPSAndmFyKC0tZmlsbC1saWdodCknOwogICAgICAgICAgfX0KICAgICAgICAgIG9uTW91c2VMZWF2ZT17KGUpID0+IHsKICAgICAgICAgICAgZS5jdXJyZW50VGFyZ2V0LnN0eWxlLmJhY2tncm91bmRDb2xvciA9ICd0cmFuc3BhcmVudCc7CiAgICAgICAgICB9fQogICAgICAgICAgdGl0bGU9e2FsbFNlbGVjdGVkID8gJ0Rlc2VsZWN0IEFsbCcgOiAnU2VsZWN0IEFsbCd9CiAgICAgICAgPgogICAgICAgICAge2FsbFNlbGVjdGVkID8gKAogICAgICAgICAgICA8Q2hlY2tTcXVhcmUgc2l6ZT17MTh9IGNvbG9yPSJ2YXIoLS1jb2xvci1wcmltYXJ5KSIgLz4KICAgICAgICAgICkgOiAoCiAgICAgICAgICAgIDxTcXVhcmUgc2l6ZT17MTh9IGNvbG9yPSJ2YXIoLS10ZXh0LXNlY29uZGFyeSkiIC8+CiAgICAgICAgICApfQogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBMaW5rIExpc3QgKi99CiAgICAgIDxkaXYgc3R5bGU9e3sKICAgICAgICBmbGV4OiAxLAogICAgICAgIG92ZXJmbG93WTogJ2F1dG8nLAogICAgICAgIHBhZGRpbmc6ICd2YXIoLS1zcGFjZS1zbSknCiAgICAgIH19PgogICAgICAgIHtsaW5rcy5sZW5ndGggPT09IDAgPyAoCiAgICAgICAgICA8ZGl2IHN0eWxlPXt7CiAgICAgICAgICAgIHBhZGRpbmc6ICd2YXIoLS1zcGFjZS14bCknLAogICAgICAgICAgICB0ZXh0QWxpZ246ICdjZW50ZXInLAogICAgICAgICAgICBjb2xvcjogJ3ZhcigtLXRleHQtc2Vjb25kYXJ5KScsCiAgICAgICAgICAgIGZvbnRTaXplOiAnMTNweCcKICAgICAgICAgIH19PgogICAgICAgICAgICBObyBsaW5rcyBtYXRjaCB5b3VyIHNlYXJjaAogICAgICAgICAgPC9kaXY+CiAgICAgICAgKSA6ICgKICAgICAgICAgIGxpbmtzLm1hcChsaW5rID0+ICgKICAgICAgICAgICAgPExpbmtJdGVtIGtleT17bGluay5pZH0gbGluaz17bGlua30gLz4KICAgICAgICAgICkpCiAgICAgICAgKX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9CgpleHBvcnQgZGVmYXVsdCBMaW5rTGlzdDsK
+import React from 'react';
+import type { Link } from '@/shared/types';
+import LinkItem from './LinkItem';
+import { Search, CheckSquare, Square } from 'lucide-react';
+import { useLinkStore } from '../stores/linkStore';
+import { t } from '@/shared/utils/i18n';
+
+interface LinkListProps {
+  links: Link[];
+}
+
+function LinkList({ links }: LinkListProps) {
+  const { searchQuery, setSearchQuery, toggleAll } = useLinkStore();
+  const allSelected = links.length > 0 && links.every(l => l.selected);
+
+  if (links.length === 0 && !searchQuery) {
+    return (
+      <div style={{
+        flex: 1,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        color: 'var(--text-secondary)',
+        gap: 'var(--space-md)'
+      }}>
+        <div style={{ fontSize: '48px', opacity: 0.5 }}>📥</div>
+        <div style={{ fontSize: '14px' }}>{t('popupNoLinks')}</div>
+        <div style={{ fontSize: '12px', color: 'var(--text-placeholder)' }}>
+          Browse web pages to capture download links
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+      {/* Filter Bar */}
+      <div style={{
+        padding: 'var(--space-md)',
+        borderBottom: '1px solid var(--border-lighter)',
+        display: 'flex',
+        gap: 'var(--space-sm)',
+        alignItems: 'center'
+      }}>
+        <div style={{
+          flex: 1,
+          display: 'flex',
+          alignItems: 'center',
+          gap: 'var(--space-sm)',
+          padding: '6px 12px',
+          backgroundColor: 'var(--fill-light)',
+          borderRadius: 'var(--radius-base)',
+          border: '1px solid var(--border-lighter)'
+        }}>
+          <Search size={16} color="var(--text-placeholder)" />
+          <input
+            type="text"
+            placeholder={t('popupSearch')}
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            style={{
+              flex: 1,
+              border: 'none',
+              backgroundColor: 'transparent',
+              fontSize: '13px',
+              color: 'var(--text-primary)'
+            }}
+          />
+        </div>
+
+        <button
+          onClick={() => toggleAll(!allSelected)}
+          style={{
+            width: '28px',
+            height: '28px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            backgroundColor: 'transparent',
+            border: 'none',
+            borderRadius: 'var(--radius-base)',
+            cursor: 'pointer',
+            transition: 'background-color 0.2s'
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.backgroundColor = 'var(--fill-light)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.backgroundColor = 'transparent';
+          }}
+          title={allSelected ? 'Deselect All' : 'Select All'}
+        >
+          {allSelected ? (
+            <CheckSquare size={18} color="var(--color-primary)" />
+          ) : (
+            <Square size={18} color="var(--text-secondary)" />
+          )}
+        </button>
+      </div>
+
+      {/* Link List */}
+      <div style={{
+        flex: 1,
+        overflowY: 'auto',
+        padding: 'var(--space-sm)'
+      }}>
+        {links.length === 0 ? (
+          <div style={{
+            padding: 'var(--space-xl)',
+            textAlign: 'center',
+            color: 'var(--text-secondary)',
+            fontSize: '13px'
+          }}>
+            No links match your search
+          </div>
+        ) : (
+          links.map(link => (
+            <LinkItem key={link.id} link={link} />
+          ))
+        )}
+      </div>
+    </div>
+  );
+}
+
+export default LinkList;

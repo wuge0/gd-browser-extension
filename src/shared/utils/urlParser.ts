@@ -1,1 +1,300 @@
-aW1wb3J0IHR5cGUgeyBMaW5rIH0gZnJvbSAnQC9zaGFyZWQvdHlwZXMnOwoKLyoqCiAqIOS7jiBVUkwg5Lit5o+Q5Y+W5paH5Lu25ZCNCiAqIOS8mOWFiOe6p++8muafpeivouWPguaVsCA+IOi3r+W+hOacq+autSA+IOeUn+aIkOm7mOiupOWQjeensAogKi8KZXhwb3J0IGZ1bmN0aW9uIGdldEZpbGVuYW1lRnJvbVVybCh1cmw6IHN0cmluZyk6IHN0cmluZyB7CiAgdHJ5IHsKICAgIGNvbnN0IHVybE9iaiA9IG5ldyBVUkwodXJsKTsKCiAgICAvLyAxLiDlsJ3or5Xku47mn6Xor6Llj4LmlbDmj5Dlj5bmlofku7blkI0KICAgIGNvbnN0IHF1ZXJ5RmlsZW5hbWUgPSBleHRyYWN0RmlsZW5hbWVGcm9tUXVlcnlQYXJhbXModXJsT2JqKTsKICAgIGlmIChxdWVyeUZpbGVuYW1lKSB7CiAgICAgIHJldHVybiBxdWVyeUZpbGVuYW1lOwogICAgfQoKICAgIC8vIDIuIOS7jui3r+W+hOacq+auteaPkOWPlgogICAgY29uc3QgcGF0aG5hbWUgPSB1cmxPYmoucGF0aG5hbWU7CiAgICBjb25zdCBmaWxlbmFtZSA9IHBhdGhuYW1lLnNwbGl0KCcvJykucG9wKCkgfHwgJyc7CgogICAgaWYgKGZpbGVuYW1lICYmIGZpbGVuYW1lLmluY2x1ZGVzKCcuJykpIHsKICAgICAgcmV0dXJuIGRlY29kZVVSSUNvbXBvbmVudChmaWxlbmFtZSk7CiAgICB9CgogICAgLy8gMy4g5aaC5p6c5rKh5pyJ5paH5Lu25ZCN77yM55Sf5oiQ5LiA5LiqCiAgICByZXR1cm4gYGRvd25sb2FkXyR7RGF0ZS5ub3coKX1gOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIGBkb3dubG9hZF8ke0RhdGUubm93KCl9YDsKICB9Cn0KCi8qKgogKiDku44gVVJMIOafpeivouWPguaVsOS4reaPkOWPluaWh+S7tuWQjQogKiDmlK/mjIHluLjop4HnmoTmn6Xor6Llj4LmlbDplK4KICovCmZ1bmN0aW9uIGV4dHJhY3RGaWxlbmFtZUZyb21RdWVyeVBhcmFtcyh1cmxPYmo6IFVSTCk6IHN0cmluZyB8IHVuZGVmaW5lZCB7CiAgY29uc3QgcGFyYW1zID0gdXJsT2JqLnNlYXJjaFBhcmFtczsKCiAgLy8g5bi46KeB55qE5paH5Lu25ZCN5Y+C5pWw6ZSuCiAgY29uc3QgZmlsZW5hbWVLZXlzID0gWwogICAgJ2ZpbGVuYW1lJywKICAgICdhdHRuYW1lJywKICAgICdyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uJywKICAgICdkb3dubG9hZCcsCiAgICAnZGwnLAogICAgJ2ZpbGUnLAogICAgJ25hbWUnCiAgXTsKCiAgZm9yIChjb25zdCBrZXkgb2YgZmlsZW5hbWVLZXlzKSB7CiAgICBjb25zdCB2YWx1ZSA9IHBhcmFtcy5nZXQoa2V5KTsKICAgIGlmICh2YWx1ZSkgewogICAgICAvLyDot7Pov4fluIPlsJTlgLzlj4LmlbDvvIjlpoIgZGw9Me+8iQogICAgICBpZiAodmFsdWUgPT09ICcxJyB8fCB2YWx1ZSA9PT0gJzAnIHx8IHZhbHVlID09PSAndHJ1ZScgfHwgdmFsdWUgPT09ICdmYWxzZScpIHsKICAgICAgICBjb250aW51ZTsKICAgICAgfQogICAgICByZXR1cm4gZGVjb2RlVVJJQ29tcG9uZW50KHZhbHVlKTsKICAgIH0KICB9CgogIHJldHVybiB1bmRlZmluZWQ7Cn0KCi8qKgogKiDojrflj5bmlofku7bmianlsZXlkI0KICovCmV4cG9ydCBmdW5jdGlvbiBnZXRGaWxlRXh0ZW5zaW9uKGZpbGVuYW1lOiBzdHJpbmcpOiBzdHJpbmcgewogIGNvbnN0IG1hdGNoID0gZmlsZW5hbWUubWF0Y2goL1wuW14uXSskLyk7CiAgcmV0dXJuIG1hdGNoID8gbWF0Y2hbMF0udG9Mb3dlckNhc2UoKSA6ICcnOwp9CgovKioKICog5Yik5pat5piv5ZCm5Li65aqS5L2TIFVSTAogKi8KZXhwb3J0IGZ1bmN0aW9uIGlzTWVkaWFVcmwodXJsOiBzdHJpbmcpOiBib29sZWFuIHsKICBjb25zdCBtZWRpYUV4dGVuc2lvbnMgPSBbCiAgICAnLm1wNCcsICcubWt2JywgJy5hdmknLCAnLm1vdicsICcud212JywgJy5mbHYnLCAnLndlYm0nLAogICAgJy5tcDMnLCAnLmZsYWMnLCAnLndhdicsICcuYWFjJywgJy5vZ2cnLCAnLm00YScsCiAgICAnLmpwZycsICcuanBlZycsICcucG5nJywgJy5naWYnLCAnLmJtcCcsICcud2VicCcKICBdOwogIAogIGNvbnN0IGV4dCA9IGdldEZpbGVFeHRlbnNpb24odXJsKTsKICByZXR1cm4gbWVkaWFFeHRlbnNpb25zLmluY2x1ZGVzKGV4dCk7Cn0KCi8qKgogKiDmuIXnkIbmlofku7blkI3kuK3nmoTpnZ7ms5XlrZfnrKYKICovCmV4cG9ydCBmdW5jdGlvbiBzYW5pdGl6ZUZpbGVuYW1lKGZpbGVuYW1lOiBzdHJpbmcpOiBzdHJpbmcgewogIC8vIFdpbmRvd3Mg5LiN5YWB6K6455qE5a2X56ymOiA8ID4gOiAiIC8gXCB8ID8gKgogIGNvbnN0IHNhbml0aXplZCA9IGZpbGVuYW1lLnJlcGxhY2UoL1s8PjoiL1xcfD8qXS9nLCAnXycpOwoKICAvLyDlpoLmnpzmuIXnkIblkI7kuLrnqbrvvIzmj5DkvpvlhZzlupXlgLwKICBpZiAoIXNhbml0aXplZCB8fCBzYW5pdGl6ZWQudHJpbSgpID09PSAnJykgewogICAgcmV0dXJuIGBkb3dubG9hZF8ke0RhdGUubm93KCl9YDsKICB9CgogIHJldHVybiBzYW5pdGl6ZWQ7Cn0KCi8qKgogKiDpqozor4EgVVJMIOaYr+WQpuacieaViAogKi8KZXhwb3J0IGZ1bmN0aW9uIGlzVmFsaWRVcmwodXJsOiBzdHJpbmcpOiBib29sZWFuIHsKICB0cnkgewogICAgbmV3IFVSTCh1cmwpOwogICAgcmV0dXJuIHRydWU7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQp9CgovKioKICog5Yik5patIFVSTCDmmK/lkKbljLnphY3pu5HlkI3ljZUKICovCmV4cG9ydCBmdW5jdGlvbiBpc0JsYWNrbGlzdGVkKHVybDogc3RyaW5nLCBibGFja2xpc3Q6IHN0cmluZ1tdKTogYm9vbGVhbiB7CiAgcmV0dXJuIGJsYWNrbGlzdC5zb21lKHBhdHRlcm4gPT4gewogICAgdHJ5IHsKICAgICAgY29uc3QgcmVnZXggPSBuZXcgUmVnRXhwKHBhdHRlcm4pOwogICAgICByZXR1cm4gcmVnZXgudGVzdCh1cmwpOwogICAgfSBjYXRjaCB7CiAgICAgIHJldHVybiB1cmwuaW5jbHVkZXMocGF0dGVybik7CiAgICB9CiAgfSk7Cn0KCi8qKgogKiDku44gVVJMIOS4reaPkOWPluWfn+WQjQogKi8KZXhwb3J0IGZ1bmN0aW9uIGdldERvbWFpbih1cmw6IHN0cmluZyk6IHN0cmluZyB7CiAgdHJ5IHsKICAgIHJldHVybiBuZXcgVVJMKHVybCkuaG9zdG5hbWU7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gJyc7CiAgfQp9CgovKioKICog5Yik5patIFVSTCDmmK/lkKbnnIvotbfmnaXlg4/kuIvovb3pk77mjqUKICog55So5LqO6L+H5ruk5o6J6aG16Z2i5a+86Iiq44CB55m75b2V562J6Z2e5LiL6L296ZO+5o6lCiAqLwpleHBvcnQgZnVuY3Rpb24gaXNEb3dubG9hZExpbmsodXJsOiBzdHJpbmcsIGVsZW1lbnQ/OiBIVE1MQW5jaG9yRWxlbWVudCk6IGJvb2xlYW4gewogIHRyeSB7CiAgICBjb25zdCB1cmxPYmogPSBuZXcgVVJMKHVybCk7CiAgICBjb25zdCBwYXRobmFtZSA9IHVybE9iai5wYXRobmFtZS50b0xvd2VyQ2FzZSgpOwoKICAgIC8vIDEuIOivhuWIq+eJueauiiBzY2hlbWUKICAgIGNvbnN0IHNjaGVtZSA9IHVybE9iai5wcm90b2NvbDsKCiAgICAvLyBtYWduZXQ6IOmTvuaOpeebtOaOpeiupOS4uuaYr+S4i+i9vemTvuaOpe+8iEJUIOejgeWKm++8iQogICAgaWYgKHNjaGVtZSA9PT0gJ21hZ25ldDonKSB7CiAgICAgIHJldHVybiB0cnVlOwogICAgfQoKICAgIC8vIGJsb2I6IOWSjCBkYXRhOiDpnIDopoHnibnmrorlpITnkIbvvIzmmoLml7bkuI3kvZzkuLrkuIvovb3pk77mjqUKICAgIGlmIChzY2hlbWUgPT09ICdibG9iOicgfHwgc2NoZW1lID09PSAnZGF0YTonKSB7CiAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICAvLyAyLiDlpoLmnpwgPGE+IOagh+etvuaciSBkb3dubG9hZCDlsZ7mgKfvvIznm7TmjqXorqTkuLrmmK/kuIvovb3pk77mjqUKICAgIGlmIChlbGVtZW50Py5oYXNBdHRyaWJ1dGUoJ2Rvd25sb2FkJykpIHsKICAgICAgcmV0dXJuIHRydWU7CiAgICB9CgogICAgLy8gMy4g5p+l6K+i5Y+C5pWw5Lit5pyJ5LiL6L295oSP5Zu+5oyH56S6CiAgICBjb25zdCBoYXNEb3dubG9hZEludGVudCA9IGhhc0Rvd25sb2FkSW50ZW50SW5RdWVyeSh1cmxPYmopOwogICAgaWYgKGhhc0Rvd25sb2FkSW50ZW50KSB7CiAgICAgIHJldHVybiB0cnVlOwogICAgfQoKICAgIC8vIDQuIOW4uOingeeahOS4i+i9veaWh+S7tuaJqeWxleWQjQogICAgY29uc3QgZG93bmxvYWRFeHRlbnNpb25zID0gWwogICAgICAvLyDljovnvKnljIUKICAgICAgJy56aXAnLCAnLnJhcicsICcuN3onLCAnLnRhcicsICcuZ3onLCAnLmJ6MicsICcueHonLCAnLnRneicsICcudGFyLmd6JywKICAgICAgLy8g5Y+v5omn6KGM5paH5Lu2CiAgICAgICcuZXhlJywgJy5tc2knLCAnLmRtZycsICcucGtnJywgJy5kZWInLCAnLnJwbScsICcuYXBwaW1hZ2UnLAogICAgICAvLyDmlofmoaMKICAgICAgJy5wZGYnLCAnLmRvYycsICcuZG9jeCcsICcueGxzJywgJy54bHN4JywgJy5wcHQnLCAnLnBwdHgnLAogICAgICAvLyDlqpLkvZPmlofku7YKICAgICAgJy5tcDQnLCAnLm1rdicsICcuYXZpJywgJy5tb3YnLCAnLndtdicsICcuZmx2JywgJy53ZWJtJywKICAgICAgJy5tcDMnLCAnLmZsYWMnLCAnLndhdicsICcuYWFjJywgJy5vZ2cnLCAnLm00YScsCiAgICAgIC8vIOWbvueJh++8iOWkp+aWh+S7tu+8iQogICAgICAnLmlzbycsICcuaW1nJywKICAgICAgLy8g5Luj56CB5ZKM5pWw5o2uCiAgICAgICcuYXBrJywgJy5pcGEnLCAnLmphcicsICcud2FyJywKICAgICAgLy8g5YW25LuWCiAgICAgICcudG9ycmVudCcKICAgIF07CgogICAgLy8g5qOA5p+l5paH5Lu25omp5bGV5ZCNCiAgICBjb25zdCBoYXNEb3dubG9hZEV4dCA9IGRvd25sb2FkRXh0ZW5zaW9ucy5zb21lKGV4dCA9PiBwYXRobmFtZS5lbmRzV2l0aChleHQpKTsKICAgIGlmIChoYXNEb3dubG9hZEV4dCkgewogICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KCiAgICAvLyA1LiDljIXlkKvkuIvovb3ot6/lvoTlhbPplK7or40KICAgIGNvbnN0IGRvd25sb2FkUGF0aHMgPSBbCiAgICAgICcvZG93bmxvYWQvJywKICAgICAgJy9kb3dubG9hZHMvJywKICAgICAgJy9yZWxlYXNlcy9kb3dubG9hZC8nLAogICAgICAnL2F0dGFjaG1lbnRzLycsCiAgICAgICcvZmlsZXMvJywKICAgICAgJy9hc3NldHMvJwogICAgXTsKCiAgICBjb25zdCBoYXNEb3dubG9hZFBhdGggPSBkb3dubG9hZFBhdGhzLnNvbWUocGF0aCA9PiBwYXRobmFtZS5pbmNsdWRlcyhwYXRoKSk7CiAgICBpZiAoaGFzRG93bmxvYWRQYXRoICYmIHBhdGhuYW1lLmluY2x1ZGVzKCcuJykpIHsKICAgICAgcmV0dXJuIHRydWU7CiAgICB9CgogICAgLy8gNi4gR2l0SHViIFJlbGVhc2VzIOeJueauiuWkhOeQhu+8mui3r+W+hOS4reacieaWh+S7tuWQjeS4lOWcqCByZWxlYXNlcyDnm7jlhbPot6/lvoTkuIsKICAgIGlmICh1cmxPYmouaG9zdG5hbWUuaW5jbHVkZXMoJ2dpdGh1Yi5jb20nKSB8fCB1cmxPYmouaG9zdG5hbWUuaW5jbHVkZXMoJ2dpdGh1YnVzZXJjb250ZW50LmNvbScpKSB7CiAgICAgIC8vIOaOkumZpOeJiOacrOagh+etvumhtemdouOAgee8lui+kemhtemdouOAgeS7o+eggea1j+iniOetiemdnuS4i+i9vemTvuaOpQogICAgICBpZiAocGF0aG5hbWUuaW5jbHVkZXMoJy9yZWxlYXNlcy90YWcvJykgfHwKICAgICAgICAgIHBhdGhuYW1lLmluY2x1ZGVzKCcvcmVsZWFzZXMvZWRpdC8nKSB8fAogICAgICAgICAgcGF0aG5hbWUuaW5jbHVkZXMoJy90cmVlLycpIHx8CiAgICAgICAgICBwYXRobmFtZS5pbmNsdWRlcygnL2Jsb2IvJykpIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgIH0KCiAgICAgIC8vIEdpdEh1YiByZWxlYXNlcyDnmoTnm7TmjqXkuIvovb3pk77mjqUKICAgICAgaWYgKHBhdGhuYW1lLmluY2x1ZGVzKCcvcmVsZWFzZXMvZG93bmxvYWQvJykgfHwgcGF0aG5hbWUuaW5jbHVkZXMoJy9hcmNoaXZlL3JlZnMvJykpIHsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgfQogICAgfQoKICAgIC8vIDcuIOWFtuS7luaDheWGte+8muWmguaenCBVUkwg55yL6LW35p2l5YOP5paH5Lu277yI5pyJ5omp5bGV5ZCN77yJ5LiU5LiN5piv572R6aG1CiAgICBjb25zdCBmaWxlbmFtZSA9IHBhdGhuYW1lLnNwbGl0KCcvJykucG9wKCkgfHwgJyc7CiAgICBpZiAoZmlsZW5hbWUuaW5jbHVkZXMoJy4nKSkgewogICAgICBjb25zdCBleHQgPSBnZXRGaWxlRXh0ZW5zaW9uKGZpbGVuYW1lKTsKCiAgICAgIC8vIOaOkumZpOaYjuehrueahOmdnuaWh+S7tuaooeW8jwogICAgICBjb25zdCBpbnZhbGlkUGF0dGVybnMgPSBbCiAgICAgICAgLy8g5Y2V57qv55qE5pWw5a2X5omp5bGV5ZCN77yI54mI5pys5Y+355qE54m55b6B77yM5aaCIHYxLjAuMyDnmoTmianlsZXlkI3mmK8gLjPvvIkKICAgICAgICAvXlwuXGQrJC8sCiAgICAgICAgLy8g56m65omp5bGV5ZCN5oiW5Y+q5pyJ54K55Y+3CiAgICAgICAgL15cLj8kLywKICAgICAgXTsKCiAgICAgIGNvbnN0IGlzSW52YWxpZFBhdHRlcm4gPSBpbnZhbGlkUGF0dGVybnMuc29tZShwYXR0ZXJuID0+IHBhdHRlcm4udGVzdChleHQpKTsKICAgICAgaWYgKGlzSW52YWxpZFBhdHRlcm4pIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgIH0KCiAgICAgIC8vIOaOkumZpOe9kemhteaWh+S7tgogICAgICBjb25zdCB3ZWJFeHRlbnNpb25zID0gWycuaHRtbCcsICcuaHRtJywgJy5waHAnLCAnLmFzcCcsICcuYXNweCcsICcuanNwJ107CiAgICAgIGlmICghd2ViRXh0ZW5zaW9ucy5pbmNsdWRlcyhleHQpKSB7CiAgICAgICAgcmV0dXJuIHRydWU7CiAgICAgIH0KICAgIH0KCiAgICByZXR1cm4gZmFsc2U7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQp9CgovKioKICog5qOA5p+lIFVSTCDmn6Xor6Llj4LmlbDkuK3mmK/lkKbmnInkuIvovb3mhI/lm77mjIfnpLoKICovCmZ1bmN0aW9uIGhhc0Rvd25sb2FkSW50ZW50SW5RdWVyeSh1cmxPYmo6IFVSTCk6IGJvb2xlYW4gewogIGNvbnN0IHBhcmFtcyA9IHVybE9iai5zZWFyY2hQYXJhbXM7CgogIC8vIOW4uOingeeahOS4i+i9veaEj+WbvuWPguaVsAogIGNvbnN0IGRvd25sb2FkSW50ZW50S2V5cyA9IFsKICAgICdkb3dubG9hZCcsCiAgICAnZGwnLAogICAgJ2V4cG9ydCcsCiAgICAnYWN0aW9uJywKICAgICdyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uJwogIF07CgogIGZvciAoY29uc3Qga2V5IG9mIGRvd25sb2FkSW50ZW50S2V5cykgewogICAgY29uc3QgdmFsdWUgPSBwYXJhbXMuZ2V0KGtleSk7CiAgICBpZiAodmFsdWUpIHsKICAgICAgLy8g5aaC5p6c5pivIGRvd25sb2FkPTEsIGRsPTEsIGV4cG9ydD1kb3dubG9hZCDnrYkKICAgICAgaWYgKHZhbHVlID09PSAnMScgfHwgdmFsdWUgPT09ICd0cnVlJyB8fCB2YWx1ZS50b0xvd2VyQ2FzZSgpID09PSAnZG93bmxvYWQnKSB7CiAgICAgICAgcmV0dXJuIHRydWU7CiAgICAgIH0KICAgIH0KICB9CgogIHJldHVybiBmYWxzZTsKfQoKLyoqCiAqIOWJpeemuyBMaW5rIOS4reeahOaVj+aEn+S/oeaBr++8jOeUqOS6juaMgeS5heWMluWIsCBzdG9yYWdlCiAqIOaVj+aEn+S/oeaBr++8iGNvb2tpZXMsIGF1dGhvcml6YXRpb27vvInku4XlnKjlj5HpgIHkuIvovb3ml7bkuLTml7bkvb/nlKjvvIzkuI3lupTmjIHkuYXljJYKICovCmV4cG9ydCBmdW5jdGlvbiBzYW5pdGl6ZUxpbmtGb3JTdG9yYWdlKGxpbms6IExpbmspOiBMaW5rIHsKICBjb25zdCB7IGNvb2tpZXMsIGF1dGhvcml6YXRpb24sIC4uLnNhZmVMaW5rIH0gPSBsaW5rOwogIHJldHVybiBzYWZlTGluayBhcyBMaW5rOwp9CgovKioKICog5om56YeP5Yml56a7IExpbmsg5pWw57uE5Lit55qE5pWP5oSf5L+h5oGvCiAqLwpleHBvcnQgZnVuY3Rpb24gc2FuaXRpemVMaW5rc0ZvclN0b3JhZ2UobGlua3M6IExpbmtbXSk6IExpbmtbXSB7CiAgcmV0dXJuIGxpbmtzLm1hcChzYW5pdGl6ZUxpbmtGb3JTdG9yYWdlKTsKfQo=
+import type { Link } from '@/shared/types';
+
+/**
+ * 从 URL 中提取文件名
+ * 优先级：查询参数 > 路径末段 > 生成默认名称
+ */
+export function getFilenameFromUrl(url: string): string {
+  try {
+    const urlObj = new URL(url);
+
+    // 1. 尝试从查询参数提取文件名
+    const queryFilename = extractFilenameFromQueryParams(urlObj);
+    if (queryFilename) {
+      return queryFilename;
+    }
+
+    // 2. 从路径末段提取
+    const pathname = urlObj.pathname;
+    const filename = pathname.split('/').pop() || '';
+
+    if (filename && filename.includes('.')) {
+      return decodeURIComponent(filename);
+    }
+
+    // 3. 如果没有文件名，生成一个
+    return `download_${Date.now()}`;
+  } catch {
+    return `download_${Date.now()}`;
+  }
+}
+
+/**
+ * 从 URL 查询参数中提取文件名
+ * 支持常见的查询参数键
+ */
+function extractFilenameFromQueryParams(urlObj: URL): string | undefined {
+  const params = urlObj.searchParams;
+
+  // 常见的文件名参数键
+  const filenameKeys = [
+    'filename',
+    'attname',
+    'response-content-disposition',
+    'download',
+    'dl',
+    'file',
+    'name'
+  ];
+
+  for (const key of filenameKeys) {
+    const value = params.get(key);
+    if (value) {
+      // 跳过布尔值参数（如 dl=1）
+      if (value === '1' || value === '0' || value === 'true' || value === 'false') {
+        continue;
+      }
+      return decodeURIComponent(value);
+    }
+  }
+
+  return undefined;
+}
+
+/**
+ * 获取文件扩展名
+ */
+export function getFileExtension(filename: string): string {
+  const match = filename.match(/\.[^.]+$/);
+  return match ? match[0].toLowerCase() : '';
+}
+
+/**
+ * 判断是否为媒体 URL
+ */
+export function isMediaUrl(url: string): boolean {
+  const mediaExtensions = [
+    '.mp4', '.mkv', '.avi', '.mov', '.wmv', '.flv', '.webm',
+    '.mp3', '.flac', '.wav', '.aac', '.ogg', '.m4a',
+    '.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp'
+  ];
+  
+  const ext = getFileExtension(url);
+  return mediaExtensions.includes(ext);
+}
+
+/**
+ * 清理文件名中的非法字符
+ */
+export function sanitizeFilename(filename: string): string {
+  // Windows 不允许的字符: < > : " / \ | ? *
+  const sanitized = filename.replace(/[<>:"/\\|?*]/g, '_');
+
+  // 如果清理后为空，提供兜底值
+  if (!sanitized || sanitized.trim() === '') {
+    return `download_${Date.now()}`;
+  }
+
+  return sanitized;
+}
+
+/**
+ * 验证 URL 是否有效
+ */
+export function isValidUrl(url: string): boolean {
+  try {
+    new URL(url);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * 判断 URL 是否匹配黑名单
+ */
+export function isBlacklisted(url: string, blacklist: string[]): boolean {
+  return blacklist.some(pattern => {
+    try {
+      const regex = new RegExp(pattern);
+      return regex.test(url);
+    } catch {
+      return url.includes(pattern);
+    }
+  });
+}
+
+/**
+ * 从 URL 中提取域名
+ */
+export function getDomain(url: string): string {
+  try {
+    return new URL(url).hostname;
+  } catch {
+    return '';
+  }
+}
+
+/**
+ * 判断 URL 是否看起来像下载链接
+ * 用于过滤掉页面导航、登录等非下载链接
+ */
+export function isDownloadLink(url: string, element?: HTMLAnchorElement): boolean {
+  try {
+    const urlObj = new URL(url);
+    const pathname = urlObj.pathname.toLowerCase();
+
+    // 1. 识别特殊 scheme
+    const scheme = urlObj.protocol;
+
+    // magnet: 链接直接认为是下载链接（BT 磁力）
+    if (scheme === 'magnet:') {
+      return true;
+    }
+
+    // blob: 和 data: 需要特殊处理，暂时不作为下载链接
+    if (scheme === 'blob:' || scheme === 'data:') {
+      return false;
+    }
+
+    // 2. 如果 <a> 标签有 download 属性，直接认为是下载链接
+    if (element?.hasAttribute('download')) {
+      return true;
+    }
+
+    // 3. 查询参数中有下载意图指示
+    const hasDownloadIntent = hasDownloadIntentInQuery(urlObj);
+    if (hasDownloadIntent) {
+      return true;
+    }
+
+    // 4. 常见的下载文件扩展名
+    const downloadExtensions = [
+      // 压缩包
+      '.zip', '.rar', '.7z', '.tar', '.gz', '.bz2', '.xz', '.tgz', '.tar.gz',
+      // 可执行文件
+      '.exe', '.msi', '.dmg', '.pkg', '.deb', '.rpm', '.appimage',
+      // 文档
+      '.pdf', '.doc', '.docx', '.xls', '.xlsx', '.ppt', '.pptx',
+      // 媒体文件
+      '.mp4', '.mkv', '.avi', '.mov', '.wmv', '.flv', '.webm',
+      '.mp3', '.flac', '.wav', '.aac', '.ogg', '.m4a',
+      // 图片（大文件）
+      '.iso', '.img',
+      // 代码和数据
+      '.apk', '.ipa', '.jar', '.war',
+      // 其他
+      '.torrent'
+    ];
+
+    // 检查文件扩展名
+    const hasDownloadExt = downloadExtensions.some(ext => pathname.endsWith(ext));
+    if (hasDownloadExt) {
+      return true;
+    }
+
+    // 5. 包含下载路径关键词
+    const downloadPaths = [
+      '/download/',
+      '/downloads/',
+      '/releases/download/',
+      '/attachments/',
+      '/files/',
+      '/assets/'
+    ];
+
+    const hasDownloadPath = downloadPaths.some(path => pathname.includes(path));
+    if (hasDownloadPath && pathname.includes('.')) {
+      return true;
+    }
+
+    // 6. GitHub Releases 特殊处理：路径中有文件名且在 releases 相关路径下
+    if (urlObj.hostname.includes('github.com') || urlObj.hostname.includes('githubusercontent.com')) {
+      // 排除版本标签页面、编辑页面、代码浏览等非下载链接
+      if (pathname.includes('/releases/tag/') ||
+          pathname.includes('/releases/edit/') ||
+          pathname.includes('/tree/') ||
+          pathname.includes('/blob/')) {
+        return false;
+      }
+
+      // GitHub releases 的直接下载链接
+      if (pathname.includes('/releases/download/') || pathname.includes('/archive/refs/')) {
+        return true;
+      }
+    }
+
+    // 7. 其他情况：如果 URL 看起来像文件（有扩展名）且不是网页
+    const filename = pathname.split('/').pop() || '';
+    if (filename.includes('.')) {
+      const ext = getFileExtension(filename);
+
+      // 排除明确的非文件模式
+      const invalidPatterns = [
+        // 单纯的数字扩展名（版本号的特征，如 v1.0.3 的扩展名是 .3）
+        /^\.\d+$/,
+        // 空扩展名或只有点号
+        /^\.?$/,
+      ];
+
+      const isInvalidPattern = invalidPatterns.some(pattern => pattern.test(ext));
+      if (isInvalidPattern) {
+        return false;
+      }
+
+      // 排除网页文件
+      const webExtensions = ['.html', '.htm', '.php', '.asp', '.aspx', '.jsp'];
+      if (!webExtensions.includes(ext)) {
+        return true;
+      }
+    }
+
+    return false;
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * 检查 URL 查询参数中是否有下载意图指示
+ */
+function hasDownloadIntentInQuery(urlObj: URL): boolean {
+  const params = urlObj.searchParams;
+
+  // 常见的下载意图参数
+  const downloadIntentKeys = [
+    'download',
+    'dl',
+    'export',
+    'action',
+    'response-content-disposition'
+  ];
+
+  for (const key of downloadIntentKeys) {
+    const value = params.get(key);
+    if (value) {
+      // 如果是 download=1, dl=1, export=download 等
+      if (value === '1' || value === 'true' || value.toLowerCase() === 'download') {
+        return true;
+      }
+    }
+  }
+
+  return false;
+}
+
+/**
+ * 剥离 Link 中的敏感信息，用于持久化到 storage
+ * 敏感信息（cookies, authorization）仅在发送下载时临时使用，不应持久化
+ */
+export function sanitizeLinkForStorage(link: Link): Link {
+  const { cookies, authorization, ...safeLink } = link;
+  return safeLink as Link;
+}
+
+/**
+ * 批量剥离 Link 数组中的敏感信息
+ */
+export function sanitizeLinksForStorage(links: Link[]): Link[] {
+  return links.map(sanitizeLinkForStorage);
+}

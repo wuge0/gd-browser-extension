@@ -1,1 +1,30 @@
-LyoqCiAqIOa4hemZpOaJqeWxleWtmOWCqOaVsOaNrueahOiEmuacrAogKiDlnKjmtY/op4jlmajlvIDlj5HogIXlt6XlhbfnmoQgQ29uc29sZSDkuK3ov5DooYzmraTohJrmnKwKICogCiAqIOS9v+eUqOaWueazle+8mgogKiAxLiDmiZPlvIDmianlsZXnmoQgUG9wdXAg6aG16Z2iCiAqIDIuIOWPs+mUrueCueWHuyBQb3B1cO+8jOmAieaLqSLmo4Dmn6Ui77yISW5zcGVjdO+8iQogKiAzLiDlnKggQ29uc29sZSDmoIfnrb7kuK3nspjotLTlubbov5DooYzmraTohJrmnKwKICovCgooYXN5bmMgZnVuY3Rpb24gY2xlYXJFeHRlbnNpb25TdG9yYWdlKCkgewogIGNvbnNvbGUubG9nKCfwn6e5IOW8gOWni+a4hemZpOaJqeWxleWtmOWCqOaVsOaNri4uLicpOwogIAogIHRyeSB7CiAgICAvLyDmuIXpmaTmiYDmnInlrZjlgqjnmoTpk77mjqUKICAgIGF3YWl0IGNocm9tZS5zdG9yYWdlLmxvY2FsLnJlbW92ZSgnZ2Rvd25sb2FkX2xpbmtzJyk7CiAgICBjb25zb2xlLmxvZygn4pyFIOW3sua4hemZpOmTvuaOpeaVsOaNricpOwogICAgCiAgICAvLyDlj6/pgInvvJrmuIXpmaTmiYDmnInlrZjlgqjmlbDmja4KICAgIC8vIGF3YWl0IGNocm9tZS5zdG9yYWdlLmxvY2FsLmNsZWFyKCk7CiAgICAvLyBjb25zb2xlLmxvZygn4pyFIOW3sua4hemZpOaJgOacieWtmOWCqOaVsOaNricpOwogICAgCiAgICAvLyDliLfmlrDpobXpnaLku6Xlj43mmKDlj5jljJYKICAgIHdpbmRvdy5sb2NhdGlvbi5yZWxvYWQoKTsKICAgIAogICAgY29uc29sZS5sb2coJ+KchSDlrZjlgqjmlbDmja7lt7LmuIXpmaTvvIzpobXpnaLlt7LliLfmlrAnKTsKICB9IGNhdGNoIChlcnJvcikgewogICAgY29uc29sZS5lcnJvcign4p2MIOa4hemZpOWtmOWCqOaVsOaNruaXtuWHuumUmTonLCBlcnJvcik7CiAgfQp9KSgpOwo=
+/**
+ * 清除扩展存储数据的脚本
+ * 在浏览器开发者工具的 Console 中运行此脚本
+ * 
+ * 使用方法：
+ * 1. 打开扩展的 Popup 页面
+ * 2. 右键点击 Popup，选择"检查"（Inspect）
+ * 3. 在 Console 标签中粘贴并运行此脚本
+ */
+
+(async function clearExtensionStorage() {
+  console.log('🧹 开始清除扩展存储数据...');
+  
+  try {
+    // 清除所有存储的链接
+    await chrome.storage.local.remove('gdownload_links');
+    console.log('✅ 已清除链接数据');
+    
+    // 可选：清除所有存储数据
+    // await chrome.storage.local.clear();
+    // console.log('✅ 已清除所有存储数据');
+    
+    // 刷新页面以反映变化
+    window.location.reload();
+    
+    console.log('✅ 存储数据已清除，页面已刷新');
+  } catch (error) {
+    console.error('❌ 清除存储数据时出错:', error);
+  }
+})();

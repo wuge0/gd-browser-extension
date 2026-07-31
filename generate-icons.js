@@ -1,1 +1,82 @@
-LyoqCiAqIEljb24gR2VuZXJhdG9yIFNjcmlwdAogKgogKiBUaGlzIHNjcmlwdCBnZW5lcmF0ZXMgUE5HIGljb25zIGZyb20gdGhlIFNWRyBzb3VyY2UgaW4gbXVsdGlwbGUgc2l6ZXMuCiAqCiAqIFVzYWdlOgogKiAgIG5wbSBpbnN0YWxsIHNoYXJwIChpZiBub3QgYWxyZWFkeSBpbnN0YWxsZWQpCiAqICAgbm9kZSBnZW5lcmF0ZS1pY29ucy5qcwogKi8KCmltcG9ydCBzaGFycCBmcm9tICdzaGFycCc7CmltcG9ydCBmcyBmcm9tICdmcyc7CmltcG9ydCBwYXRoIGZyb20gJ3BhdGgnOwppbXBvcnQgeyBmaWxlVVJMVG9QYXRoIH0gZnJvbSAndXJsJzsKCmNvbnN0IF9fZmlsZW5hbWUgPSBmaWxlVVJMVG9QYXRoKGltcG9ydC5tZXRhLnVybCk7CmNvbnN0IF9fZGlybmFtZSA9IHBhdGguZGlybmFtZShfX2ZpbGVuYW1lKTsKCi8vIENvbmZpZ3VyYXRpb24KY29uc3QgSUNPTl9TSVpFUyA9IFsxNiwgMzIsIDQ4LCAxMjhdOwpjb25zdCBJTlBVVF9TVkcgPSBwYXRoLmpvaW4oX19kaXJuYW1lLCAncHVibGljJywgJ2ljb25zJywgJ2ljb24uc3ZnJyk7CmNvbnN0IE9VVFBVVF9ESVIgPSBwYXRoLmpvaW4oX19kaXJuYW1lLCAncHVibGljJywgJ2ljb25zJyk7CgovLyBDb2xvcnMKY29uc3QgQ09MT1JTID0gewoJZGVmYXVsdDogJyM0MDlFRkYnLCAvLyBFbGVtZW50IFBsdXMgcHJpbWFyeSBibHVlCglkYXJrOiAnIzFEMUUxRicsICAgICAvLyBEYXJrIHRoZW1lIGJhY2tncm91bmQKCWxpZ2h0OiAnI0ZGRkZGRicgICAgIC8vIExpZ2h0IHRoZW1lCn07Cgphc3luYyBmdW5jdGlvbiBnZW5lcmF0ZUljb25zKCkgewoJY29uc29sZS5sb2coJ/CfjqggR0Rvd25sb2FkIEV4dGVuc2lvbiBJY29uIEdlbmVyYXRvclxuJyk7CgoJLy8gQ2hlY2sgaWYgU1ZHIGV4aXN0cwoJaWYgKCFmcy5leGlzdHNTeW5jKElOUFVUX1NWRykpIHsKCQljb25zb2xlLmVycm9yKCfinYwgRXJyb3I6IGljb24uc3ZnIG5vdCBmb3VuZCBhdCcsIElOUFVUX1NWRyk7CgkJcHJvY2Vzcy5leGl0KDEpOwoJfQoKCWNvbnNvbGUubG9nKCfwn5OEIFNvdXJjZSBTVkc6JywgSU5QVVRfU1ZHKTsKCWNvbnNvbGUubG9nKCfwn5OBIE91dHB1dCBkaXJlY3Rvcnk6JywgT1VUUFVUX0RJUik7Cgljb25zb2xlLmxvZygn8J+TjyBHZW5lcmF0aW5nIHNpemVzOicsIElDT05fU0laRVMuam9pbignLCAnKSwgJ1xuJyk7CgoJLy8gUmVhZCBTVkcgY29udGVudAoJY29uc3Qgc3ZnQnVmZmVyID0gZnMucmVhZEZpbGVTeW5jKElOUFVUX1NWRyk7CgoJLy8gR2VuZXJhdGUgZWFjaCBzaXplCglmb3IgKGNvbnN0IHNpemUgb2YgSUNPTl9TSVpFUykgewoJCXRyeSB7CgkJCWNvbnN0IG91dHB1dEZpbGUgPSBwYXRoLmpvaW4oT1VUUFVUX0RJUiwgYGljb24tJHtzaXplfS5wbmdgKTsKCgkJCWF3YWl0IHNoYXJwKHN2Z0J1ZmZlcikKCQkJCS5yZXNpemUoc2l6ZSwgc2l6ZSwgewoJCQkJCWZpdDogJ2NvbnRhaW4nLAoJCQkJCWJhY2tncm91bmQ6IHsgcjogMCwgZzogMCwgYjogMCwgYWxwaGE6IDAgfSAvLyBUcmFuc3BhcmVudCBiYWNrZ3JvdW5kCgkJCQl9KQoJCQkJLnBuZyh7CgkJCQkJY29tcHJlc3Npb25MZXZlbDogOSwKCQkJCQlhZGFwdGl2ZUZpbHRlcmluZzogdHJ1ZSwKCQkJCQlwYWxldHRlOiB0cnVlCgkJCQl9KQoJCQkJLnRvRmlsZShvdXRwdXRGaWxlKTsKCgkJCWNvbnN0IHN0YXRzID0gZnMuc3RhdFN5bmMob3V0cHV0RmlsZSk7CgkJCWNvbnNvbGUubG9nKGDinIUgR2VuZXJhdGVkIGljb24tJHtzaXplfS5wbmcgKCR7KHN0YXRzLnNpemUgLyAxMDI0KS50b0ZpeGVkKDIpfSBLQilgKTsKCQl9IGNhdGNoIChlcnJvcikgewoJCQljb25zb2xlLmVycm9yKGDinYwgRXJyb3IgZ2VuZXJhdGluZyAke3NpemV9w5cke3NpemV9OmAsIGVycm9yLm1lc3NhZ2UpOwoJCX0KCX0KCgljb25zb2xlLmxvZygnXG7wn46JIEljb24gZ2VuZXJhdGlvbiBjb21wbGV0ZSEnKTsKCWNvbnNvbGUubG9nKCdcbvCfk4sgTmV4dCBzdGVwczonKTsKCWNvbnNvbGUubG9nKCcgICAxLiBDaGVjayB0aGUgaWNvbnMgaW4gcHVibGljL2ljb25zLycpOwoJY29uc29sZS5sb2coJyAgIDIuIFZlcmlmeSBpY29ucyBkaXNwbGF5IGNvcnJlY3RseSBpbiBicm93c2VyJyk7Cgljb25zb2xlLmxvZygnICAgMy4gVXBkYXRlIG1hbmlmZXN0Lmpzb24gaWYgbmVlZGVkJyk7Cn0KCi8vIFJ1biB0aGUgZ2VuZXJhdG9yCmdlbmVyYXRlSWNvbnMoKS5jYXRjaChlcnJvciA9PiB7Cgljb25zb2xlLmVycm9yKCfwn5KlIEZhdGFsIGVycm9yOicsIGVycm9yKTsKCXByb2Nlc3MuZXhpdCgxKTsKfSk7Cg==
+/**
+ * Icon Generator Script
+ *
+ * This script generates PNG icons from the SVG source in multiple sizes.
+ *
+ * Usage:
+ *   npm install sharp (if not already installed)
+ *   node generate-icons.js
+ */
+
+import sharp from 'sharp';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Configuration
+const ICON_SIZES = [16, 32, 48, 128];
+const INPUT_SVG = path.join(__dirname, 'public', 'icons', 'icon.svg');
+const OUTPUT_DIR = path.join(__dirname, 'public', 'icons');
+
+// Colors
+const COLORS = {
+	default: '#409EFF', // Element Plus primary blue
+	dark: '#1D1E1F',     // Dark theme background
+	light: '#FFFFFF'     // Light theme
+};
+
+async function generateIcons() {
+	console.log('🎨 GDownload Extension Icon Generator\n');
+
+	// Check if SVG exists
+	if (!fs.existsSync(INPUT_SVG)) {
+		console.error('❌ Error: icon.svg not found at', INPUT_SVG);
+		process.exit(1);
+	}
+
+	console.log('📄 Source SVG:', INPUT_SVG);
+	console.log('📁 Output directory:', OUTPUT_DIR);
+	console.log('📏 Generating sizes:', ICON_SIZES.join(', '), '\n');
+
+	// Read SVG content
+	const svgBuffer = fs.readFileSync(INPUT_SVG);
+
+	// Generate each size
+	for (const size of ICON_SIZES) {
+		try {
+			const outputFile = path.join(OUTPUT_DIR, `icon-${size}.png`);
+
+			await sharp(svgBuffer)
+				.resize(size, size, {
+					fit: 'contain',
+					background: { r: 0, g: 0, b: 0, alpha: 0 } // Transparent background
+				})
+				.png({
+					compressionLevel: 9,
+					adaptiveFiltering: true,
+					palette: true
+				})
+				.toFile(outputFile);
+
+			const stats = fs.statSync(outputFile);
+			console.log(`✅ Generated icon-${size}.png (${(stats.size / 1024).toFixed(2)} KB)`);
+		} catch (error) {
+			console.error(`❌ Error generating ${size}×${size}:`, error.message);
+		}
+	}
+
+	console.log('\n🎉 Icon generation complete!');
+	console.log('\n📋 Next steps:');
+	console.log('   1. Check the icons in public/icons/');
+	console.log('   2. Verify icons display correctly in browser');
+	console.log('   3. Update manifest.json if needed');
+}
+
+// Run the generator
+generateIcons().catch(error => {
+	console.error('💥 Fatal error:', error);
+	process.exit(1);
+});

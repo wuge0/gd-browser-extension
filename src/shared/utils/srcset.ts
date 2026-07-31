@@ -1,1 +1,38 @@
-LyoqCiAqIHNyY3NldCDop6PmnpDvvJrku44gPGltZyBzcmNzZXQ+IOS4reaMkemAieWIhui+qOeOh+acgOWkp+eahOWAmemAiQogKi8KCi8qKgogKiDop6PmnpAgc3Jjc2V077yM6L+U5Zue5p2D6YeN5pyA5aSn77yIdyDmiJYgeCDmj4/ov7DnrKbmnIDlpKfvvInnmoQgVVJM44CCCiAqIOaXoOWAmemAieaXtui/lOWbniBmYWxsYmFja+OAggogKiDnpLrkvovvvJoiYS5qcGcgMzIwdywgYi5qcGcgNjQwdyIgLT4gYi5qcGfvvJsiYS5qcGcsIGIuanBnIDJ4IiAtPiBiLmpwZwogKi8KZXhwb3J0IGZ1bmN0aW9uIHBpY2tMYXJnZXN0RnJvbVNyY3NldChzcmNzZXQ6IHN0cmluZywgZmFsbGJhY2s6IHN0cmluZyk6IHN0cmluZyB7CiAgaWYgKCFzcmNzZXQpIHsKICAgIHJldHVybiBmYWxsYmFjazsKICB9CgogIGNvbnN0IGNhbmRpZGF0ZXMgPSBzcmNzZXQKICAgIC5zcGxpdCgnLCcpCiAgICAubWFwKChzKSA9PiBzLnRyaW0oKSkKICAgIC5maWx0ZXIoQm9vbGVhbikKICAgIC5tYXAoKHBhcnQpID0+IHsKICAgICAgY29uc3QgW3VybCwgZGVzY3JpcHRvcl0gPSBwYXJ0LnNwbGl0KC9ccysvKTsKICAgICAgbGV0IHdlaWdodCA9IDE7IC8vIOaXoOaPj+i/sOespum7mOiupCAxeAogICAgICBpZiAoZGVzY3JpcHRvcikgewogICAgICAgIGNvbnN0IG0gPSBkZXNjcmlwdG9yLm1hdGNoKC9eKFxkKyg/OlwuXGQrKT8pKFt3eF0pJC8pOwogICAgICAgIGlmIChtKSB7CiAgICAgICAgICB3ZWlnaHQgPSBwYXJzZUZsb2F0KG1bMV0pOwogICAgICAgIH0KICAgICAgfQogICAgICByZXR1cm4geyB1cmwsIHdlaWdodCB9OwogICAgfSkKICAgIC5maWx0ZXIoKGMpID0+IGMudXJsKTsKCiAgaWYgKGNhbmRpZGF0ZXMubGVuZ3RoID09PSAwKSB7CiAgICByZXR1cm4gZmFsbGJhY2s7CiAgfQoKICBjYW5kaWRhdGVzLnNvcnQoKGEsIGIpID0+IGIud2VpZ2h0IC0gYS53ZWlnaHQpOwogIHJldHVybiBjYW5kaWRhdGVzWzBdLnVybDsKfQo=
+/**
+ * srcset 解析：从 <img srcset> 中挑选分辨率最大的候选
+ */
+
+/**
+ * 解析 srcset，返回权重最大（w 或 x 描述符最大）的 URL。
+ * 无候选时返回 fallback。
+ * 示例："a.jpg 320w, b.jpg 640w" -> b.jpg；"a.jpg, b.jpg 2x" -> b.jpg
+ */
+export function pickLargestFromSrcset(srcset: string, fallback: string): string {
+  if (!srcset) {
+    return fallback;
+  }
+
+  const candidates = srcset
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean)
+    .map((part) => {
+      const [url, descriptor] = part.split(/\s+/);
+      let weight = 1; // 无描述符默认 1x
+      if (descriptor) {
+        const m = descriptor.match(/^(\d+(?:\.\d+)?)([wx])$/);
+        if (m) {
+          weight = parseFloat(m[1]);
+        }
+      }
+      return { url, weight };
+    })
+    .filter((c) => c.url);
+
+  if (candidates.length === 0) {
+    return fallback;
+  }
+
+  candidates.sort((a, b) => b.weight - a.weight);
+  return candidates[0].url;
+}

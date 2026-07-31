@@ -1,1 +1,127 @@
-LyoqCiAqIOa1j+iniOWZqCBBUEkg5oq96LGh5bGCCiAqIOaPkOS+m+i3qOa1j+iniOWZqOWFvOWuueeahCBBUEkg5YyF6KOFCiAqLwoKLy8g6I635Y+W5rWP6KeI5ZmoIEFQSSDlr7nosaEKZXhwb3J0IGNvbnN0IGJyb3dzZXIgPSAoKCkgPT4gewogIGlmICh0eXBlb2YgY2hyb21lICE9PSAndW5kZWZpbmVkJyAmJiBjaHJvbWUucnVudGltZSAmJiBjaHJvbWUucnVudGltZS5pZCkgewogICAgcmV0dXJuIGNocm9tZTsKICB9CiAgaWYgKHR5cGVvZiAoZ2xvYmFsVGhpcyBhcyBhbnkpLmJyb3dzZXIgIT09ICd1bmRlZmluZWQnICYmIChnbG9iYWxUaGlzIGFzIGFueSkuYnJvd3Nlci5ydW50aW1lKSB7CiAgICByZXR1cm4gKGdsb2JhbFRoaXMgYXMgYW55KS5icm93c2VyOwogIH0KICAvLyDlnKjmn5Dkupvmg4XlhrXkuIvvvIjlpoLmianlsZXliJrliqDovb3ml7bvvInvvIxBUEkg5Y+v6IO95bCa5pyq5a6M5YWo5Yid5aeL5YyWCiAgLy8g6L+U5Zue5LiA5Liq5bu26L+f5Yqg6L2955qE5Luj55CG5a+56LGhCiAgY29uc29sZS53YXJuKCdbQnJvd3NlckFwaV0gQ2hyb21lL0Jyb3dzZXIgQVBJIG5vdCBmdWxseSBpbml0aWFsaXplZCwgdXNpbmcgZGVsYXllZCBwcm94eScpOwoKICAvLyDnrYnlvoUgY2hyb21lIOWvueixoeWPr+eUqOaXtuWGjeiuv+mXrgogIGNvbnN0IGhhbmRsZXI6IFByb3h5SGFuZGxlcjx0eXBlb2YgY2hyb21lPiA9IHsKICAgIGdldCh0YXJnZXQsIHByb3ApIHsKICAgICAgaWYgKHR5cGVvZiBjaHJvbWUgIT09ICd1bmRlZmluZWQnICYmIGNocm9tZS5ydW50aW1lICYmIGNocm9tZS5ydW50aW1lLmlkKSB7CiAgICAgICAgcmV0dXJuIChjaHJvbWUgYXMgYW55KVtwcm9wXTsKICAgICAgfQogICAgICB0aHJvdyBuZXcgRXJyb3IoYEJyb3dzZXIgQVBJIG5vdCBhdmFpbGFibGUgeWV0LiBUcmllZCB0byBhY2Nlc3M6ICR7U3RyaW5nKHByb3ApfWApOwogICAgfQogIH07CgogIHJldHVybiBuZXcgUHJveHkoe30gYXMgdHlwZW9mIGNocm9tZSwgaGFuZGxlcik7Cn0pKCk7CgovKioKICog57uf5LiA55qE5rWP6KeI5ZmoIEFQSQogKi8KZXhwb3J0IGNvbnN0IGJyb3dzZXJBcGkgPSB7CiAgc3RvcmFnZTogewogICAgZ2V0OiAoa2V5czogc3RyaW5nW10pOiBQcm9taXNlPGFueT4gPT4gewogICAgICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUsIHJlamVjdCkgPT4gewogICAgICAgIGJyb3dzZXIuc3RvcmFnZS5sb2NhbC5nZXQoa2V5cywgKHJlc3VsdDogYW55KSA9PiB7CiAgICAgICAgICBpZiAoYnJvd3Nlci5ydW50aW1lLmxhc3RFcnJvcikgewogICAgICAgICAgICByZWplY3QoYnJvd3Nlci5ydW50aW1lLmxhc3RFcnJvcik7CiAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICByZXNvbHZlKHJlc3VsdCk7CiAgICAgICAgICB9CiAgICAgICAgfSk7CiAgICAgIH0pOwogICAgfSwKCiAgICBzZXQ6IChpdGVtczogUmVjb3JkPHN0cmluZywgYW55Pik6IFByb21pc2U8dm9pZD4gPT4gewogICAgICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUsIHJlamVjdCkgPT4gewogICAgICAgIGJyb3dzZXIuc3RvcmFnZS5sb2NhbC5zZXQoaXRlbXMsICgpID0+IHsKICAgICAgICAgIGlmIChicm93c2VyLnJ1bnRpbWUubGFzdEVycm9yKSB7CiAgICAgICAgICAgIHJlamVjdChicm93c2VyLnJ1bnRpbWUubGFzdEVycm9yKTsKICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHJlc29sdmUoKTsKICAgICAgICAgIH0KICAgICAgICB9KTsKICAgICAgfSk7CiAgICB9LAoKICAgIHJlbW92ZTogKGtleXM6IHN0cmluZyB8IHN0cmluZ1tdKTogUHJvbWlzZTx2b2lkPiA9PiB7CiAgICAgIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICAgICAgYnJvd3Nlci5zdG9yYWdlLmxvY2FsLnJlbW92ZShrZXlzLCAoKSA9PiB7CiAgICAgICAgICBpZiAoYnJvd3Nlci5ydW50aW1lLmxhc3RFcnJvcikgewogICAgICAgICAgICByZWplY3QoYnJvd3Nlci5ydW50aW1lLmxhc3RFcnJvcik7CiAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICByZXNvbHZlKCk7CiAgICAgICAgICB9CiAgICAgICAgfSk7CiAgICAgIH0pOwogICAgfSwKCiAgICAvLyDmmrTpnLIgb25DaGFuZ2VkIOS6i+S7tuebkeWQrOWZqAogICAgZ2V0IG9uQ2hhbmdlZCgpOiBjaHJvbWUuc3RvcmFnZS5TdG9yYWdlQ2hhbmdlZEV2ZW50IHsKICAgICAgLy8g56Gu5L+dIHN0b3JhZ2Uub25DaGFuZ2VkIOWtmOWcqO+8jOmBv+WFjeWcqOafkOS6m+S4iuS4i+aWh+S4rSB1bmRlZmluZWQKICAgICAgaWYgKCFicm93c2VyLnN0b3JhZ2U/Lm9uQ2hhbmdlZCkgewogICAgICAgIGNvbnNvbGUud2FybignW0Jyb3dzZXJBcGldIHN0b3JhZ2Uub25DaGFuZ2VkIG5vdCBhdmFpbGFibGUsIHJldHVybmluZyBkdW1teSBsaXN0ZW5lcicpOwogICAgICAgIGNvbnN0IGR1bW15ID0gewogICAgICAgICAgYWRkTGlzdGVuZXI6ICgpID0+IHt9LAogICAgICAgICAgcmVtb3ZlTGlzdGVuZXI6ICgpID0+IHt9LAogICAgICAgICAgaGFzTGlzdGVuZXI6ICgpID0+IGZhbHNlCiAgICAgICAgfTsKICAgICAgICByZXR1cm4gZHVtbXkgYXMgdW5rbm93biBhcyBjaHJvbWUuc3RvcmFnZS5TdG9yYWdlQ2hhbmdlZEV2ZW50OwogICAgICB9CiAgICAgIHJldHVybiBicm93c2VyLnN0b3JhZ2Uub25DaGFuZ2VkOwogICAgfQogIH0sCgogIHRhYnM6IHsKICAgIHNlbmRNZXNzYWdlOiAodGFiSWQ6IG51bWJlciwgbWVzc2FnZTogYW55KTogUHJvbWlzZTxhbnk+ID0+IHsKICAgICAgcmV0dXJuIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgICAgICBicm93c2VyLnRhYnMuc2VuZE1lc3NhZ2UodGFiSWQsIG1lc3NhZ2UsIChyZXNwb25zZTogYW55KSA9PiB7CiAgICAgICAgICBpZiAoYnJvd3Nlci5ydW50aW1lLmxhc3RFcnJvcikgewogICAgICAgICAgICByZWplY3QoYnJvd3Nlci5ydW50aW1lLmxhc3RFcnJvcik7CiAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICByZXNvbHZlKHJlc3BvbnNlKTsKICAgICAgICAgIH0KICAgICAgICB9KTsKICAgICAgfSk7CiAgICB9LAoKICAgIHF1ZXJ5OiAocXVlcnlJbmZvOiBjaHJvbWUudGFicy5RdWVyeUluZm8pOiBQcm9taXNlPGNocm9tZS50YWJzLlRhYltdPiA9PiB7CiAgICAgIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICAgICAgYnJvd3Nlci50YWJzLnF1ZXJ5KHF1ZXJ5SW5mbywgKHRhYnM6IGNocm9tZS50YWJzLlRhYltdKSA9PiB7CiAgICAgICAgICBpZiAoYnJvd3Nlci5ydW50aW1lLmxhc3RFcnJvcikgewogICAgICAgICAgICByZWplY3QoYnJvd3Nlci5ydW50aW1lLmxhc3RFcnJvcik7CiAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICByZXNvbHZlKHRhYnMpOwogICAgICAgICAgfQogICAgICAgIH0pOwogICAgICB9KTsKICAgIH0KICB9LAoKICBydW50aW1lOiB7CiAgICBzZW5kTWVzc2FnZTogKG1lc3NhZ2U6IGFueSk6IFByb21pc2U8YW55PiA9PiB7CiAgICAgIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICAgICAgYnJvd3Nlci5ydW50aW1lLnNlbmRNZXNzYWdlKG1lc3NhZ2UsIChyZXNwb25zZTogYW55KSA9PiB7CiAgICAgICAgICBpZiAoYnJvd3Nlci5ydW50aW1lLmxhc3RFcnJvcikgewogICAgICAgICAgICByZWplY3QoYnJvd3Nlci5ydW50aW1lLmxhc3RFcnJvcik7CiAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICByZXNvbHZlKHJlc3BvbnNlKTsKICAgICAgICAgIH0KICAgICAgICB9KTsKICAgICAgfSk7CiAgICB9CiAgfQp9Owo=
+/**
+ * 浏览器 API 抽象层
+ * 提供跨浏览器兼容的 API 包装
+ */
+
+// 获取浏览器 API 对象
+export const browser = (() => {
+  if (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.id) {
+    return chrome;
+  }
+  if (typeof (globalThis as any).browser !== 'undefined' && (globalThis as any).browser.runtime) {
+    return (globalThis as any).browser;
+  }
+  // 在某些情况下（如扩展刚加载时），API 可能尚未完全初始化
+  // 返回一个延迟加载的代理对象
+  console.warn('[BrowserApi] Chrome/Browser API not fully initialized, using delayed proxy');
+
+  // 等待 chrome 对象可用时再访问
+  const handler: ProxyHandler<typeof chrome> = {
+    get(target, prop) {
+      if (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.id) {
+        return (chrome as any)[prop];
+      }
+      throw new Error(`Browser API not available yet. Tried to access: ${String(prop)}`);
+    }
+  };
+
+  return new Proxy({} as typeof chrome, handler);
+})();
+
+/**
+ * 统一的浏览器 API
+ */
+export const browserApi = {
+  storage: {
+    get: (keys: string[]): Promise<any> => {
+      return new Promise((resolve, reject) => {
+        browser.storage.local.get(keys, (result: any) => {
+          if (browser.runtime.lastError) {
+            reject(browser.runtime.lastError);
+          } else {
+            resolve(result);
+          }
+        });
+      });
+    },
+
+    set: (items: Record<string, any>): Promise<void> => {
+      return new Promise((resolve, reject) => {
+        browser.storage.local.set(items, () => {
+          if (browser.runtime.lastError) {
+            reject(browser.runtime.lastError);
+          } else {
+            resolve();
+          }
+        });
+      });
+    },
+
+    remove: (keys: string | string[]): Promise<void> => {
+      return new Promise((resolve, reject) => {
+        browser.storage.local.remove(keys, () => {
+          if (browser.runtime.lastError) {
+            reject(browser.runtime.lastError);
+          } else {
+            resolve();
+          }
+        });
+      });
+    },
+
+    // 暴露 onChanged 事件监听器
+    get onChanged(): chrome.storage.StorageChangedEvent {
+      // 确保 storage.onChanged 存在，避免在某些上下文中 undefined
+      if (!browser.storage?.onChanged) {
+        console.warn('[BrowserApi] storage.onChanged not available, returning dummy listener');
+        const dummy = {
+          addListener: () => {},
+          removeListener: () => {},
+          hasListener: () => false
+        };
+        return dummy as unknown as chrome.storage.StorageChangedEvent;
+      }
+      return browser.storage.onChanged;
+    }
+  },
+
+  tabs: {
+    sendMessage: (tabId: number, message: any): Promise<any> => {
+      return new Promise((resolve, reject) => {
+        browser.tabs.sendMessage(tabId, message, (response: any) => {
+          if (browser.runtime.lastError) {
+            reject(browser.runtime.lastError);
+          } else {
+            resolve(response);
+          }
+        });
+      });
+    },
+
+    query: (queryInfo: chrome.tabs.QueryInfo): Promise<chrome.tabs.Tab[]> => {
+      return new Promise((resolve, reject) => {
+        browser.tabs.query(queryInfo, (tabs: chrome.tabs.Tab[]) => {
+          if (browser.runtime.lastError) {
+            reject(browser.runtime.lastError);
+          } else {
+            resolve(tabs);
+          }
+        });
+      });
+    }
+  },
+
+  runtime: {
+    sendMessage: (message: any): Promise<any> => {
+      return new Promise((resolve, reject) => {
+        browser.runtime.sendMessage(message, (response: any) => {
+          if (browser.runtime.lastError) {
+            reject(browser.runtime.lastError);
+          } else {
+            resolve(response);
+          }
+        });
+      });
+    }
+  }
+};

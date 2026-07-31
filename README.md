@@ -1,1 +1,305 @@
-IyBHRG93bmxvYWQgRXh0ZW5zaW9uCgo+ICoqQ2FwdHVyZSBkb3dubG9hZCBsaW5rcyBhbmQgc2VuZCB0aGVtIHRvIEdEb3dubG9hZCAtIGEgcG93ZXJmdWwgbXVsdGktcHJvdG9jb2wgZG93bmxvYWQgbWFuYWdlcioqCgpbIVtMaWNlbnNlOiBNSVRdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvTGljZW5zZS1NSVQteWVsbG93LnN2ZyldKGh0dHBzOi8vb3BlbnNvdXJjZS5vcmcvbGljZW5zZXMvTUlUKQpbIVtWZXJzaW9uXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL3ZlcnNpb24tMS4wLjAtYmx1ZSldKGh0dHBzOi8vZ2l0aHViLmNvbS93dWdlMC9nZC1icm93c2VyLWV4dGVuc2lvbikKCkVuZ2xpc2ggfCBb566A5L2T5Lit5paHXShSRUFETUUuemgtQ04ubWQpCgojIyDwn5qAIEZlYXR1cmVzCgotIPCflJcgKipPbmUtQ2xpY2sgQ2FwdHVyZSoqIC0gUXVpY2tseSBjYXB0dXJlIGRvd25sb2FkIGxpbmtzIGZyb20gd2ViIHBhZ2VzCi0g4pqhICoqQmF0Y2ggRG93bmxvYWQqKiAtIFNlbGVjdCBtdWx0aXBsZSBsaW5rcyBhbmQgc2VuZCB0aGVtIGFsbCBhdCBvbmNlCi0g8J+OqCAqKlVuaWZpZWQgVUkqKiAtIFBlcmZlY3RseSBtYXRjaGVzIEdEb3dubG9hZCdzIEVsZW1lbnQgUGx1cyBkZXNpZ24gc3lzdGVtCi0g8J+UkiAqKlNlY3VyZSBDb21tdW5pY2F0aW9uKiogLSBEaXJlY3QgV2ViU29ja2V0IGNvbm5lY3Rpb24gdG8gYXJpYTJjIHZpYSBKU09OLVJQQwotIPCfjJAgKipDcm9zcy1Ccm93c2VyKiogLSBDb21wYXRpYmxlIHdpdGggQ2hyb21lLCBGaXJlZm94LCBhbmQgRWRnZQotIPCfjq8gKipTbWFydCBGaWx0ZXJpbmcqKiAtIEZpbHRlciBsaW5rcyBieSBmaWxlIHNpemUsIHR5cGUsIGFuZCBjdXN0b20gcnVsZXMKLSDwn4yZICoqRGFyayBNb2RlKiogLSBTdXBwb3J0IGZvciBsaWdodC9kYXJrIHRoZW1lIHN3aXRjaGluZwoKIyMg8J+TiyBSZXF1aXJlbWVudHMKCi0gKipCcm93c2VyKio6IENocm9tZSAxMTArLCBGaXJlZm94IDExNSssIG9yIEVkZ2UgMTEwKwotICoqR0Rvd25sb2FkKio6IFZlcnNpb24gMS4wLjArIHdpdGggYXJpYTJjIHJ1bm5pbmcKLSAqKmFyaWEyYyoqOiBWZXJzaW9uIDEuMzYuMCsgKGJ1bmRsZWQgd2l0aCBHRG93bmxvYWQpCgojIyDwn5OmIEluc3RhbGxhdGlvbgoKIyMjIEZyb20gQ2hyb21lIFdlYiBTdG9yZSAoUmVjb21tZW5kZWQpCgoxLiBWaXNpdCB0aGUgW0Nocm9tZSBXZWIgU3RvcmUgcGFnZV0oaHR0cHM6Ly9jaHJvbWUuZ29vZ2xlLmNvbS93ZWJzdG9yZSkKMi4gQ2xpY2sgIkFkZCB0byBDaHJvbWUiCjMuIEZvbGxvdyB0aGUgaW5zdGFsbGF0aW9uIHByb21wdHMKCiMjIyBGcm9tIFNvdXJjZSAoRGV2ZWxvcG1lbnQpCgoxLiAqKkNsb25lIHRoZSByZXBvc2l0b3J5Kio6CiAgIGBgYGJhc2gKICAgZ2l0IGNsb25lIGh0dHBzOi8vZ2l0aHViLmNvbS93dWdlMC9nZC1icm93c2VyLWV4dGVuc2lvbi5naXQKICAgY2QgZ2QtYnJvd3Nlci1leHRlbnNpb24KICAgYGBgCgoyLiAqKkluc3RhbGwgZGVwZW5kZW5jaWVzKio6CiAgIGBgYGJhc2gKICAgbnBtIGluc3RhbGwKICAgYGBgCgozLiAqKkJ1aWxkIHRoZSBleHRlbnNpb24qKjoKICAgYGBgYmFzaAogICAjIEZvciBDaHJvbWUvRWRnZQogICBucG0gcnVuIGJ1aWxkOmNocm9tZQoKICAgIyBGb3IgRmlyZWZveAogICBucG0gcnVuIGJ1aWxkOmZpcmVmb3gKICAgYGBgCgo0LiAqKkxvYWQgaW4gYnJvd3NlcioqOgoKICAgKipDaHJvbWUvRWRnZSoqOgogICAtIE9wZW4gYGNocm9tZTovL2V4dGVuc2lvbnMvYCAob3IgYGVkZ2U6Ly9leHRlbnNpb25zL2ApCiAgIC0gRW5hYmxlICJEZXZlbG9wZXIgbW9kZSIKICAgLSBDbGljayAiTG9hZCB1bnBhY2tlZCIKICAgLSBTZWxlY3QgdGhlIGBkaXN0YCBmb2xkZXIKCiAgICoqRmlyZWZveCoqOgogICAtIE9wZW4gYGFib3V0OmRlYnVnZ2luZyMvcnVudGltZS90aGlzLWZpcmVmb3hgCiAgIC0gQ2xpY2sgIkxvYWQgVGVtcG9yYXJ5IEFkZC1vbiIKICAgLSBTZWxlY3QgYW55IGZpbGUgaW4gdGhlIGBkaXN0YCBmb2xkZXIKCiMjIPCflKcgQ29uZmlndXJhdGlvbgoKIyMjIEZpcnN0LVRpbWUgU2V0dXAKCjEuICoqRW5zdXJlIEdEb3dubG9hZCBpcyBydW5uaW5nKiogd2l0aCBhcmlhMmMgZW5hYmxlZAoyLiAqKk9wZW4gRXh0ZW5zaW9uIE9wdGlvbnMqKiAocmlnaHQtY2xpY2sgZXh0ZW5zaW9uIGljb24g4oaSIE9wdGlvbnMpCjMuICoqQ29uZmlndXJlIENvbm5lY3Rpb24qKjoKICAgLSBXZWJTb2NrZXQgVVJMOiBgd3M6Ly8xMjcuMC4wLjE6MTY4ODgvanNvbnJwY2AgKGRlZmF1bHQpCiAgIC0gUlBDIFNlY3JldDogY29weSB0aGUgZ2VuZXJhdGVkIHNlY3JldCBmcm9tIEdEb3dubG9hZCBzZXR0aW5ncwogICAtIENsaWNrICJUZXN0IENvbm5lY3Rpb24iIHRvIHZlcmlmeQoKIyMjIENvbm5lY3Rpb24gU2V0dGluZ3MKClRoZSBleHRlbnNpb24gY29ubmVjdHMgZGlyZWN0bHkgdG8gYXJpYTJjIHZpYSBXZWJTb2NrZXQ6CgotICoqRGVmYXVsdCBVUkwqKjogYHdzOi8vMTI3LjAuMC4xOjE2ODg4L2pzb25ycGNgCi0gKipSUEMgU2VjcmV0Kio6IGdlbmVyYXRlZCBieSBHRG93bmxvYWQgb24gZmlyc3QgbGF1bmNoCi0gKipBdXRvIFJlY29ubmVjdCoqOiBFbmFibGVkIGJ5IGRlZmF1bHQKCj4g4pqg77iPICoqTm90ZSoqOiBUaGVzZSBzZXR0aW5ncyBtdXN0IG1hdGNoIHlvdXIgR0Rvd25sb2FkIGFyaWEyYyBjb25maWd1cmF0aW9uLgoKIyMjIExpbmsgQ2FwdHVyZSBTZXR0aW5ncyAoT3B0aW9uYWwpCgpJbiB0aGUgKioiTGluayBDYXB0dXJlIioqIHNldHRpbmdzIHBhZ2UsIHlvdSBjYW4gY3VzdG9taXplIGZpbHRlcmluZyBydWxlczoKCioqRmlsZSBTaXplIEZpbHRlcjoqKgotICoqTWluaW11bSBGaWxlIFNpemUqKjogU2V0IG1pbmltdW0gZmlsZSBzaXplIGluIE1CICgwID0gbm8gbGltaXQpCgoqKkZpbGUgVHlwZSBGaWx0ZXI6KioKLSBTZWxlY3QgcHJlc2V0IGNhdGVnb3JpZXMgKFZpZGVvLCBBdWRpbywgQXJjaGl2ZSwgRG9jdW1lbnQsIEltYWdlLCBFeGVjdXRhYmxlKQotIE9yIGFkZCBjdXN0b20gZmlsZSBleHRlbnNpb25zIChlLmcuLCBgLmlzb2AsIGAuZG1nYCkKLSBMZWF2ZSBlbXB0eSB0byBjYXB0dXJlIGFsbCB0eXBlcwoKKipVUkwgQmxhY2tsaXN0OioqCi0gU3VwcG9ydHMgcmVndWxhciBleHByZXNzaW9ucwotIEV4YW1wbGU6IGBeaHR0cHM/Oi8vYWRzXC5leGFtcGxlXC5jb20vYCAoZXhjbHVkZSBhZCBkb21haW5zKQoKKipEb21haW4gV2hpdGVsaXN0OioqCi0gT25seSBjYXB0dXJlIGxpbmtzIGZyb20gc3BlY2lmaWVkIGRvbWFpbnMKLSBFeGFtcGxlOiBgZ2l0aHViLmNvbWAsIGBzb3VyY2Vmb3JnZS5uZXRgCi0gTGVhdmUgZW1wdHkgdG8gY2FwdHVyZSBmcm9tIGFsbCBkb21haW5zCgojIyMgUHJpdmFjeSAmIFNlY3VyaXR5IFNldHRpbmdzIChPcHRpb25hbCkKCkluIHRoZSAqKiJQcml2YWN5ICYgU2VjdXJpdHkiKiogc2V0dGluZ3MgcGFnZSwgY29udHJvbCB3aGljaCBIVFRQIGhlYWRlcnMgYXJlIHNlbnQgd2l0aCBkb3dubG9hZHM6CgoqKkJhc2ljIEhlYWRlcnMgKEdlbmVyYWxseSBTYWZlKToqKgotIOKchSAqKlNlbmQgVXNlci1BZ2VudCoqOiBCcm93c2VyIGlkZW50aWZpZXIsIGVuYWJsZWQgYnkgZGVmYXVsdAotIOKchSAqKlNlbmQgUmVmZXJlcioqOiBSZWZlcnJpbmcgcGFnZSwgZW5hYmxlZCBieSBkZWZhdWx0IChyZXF1aXJlZCBmb3Igc29tZSBkb3dubG9hZHMpCgoqKlNlbnNpdGl2ZSBIZWFkZXJzIChFbmFibGUgd2l0aCBDYXV0aW9uKToqKgotIOKaoO+4jyAqKlNlbmQgQ29va2llKio6IExvZ2luIGNyZWRlbnRpYWxzLCBkaXNhYmxlZCBieSBkZWZhdWx0IChtYXkgYmUgbmVlZGVkIGZvciBjbG91ZCBzdG9yYWdlKQotIOKaoO+4jyAqKlNlbmQgQXV0aG9yaXphdGlvbioqOiBBdXRoIHRva2VucywgZGlzYWJsZWQgYnkgZGVmYXVsdCAobWF5IGJlIG5lZWRlZCBmb3IgcHJpdmF0ZSBBUElzKQoKPiAqKlNlY3VyaXR5IFRpcCoqOiBPbmx5IGVuYWJsZSBzZW5zaXRpdmUgaGVhZGVycyBmb3IgdHJ1c3RlZCB3ZWJzaXRlcywgYW5kIHVzZSBVUkwgYmxhY2tsaXN0IHRvIHByZXZlbnQgbGVha2luZyBjcmVkZW50aWFscy4KCiMjIPCfk5YgVXNhZ2UKCiMjIyBDYXB0dXJlIExpbmtzIGZyb20gV2ViIFBhZ2VzCgoqKk1ldGhvZCAxOiBSaWdodC1DbGljayBNZW51KioKMS4gUmlnaHQtY2xpY2sgb24gYW55IGRvd25sb2FkIGxpbmsKMi4gU2VsZWN0ICJEb3dubG9hZCB3aXRoIEdEb3dubG9hZCIKMy4gVGhlIGZpbGUgd2lsbCBiZSBhZGRlZCB0byBHRG93bmxvYWQgYXV0b21hdGljYWxseQoKKipNZXRob2QgMjogUG9wdXAgSW50ZXJmYWNlKioKMS4gQ2xpY2sgdGhlIGV4dGVuc2lvbiBpY29uIGluIHRoZSB0b29sYmFyCjIuIEFsbCBkb3dubG9hZGFibGUgbGlua3Mgb24gdGhlIGN1cnJlbnQgcGFnZSB3aWxsIGJlIGNhcHR1cmVkCjMuIFNlbGVjdCB0aGUgZmlsZXMgeW91IHdhbnQgdG8gZG93bmxvYWQKNC4gQ2xpY2sgIlNlbmQgdG8gR0Rvd25sb2FkIgoKKipNZXRob2QgMzogQmF0Y2ggQ2FwdHVyZSoqCjEuIFJpZ2h0LWNsaWNrIGFueXdoZXJlIG9uIHRoZSBwYWdlCjIuIFNlbGVjdCAiRG93bmxvYWQgQWxsIExpbmtzIG9uIFBhZ2UiCjMuIEFsbCBjYXB0dXJlZCBsaW5rcyB3aWxsIGFwcGVhciBpbiB0aGUgcG9wdXAKCiMjIyBGaWx0ZXIgYW5kIE1hbmFnZSBMaW5rcwoKKipJbiB0aGUgUG9wdXAqKjoKLSBVc2UgdGhlIHNlYXJjaCBib3ggdG8gZmlsdGVyIGxpbmtzIGJ5IG5hbWUKLSBUb2dnbGUgZmlsZSBzZWxlY3Rpb24gd2l0aCBjaGVja2JveGVzCi0gQ2xpY2sgdGhlICJYIiBidXR0b24gdG8gcmVtb3ZlIHVud2FudGVkIGxpbmtzCi0gQ2xpY2sgIkNsZWFyIiB0byByZW1vdmUgYWxsIGxpbmtzCgoqKkluIE9wdGlvbnMg4oaSIExpbmsgQ2FwdHVyZSoqOgotIFNldCBtaW5pbXVtIGZpbGUgc2l6ZSBmaWx0ZXIKLSBDaG9vc2UgZmlsZSB0eXBlIGZpbHRlcnMgKFZpZGVvLCBBcmNoaXZlLCBEb2N1bWVudCwgZXRjLikKLSBBZGQgVVJMIGJsYWNrbGlzdCBwYXR0ZXJucwotIENvbmZpZ3VyZSBkb21haW4gd2hpdGVsaXN0CgojIyDwn5ug77iPIERldmVsb3BtZW50CgojIyMgUHJvamVjdCBTdHJ1Y3R1cmUKCmBgYApicm93c2VyLWV4dGVuc2lvbi8K4pSc4pSA4pSAIHNyYy8K4pSCICAg4pSc4pSA4pSAIGJhY2tncm91bmQvICAgICAgICAgIyBTZXJ2aWNlIFdvcmtlciAoYXJpYTIgUlBDIGNsaWVudCwgbWVzc2FnZSBoYW5kbGluZykK4pSCICAg4pSc4pSA4pSAIGNvbnRlbnQvICAgICAgICAgICAgIyBDb250ZW50IFNjcmlwdCAobGluayBjYXB0dXJlLCBwYWdlIGludGVyYWN0aW9uKQrilIIgICDilJzilIDilIAgcG9wdXAvICAgICAgICAgICAgICAjIFBvcHVwIFVJIChsaW5rIGxpc3QsIGJhdGNoIG9wZXJhdGlvbnMpCuKUgiAgIOKUnOKUgOKUgCBvcHRpb25zLyAgICAgICAgICAgICMgT3B0aW9ucyBVSSAoc2V0dGluZ3MgcGFnZXMpCuKUgiAgIOKUlOKUgOKUgCBzaGFyZWQvICAgICAgICAgICAgICMgU2hhcmVkIHV0aWxpdGllcyBhbmQgdHlwZXMK4pSc4pSA4pSAIHB1YmxpYy8K4pSCICAg4pSU4pSA4pSAIGljb25zLyAgICAgICAgICAgICAgIyBFeHRlbnNpb24gaWNvbnMK4pSc4pSA4pSAIG1hbmlmZXN0Lmpzb24gICAgICAgICAgICMgRXh0ZW5zaW9uIG1hbmlmZXN0IChNYW5pZmVzdCBWMykK4pSc4pSA4pSAIHBhY2thZ2UuanNvbgrilJzilIDilIAgdHNjb25maWcuanNvbgrilJTilIDilIAgdml0ZS5jb25maWcudHMKYGBgCgojIyMgRGV2ZWxvcG1lbnQgQ29tbWFuZHMKCmBgYGJhc2gKIyBJbnN0YWxsIGRlcGVuZGVuY2llcwpucG0gaW5zdGFsbAoKIyBTdGFydCBkZXZlbG9wbWVudCBzZXJ2ZXIgKHdpdGggaG90IHJlbG9hZCkKbnBtIHJ1biBkZXYKCiMgQnVpbGQgZm9yIHByb2R1Y3Rpb24KbnBtIHJ1biBidWlsZAoKIyBCdWlsZCBmb3Igc3BlY2lmaWMgYnJvd3NlcgpucG0gcnVuIGJ1aWxkOmNocm9tZQpucG0gcnVuIGJ1aWxkOmZpcmVmb3gKbnBtIHJ1biBidWlsZDplZGdlCgojIFJ1biBsaW50aW5nCm5wbSBydW4gbGludAoKIyBGb3JtYXQgY29kZQpucG0gcnVuIGZvcm1hdAoKIyBSdW4gdGVzdHMKbnBtIHJ1biB0ZXN0CgojIFBhY2thZ2UgZm9yIGRpc3RyaWJ1dGlvbgpucG0gcnVuIHBhY2thZ2U6Y2hyb21lCm5wbSBydW4gcGFja2FnZTpmaXJlZm94Cm5wbSBydW4gcGFja2FnZTplZGdlCmBgYAoKIyMjIFRlY2ggU3RhY2sKCi0gKipGcmFtZXdvcmsqKjogUmVhY3QgMTggKyBUeXBlU2NyaXB0Ci0gKipCdWlsZCBUb29sKio6IFZpdGUgNSArIENSWEpTCi0gKipTdGF0ZSBNYW5hZ2VtZW50Kio6IFp1c3RhbmQKLSAqKkljb25zKio6IEx1Y2lkZSBSZWFjdAotICoqV2ViU29ja2V0Kio6IE5hdGl2ZSBXZWJTb2NrZXQgQVBJCi0gKipNYW5pZmVzdCoqOiBWMyAoQ2hyb21lL0ZpcmVmb3gvRWRnZSBjb21wYXRpYmxlKQoKIyMg8J+UjCBBcmNoaXRlY3R1cmUKCiMjIyBDb21tdW5pY2F0aW9uIEZsb3cKCmBgYArilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCICBCcm93c2VyIFRhYiAgICDilIIK4pSCICAoV2ViIFBhZ2UpICAgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSs4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiAgICAgICAgIOKUggogICAgICAgICDilIIgQ29udGVudCBTY3JpcHQgY2FwdHVyZXMgbGlua3MKICAgICAgICAg4pSCCiAgICAgICAgIOKWvArilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCIEJhY2tncm91bmQgU1cgICDilIIK4pSCIChTZXJ2aWNlIFdvcmtlcinilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSs4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiAgICAgICAgIOKUggogICAgICAgICDilIIgV2ViU29ja2V0IChKU09OLVJQQykKICAgICAgICAg4pSCIHdzOi8vMTI3LjAuMC4xOjE2ODg4L2pzb25ycGMKICAgICAgICAg4pSCCiAgICAgICAgIOKWvArilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCICAgIGFyaWEyYyAgICAgICDilIIK4pSCICAoSlNPTi1SUEMpICAgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSs4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiAgICAgICAgIOKUggogICAgICAgICDilIIgU2hhcmVkIGluc3RhbmNlCiAgICAgICAgIOKUggogICAgICAgICDilrwK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiAgIEdEb3dubG9hZCAgICAg4pSCCuKUgiAgIE1haW4gQXBwICAgICAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmApgYGAKCiMjIyBLZXkgRmVhdHVyZXMKCi0gKipEaXJlY3QgYXJpYTJjIENvbm5lY3Rpb24qKjogTm8gbmVlZCB0byBtb2RpZnkgR0Rvd25sb2FkIG1haW4gYXBwCi0gKipTdGFuZGFyZCBQcm90b2NvbCoqOiBVc2VzIGFyaWEyJ3Mgb2ZmaWNpYWwgSlNPTi1SUEMgMi4wIHByb3RvY29sCi0gKipSZWFsLXRpbWUgQ29tbXVuaWNhdGlvbioqOiBXZWJTb2NrZXQgZm9yIGJpZGlyZWN0aW9uYWwgbWVzc2FnaW5nCi0gKipBdXRvIFJlY29ubmVjdGlvbioqOiBFeHBvbmVudGlhbCBiYWNrb2ZmIHN0cmF0ZWd5Ci0gKipDcm9zcy1icm93c2VyIENvbXBhdGlibGUqKjogQWJzdHJhY3Rpb24gbGF5ZXIgZm9yIGJyb3dzZXIgQVBJcwoKIyMg8J+knSBDb250cmlidXRpbmcKCkNvbnRyaWJ1dGlvbnMgYXJlIHdlbGNvbWUhIFBsZWFzZSBmb2xsb3cgdGhlc2Ugc3RlcHM6CgoxLiBGb3JrIHRoZSByZXBvc2l0b3J5CjIuIENyZWF0ZSBhIGZlYXR1cmUgYnJhbmNoIChgZ2l0IGNoZWNrb3V0IC1iIGZlYXR1cmUvYW1hemluZy1mZWF0dXJlYCkKMy4gQ29tbWl0IHlvdXIgY2hhbmdlcyAoYGdpdCBjb21taXQgLW0gJ0FkZCBhbWF6aW5nIGZlYXR1cmUnYCkKNC4gUHVzaCB0byB0aGUgYnJhbmNoIChgZ2l0IHB1c2ggb3JpZ2luIGZlYXR1cmUvYW1hemluZy1mZWF0dXJlYCkKNS4gT3BlbiBhIFB1bGwgUmVxdWVzdAoKIyMjIERldmVsb3BtZW50IEd1aWRlbGluZXMKCi0gRm9sbG93IHRoZSBleGlzdGluZyBjb2RlIHN0eWxlIChFU0xpbnQgKyBQcmV0dGllcikKLSBBZGQgdGVzdHMgZm9yIG5ldyBmZWF0dXJlcwotIFVwZGF0ZSBkb2N1bWVudGF0aW9uIGFzIG5lZWRlZAotIEVuc3VyZSBjcm9zcy1icm93c2VyIGNvbXBhdGliaWxpdHkKCiMjIPCfk4QgTGljZW5zZQoKVGhpcyBwcm9qZWN0IGlzIGxpY2Vuc2VkIHVuZGVyIHRoZSBNSVQgTGljZW5zZSAtIHNlZSB0aGUgW0xJQ0VOU0VdKExJQ0VOU0UpIGZpbGUgZm9yIGRldGFpbHMuCgojIyDwn5CbIEJ1ZyBSZXBvcnRzICYgRmVhdHVyZSBSZXF1ZXN0cwoKLSAqKkJ1ZyBSZXBvcnRzKio6IFtHaXRIdWIgSXNzdWVzXShodHRwczovL2dpdGh1Yi5jb20vd3VnZTAvZ2QtYnJvd3Nlci1leHRlbnNpb24vaXNzdWVzKQotICoqRmVhdHVyZSBSZXF1ZXN0cyoqOiBbR2l0SHViIERpc2N1c3Npb25zXShodHRwczovL2dpdGh1Yi5jb20vd3VnZTAvZ2QtYnJvd3Nlci1leHRlbnNpb24vZGlzY3Vzc2lvbnMpCgojIyDwn5OeIFN1cHBvcnQKCi0gKipEb2N1bWVudGF0aW9uKio6IFtVc2VyIEd1aWRlXShkb2NzL1VTRVJfR1VJREUubWQpCi0gKipGQVEqKjogW0ZyZXF1ZW50bHkgQXNrZWQgUXVlc3Rpb25zXShkb2NzL0ZBUS5tZCkKLSAqKlRyb3VibGVzaG9vdGluZyoqOiBbQ29tbW9uIElzc3Vlc10oZG9jcy9UUk9VQkxFU0hPT1RJTkcubWQpCgojIyDwn5mPIEFja25vd2xlZGdtZW50cwoKLSBbR0Rvd25sb2FkXShodHRwczovL2dpdGh1Yi5jb20vd3VnZTAvR0Rvd25sb2FkKSAtIFRoZSBtYWluIGRvd25sb2FkIG1hbmFnZXIgYXBwbGljYXRpb24KLSBbYXJpYTJdKGh0dHBzOi8vZ2l0aHViLmNvbS9hcmlhMi9hcmlhMikgLSBUaGUgZG93bmxvYWQgZW5naW5lCi0gW0VsZW1lbnQgUGx1c10oaHR0cHM6Ly9lbGVtZW50LXBsdXMub3JnLykgLSBEZXNpZ24gc3lzdGVtIGluc3BpcmF0aW9uCi0gW0NSWEpTXShodHRwczovL2NyeGpzLmRldi8pIC0gVml0ZSBwbHVnaW4gZm9yIGJyb3dzZXIgZXh0ZW5zaW9ucwoKLS0tCgoqKsKpIDIwMjUgR0Rvd25sb2FkIFRlYW0uIEFsbCByaWdodHMgcmVzZXJ2ZWQuKioK
+# GDownload Extension
+
+> **Capture download links and send them to GDownload - a powerful multi-protocol download manager**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/wuge0/gd-browser-extension)
+
+English | [简体中文](README.zh-CN.md)
+
+## 🚀 Features
+
+- 🔗 **One-Click Capture** - Quickly capture download links from web pages
+- ⚡ **Batch Download** - Select multiple links and send them all at once
+- 🎨 **Unified UI** - Perfectly matches GDownload's Element Plus design system
+- 🔒 **Secure Communication** - Direct WebSocket connection to aria2c via JSON-RPC
+- 🌐 **Cross-Browser** - Compatible with Chrome, Firefox, and Edge
+- 🎯 **Smart Filtering** - Filter links by file size, type, and custom rules
+- 🌙 **Dark Mode** - Support for light/dark theme switching
+
+## 📋 Requirements
+
+- **Browser**: Chrome 110+, Firefox 115+, or Edge 110+
+- **GDownload**: Version 1.0.0+ with aria2c running
+- **aria2c**: Version 1.36.0+ (bundled with GDownload)
+
+## 📦 Installation
+
+### From Chrome Web Store (Recommended)
+
+1. Visit the [Chrome Web Store page](https://chrome.google.com/webstore)
+2. Click "Add to Chrome"
+3. Follow the installation prompts
+
+### From Source (Development)
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/wuge0/gd-browser-extension.git
+   cd gd-browser-extension
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Build the extension**:
+   ```bash
+   # For Chrome/Edge
+   npm run build:chrome
+
+   # For Firefox
+   npm run build:firefox
+   ```
+
+4. **Load in browser**:
+
+   **Chrome/Edge**:
+   - Open `chrome://extensions/` (or `edge://extensions/`)
+   - Enable "Developer mode"
+   - Click "Load unpacked"
+   - Select the `dist` folder
+
+   **Firefox**:
+   - Open `about:debugging#/runtime/this-firefox`
+   - Click "Load Temporary Add-on"
+   - Select any file in the `dist` folder
+
+## 🔧 Configuration
+
+### First-Time Setup
+
+1. **Ensure GDownload is running** with aria2c enabled
+2. **Open Extension Options** (right-click extension icon → Options)
+3. **Configure Connection**:
+   - WebSocket URL: `ws://127.0.0.1:16888/jsonrpc` (default)
+   - RPC Secret: copy the generated secret from GDownload settings
+   - Click "Test Connection" to verify
+
+### Connection Settings
+
+The extension connects directly to aria2c via WebSocket:
+
+- **Default URL**: `ws://127.0.0.1:16888/jsonrpc`
+- **RPC Secret**: generated by GDownload on first launch
+- **Auto Reconnect**: Enabled by default
+
+> ⚠️ **Note**: These settings must match your GDownload aria2c configuration.
+
+### Link Capture Settings (Optional)
+
+In the **"Link Capture"** settings page, you can customize filtering rules:
+
+**File Size Filter:**
+- **Minimum File Size**: Set minimum file size in MB (0 = no limit)
+
+**File Type Filter:**
+- Select preset categories (Video, Audio, Archive, Document, Image, Executable)
+- Or add custom file extensions (e.g., `.iso`, `.dmg`)
+- Leave empty to capture all types
+
+**URL Blacklist:**
+- Supports regular expressions
+- Example: `^https?://ads\.example\.com/` (exclude ad domains)
+
+**Domain Whitelist:**
+- Only capture links from specified domains
+- Example: `github.com`, `sourceforge.net`
+- Leave empty to capture from all domains
+
+### Privacy & Security Settings (Optional)
+
+In the **"Privacy & Security"** settings page, control which HTTP headers are sent with downloads:
+
+**Basic Headers (Generally Safe):**
+- ✅ **Send User-Agent**: Browser identifier, enabled by default
+- ✅ **Send Referer**: Referring page, enabled by default (required for some downloads)
+
+**Sensitive Headers (Enable with Caution):**
+- ⚠️ **Send Cookie**: Login credentials, disabled by default (may be needed for cloud storage)
+- ⚠️ **Send Authorization**: Auth tokens, disabled by default (may be needed for private APIs)
+
+> **Security Tip**: Only enable sensitive headers for trusted websites, and use URL blacklist to prevent leaking credentials.
+
+## 📖 Usage
+
+### Capture Links from Web Pages
+
+**Method 1: Right-Click Menu**
+1. Right-click on any download link
+2. Select "Download with GDownload"
+3. The file will be added to GDownload automatically
+
+**Method 2: Popup Interface**
+1. Click the extension icon in the toolbar
+2. All downloadable links on the current page will be captured
+3. Select the files you want to download
+4. Click "Send to GDownload"
+
+**Method 3: Batch Capture**
+1. Right-click anywhere on the page
+2. Select "Download All Links on Page"
+3. All captured links will appear in the popup
+
+### Filter and Manage Links
+
+**In the Popup**:
+- Use the search box to filter links by name
+- Toggle file selection with checkboxes
+- Click the "X" button to remove unwanted links
+- Click "Clear" to remove all links
+
+**In Options → Link Capture**:
+- Set minimum file size filter
+- Choose file type filters (Video, Archive, Document, etc.)
+- Add URL blacklist patterns
+- Configure domain whitelist
+
+## 🛠️ Development
+
+### Project Structure
+
+```
+browser-extension/
+├── src/
+│   ├── background/         # Service Worker (aria2 RPC client, message handling)
+│   ├── content/            # Content Script (link capture, page interaction)
+│   ├── popup/              # Popup UI (link list, batch operations)
+│   ├── options/            # Options UI (settings pages)
+│   └── shared/             # Shared utilities and types
+├── public/
+│   └── icons/              # Extension icons
+├── manifest.json           # Extension manifest (Manifest V3)
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+```
+
+### Development Commands
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server (with hot reload)
+npm run dev
+
+# Build for production
+npm run build
+
+# Build for specific browser
+npm run build:chrome
+npm run build:firefox
+npm run build:edge
+
+# Run linting
+npm run lint
+
+# Format code
+npm run format
+
+# Run tests
+npm run test
+
+# Package for distribution
+npm run package:chrome
+npm run package:firefox
+npm run package:edge
+```
+
+### Tech Stack
+
+- **Framework**: React 18 + TypeScript
+- **Build Tool**: Vite 5 + CRXJS
+- **State Management**: Zustand
+- **Icons**: Lucide React
+- **WebSocket**: Native WebSocket API
+- **Manifest**: V3 (Chrome/Firefox/Edge compatible)
+
+## 🔌 Architecture
+
+### Communication Flow
+
+```
+┌─────────────────┐
+│  Browser Tab    │
+│  (Web Page)     │
+└────────┬────────┘
+         │
+         │ Content Script captures links
+         │
+         ▼
+┌─────────────────┐
+│ Background SW   │
+│ (Service Worker)│
+└────────┬────────┘
+         │
+         │ WebSocket (JSON-RPC)
+         │ ws://127.0.0.1:16888/jsonrpc
+         │
+         ▼
+┌─────────────────┐
+│    aria2c       │
+│  (JSON-RPC)     │
+└────────┬────────┘
+         │
+         │ Shared instance
+         │
+         ▼
+┌─────────────────┐
+│   GDownload     │
+│   Main App      │
+└─────────────────┘
+```
+
+### Key Features
+
+- **Direct aria2c Connection**: No need to modify GDownload main app
+- **Standard Protocol**: Uses aria2's official JSON-RPC 2.0 protocol
+- **Real-time Communication**: WebSocket for bidirectional messaging
+- **Auto Reconnection**: Exponential backoff strategy
+- **Cross-browser Compatible**: Abstraction layer for browser APIs
+
+## 🤝 Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+### Development Guidelines
+
+- Follow the existing code style (ESLint + Prettier)
+- Add tests for new features
+- Update documentation as needed
+- Ensure cross-browser compatibility
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🐛 Bug Reports & Feature Requests
+
+- **Bug Reports**: [GitHub Issues](https://github.com/wuge0/gd-browser-extension/issues)
+- **Feature Requests**: [GitHub Discussions](https://github.com/wuge0/gd-browser-extension/discussions)
+
+## 📞 Support
+
+- **Documentation**: [User Guide](docs/USER_GUIDE.md)
+- **FAQ**: [Frequently Asked Questions](docs/FAQ.md)
+- **Troubleshooting**: [Common Issues](docs/TROUBLESHOOTING.md)
+
+## 🙏 Acknowledgments
+
+- [GDownload](https://github.com/wuge0/GDownload) - The main download manager application
+- [aria2](https://github.com/aria2/aria2) - The download engine
+- [Element Plus](https://element-plus.org/) - Design system inspiration
+- [CRXJS](https://crxjs.dev/) - Vite plugin for browser extensions
+
+---
+
+**© 2025 GDownload Team. All rights reserved.**

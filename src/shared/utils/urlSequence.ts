@@ -1,1 +1,50 @@
-LyoqCiAqIOW6j+WIlyBVUkwg5bGV5byA5ZmoCiAqIOWwhuWQqyBbc3RhcnQtZW5kXSDljaDkvY3nmoTmqKHlvI/lsZXlvIDkuLrlpJrkuKogVVJM77yM5aaCIGZpbGVbMDEtMDNdLnppcCAtPiBmaWxlMDEuemlwIC8gZmlsZTAyLnppcCAvIGZpbGUwMy56aXAKICovCgpjb25zdCBNQVhfRVhQQU5EID0gMTAwMDsgLy8g5a6J5YWo5LiK6ZmQ77yM6YG/5YWN6K+v6L6T5YWl5beo6YeP5Lu75YqhCgovKioKICog5bGV5byA5bqP5YiX5qih5byP44CC5peg5pyJ5pWI5Y2g5L2N5oiW6LaF6ZmQ5pe25Y6f5qC36L+U5Zue5Y2V5YWD57Sg5pWw57uE44CCCiAqIOS/neeVmembtuWhq+WFheWuveW6pu+8m3N0YXJ0ID4gZW5kIOaXtuiHquWKqOWNh+W6j+OAggogKi8KZXhwb3J0IGZ1bmN0aW9uIGV4cGFuZFNlcXVlbmNlKHBhdHRlcm46IHN0cmluZyk6IHN0cmluZ1tdIHsKICBjb25zdCBtYXRjaCA9IHBhdHRlcm4ubWF0Y2goL1xbKFxkKyktKFxkKylcXS8pOwogIGlmICghbWF0Y2gpIHsKICAgIHJldHVybiBbcGF0dGVybl07CiAgfQoKICBjb25zdCBzdGFydFN0ciA9IG1hdGNoWzFdOwogIGNvbnN0IGVuZFN0ciA9IG1hdGNoWzJdOwogIGNvbnN0IHN0YXJ0ID0gcGFyc2VJbnQoc3RhcnRTdHIsIDEwKTsKICBjb25zdCBlbmQgPSBwYXJzZUludChlbmRTdHIsIDEwKTsKICBpZiAoaXNOYU4oc3RhcnQpIHx8IGlzTmFOKGVuZCkpIHsKICAgIHJldHVybiBbcGF0dGVybl07CiAgfQoKICBjb25zdCBsbyA9IE1hdGgubWluKHN0YXJ0LCBlbmQpOwogIGNvbnN0IGhpID0gTWF0aC5tYXgoc3RhcnQsIGVuZCk7CiAgaWYgKGhpIC0gbG8gKyAxID4gTUFYX0VYUEFORCkgewogICAgcmV0dXJuIFtwYXR0ZXJuXTsKICB9CgogIC8vIOS7u+S4gOerr+eCueW4puWJjeWvvOmbtuWImeaMieacgOWkp+WuveW6puihpembtgogIGNvbnN0IHdpZHRoID0gc3RhcnRTdHIuc3RhcnRzV2l0aCgnMCcpIHx8IGVuZFN0ci5zdGFydHNXaXRoKCcwJykKICAgID8gTWF0aC5tYXgoc3RhcnRTdHIubGVuZ3RoLCBlbmRTdHIubGVuZ3RoKQogICAgOiAwOwoKICBjb25zdCByZXN1bHRzOiBzdHJpbmdbXSA9IFtdOwogIGZvciAobGV0IGkgPSBsbzsgaSA8PSBoaTsgaSsrKSB7CiAgICBjb25zdCBudW0gPSB3aWR0aCA+IDAgPyBTdHJpbmcoaSkucGFkU3RhcnQod2lkdGgsICcwJykgOiBTdHJpbmcoaSk7CiAgICByZXN1bHRzLnB1c2gocGF0dGVybi5yZXBsYWNlKG1hdGNoWzBdLCBudW0pKTsKICB9CiAgcmV0dXJuIHJlc3VsdHM7Cn0KCi8qKgogKiDmmK/lkKblkKvlj6/lsZXlvIDnmoTluo/liJfljaDkvY0KICovCmV4cG9ydCBmdW5jdGlvbiBoYXNTZXF1ZW5jZShwYXR0ZXJuOiBzdHJpbmcpOiBib29sZWFuIHsKICByZXR1cm4gL1xbXGQrLVxkK1xdLy50ZXN0KHBhdHRlcm4pOwp9Cg==
+/**
+ * 序列 URL 展开器
+ * 将含 [start-end] 占位的模式展开为多个 URL，如 file[01-03].zip -> file01.zip / file02.zip / file03.zip
+ */
+
+const MAX_EXPAND = 1000; // 安全上限，避免误输入巨量任务
+
+/**
+ * 展开序列模式。无有效占位或超限时原样返回单元素数组。
+ * 保留零填充宽度；start > end 时自动升序。
+ */
+export function expandSequence(pattern: string): string[] {
+  const match = pattern.match(/\[(\d+)-(\d+)\]/);
+  if (!match) {
+    return [pattern];
+  }
+
+  const startStr = match[1];
+  const endStr = match[2];
+  const start = parseInt(startStr, 10);
+  const end = parseInt(endStr, 10);
+  if (isNaN(start) || isNaN(end)) {
+    return [pattern];
+  }
+
+  const lo = Math.min(start, end);
+  const hi = Math.max(start, end);
+  if (hi - lo + 1 > MAX_EXPAND) {
+    return [pattern];
+  }
+
+  // 任一端点带前导零则按最大宽度补零
+  const width = startStr.startsWith('0') || endStr.startsWith('0')
+    ? Math.max(startStr.length, endStr.length)
+    : 0;
+
+  const results: string[] = [];
+  for (let i = lo; i <= hi; i++) {
+    const num = width > 0 ? String(i).padStart(width, '0') : String(i);
+    results.push(pattern.replace(match[0], num));
+  }
+  return results;
+}
+
+/**
+ * 是否含可展开的序列占位
+ */
+export function hasSequence(pattern: string): boolean {
+  return /\[\d+-\d+\]/.test(pattern);
+}

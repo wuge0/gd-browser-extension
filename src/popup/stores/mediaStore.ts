@@ -1,1 +1,33 @@
-aW1wb3J0IHsgY3JlYXRlIH0gZnJvbSAnenVzdGFuZCc7CmltcG9ydCB0eXBlIHsgTWVkaWFJdGVtIH0gZnJvbSAnQC9zaGFyZWQvdHlwZXMnOwppbXBvcnQgeyBicm93c2VyQXBpIH0gZnJvbSAnQC9zaGFyZWQvdXRpbHMvYnJvd3NlckFwaSc7CgppbnRlcmZhY2UgTWVkaWFTdG9yZSB7CiAgaXRlbXM6IE1lZGlhSXRlbVtdOwogIGxvYWQ6ICgpID0+IFByb21pc2U8dm9pZD47CiAgZG93bmxvYWQ6IChtZWRpYUlkOiBzdHJpbmcsIHZhcmlhbnRJbmRleDogbnVtYmVyKSA9PiBQcm9taXNlPHsgb2s6IGJvb2xlYW47IGVycm9yPzogc3RyaW5nIH0+Owp9CgpleHBvcnQgY29uc3QgdXNlTWVkaWFTdG9yZSA9IGNyZWF0ZTxNZWRpYVN0b3JlPigoc2V0KSA9PiAoewogIGl0ZW1zOiBbXSwKCiAgbG9hZDogYXN5bmMgKCkgPT4gewogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgYnJvd3NlckFwaS5ydW50aW1lLnNlbmRNZXNzYWdlKHsgYWN0aW9uOiAnZ2V0TWVkaWFJdGVtcycgfSk7CiAgICAgIGlmIChyZXM/LnN1Y2Nlc3MgJiYgcmVzLmRhdGE/Lml0ZW1zKSB7CiAgICAgICAgc2V0KHsgaXRlbXM6IHJlcy5kYXRhLml0ZW1zIH0pOwogICAgICB9CiAgICB9IGNhdGNoIHsKICAgICAgLy8g5b+955WlCiAgICB9CiAgfSwKCiAgZG93bmxvYWQ6IGFzeW5jIChtZWRpYUlkLCB2YXJpYW50SW5kZXgpID0+IHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGJyb3dzZXJBcGkucnVudGltZS5zZW5kTWVzc2FnZSh7IGFjdGlvbjogJ2Rvd25sb2FkTWVkaWEnLCBtZWRpYUlkLCB2YXJpYW50SW5kZXggfSk7CiAgICAgIHJldHVybiB7IG9rOiAhIXJlcz8uc3VjY2VzcywgZXJyb3I6IHJlcz8uZXJyb3IgfTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgcmV0dXJuIHsgb2s6IGZhbHNlLCBlcnJvcjogZSBpbnN0YW5jZW9mIEVycm9yID8gZS5tZXNzYWdlIDogJ2Vycm9yJyB9OwogICAgfQogIH0KfSkpOwo=
+import { create } from 'zustand';
+import type { MediaItem } from '@/shared/types';
+import { browserApi } from '@/shared/utils/browserApi';
+
+interface MediaStore {
+  items: MediaItem[];
+  load: () => Promise<void>;
+  download: (mediaId: string, variantIndex: number) => Promise<{ ok: boolean; error?: string }>;
+}
+
+export const useMediaStore = create<MediaStore>((set) => ({
+  items: [],
+
+  load: async () => {
+    try {
+      const res = await browserApi.runtime.sendMessage({ action: 'getMediaItems' });
+      if (res?.success && res.data?.items) {
+        set({ items: res.data.items });
+      }
+    } catch {
+      // 忽略
+    }
+  },
+
+  download: async (mediaId, variantIndex) => {
+    try {
+      const res = await browserApi.runtime.sendMessage({ action: 'downloadMedia', mediaId, variantIndex });
+      return { ok: !!res?.success, error: res?.error };
+    } catch (e) {
+      return { ok: false, error: e instanceof Error ? e.message : 'error' };
+    }
+  }
+}));

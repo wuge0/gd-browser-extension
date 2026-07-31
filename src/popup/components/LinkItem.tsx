@@ -1,1 +1,155 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHR5cGUgeyBMaW5rIH0gZnJvbSAnQC9zaGFyZWQvdHlwZXMnOwppbXBvcnQgeyB1c2VMaW5rU3RvcmUgfSBmcm9tICcuLi9zdG9yZXMvbGlua1N0b3JlJzsKaW1wb3J0IHsgVHJhc2gyLCBGaWxlLCBGaWxlQXJjaGl2ZSwgVmlkZW8sIE11c2ljLCBGaWxlVGV4dCwgSW1hZ2UsIFBhY2thZ2UgfSBmcm9tICdsdWNpZGUtcmVhY3QnOwppbXBvcnQgeyBmb3JtYXRGaWxlU2l6ZSB9IGZyb20gJ0Avc2hhcmVkL3V0aWxzL2ZpbGVTaXplJzsKaW1wb3J0IHsgZ2V0RmlsZUV4dGVuc2lvbiB9IGZyb20gJ0Avc2hhcmVkL3V0aWxzL3VybFBhcnNlcic7CgppbnRlcmZhY2UgTGlua0l0ZW1Qcm9wcyB7CiAgbGluazogTGluazsKfQoKZnVuY3Rpb24gTGlua0l0ZW0oeyBsaW5rIH06IExpbmtJdGVtUHJvcHMpIHsKICBjb25zdCB7IHRvZ2dsZUxpbmssIHJlbW92ZUxpbmsgfSA9IHVzZUxpbmtTdG9yZSgpOwoKICBjb25zdCBnZXRGaWxlSWNvbiA9ICgpID0+IHsKICAgIGNvbnN0IGV4dCA9IGdldEZpbGVFeHRlbnNpb24obGluay5maWxlbmFtZSkudG9Mb3dlckNhc2UoKTsKICAgIAogICAgaWYgKFsnLm1wNCcsICcubWt2JywgJy5hdmknLCAnLm1vdicsICcud212JywgJy5mbHYnLCAnLndlYm0nXS5pbmNsdWRlcyhleHQpKSB7CiAgICAgIHJldHVybiA8VmlkZW8gc2l6ZT17MjB9IGNvbG9yPSJ2YXIoLS1jb2xvci1wcmltYXJ5KSIgLz47CiAgICB9CiAgICBpZiAoWycubXAzJywgJy5mbGFjJywgJy53YXYnLCAnLmFhYycsICcub2dnJywgJy5tNGEnXS5pbmNsdWRlcyhleHQpKSB7CiAgICAgIHJldHVybiA8TXVzaWMgc2l6ZT17MjB9IGNvbG9yPSJ2YXIoLS1jb2xvci1zdWNjZXNzKSIgLz47CiAgICB9CiAgICBpZiAoWycuemlwJywgJy5yYXInLCAnLjd6JywgJy50YXInLCAnLmd6J10uaW5jbHVkZXMoZXh0KSkgewogICAgICByZXR1cm4gPEZpbGVBcmNoaXZlIHNpemU9ezIwfSBjb2xvcj0idmFyKC0tY29sb3Itd2FybmluZykiIC8+OwogICAgfQogICAgaWYgKFsnLnBkZicsICcuZG9jJywgJy5kb2N4JywgJy54bHMnLCAnLnhsc3gnXS5pbmNsdWRlcyhleHQpKSB7CiAgICAgIHJldHVybiA8RmlsZVRleHQgc2l6ZT17MjB9IGNvbG9yPSJ2YXIoLS1jb2xvci1kYW5nZXIpIiAvPjsKICAgIH0KICAgIGlmIChbJy5qcGcnLCAnLmpwZWcnLCAnLnBuZycsICcuZ2lmJywgJy53ZWJwJ10uaW5jbHVkZXMoZXh0KSkgewogICAgICByZXR1cm4gPEltYWdlIHNpemU9ezIwfSBjb2xvcj0idmFyKC0tY29sb3ItaW5mbykiIC8+OwogICAgfQogICAgaWYgKFsnLmV4ZScsICcubXNpJywgJy5kbWcnLCAnLmFwayddLmluY2x1ZGVzKGV4dCkpIHsKICAgICAgcmV0dXJuIDxQYWNrYWdlIHNpemU9ezIwfSBjb2xvcj0idmFyKC0tdGV4dC1zZWNvbmRhcnkpIiAvPjsKICAgIH0KICAgIAogICAgcmV0dXJuIDxGaWxlIHNpemU9ezIwfSBjb2xvcj0idmFyKC0tdGV4dC1zZWNvbmRhcnkpIiAvPjsKICB9OwoKICByZXR1cm4gKAogICAgPGRpdiBzdHlsZT17ewogICAgICBkaXNwbGF5OiAnZmxleCcsCiAgICAgIGFsaWduSXRlbXM6ICdjZW50ZXInLAogICAgICBnYXA6ICd2YXIoLS1zcGFjZS1tZCknLAogICAgICBwYWRkaW5nOiAndmFyKC0tc3BhY2UtbWQpJywKICAgICAgbWFyZ2luQm90dG9tOiAndmFyKC0tc3BhY2UteHMpJywKICAgICAgYmFja2dyb3VuZENvbG9yOiBsaW5rLnNlbGVjdGVkID8gJ3ZhcigtLWZpbGwtZXh0cmEtbGlnaHQpJyA6ICd0cmFuc3BhcmVudCcsCiAgICAgIGJvcmRlcjogJzFweCBzb2xpZCcsCiAgICAgIGJvcmRlckNvbG9yOiBsaW5rLnNlbGVjdGVkID8gJ3ZhcigtLWNvbG9yLXByaW1hcnkpJyA6ICd2YXIoLS1ib3JkZXItbGlnaHRlciknLAogICAgICBib3JkZXJSYWRpdXM6ICd2YXIoLS1yYWRpdXMtYmFzZSknLAogICAgICBjdXJzb3I6ICdwb2ludGVyJywKICAgICAgdHJhbnNpdGlvbjogJ2FsbCAwLjJzJwogICAgfX0KICAgIG9uQ2xpY2s9eygpID0+IHRvZ2dsZUxpbmsobGluay5pZCl9CiAgICBvbk1vdXNlRW50ZXI9eyhlKSA9PiB7CiAgICAgIGlmICghbGluay5zZWxlY3RlZCkgewogICAgICAgIGUuY3VycmVudFRhcmdldC5zdHlsZS5iYWNrZ3JvdW5kQ29sb3IgPSAndmFyKC0tZmlsbC1saWdodGVyKSc7CiAgICAgIH0KICAgIH19CiAgICBvbk1vdXNlTGVhdmU9eyhlKSA9PiB7CiAgICAgIGlmICghbGluay5zZWxlY3RlZCkgewogICAgICAgIGUuY3VycmVudFRhcmdldC5zdHlsZS5iYWNrZ3JvdW5kQ29sb3IgPSAndHJhbnNwYXJlbnQnOwogICAgICB9CiAgICB9fQogICAgPgogICAgICB7LyogQ2hlY2tib3ggKi99CiAgICAgIDxkaXYgc3R5bGU9e3sKICAgICAgICB3aWR0aDogJzE4cHgnLAogICAgICAgIGhlaWdodDogJzE4cHgnLAogICAgICAgIGJvcmRlcjogJzJweCBzb2xpZCcsCiAgICAgICAgYm9yZGVyQ29sb3I6IGxpbmsuc2VsZWN0ZWQgPyAndmFyKC0tY29sb3ItcHJpbWFyeSknIDogJ3ZhcigtLWJvcmRlci1iYXNlKScsCiAgICAgICAgYm9yZGVyUmFkaXVzOiAndmFyKC0tcmFkaXVzLXNtYWxsKScsCiAgICAgICAgYmFja2dyb3VuZENvbG9yOiBsaW5rLnNlbGVjdGVkID8gJ3ZhcigtLWNvbG9yLXByaW1hcnkpJyA6ICd0cmFuc3BhcmVudCcsCiAgICAgICAgZGlzcGxheTogJ2ZsZXgnLAogICAgICAgIGFsaWduSXRlbXM6ICdjZW50ZXInLAogICAgICAgIGp1c3RpZnlDb250ZW50OiAnY2VudGVyJywKICAgICAgICBmbGV4U2hyaW5rOiAwCiAgICAgIH19PgogICAgICAgIHtsaW5rLnNlbGVjdGVkICYmICgKICAgICAgICAgIDxzdmcgd2lkdGg9IjEyIiBoZWlnaHQ9IjEyIiB2aWV3Qm94PSIwIDAgMTIgMTIiIGZpbGw9Im5vbmUiPgogICAgICAgICAgICA8cGF0aAogICAgICAgICAgICAgIGQ9Ik0yIDZMNSA5TDEwIDMiCiAgICAgICAgICAgICAgc3Ryb2tlPSJ3aGl0ZSIKICAgICAgICAgICAgICBzdHJva2VXaWR0aD0iMiIKICAgICAgICAgICAgICBzdHJva2VMaW5lY2FwPSJyb3VuZCIKICAgICAgICAgICAgICBzdHJva2VMaW5lam9pbj0icm91bmQiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L3N2Zz4KICAgICAgICApfQogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBGaWxlIEljb24gKi99CiAgICAgIDxkaXYgc3R5bGU9e3sgZmxleFNocmluazogMCB9fT4KICAgICAgICB7Z2V0RmlsZUljb24oKX0KICAgICAgPC9kaXY+CgogICAgICB7LyogRmlsZSBJbmZvICovfQogICAgICA8ZGl2IHN0eWxlPXt7IGZsZXg6IDEsIG1pbldpZHRoOiAwIH19PgogICAgICAgIDxkaXYgc3R5bGU9e3sKICAgICAgICAgIGZvbnRTaXplOiAnMTNweCcsCiAgICAgICAgICBmb250V2VpZ2h0OiA1MDAsCiAgICAgICAgICBjb2xvcjogJ3ZhcigtLXRleHQtcHJpbWFyeSknLAogICAgICAgICAgb3ZlcmZsb3c6ICdoaWRkZW4nLAogICAgICAgICAgdGV4dE92ZXJmbG93OiAnZWxsaXBzaXMnLAogICAgICAgICAgd2hpdGVTcGFjZTogJ25vd3JhcCcKICAgICAgICB9fT4KICAgICAgICAgIHtsaW5rLmZpbGVuYW1lfQogICAgICAgIDwvZGl2PgogICAgICAgIHtsaW5rLnNpemUgIT09IG51bGwgJiYgKAogICAgICAgICAgPGRpdiBzdHlsZT17ewogICAgICAgICAgICBmb250U2l6ZTogJzExcHgnLAogICAgICAgICAgICBjb2xvcjogJ3ZhcigtLXRleHQtc2Vjb25kYXJ5KScsCiAgICAgICAgICAgIG1hcmdpblRvcDogJzJweCcKICAgICAgICAgIH19PgogICAgICAgICAgICB7Zm9ybWF0RmlsZVNpemUobGluay5zaXplKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CiAgICAgIDwvZGl2PgoKICAgICAgey8qIERlbGV0ZSBCdXR0b24gKi99CiAgICAgIDxidXR0b24KICAgICAgICBvbkNsaWNrPXsoZSkgPT4gewogICAgICAgICAgZS5zdG9wUHJvcGFnYXRpb24oKTsKICAgICAgICAgIHJlbW92ZUxpbmsobGluay5pZCk7CiAgICAgICAgfX0KICAgICAgICBzdHlsZT17ewogICAgICAgICAgd2lkdGg6ICcyNHB4JywKICAgICAgICAgIGhlaWdodDogJzI0cHgnLAogICAgICAgICAgZGlzcGxheTogJ2ZsZXgnLAogICAgICAgICAgYWxpZ25JdGVtczogJ2NlbnRlcicsCiAgICAgICAgICBqdXN0aWZ5Q29udGVudDogJ2NlbnRlcicsCiAgICAgICAgICBiYWNrZ3JvdW5kQ29sb3I6ICd0cmFuc3BhcmVudCcsCiAgICAgICAgICBib3JkZXI6ICdub25lJywKICAgICAgICAgIGJvcmRlclJhZGl1czogJ3ZhcigtLXJhZGl1cy1iYXNlKScsCiAgICAgICAgICBjdXJzb3I6ICdwb2ludGVyJywKICAgICAgICAgIGZsZXhTaHJpbms6IDAsCiAgICAgICAgICBvcGFjaXR5OiAwLjYsCiAgICAgICAgICB0cmFuc2l0aW9uOiAnYWxsIDAuMnMnCiAgICAgICAgfX0KICAgICAgICBvbk1vdXNlRW50ZXI9eyhlKSA9PiB7CiAgICAgICAgICBlLmN1cnJlbnRUYXJnZXQuc3R5bGUub3BhY2l0eSA9ICcxJzsKICAgICAgICAgIGUuY3VycmVudFRhcmdldC5zdHlsZS5iYWNrZ3JvdW5kQ29sb3IgPSAndmFyKC0tZmlsbC1saWdodCknOwogICAgICAgIH19CiAgICAgICAgb25Nb3VzZUxlYXZlPXsoZSkgPT4gewogICAgICAgICAgZS5jdXJyZW50VGFyZ2V0LnN0eWxlLm9wYWNpdHkgPSAnMC42JzsKICAgICAgICAgIGUuY3VycmVudFRhcmdldC5zdHlsZS5iYWNrZ3JvdW5kQ29sb3IgPSAndHJhbnNwYXJlbnQnOwogICAgICAgIH19CiAgICAgID4KICAgICAgICA8VHJhc2gyIHNpemU9ezE0fSBjb2xvcj0idmFyKC0tY29sb3ItZGFuZ2VyKSIgLz4KICAgICAgPC9idXR0b24+CiAgICA8L2Rpdj4KICApOwp9CgpleHBvcnQgZGVmYXVsdCBMaW5rSXRlbTsK
+import React from 'react';
+import type { Link } from '@/shared/types';
+import { useLinkStore } from '../stores/linkStore';
+import { Trash2, File, FileArchive, Video, Music, FileText, Image, Package } from 'lucide-react';
+import { formatFileSize } from '@/shared/utils/fileSize';
+import { getFileExtension } from '@/shared/utils/urlParser';
+
+interface LinkItemProps {
+  link: Link;
+}
+
+function LinkItem({ link }: LinkItemProps) {
+  const { toggleLink, removeLink } = useLinkStore();
+
+  const getFileIcon = () => {
+    const ext = getFileExtension(link.filename).toLowerCase();
+    
+    if (['.mp4', '.mkv', '.avi', '.mov', '.wmv', '.flv', '.webm'].includes(ext)) {
+      return <Video size={20} color="var(--color-primary)" />;
+    }
+    if (['.mp3', '.flac', '.wav', '.aac', '.ogg', '.m4a'].includes(ext)) {
+      return <Music size={20} color="var(--color-success)" />;
+    }
+    if (['.zip', '.rar', '.7z', '.tar', '.gz'].includes(ext)) {
+      return <FileArchive size={20} color="var(--color-warning)" />;
+    }
+    if (['.pdf', '.doc', '.docx', '.xls', '.xlsx'].includes(ext)) {
+      return <FileText size={20} color="var(--color-danger)" />;
+    }
+    if (['.jpg', '.jpeg', '.png', '.gif', '.webp'].includes(ext)) {
+      return <Image size={20} color="var(--color-info)" />;
+    }
+    if (['.exe', '.msi', '.dmg', '.apk'].includes(ext)) {
+      return <Package size={20} color="var(--text-secondary)" />;
+    }
+    
+    return <File size={20} color="var(--text-secondary)" />;
+  };
+
+  return (
+    <div style={{
+      display: 'flex',
+      alignItems: 'center',
+      gap: 'var(--space-md)',
+      padding: 'var(--space-md)',
+      marginBottom: 'var(--space-xs)',
+      backgroundColor: link.selected ? 'var(--fill-extra-light)' : 'transparent',
+      border: '1px solid',
+      borderColor: link.selected ? 'var(--color-primary)' : 'var(--border-lighter)',
+      borderRadius: 'var(--radius-base)',
+      cursor: 'pointer',
+      transition: 'all 0.2s'
+    }}
+    onClick={() => toggleLink(link.id)}
+    onMouseEnter={(e) => {
+      if (!link.selected) {
+        e.currentTarget.style.backgroundColor = 'var(--fill-lighter)';
+      }
+    }}
+    onMouseLeave={(e) => {
+      if (!link.selected) {
+        e.currentTarget.style.backgroundColor = 'transparent';
+      }
+    }}
+    >
+      {/* Checkbox */}
+      <div style={{
+        width: '18px',
+        height: '18px',
+        border: '2px solid',
+        borderColor: link.selected ? 'var(--color-primary)' : 'var(--border-base)',
+        borderRadius: 'var(--radius-small)',
+        backgroundColor: link.selected ? 'var(--color-primary)' : 'transparent',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexShrink: 0
+      }}>
+        {link.selected && (
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+            <path
+              d="M2 6L5 9L10 3"
+              stroke="white"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        )}
+      </div>
+
+      {/* File Icon */}
+      <div style={{ flexShrink: 0 }}>
+        {getFileIcon()}
+      </div>
+
+      {/* File Info */}
+      <div style={{ flex: 1, minWidth: 0 }}>
+        <div style={{
+          fontSize: '13px',
+          fontWeight: 500,
+          color: 'var(--text-primary)',
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+          whiteSpace: 'nowrap'
+        }}>
+          {link.filename}
+        </div>
+        {link.size !== null && (
+          <div style={{
+            fontSize: '11px',
+            color: 'var(--text-secondary)',
+            marginTop: '2px'
+          }}>
+            {formatFileSize(link.size)}
+          </div>
+        )}
+      </div>
+
+      {/* Delete Button */}
+      <button
+        onClick={(e) => {
+          e.stopPropagation();
+          removeLink(link.id);
+        }}
+        style={{
+          width: '24px',
+          height: '24px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          backgroundColor: 'transparent',
+          border: 'none',
+          borderRadius: 'var(--radius-base)',
+          cursor: 'pointer',
+          flexShrink: 0,
+          opacity: 0.6,
+          transition: 'all 0.2s'
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.opacity = '1';
+          e.currentTarget.style.backgroundColor = 'var(--fill-light)';
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.opacity = '0.6';
+          e.currentTarget.style.backgroundColor = 'transparent';
+        }}
+      >
+        <Trash2 size={14} color="var(--color-danger)" />
+      </button>
+    </div>
+  );
+}
+
+export default LinkItem;

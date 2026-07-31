@@ -1,1 +1,135 @@
-LyogRWxlbWVudCBQbHVzIOS4u+mimOminOiJsiAqLwo6cm9vdCB7CiAgLyog5Li76Imy6LCDICovCiAgLS1jb2xvci1wcmltYXJ5OiAjNDA5RUZGOwogIC0tY29sb3Itc3VjY2VzczogIzY3QzIzQTsKICAtLWNvbG9yLXdhcm5pbmc6ICNFNkEyM0M7CiAgLS1jb2xvci1kYW5nZXI6ICNGNTZDNkM7CiAgLS1jb2xvci1pbmZvOiAjOTA5Mzk5OwoKICAvKiDmlofmnKzpopzoibIgKi8KICAtLXRleHQtcHJpbWFyeTogIzMwMzEzMzsKICAtLXRleHQtcmVndWxhcjogIzYwNjI2NjsKICAtLXRleHQtc2Vjb25kYXJ5OiAjOTA5Mzk5OwogIC0tdGV4dC1wbGFjZWhvbGRlcjogI0MwQzRDQzsKICAtLXRleHQtZGlzYWJsZWQ6ICNFNEU3RUQ7CgogIC8qIOi+ueahhuminOiJsiAqLwogIC0tYm9yZGVyLWJhc2U6ICNEQ0RGRTY7CiAgLS1ib3JkZXItbGlnaHQ6ICNFNEU3RUQ7CiAgLS1ib3JkZXItbGlnaHRlcjogI0VCRUVGNTsKICAtLWJvcmRlci1leHRyYS1saWdodDogI0YyRjZGQzsKCiAgLyog5aGr5YWF6aKc6ImyICovCiAgLS1maWxsLWJhc2U6ICNGMEYyRjU7CiAgLS1maWxsLWxpZ2h0OiAjRjVGN0ZBOwogIC0tZmlsbC1saWdodGVyOiAjRkFGQUZBOwogIC0tZmlsbC1leHRyYS1saWdodDogI0ZBRkNGRjsKCiAgLyog6IOM5pmv6aKc6ImyICovCiAgLS1iZy13aGl0ZTogI0ZGRkZGRjsKICAtLWJnLXBhZ2U6ICNGMkYzRjU7CiAgLS1iZy1iYXNlOiAjRjVGN0ZBOwogIC0tYmctb3ZlcmxheTogI0ZGRkZGRjsKCiAgLyog5bC65a+4ICovCiAgLS1zaXplLWxhcmdlOiA0MHB4OwogIC0tc2l6ZS1kZWZhdWx0OiAzMnB4OwogIC0tc2l6ZS1zbWFsbDogMjRweDsKCiAgLyog5ZyG6KeSICovCiAgLS1yYWRpdXMtYmFzZTogNHB4OwogIC0tcmFkaXVzLXNtYWxsOiAycHg7CiAgLS1yYWRpdXMtcm91bmQ6IDIwcHg7CiAgLS1yYWRpdXMtY2lyY2xlOiA1MCU7CgogIC8qIOmXtOi3nSAqLwogIC0tc3BhY2UteHM6IDRweDsKICAtLXNwYWNlLXNtOiA4cHg7CiAgLS1zcGFjZS1tZDogMTJweDsKICAtLXNwYWNlLWxnOiAxNnB4OwogIC0tc3BhY2UteGw6IDIwcHg7CgogIC8qIOihpeWFheWhq+WFheiJsu+8iOS+m+e7hOS7tuS9v+eUqO+8iSAqLwogIC0tZmlsbC1ibGFuazogI0ZGRkZGRjsKfQoKLyogPT09PT0g5pqX6Imy5Li76aKYID09PT09ICovCjpyb290W2RhdGEtdGhlbWU9ImRhcmsiXSB7CiAgLS10ZXh0LXByaW1hcnk6ICNFNUVBRjM7CiAgLS10ZXh0LXJlZ3VsYXI6ICNDRkQzREM7CiAgLS10ZXh0LXNlY29uZGFyeTogI0EzQTZBRDsKICAtLXRleHQtcGxhY2Vob2xkZXI6ICM4RDkwOTU7CiAgLS10ZXh0LWRpc2FibGVkOiAjNkM2RTcyOwogIC0tYm9yZGVyLWJhc2U6ICM0QzRENEY7CiAgLS1ib3JkZXItbGlnaHQ6ICM0MTQyNDM7CiAgLS1ib3JkZXItbGlnaHRlcjogIzM2MzYzNzsKICAtLWJvcmRlci1leHRyYS1saWdodDogIzJCMkIyQzsKICAtLWZpbGwtYmFzZTogIzMwMzAzMDsKICAtLWZpbGwtbGlnaHQ6ICMyNjI3Mjc7CiAgLS1maWxsLWxpZ2h0ZXI6ICMxRDFEMUQ7CiAgLS1maWxsLWV4dHJhLWxpZ2h0OiAjMTkxOTE5OwogIC0tZmlsbC1ibGFuazogIzFEMUUxRjsKICAtLWJnLXdoaXRlOiAjMUQxRTFGOwogIC0tYmctcGFnZTogIzE0MTQxNDsKICAtLWJnLWJhc2U6ICMxRDFFMUY7CiAgLS1iZy1vdmVybGF5OiAjMUQxRTFGOwp9CgpAbWVkaWEgKHByZWZlcnMtY29sb3Itc2NoZW1lOiBkYXJrKSB7CiAgOnJvb3Q6bm90KFtkYXRhLXRoZW1lPSJsaWdodCJdKTpub3QoW2RhdGEtdGhlbWU9ImRhcmsiXSkgewogICAgLS10ZXh0LXByaW1hcnk6ICNFNUVBRjM7CiAgICAtLXRleHQtcmVndWxhcjogI0NGRDNEQzsKICAgIC0tdGV4dC1zZWNvbmRhcnk6ICNBM0E2QUQ7CiAgICAtLXRleHQtcGxhY2Vob2xkZXI6ICM4RDkwOTU7CiAgICAtLXRleHQtZGlzYWJsZWQ6ICM2QzZFNzI7CiAgICAtLWJvcmRlci1iYXNlOiAjNEM0RDRGOwogICAgLS1ib3JkZXItbGlnaHQ6ICM0MTQyNDM7CiAgICAtLWJvcmRlci1saWdodGVyOiAjMzYzNjM3OwogICAgLS1ib3JkZXItZXh0cmEtbGlnaHQ6ICMyQjJCMkM7CiAgICAtLWZpbGwtYmFzZTogIzMwMzAzMDsKICAgIC0tZmlsbC1saWdodDogIzI2MjcyNzsKICAgIC0tZmlsbC1saWdodGVyOiAjMUQxRDFEOwogICAgLS1maWxsLWV4dHJhLWxpZ2h0OiAjMTkxOTE5OwogICAgLS1maWxsLWJsYW5rOiAjMUQxRTFGOwogICAgLS1iZy13aGl0ZTogIzFEMUUxRjsKICAgIC0tYmctcGFnZTogIzE0MTQxNDsKICAgIC0tYmctYmFzZTogIzFEMUUxRjsKICAgIC0tYmctb3ZlcmxheTogIzFEMUUxRjsKICB9Cn0KCiogewogIG1hcmdpbjogMDsKICBwYWRkaW5nOiAwOwogIGJveC1zaXppbmc6IGJvcmRlci1ib3g7Cn0KCmJvZHkgewogIGZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ0hlbHZldGljYSBOZXVlJywgQXJpYWwsIHNhbnMtc2VyaWY7CiAgZm9udC1zaXplOiAxNHB4OwogIGNvbG9yOiB2YXIoLS10ZXh0LXByaW1hcnkpOwogIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWJnLXdoaXRlKTsKICB3aWR0aDogNDAwcHg7CiAgaGVpZ2h0OiA2MDBweDsKICBvdmVyZmxvdzogaGlkZGVuOwp9Cgojcm9vdCB7CiAgd2lkdGg6IDEwMCU7CiAgaGVpZ2h0OiAxMDAlOwogIGRpc3BsYXk6IGZsZXg7CiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKfQoKYnV0dG9uIHsKICBmb250LWZhbWlseTogaW5oZXJpdDsKICBjdXJzb3I6IHBvaW50ZXI7CiAgYm9yZGVyOiBub25lOwogIG91dGxpbmU6IG5vbmU7Cn0KCmlucHV0IHsKICBmb250LWZhbWlseTogaW5oZXJpdDsKICBvdXRsaW5lOiBub25lOwp9Cg==
+/* Element Plus 主题颜色 */
+:root {
+  /* 主色调 */
+  --color-primary: #409EFF;
+  --color-success: #67C23A;
+  --color-warning: #E6A23C;
+  --color-danger: #F56C6C;
+  --color-info: #909399;
+
+  /* 文本颜色 */
+  --text-primary: #303133;
+  --text-regular: #606266;
+  --text-secondary: #909399;
+  --text-placeholder: #C0C4CC;
+  --text-disabled: #E4E7ED;
+
+  /* 边框颜色 */
+  --border-base: #DCDFE6;
+  --border-light: #E4E7ED;
+  --border-lighter: #EBEEF5;
+  --border-extra-light: #F2F6FC;
+
+  /* 填充颜色 */
+  --fill-base: #F0F2F5;
+  --fill-light: #F5F7FA;
+  --fill-lighter: #FAFAFA;
+  --fill-extra-light: #FAFCFF;
+
+  /* 背景颜色 */
+  --bg-white: #FFFFFF;
+  --bg-page: #F2F3F5;
+  --bg-base: #F5F7FA;
+  --bg-overlay: #FFFFFF;
+
+  /* 尺寸 */
+  --size-large: 40px;
+  --size-default: 32px;
+  --size-small: 24px;
+
+  /* 圆角 */
+  --radius-base: 4px;
+  --radius-small: 2px;
+  --radius-round: 20px;
+  --radius-circle: 50%;
+
+  /* 间距 */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 20px;
+
+  /* 补充填充色（供组件使用） */
+  --fill-blank: #FFFFFF;
+}
+
+/* ===== 暗色主题 ===== */
+:root[data-theme="dark"] {
+  --text-primary: #E5EAF3;
+  --text-regular: #CFD3DC;
+  --text-secondary: #A3A6AD;
+  --text-placeholder: #8D9095;
+  --text-disabled: #6C6E72;
+  --border-base: #4C4D4F;
+  --border-light: #414243;
+  --border-lighter: #363637;
+  --border-extra-light: #2B2B2C;
+  --fill-base: #303030;
+  --fill-light: #262727;
+  --fill-lighter: #1D1D1D;
+  --fill-extra-light: #191919;
+  --fill-blank: #1D1E1F;
+  --bg-white: #1D1E1F;
+  --bg-page: #141414;
+  --bg-base: #1D1E1F;
+  --bg-overlay: #1D1E1F;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]):not([data-theme="dark"]) {
+    --text-primary: #E5EAF3;
+    --text-regular: #CFD3DC;
+    --text-secondary: #A3A6AD;
+    --text-placeholder: #8D9095;
+    --text-disabled: #6C6E72;
+    --border-base: #4C4D4F;
+    --border-light: #414243;
+    --border-lighter: #363637;
+    --border-extra-light: #2B2B2C;
+    --fill-base: #303030;
+    --fill-light: #262727;
+    --fill-lighter: #1D1D1D;
+    --fill-extra-light: #191919;
+    --fill-blank: #1D1E1F;
+    --bg-white: #1D1E1F;
+    --bg-page: #141414;
+    --bg-base: #1D1E1F;
+    --bg-overlay: #1D1E1F;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+  color: var(--text-primary);
+  background-color: var(--bg-white);
+  width: 400px;
+  height: 600px;
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+input {
+  font-family: inherit;
+  outline: none;
+}

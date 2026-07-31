@@ -1,1 +1,35 @@
-Ly8g55So5Zu65a6a56eB6ZKl5oqKIGRpc3QvIOaJk+WMheS4uiBjcngzICsg55Sf5oiQ5pys5ZywIHVwZGF0ZS54bWwKLy8g5Lqn54mpIElEIOeUsSBrZXkucGVtIOeahOWFrOmSpeWGs+Wumu+8jOS4jiBtYW5pZmVzdC5qc29uIOeahCBrZXkg5a2X5q615LiA6Ie077yI56iz5a6a5omp5bGVIElE77yJCmltcG9ydCBjcngzIGZyb20gJ2NyeDMnOwppbXBvcnQgZnMgZnJvbSAnbm9kZTpmcyc7CmltcG9ydCBwYXRoIGZyb20gJ25vZGU6cGF0aCc7CmltcG9ydCB7IGZpbGVVUkxUb1BhdGggfSBmcm9tICdub2RlOnVybCc7Cgpjb25zdCByb290ID0gcGF0aC5yZXNvbHZlKHBhdGguZGlybmFtZShmaWxlVVJMVG9QYXRoKGltcG9ydC5tZXRhLnVybCkpLCAnLi4nKTsKY29uc3QgZGlzdE1hbmlmZXN0ID0gcGF0aC5qb2luKHJvb3QsICdkaXN0JywgJ21hbmlmZXN0Lmpzb24nKTsKY29uc3Qga2V5UGF0aCA9IHBhdGguam9pbihyb290LCAna2V5LnBlbScpOwpjb25zdCBjcnhQYXRoID0gcGF0aC5qb2luKHJvb3QsICdnZG93bmxvYWQuY3J4Jyk7CmNvbnN0IHhtbFBhdGggPSBwYXRoLmpvaW4ocm9vdCwgJ3VwZGF0ZS54bWwnKTsKCmlmICghZnMuZXhpc3RzU3luYyhkaXN0TWFuaWZlc3QpKSB7CiAgY29uc29sZS5lcnJvcignW3BhY2stY3J4XSBkaXN0L21hbmlmZXN0Lmpzb24g5LiN5a2Y5Zyo77yM6K+35YWIIGBucG0gcnVuIGJ1aWxkOmNocm9tZWAnKTsKICBwcm9jZXNzLmV4aXQoMSk7Cn0KaWYgKCFmcy5leGlzdHNTeW5jKGtleVBhdGgpKSB7CiAgY29uc29sZS5lcnJvcignW3BhY2stY3J4XSBrZXkucGVtIOS4jeWtmOWcqO+8iOaJk+WMheengemSpe+8jOWxnuWPkeeJiOacuuWvhu+8jOmcgOemu+e6v+S/neeuoS9DSSDms6jlhaXvvIknKTsKICBwcm9jZXNzLmV4aXQoMSk7Cn0KCi8vIHVwZGF0ZS54bWwg55qEIGNvZGViYXNl77ya5pys5Zyw562W55Wl6Z2Z6buY5a6J6KOF55So55qEIGNyeCDot6/lvoTjgIIKLy8g5a6J6KOF5Zmo77yITlNJU++8ieS8muaKiuWug+mHjeWGmeS4uuWunumZheWuieijheebruW9le+8m+atpOWkhOeUqOWPr+iiq+abv+aNoueahOWNoOS9jem7mOiupOWAvOOAggpjb25zdCBjcnhVUkwgPSBwcm9jZXNzLmVudi5DUlhfVVJMIHx8ICdmaWxlOi8vLyVHRE9XTkxPQURfRElSJS9yZXNvdXJjZXMvZXh0ZW5zaW9uL2dkb3dubG9hZC5jcngnOwoKY3J4MyhbZGlzdE1hbmlmZXN0XSwgeyBrZXlQYXRoLCBjcnhQYXRoLCB4bWxQYXRoLCBjcnhVUkwgfSkKICAudGhlbigoKSA9PiB7CiAgICBjb25zb2xlLmxvZygnW3BhY2stY3J4XSDinJMg55Sf5oiQIGdkb3dubG9hZC5jcngnKTsKICAgIGNvbnNvbGUubG9nKCdbcGFjay1jcnhdIOKckyDnlJ/miJAgdXBkYXRlLnhtbO+8iGNvZGViYXNlOiAnICsgY3J4VVJMICsgJ++8iScpOwogIH0pCiAgLmNhdGNoKChlcnIpID0+IHsKICAgIGNvbnNvbGUuZXJyb3IoJ1twYWNrLWNyeF0g5aSx6LSlOicsIGVycik7CiAgICBwcm9jZXNzLmV4aXQoMSk7CiAgfSk7Cg==
+// 用固定私钥把 dist/ 打包为 crx3 + 生成本地 update.xml
+// 产物 ID 由 key.pem 的公钥决定，与 manifest.json 的 key 字段一致（稳定扩展 ID）
+import crx3 from 'crx3';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const distManifest = path.join(root, 'dist', 'manifest.json');
+const keyPath = path.join(root, 'key.pem');
+const crxPath = path.join(root, 'gdownload.crx');
+const xmlPath = path.join(root, 'update.xml');
+
+if (!fs.existsSync(distManifest)) {
+  console.error('[pack-crx] dist/manifest.json 不存在，请先 `npm run build:chrome`');
+  process.exit(1);
+}
+if (!fs.existsSync(keyPath)) {
+  console.error('[pack-crx] key.pem 不存在（打包私钥，属发版机密，需离线保管/CI 注入）');
+  process.exit(1);
+}
+
+// update.xml 的 codebase：本地策略静默安装用的 crx 路径。
+// 安装器（NSIS）会把它重写为实际安装目录；此处用可被替换的占位默认值。
+const crxURL = process.env.CRX_URL || 'file:///%GDOWNLOAD_DIR%/resources/extension/gdownload.crx';
+
+crx3([distManifest], { keyPath, crxPath, xmlPath, crxURL })
+  .then(() => {
+    console.log('[pack-crx] ✓ 生成 gdownload.crx');
+    console.log('[pack-crx] ✓ 生成 update.xml（codebase: ' + crxURL + '）');
+  })
+  .catch((err) => {
+    console.error('[pack-crx] 失败:', err);
+    process.exit(1);
+  });

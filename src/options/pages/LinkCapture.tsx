@@ -1,1 +1,424 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IGJyb3dzZXJBcGkgfSBmcm9tICdAL3NoYXJlZC91dGlscy9icm93c2VyQXBpJzsKaW1wb3J0IHsgREVGQVVMVF9TRVRUSU5HUywgU1RPUkFHRV9LRVlTLCBGSUxFX1RZUEVfQ0FURUdPUklFUyB9IGZyb20gJ0Avc2hhcmVkL2NvbnN0YW50cyc7CmltcG9ydCB0eXBlIHsgRXh0ZW5zaW9uU2V0dGluZ3MgfSBmcm9tICdAL3NoYXJlZC90eXBlcyc7CmltcG9ydCB7IHQsIHRuIH0gZnJvbSAnQC9zaGFyZWQvdXRpbHMvaTE4bic7CgpmdW5jdGlvbiBMaW5rQ2FwdHVyZSgpIHsKICBjb25zdCBbc2V0dGluZ3MsIHNldFNldHRpbmdzXSA9IHVzZVN0YXRlPEV4dGVuc2lvblNldHRpbmdzPihERUZBVUxUX1NFVFRJTkdTKTsKICBjb25zdCBbc2F2ZWQsIHNldFNhdmVkXSA9IHVzZVN0YXRlKGZhbHNlKTsKCiAgLy8g5Li05pe26L6T5YWl54q25oCBCiAgY29uc3QgW25ld0ZpbGVUeXBlLCBzZXROZXdGaWxlVHlwZV0gPSB1c2VTdGF0ZSgnJyk7CiAgY29uc3QgW25ld0JsYWNrbGlzdFBhdHRlcm4sIHNldE5ld0JsYWNrbGlzdFBhdHRlcm5dID0gdXNlU3RhdGUoJycpOwogIGNvbnN0IFtuZXdXaGl0ZWxpc3REb21haW4sIHNldE5ld1doaXRlbGlzdERvbWFpbl0gPSB1c2VTdGF0ZSgnJyk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBsb2FkU2V0dGluZ3MoKTsKICB9LCBbXSk7CgogIGNvbnN0IGxvYWRTZXR0aW5ncyA9IGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IGJyb3dzZXJBcGkuc3RvcmFnZS5nZXQoW1NUT1JBR0VfS0VZUy5TRVRUSU5HU10pOwogICAgY29uc3Qgc3RvcmVkU2V0dGluZ3MgPSByZXN1bHRbU1RPUkFHRV9LRVlTLlNFVFRJTkdTXTsKCiAgICBpZiAoc3RvcmVkU2V0dGluZ3MpIHsKICAgICAgc2V0U2V0dGluZ3MoeyAuLi5ERUZBVUxUX1NFVFRJTkdTLCAuLi5zdG9yZWRTZXR0aW5ncyB9KTsKICAgIH0KICB9OwoKICBjb25zdCBzYXZlU2V0dGluZ3MgPSBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCBicm93c2VyQXBpLnN0b3JhZ2Uuc2V0KHsgW1NUT1JBR0VfS0VZUy5TRVRUSU5HU106IHNldHRpbmdzIH0pOwogICAgc2V0U2F2ZWQodHJ1ZSk7CiAgICBzZXRUaW1lb3V0KCgpID0+IHNldFNhdmVkKGZhbHNlKSwgMjAwMCk7CiAgfTsKCiAgLy8g5b+r6YCf5re75Yqg5paH5Lu257G75Z6L5YiG57G7CiAgY29uc3QgYWRkRmlsZVR5cGVDYXRlZ29yeSA9IChjYXRlZ29yeToga2V5b2YgdHlwZW9mIEZJTEVfVFlQRV9DQVRFR09SSUVTKSA9PiB7CiAgICBjb25zdCBleHRlbnNpb25zID0gRklMRV9UWVBFX0NBVEVHT1JJRVNbY2F0ZWdvcnldOwogICAgY29uc3QgbmV3VHlwZXMgPSBbLi4ubmV3IFNldChbLi4uc2V0dGluZ3MuZmlsZVR5cGVzLCAuLi5leHRlbnNpb25zXSldOwogICAgc2V0U2V0dGluZ3MoeyAuLi5zZXR0aW5ncywgZmlsZVR5cGVzOiBuZXdUeXBlcyB9KTsKICB9OwoKICAvLyDmt7vliqDoh6rlrprkuYnmlofku7bnsbvlnosKICBjb25zdCBhZGRDdXN0b21GaWxlVHlwZSA9ICgpID0+IHsKICAgIGlmICghbmV3RmlsZVR5cGUudHJpbSgpKSByZXR1cm47CgogICAgbGV0IGV4dCA9IG5ld0ZpbGVUeXBlLnRyaW0oKTsKICAgIGlmICghZXh0LnN0YXJ0c1dpdGgoJy4nKSkgewogICAgICBleHQgPSAnLicgKyBleHQ7CiAgICB9CgogICAgaWYgKCFzZXR0aW5ncy5maWxlVHlwZXMuaW5jbHVkZXMoZXh0KSkgewogICAgICBzZXRTZXR0aW5ncyh7IC4uLnNldHRpbmdzLCBmaWxlVHlwZXM6IFsuLi5zZXR0aW5ncy5maWxlVHlwZXMsIGV4dF0gfSk7CiAgICB9CiAgICBzZXROZXdGaWxlVHlwZSgnJyk7CiAgfTsKCiAgLy8g56e76Zmk5paH5Lu257G75Z6LCiAgY29uc3QgcmVtb3ZlRmlsZVR5cGUgPSAodHlwZTogc3RyaW5nKSA9PiB7CiAgICBzZXRTZXR0aW5ncyh7CiAgICAgIC4uLnNldHRpbmdzLAogICAgICBmaWxlVHlwZXM6IHNldHRpbmdzLmZpbGVUeXBlcy5maWx0ZXIodCA9PiB0ICE9PSB0eXBlKQogICAgfSk7CiAgfTsKCiAgLy8g5re75Yqg6buR5ZCN5Y2V5qih5byPCiAgY29uc3QgYWRkQmxhY2tsaXN0UGF0dGVybiA9ICgpID0+IHsKICAgIGlmICghbmV3QmxhY2tsaXN0UGF0dGVybi50cmltKCkpIHJldHVybjsKCiAgICBjb25zdCBwYXR0ZXJuID0gbmV3QmxhY2tsaXN0UGF0dGVybi50cmltKCk7CiAgICBpZiAoIXNldHRpbmdzLnVybEJsYWNrbGlzdC5pbmNsdWRlcyhwYXR0ZXJuKSkgewogICAgICBzZXRTZXR0aW5ncyh7IC4uLnNldHRpbmdzLCB1cmxCbGFja2xpc3Q6IFsuLi5zZXR0aW5ncy51cmxCbGFja2xpc3QsIHBhdHRlcm5dIH0pOwogICAgfQogICAgc2V0TmV3QmxhY2tsaXN0UGF0dGVybignJyk7CiAgfTsKCiAgLy8g56e76Zmk6buR5ZCN5Y2V5qih5byPCiAgY29uc3QgcmVtb3ZlQmxhY2tsaXN0UGF0dGVybiA9IChwYXR0ZXJuOiBzdHJpbmcpID0+IHsKICAgIHNldFNldHRpbmdzKHsKICAgICAgLi4uc2V0dGluZ3MsCiAgICAgIHVybEJsYWNrbGlzdDogc2V0dGluZ3MudXJsQmxhY2tsaXN0LmZpbHRlcihwID0+IHAgIT09IHBhdHRlcm4pCiAgICB9KTsKICB9OwoKICAvLyDmt7vliqDnmb3lkI3ljZXln5/lkI0KICBjb25zdCBhZGRXaGl0ZWxpc3REb21haW4gPSAoKSA9PiB7CiAgICBpZiAoIW5ld1doaXRlbGlzdERvbWFpbi50cmltKCkpIHJldHVybjsKCiAgICBjb25zdCBkb21haW4gPSBuZXdXaGl0ZWxpc3REb21haW4udHJpbSgpOwogICAgaWYgKCFzZXR0aW5ncy5kb21haW5XaGl0ZWxpc3QuaW5jbHVkZXMoZG9tYWluKSkgewogICAgICBzZXRTZXR0aW5ncyh7IC4uLnNldHRpbmdzLCBkb21haW5XaGl0ZWxpc3Q6IFsuLi5zZXR0aW5ncy5kb21haW5XaGl0ZWxpc3QsIGRvbWFpbl0gfSk7CiAgICB9CiAgICBzZXROZXdXaGl0ZWxpc3REb21haW4oJycpOwogIH07CgogIC8vIOenu+mZpOeZveWQjeWNleWfn+WQjQogIGNvbnN0IHJlbW92ZVdoaXRlbGlzdERvbWFpbiA9IChkb21haW46IHN0cmluZykgPT4gewogICAgc2V0U2V0dGluZ3MoewogICAgICAuLi5zZXR0aW5ncywKICAgICAgZG9tYWluV2hpdGVsaXN0OiBzZXR0aW5ncy5kb21haW5XaGl0ZWxpc3QuZmlsdGVyKGQgPT4gZCAhPT0gZG9tYWluKQogICAgfSk7CiAgfTsKCiAgcmV0dXJuICgKICAgIDxkaXY+CiAgICAgIDxoMSBzdHlsZT17eyBmb250U2l6ZTogJzI0cHgnLCBmb250V2VpZ2h0OiA2MDAsIG1hcmdpbkJvdHRvbTogJ3ZhcigtLXNwYWNlLXhsKScgfX0+CiAgICAgICAge3QoJ2xpbmtDYXB0dXJlVGl0bGUnKX0KICAgICAgPC9oMT4KCiAgICAgIHsvKiDmlofku7blpKflsI/ov4fmu6QgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJvcHRpb25zLXNlY3Rpb24iPgogICAgICAgIDxoMiBjbGFzc05hbWU9Im9wdGlvbnMtc2VjdGlvbi10aXRsZSI+e3QoJ2ZpbGVTaXplRmlsdGVyJyl9PC9oMj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZvcm0taXRlbSI+CiAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJmb3JtLWxhYmVsIj57dCgnbWluRmlsZVNpemUnKX08L2xhYmVsPgogICAgICAgICAgPGlucHV0CiAgICAgICAgICAgIHR5cGU9Im51bWJlciIKICAgICAgICAgICAgY2xhc3NOYW1lPSJmb3JtLWlucHV0IgogICAgICAgICAgICB2YWx1ZT17TWF0aC5yb3VuZChzZXR0aW5ncy5taW5GaWxlU2l6ZSAvICgxMDI0ICogMTAyNCkpfQogICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFNldHRpbmdzKHsKICAgICAgICAgICAgICAuLi5zZXR0aW5ncywKICAgICAgICAgICAgICBtaW5GaWxlU2l6ZTogcGFyc2VJbnQoZS50YXJnZXQudmFsdWUpICogMTAyNCAqIDEwMjQKICAgICAgICAgICAgfSl9CiAgICAgICAgICAgIG1pbj0iMCIKICAgICAgICAgICAgc3RlcD0iMSIKICAgICAgICAgIC8+CiAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiAnMTJweCcsIGNvbG9yOiAndmFyKC0tdGV4dC1zZWNvbmRhcnkpJywgbWFyZ2luVG9wOiAnNHB4JyB9fT4KICAgICAgICAgICAge3QoJ21pbkZpbGVTaXplRGVzYycpfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgey8qIOaWh+S7tuexu+Wei+i/h+a7pCAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9Im9wdGlvbnMtc2VjdGlvbiI+CiAgICAgICAgPGgyIGNsYXNzTmFtZT0ib3B0aW9ucy1zZWN0aW9uLXRpdGxlIj57dCgnZmlsZVR5cGVGaWx0ZXInKX08L2gyPgoKICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiAnMTRweCcsIGNvbG9yOiAndmFyKC0tdGV4dC1zZWNvbmRhcnkpJywgbWFyZ2luQm90dG9tOiAndmFyKC0tc3BhY2UtbWQpJyB9fT4KICAgICAgICAgIHt0KCdmaWxlVHlwZUZpbHRlckRlc2MnKX0KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIOW/q+mAn+a3u+WKoOWIhuexu+aMiemSriAqL30KICAgICAgICA8ZGl2IHN0eWxlPXt7IG1hcmdpbkJvdHRvbTogJ3ZhcigtLXNwYWNlLW1kKScgfX0+CiAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiAnMTNweCcsIGZvbnRXZWlnaHQ6IDUwMCwgbWFyZ2luQm90dG9tOiAnOHB4JyB9fT57dCgncXVpY2tBZGQnKX08L2Rpdj4KICAgICAgICAgIDxkaXYgc3R5bGU9e3sgZGlzcGxheTogJ2ZsZXgnLCBnYXA6ICc4cHgnLCBmbGV4V3JhcDogJ3dyYXAnIH19PgogICAgICAgICAgICB7T2JqZWN0LmtleXMoRklMRV9UWVBFX0NBVEVHT1JJRVMpLm1hcChjYXRlZ29yeSA9PiAoCiAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAga2V5PXtjYXRlZ29yeX0KICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IGFkZEZpbGVUeXBlQ2F0ZWdvcnkoY2F0ZWdvcnkgYXMga2V5b2YgdHlwZW9mIEZJTEVfVFlQRV9DQVRFR09SSUVTKX0KICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgIHBhZGRpbmc6ICc0cHggMTJweCcsCiAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiAnMTNweCcsCiAgICAgICAgICAgICAgICAgIGJvcmRlcjogJzFweCBzb2xpZCB2YXIoLS1ib3JkZXItYmFzZSknLAogICAgICAgICAgICAgICAgICBib3JkZXJSYWRpdXM6ICd2YXIoLS1yYWRpdXMtYmFzZSknLAogICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAndmFyKC0tZmlsbC1ibGFuayknLAogICAgICAgICAgICAgICAgICBjdXJzb3I6ICdwb2ludGVyJywKICAgICAgICAgICAgICAgICAgdGV4dFRyYW5zZm9ybTogJ2NhcGl0YWxpemUnCiAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHtjYXRlZ29yeX0KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIOW3sumAieaLqeeahOaWh+S7tuexu+Wei+WIl+ihqCAqL30KICAgICAgICB7c2V0dGluZ3MuZmlsZVR5cGVzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgPGRpdiBzdHlsZT17eyBtYXJnaW5Cb3R0b206ICd2YXIoLS1zcGFjZS1tZCknIH19PgogICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiAnMTNweCcsIGZvbnRXZWlnaHQ6IDUwMCwgbWFyZ2luQm90dG9tOiAnOHB4JyB9fT4KICAgICAgICAgICAgICB7dG4oJ3NlbGVjdGVkVHlwZXMnLCB7IGNvdW50OiBzZXR0aW5ncy5maWxlVHlwZXMubGVuZ3RoIH0pfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBzdHlsZT17ewogICAgICAgICAgICAgIGRpc3BsYXk6ICdmbGV4JywKICAgICAgICAgICAgICBnYXA6ICc4cHgnLAogICAgICAgICAgICAgIGZsZXhXcmFwOiAnd3JhcCcsCiAgICAgICAgICAgICAgcGFkZGluZzogJ3ZhcigtLXNwYWNlLW1kKScsCiAgICAgICAgICAgICAgYmFja2dyb3VuZDogJ3ZhcigtLWZpbGwtZXh0cmEtbGlnaHQpJywKICAgICAgICAgICAgICBib3JkZXJSYWRpdXM6ICd2YXIoLS1yYWRpdXMtYmFzZSknLAogICAgICAgICAgICAgIGJvcmRlcjogJzFweCBzb2xpZCB2YXIoLS1ib3JkZXItYmFzZSknCiAgICAgICAgICAgIH19PgogICAgICAgICAgICAgIHtzZXR0aW5ncy5maWxlVHlwZXMubWFwKHR5cGUgPT4gKAogICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICBrZXk9e3R5cGV9CiAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogJ2ZsZXgnLAogICAgICAgICAgICAgICAgICAgIGFsaWduSXRlbXM6ICdjZW50ZXInLAogICAgICAgICAgICAgICAgICAgIGdhcDogJzRweCcsCiAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogJzRweCA4cHgnLAogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICd2YXIoLS1jb2xvci1wcmltYXJ5KScsCiAgICAgICAgICAgICAgICAgICAgY29sb3I6ICd3aGl0ZScsCiAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiAndmFyKC0tcmFkaXVzLXNtYWxsKScsCiAgICAgICAgICAgICAgICAgICAgZm9udFNpemU6ICcxM3B4JwogICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8c3Bhbj57dHlwZX08L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiByZW1vdmVGaWxlVHlwZSh0eXBlKX0KICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogJ25vbmUnLAogICAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiAnbm9uZScsCiAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogJ3doaXRlJywKICAgICAgICAgICAgICAgICAgICAgIGN1cnNvcjogJ3BvaW50ZXInLAogICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogJzAgMnB4JywKICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiAnMTZweCcsCiAgICAgICAgICAgICAgICAgICAgICBsaW5lSGVpZ2h0OiAxCiAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIMOXCiAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0U2V0dGluZ3MoeyAuLi5zZXR0aW5ncywgZmlsZVR5cGVzOiBbXSB9KX0KICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgIHBhZGRpbmc6ICc0cHggOHB4JywKICAgICAgICAgICAgICAgICAgZm9udFNpemU6ICcxM3B4JywKICAgICAgICAgICAgICAgICAgYm9yZGVyOiAnMXB4IHNvbGlkIHZhcigtLWJvcmRlci1iYXNlKScsCiAgICAgICAgICAgICAgICAgIGJvcmRlclJhZGl1czogJ3ZhcigtLXJhZGl1cy1zbWFsbCknLAogICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAndmFyKC0tZmlsbC1ibGFuayknLAogICAgICAgICAgICAgICAgICBjdXJzb3I6ICdwb2ludGVyJwogICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7dCgnY2xlYXJBbGwnKX0KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQoKICAgICAgICB7Lyog5re75Yqg6Ieq5a6a5LmJ5paH5Lu257G75Z6LICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmb3JtLWl0ZW0iPgogICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iZm9ybS1sYWJlbCI+e3QoJ2FkZEN1c3RvbUZpbGVUeXBlJyl9PC9sYWJlbD4KICAgICAgICAgIDxkaXYgc3R5bGU9e3sgZGlzcGxheTogJ2ZsZXgnLCBnYXA6ICd2YXIoLS1zcGFjZS1zbSknIH19PgogICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICB0eXBlPSJ0ZXh0IgogICAgICAgICAgICAgIGNsYXNzTmFtZT0iZm9ybS1pbnB1dCIKICAgICAgICAgICAgICB2YWx1ZT17bmV3RmlsZVR5cGV9CiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXROZXdGaWxlVHlwZShlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgb25LZXlQcmVzcz17KGUpID0+IGUua2V5ID09PSAnRW50ZXInICYmIGFkZEN1c3RvbUZpbGVUeXBlKCl9CiAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9e3QoJ2ZpbGVUeXBlSW5wdXRQbGFjZWhvbGRlcicpfQogICAgICAgICAgICAvPgogICAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT0iZm9ybS1idXR0b24iIG9uQ2xpY2s9e2FkZEN1c3RvbUZpbGVUeXBlfT4KICAgICAgICAgICAgICB7dCgnYWRkJyl9CiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgey8qIFVSTCDpu5HlkI3ljZUgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJvcHRpb25zLXNlY3Rpb24iPgogICAgICAgIDxoMiBjbGFzc05hbWU9Im9wdGlvbnMtc2VjdGlvbi10aXRsZSI+e3QoJ3VybEJsYWNrbGlzdCcpfTwvaDI+CgogICAgICAgIDxkaXYgc3R5bGU9e3sgZm9udFNpemU6ICcxNHB4JywgY29sb3I6ICd2YXIoLS10ZXh0LXNlY29uZGFyeSknLCBtYXJnaW5Cb3R0b206ICd2YXIoLS1zcGFjZS1tZCknIH19PgogICAgICAgICAge3QoJ3VybEJsYWNrbGlzdERlc2MnKX0KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIOW3suaciem7keWQjeWNlSAqL30KICAgICAgICB7c2V0dGluZ3MudXJsQmxhY2tsaXN0Lmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgPGRpdiBzdHlsZT17eyBtYXJnaW5Cb3R0b206ICd2YXIoLS1zcGFjZS1tZCknIH19PgogICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiAnMTNweCcsIGZvbnRXZWlnaHQ6IDUwMCwgbWFyZ2luQm90dG9tOiAnOHB4JyB9fT4KICAgICAgICAgICAgICB7dG4oJ2JsYWNrbGlzdFBhdHRlcm5zJywgeyBjb3VudDogc2V0dGluZ3MudXJsQmxhY2tsaXN0Lmxlbmd0aCB9KX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sKICAgICAgICAgICAgICBwYWRkaW5nOiAndmFyKC0tc3BhY2UtbWQpJywKICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAndmFyKC0tZmlsbC1leHRyYS1saWdodCknLAogICAgICAgICAgICAgIGJvcmRlclJhZGl1czogJ3ZhcigtLXJhZGl1cy1iYXNlKScsCiAgICAgICAgICAgICAgYm9yZGVyOiAnMXB4IHNvbGlkIHZhcigtLWJvcmRlci1iYXNlKScKICAgICAgICAgICAgfX0+CiAgICAgICAgICAgICAge3NldHRpbmdzLnVybEJsYWNrbGlzdC5tYXAoKHBhdHRlcm4sIGluZGV4KSA9PiAoCiAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgIGtleT17aW5kZXh9CiAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogJ2ZsZXgnLAogICAgICAgICAgICAgICAgICAgIGFsaWduSXRlbXM6ICdjZW50ZXInLAogICAgICAgICAgICAgICAgICAgIGp1c3RpZnlDb250ZW50OiAnc3BhY2UtYmV0d2VlbicsCiAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogJzhweCcsCiAgICAgICAgICAgICAgICAgICAgbWFyZ2luQm90dG9tOiBpbmRleCA8IHNldHRpbmdzLnVybEJsYWNrbGlzdC5sZW5ndGggLSAxID8gJzhweCcgOiAwLAogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICd2YXIoLS1maWxsLWJsYW5rKScsCiAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiAndmFyKC0tcmFkaXVzLXNtYWxsKScsCiAgICAgICAgICAgICAgICAgICAgZm9udFNpemU6ICcxM3B4JywKICAgICAgICAgICAgICAgICAgICBmb250RmFtaWx5OiAnbW9ub3NwYWNlJwogICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8c3Bhbj57cGF0dGVybn08L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiByZW1vdmVCbGFja2xpc3RQYXR0ZXJuKHBhdHRlcm4pfQogICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAndmFyKC0tY29sb3ItZGFuZ2VyKScsCiAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogJ3doaXRlJywKICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogJ25vbmUnLAogICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiAndmFyKC0tcmFkaXVzLXNtYWxsKScsCiAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAnNHB4IDhweCcsCiAgICAgICAgICAgICAgICAgICAgICBjdXJzb3I6ICdwb2ludGVyJywKICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiAnMTJweCcKICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAge3QoJ3JlbW92ZScpfQogICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CgogICAgICAgIHsvKiDmt7vliqDpu5HlkI3ljZXmqKHlvI8gKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZvcm0taXRlbSI+CiAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJmb3JtLWxhYmVsIj57dCgnYWRkQmxhY2tsaXN0UGF0dGVybicpfTwvbGFiZWw+CiAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGRpc3BsYXk6ICdmbGV4JywgZ2FwOiAndmFyKC0tc3BhY2Utc20pJyB9fT4KICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgdHlwZT0idGV4dCIKICAgICAgICAgICAgICBjbGFzc05hbWU9ImZvcm0taW5wdXQiCiAgICAgICAgICAgICAgdmFsdWU9e25ld0JsYWNrbGlzdFBhdHRlcm59CiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXROZXdCbGFja2xpc3RQYXR0ZXJuKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICBvbktleVByZXNzPXsoZSkgPT4gZS5rZXkgPT09ICdFbnRlcicgJiYgYWRkQmxhY2tsaXN0UGF0dGVybigpfQogICAgICAgICAgICAgIHBsYWNlaG9sZGVyPXt0KCdibGFja2xpc3RQYXR0ZXJuUGxhY2Vob2xkZXInKX0KICAgICAgICAgICAgICBzdHlsZT17eyBmb250RmFtaWx5OiAnbW9ub3NwYWNlJyB9fQogICAgICAgICAgICAvPgogICAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT0iZm9ybS1idXR0b24iIG9uQ2xpY2s9e2FkZEJsYWNrbGlzdFBhdHRlcm59PgogICAgICAgICAgICAgIHt0KCdhZGQnKX0KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgc3R5bGU9e3sgZm9udFNpemU6ICcxMnB4JywgY29sb3I6ICd2YXIoLS10ZXh0LXNlY29uZGFyeSknLCBtYXJnaW5Ub3A6ICc0cHgnIH19PgogICAgICAgICAgICB7dCgnYmxhY2tsaXN0UGF0dGVybkV4YW1wbGUnKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiDln5/lkI3nmb3lkI3ljZUgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJvcHRpb25zLXNlY3Rpb24iPgogICAgICAgIDxoMiBjbGFzc05hbWU9Im9wdGlvbnMtc2VjdGlvbi10aXRsZSI+e3QoJ2RvbWFpbldoaXRlbGlzdCcpfTwvaDI+CgogICAgICAgIDxkaXYgc3R5bGU9e3sgZm9udFNpemU6ICcxNHB4JywgY29sb3I6ICd2YXIoLS10ZXh0LXNlY29uZGFyeSknLCBtYXJnaW5Cb3R0b206ICd2YXIoLS1zcGFjZS1tZCknIH19PgogICAgICAgICAge3QoJ2RvbWFpbldoaXRlbGlzdERlc2MnKX0KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIOW3suacieeZveWQjeWNlSAqL30KICAgICAgICB7c2V0dGluZ3MuZG9tYWluV2hpdGVsaXN0Lmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgPGRpdiBzdHlsZT17eyBtYXJnaW5Cb3R0b206ICd2YXIoLS1zcGFjZS1tZCknIH19PgogICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiAnMTNweCcsIGZvbnRXZWlnaHQ6IDUwMCwgbWFyZ2luQm90dG9tOiAnOHB4JyB9fT4KICAgICAgICAgICAgICB7dG4oJ3doaXRlbGlzdGVkRG9tYWlucycsIHsgY291bnQ6IHNldHRpbmdzLmRvbWFpbldoaXRlbGlzdC5sZW5ndGggfSl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IHN0eWxlPXt7CiAgICAgICAgICAgICAgcGFkZGluZzogJ3ZhcigtLXNwYWNlLW1kKScsCiAgICAgICAgICAgICAgYmFja2dyb3VuZDogJ3ZhcigtLWZpbGwtZXh0cmEtbGlnaHQpJywKICAgICAgICAgICAgICBib3JkZXJSYWRpdXM6ICd2YXIoLS1yYWRpdXMtYmFzZSknLAogICAgICAgICAgICAgIGJvcmRlcjogJzFweCBzb2xpZCB2YXIoLS1ib3JkZXItYmFzZSknCiAgICAgICAgICAgIH19PgogICAgICAgICAgICAgIHtzZXR0aW5ncy5kb21haW5XaGl0ZWxpc3QubWFwKChkb21haW4sIGluZGV4KSA9PiAoCiAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgIGtleT17aW5kZXh9CiAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogJ2ZsZXgnLAogICAgICAgICAgICAgICAgICAgIGFsaWduSXRlbXM6ICdjZW50ZXInLAogICAgICAgICAgICAgICAgICAgIGp1c3RpZnlDb250ZW50OiAnc3BhY2UtYmV0d2VlbicsCiAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogJzhweCcsCiAgICAgICAgICAgICAgICAgICAgbWFyZ2luQm90dG9tOiBpbmRleCA8IHNldHRpbmdzLmRvbWFpbldoaXRlbGlzdC5sZW5ndGggLSAxID8gJzhweCcgOiAwLAogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICd2YXIoLS1maWxsLWJsYW5rKScsCiAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiAndmFyKC0tcmFkaXVzLXNtYWxsKScsCiAgICAgICAgICAgICAgICAgICAgZm9udFNpemU6ICcxM3B4JwogICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8c3Bhbj57ZG9tYWlufTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHJlbW92ZVdoaXRlbGlzdERvbWFpbihkb21haW4pfQogICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiAndmFyKC0tY29sb3ItZGFuZ2VyKScsCiAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogJ3doaXRlJywKICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogJ25vbmUnLAogICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiAndmFyKC0tcmFkaXVzLXNtYWxsKScsCiAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAnNHB4IDhweCcsCiAgICAgICAgICAgICAgICAgICAgICBjdXJzb3I6ICdwb2ludGVyJywKICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiAnMTJweCcKICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAge3QoJ3JlbW92ZScpfQogICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CgogICAgICAgIHsvKiDmt7vliqDnmb3lkI3ljZXln5/lkI0gKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZvcm0taXRlbSI+CiAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJmb3JtLWxhYmVsIj57dCgnYWRkV2hpdGVsaXN0RG9tYWluJyl9PC9sYWJlbD4KICAgICAgICAgIDxkaXYgc3R5bGU9e3sgZGlzcGxheTogJ2ZsZXgnLCBnYXA6ICd2YXIoLS1zcGFjZS1zbSknIH19PgogICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICB0eXBlPSJ0ZXh0IgogICAgICAgICAgICAgIGNsYXNzTmFtZT0iZm9ybS1pbnB1dCIKICAgICAgICAgICAgICB2YWx1ZT17bmV3V2hpdGVsaXN0RG9tYWlufQogICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0TmV3V2hpdGVsaXN0RG9tYWluKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICBvbktleVByZXNzPXsoZSkgPT4gZS5rZXkgPT09ICdFbnRlcicgJiYgYWRkV2hpdGVsaXN0RG9tYWluKCl9CiAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9e3QoJ2RvbWFpblBsYWNlaG9sZGVyJyl9CiAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPSJmb3JtLWJ1dHRvbiIgb25DbGljaz17YWRkV2hpdGVsaXN0RG9tYWlufT4KICAgICAgICAgICAgICB7dCgnYWRkJyl9CiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiAnMTJweCcsIGNvbG9yOiAndmFyKC0tdGV4dC1zZWNvbmRhcnkpJywgbWFyZ2luVG9wOiAnNHB4JyB9fT4KICAgICAgICAgICAge3QoJ2RvbWFpbkV4YW1wbGUnKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiDkv53lrZjmjInpkq4gKi99CiAgICAgIDxkaXYgc3R5bGU9e3sgZGlzcGxheTogJ2ZsZXgnLCBnYXA6ICd2YXIoLS1zcGFjZS1tZCknIH19PgogICAgICAgIDxidXR0b24gY2xhc3NOYW1lPSJmb3JtLWJ1dHRvbiIgb25DbGljaz17c2F2ZVNldHRpbmdzfT4KICAgICAgICAgIHt0KCdzYXZlJyl9CiAgICAgICAgPC9idXR0b24+CgogICAgICAgIHtzYXZlZCAmJiAoCiAgICAgICAgICA8ZGl2IHN0eWxlPXt7CiAgICAgICAgICAgIHBhZGRpbmc6ICc4cHggMTZweCcsCiAgICAgICAgICAgIGNvbG9yOiAndmFyKC0tY29sb3Itc3VjY2VzcyknLAogICAgICAgICAgICBmb250U2l6ZTogJzE0cHgnLAogICAgICAgICAgICBkaXNwbGF5OiAnZmxleCcsCiAgICAgICAgICAgIGFsaWduSXRlbXM6ICdjZW50ZXInCiAgICAgICAgICB9fT4KICAgICAgICAgICAg4pyTIHt0KCdzYXZlZCcpfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgKX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9CgpleHBvcnQgZGVmYXVsdCBMaW5rQ2FwdHVyZTsK
+import React, { useEffect, useState } from 'react';
+import { browserApi } from '@/shared/utils/browserApi';
+import { DEFAULT_SETTINGS, STORAGE_KEYS, FILE_TYPE_CATEGORIES } from '@/shared/constants';
+import type { ExtensionSettings } from '@/shared/types';
+import { t, tn } from '@/shared/utils/i18n';
+
+function LinkCapture() {
+  const [settings, setSettings] = useState<ExtensionSettings>(DEFAULT_SETTINGS);
+  const [saved, setSaved] = useState(false);
+
+  // 临时输入状态
+  const [newFileType, setNewFileType] = useState('');
+  const [newBlacklistPattern, setNewBlacklistPattern] = useState('');
+  const [newWhitelistDomain, setNewWhitelistDomain] = useState('');
+
+  useEffect(() => {
+    loadSettings();
+  }, []);
+
+  const loadSettings = async () => {
+    const result = await browserApi.storage.get([STORAGE_KEYS.SETTINGS]);
+    const storedSettings = result[STORAGE_KEYS.SETTINGS];
+
+    if (storedSettings) {
+      setSettings({ ...DEFAULT_SETTINGS, ...storedSettings });
+    }
+  };
+
+  const saveSettings = async () => {
+    await browserApi.storage.set({ [STORAGE_KEYS.SETTINGS]: settings });
+    setSaved(true);
+    setTimeout(() => setSaved(false), 2000);
+  };
+
+  // 快速添加文件类型分类
+  const addFileTypeCategory = (category: keyof typeof FILE_TYPE_CATEGORIES) => {
+    const extensions = FILE_TYPE_CATEGORIES[category];
+    const newTypes = [...new Set([...settings.fileTypes, ...extensions])];
+    setSettings({ ...settings, fileTypes: newTypes });
+  };
+
+  // 添加自定义文件类型
+  const addCustomFileType = () => {
+    if (!newFileType.trim()) return;
+
+    let ext = newFileType.trim();
+    if (!ext.startsWith('.')) {
+      ext = '.' + ext;
+    }
+
+    if (!settings.fileTypes.includes(ext)) {
+      setSettings({ ...settings, fileTypes: [...settings.fileTypes, ext] });
+    }
+    setNewFileType('');
+  };
+
+  // 移除文件类型
+  const removeFileType = (type: string) => {
+    setSettings({
+      ...settings,
+      fileTypes: settings.fileTypes.filter(t => t !== type)
+    });
+  };
+
+  // 添加黑名单模式
+  const addBlacklistPattern = () => {
+    if (!newBlacklistPattern.trim()) return;
+
+    const pattern = newBlacklistPattern.trim();
+    if (!settings.urlBlacklist.includes(pattern)) {
+      setSettings({ ...settings, urlBlacklist: [...settings.urlBlacklist, pattern] });
+    }
+    setNewBlacklistPattern('');
+  };
+
+  // 移除黑名单模式
+  const removeBlacklistPattern = (pattern: string) => {
+    setSettings({
+      ...settings,
+      urlBlacklist: settings.urlBlacklist.filter(p => p !== pattern)
+    });
+  };
+
+  // 添加白名单域名
+  const addWhitelistDomain = () => {
+    if (!newWhitelistDomain.trim()) return;
+
+    const domain = newWhitelistDomain.trim();
+    if (!settings.domainWhitelist.includes(domain)) {
+      setSettings({ ...settings, domainWhitelist: [...settings.domainWhitelist, domain] });
+    }
+    setNewWhitelistDomain('');
+  };
+
+  // 移除白名单域名
+  const removeWhitelistDomain = (domain: string) => {
+    setSettings({
+      ...settings,
+      domainWhitelist: settings.domainWhitelist.filter(d => d !== domain)
+    });
+  };
+
+  return (
+    <div>
+      <h1 style={{ fontSize: '24px', fontWeight: 600, marginBottom: 'var(--space-xl)' }}>
+        {t('linkCaptureTitle')}
+      </h1>
+
+      {/* 文件大小过滤 */}
+      <div className="options-section">
+        <h2 className="options-section-title">{t('fileSizeFilter')}</h2>
+
+        <div className="form-item">
+          <label className="form-label">{t('minFileSize')}</label>
+          <input
+            type="number"
+            className="form-input"
+            value={Math.round(settings.minFileSize / (1024 * 1024))}
+            onChange={(e) => setSettings({
+              ...settings,
+              minFileSize: parseInt(e.target.value) * 1024 * 1024
+            })}
+            min="0"
+            step="1"
+          />
+          <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '4px' }}>
+            {t('minFileSizeDesc')}
+          </div>
+        </div>
+      </div>
+
+      {/* 文件类型过滤 */}
+      <div className="options-section">
+        <h2 className="options-section-title">{t('fileTypeFilter')}</h2>
+
+        <div style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: 'var(--space-md)' }}>
+          {t('fileTypeFilterDesc')}
+        </div>
+
+        {/* 快速添加分类按钮 */}
+        <div style={{ marginBottom: 'var(--space-md)' }}>
+          <div style={{ fontSize: '13px', fontWeight: 500, marginBottom: '8px' }}>{t('quickAdd')}</div>
+          <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+            {Object.keys(FILE_TYPE_CATEGORIES).map(category => (
+              <button
+                key={category}
+                onClick={() => addFileTypeCategory(category as keyof typeof FILE_TYPE_CATEGORIES)}
+                style={{
+                  padding: '4px 12px',
+                  fontSize: '13px',
+                  border: '1px solid var(--border-base)',
+                  borderRadius: 'var(--radius-base)',
+                  background: 'var(--fill-blank)',
+                  cursor: 'pointer',
+                  textTransform: 'capitalize'
+                }}
+              >
+                {category}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* 已选择的文件类型列表 */}
+        {settings.fileTypes.length > 0 && (
+          <div style={{ marginBottom: 'var(--space-md)' }}>
+            <div style={{ fontSize: '13px', fontWeight: 500, marginBottom: '8px' }}>
+              {tn('selectedTypes', { count: settings.fileTypes.length })}
+            </div>
+            <div style={{
+              display: 'flex',
+              gap: '8px',
+              flexWrap: 'wrap',
+              padding: 'var(--space-md)',
+              background: 'var(--fill-extra-light)',
+              borderRadius: 'var(--radius-base)',
+              border: '1px solid var(--border-base)'
+            }}>
+              {settings.fileTypes.map(type => (
+                <div
+                  key={type}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '4px',
+                    padding: '4px 8px',
+                    background: 'var(--color-primary)',
+                    color: 'white',
+                    borderRadius: 'var(--radius-small)',
+                    fontSize: '13px'
+                  }}
+                >
+                  <span>{type}</span>
+                  <button
+                    onClick={() => removeFileType(type)}
+                    style={{
+                      background: 'none',
+                      border: 'none',
+                      color: 'white',
+                      cursor: 'pointer',
+                      padding: '0 2px',
+                      fontSize: '16px',
+                      lineHeight: 1
+                    }}
+                  >
+                    ×
+                  </button>
+                </div>
+              ))}
+              <button
+                onClick={() => setSettings({ ...settings, fileTypes: [] })}
+                style={{
+                  padding: '4px 8px',
+                  fontSize: '13px',
+                  border: '1px solid var(--border-base)',
+                  borderRadius: 'var(--radius-small)',
+                  background: 'var(--fill-blank)',
+                  cursor: 'pointer'
+                }}
+              >
+                {t('clearAll')}
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* 添加自定义文件类型 */}
+        <div className="form-item">
+          <label className="form-label">{t('addCustomFileType')}</label>
+          <div style={{ display: 'flex', gap: 'var(--space-sm)' }}>
+            <input
+              type="text"
+              className="form-input"
+              value={newFileType}
+              onChange={(e) => setNewFileType(e.target.value)}
+              onKeyPress={(e) => e.key === 'Enter' && addCustomFileType()}
+              placeholder={t('fileTypeInputPlaceholder')}
+            />
+            <button className="form-button" onClick={addCustomFileType}>
+              {t('add')}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* URL 黑名单 */}
+      <div className="options-section">
+        <h2 className="options-section-title">{t('urlBlacklist')}</h2>
+
+        <div style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: 'var(--space-md)' }}>
+          {t('urlBlacklistDesc')}
+        </div>
+
+        {/* 已有黑名单 */}
+        {settings.urlBlacklist.length > 0 && (
+          <div style={{ marginBottom: 'var(--space-md)' }}>
+            <div style={{ fontSize: '13px', fontWeight: 500, marginBottom: '8px' }}>
+              {tn('blacklistPatterns', { count: settings.urlBlacklist.length })}
+            </div>
+            <div style={{
+              padding: 'var(--space-md)',
+              background: 'var(--fill-extra-light)',
+              borderRadius: 'var(--radius-base)',
+              border: '1px solid var(--border-base)'
+            }}>
+              {settings.urlBlacklist.map((pattern, index) => (
+                <div
+                  key={index}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'space-between',
+                    padding: '8px',
+                    marginBottom: index < settings.urlBlacklist.length - 1 ? '8px' : 0,
+                    background: 'var(--fill-blank)',
+                    borderRadius: 'var(--radius-small)',
+                    fontSize: '13px',
+                    fontFamily: 'monospace'
+                  }}
+                >
+                  <span>{pattern}</span>
+                  <button
+                    onClick={() => removeBlacklistPattern(pattern)}
+                    style={{
+                      background: 'var(--color-danger)',
+                      color: 'white',
+                      border: 'none',
+                      borderRadius: 'var(--radius-small)',
+                      padding: '4px 8px',
+                      cursor: 'pointer',
+                      fontSize: '12px'
+                    }}
+                  >
+                    {t('remove')}
+                  </button>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* 添加黑名单模式 */}
+        <div className="form-item">
+          <label className="form-label">{t('addBlacklistPattern')}</label>
+          <div style={{ display: 'flex', gap: 'var(--space-sm)' }}>
+            <input
+              type="text"
+              className="form-input"
+              value={newBlacklistPattern}
+              onChange={(e) => setNewBlacklistPattern(e.target.value)}
+              onKeyPress={(e) => e.key === 'Enter' && addBlacklistPattern()}
+              placeholder={t('blacklistPatternPlaceholder')}
+              style={{ fontFamily: 'monospace' }}
+            />
+            <button className="form-button" onClick={addBlacklistPattern}>
+              {t('add')}
+            </button>
+          </div>
+          <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '4px' }}>
+            {t('blacklistPatternExample')}
+          </div>
+        </div>
+      </div>
+
+      {/* 域名白名单 */}
+      <div className="options-section">
+        <h2 className="options-section-title">{t('domainWhitelist')}</h2>
+
+        <div style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: 'var(--space-md)' }}>
+          {t('domainWhitelistDesc')}
+        </div>
+
+        {/* 已有白名单 */}
+        {settings.domainWhitelist.length > 0 && (
+          <div style={{ marginBottom: 'var(--space-md)' }}>
+            <div style={{ fontSize: '13px', fontWeight: 500, marginBottom: '8px' }}>
+              {tn('whitelistedDomains', { count: settings.domainWhitelist.length })}
+            </div>
+            <div style={{
+              padding: 'var(--space-md)',
+              background: 'var(--fill-extra-light)',
+              borderRadius: 'var(--radius-base)',
+              border: '1px solid var(--border-base)'
+            }}>
+              {settings.domainWhitelist.map((domain, index) => (
+                <div
+                  key={index}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'space-between',
+                    padding: '8px',
+                    marginBottom: index < settings.domainWhitelist.length - 1 ? '8px' : 0,
+                    background: 'var(--fill-blank)',
+                    borderRadius: 'var(--radius-small)',
+                    fontSize: '13px'
+                  }}
+                >
+                  <span>{domain}</span>
+                  <button
+                    onClick={() => removeWhitelistDomain(domain)}
+                    style={{
+                      background: 'var(--color-danger)',
+                      color: 'white',
+                      border: 'none',
+                      borderRadius: 'var(--radius-small)',
+                      padding: '4px 8px',
+                      cursor: 'pointer',
+                      fontSize: '12px'
+                    }}
+                  >
+                    {t('remove')}
+                  </button>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* 添加白名单域名 */}
+        <div className="form-item">
+          <label className="form-label">{t('addWhitelistDomain')}</label>
+          <div style={{ display: 'flex', gap: 'var(--space-sm)' }}>
+            <input
+              type="text"
+              className="form-input"
+              value={newWhitelistDomain}
+              onChange={(e) => setNewWhitelistDomain(e.target.value)}
+              onKeyPress={(e) => e.key === 'Enter' && addWhitelistDomain()}
+              placeholder={t('domainPlaceholder')}
+            />
+            <button className="form-button" onClick={addWhitelistDomain}>
+              {t('add')}
+            </button>
+          </div>
+          <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '4px' }}>
+            {t('domainExample')}
+          </div>
+        </div>
+      </div>
+
+      {/* 保存按钮 */}
+      <div style={{ display: 'flex', gap: 'var(--space-md)' }}>
+        <button className="form-button" onClick={saveSettings}>
+          {t('save')}
+        </button>
+
+        {saved && (
+          <div style={{
+            padding: '8px 16px',
+            color: 'var(--color-success)',
+            fontSize: '14px',
+            display: 'flex',
+            alignItems: 'center'
+          }}>
+            ✓ {t('saved')}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export default LinkCapture;

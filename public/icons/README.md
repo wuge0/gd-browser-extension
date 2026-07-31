@@ -1,1 +1,151 @@
-IyBJY29uIEdlbmVyYXRpb24gR3VpZGUKClRoaXMgZGlyZWN0b3J5IHNob3VsZCBjb250YWluIHRoZSBleHRlbnNpb24gaWNvbnMgaW4gUE5HIGZvcm1hdC4gVGhlIFNWRyBzb3VyY2UgaXMgcHJvdmlkZWQgaW4gYGljb24uc3ZnYC4KCiMjIFJlcXVpcmVkIEljb24gU2l6ZXMKCkZvciBicm93c2VyIGV4dGVuc2lvbiBjb21wYXRpYmlsaXR5LCB5b3UgbmVlZCB0aGUgZm9sbG93aW5nIFBORyBmaWxlczoKCi0gYGljb24tMTYucG5nYCAtIDE2w5cxNiBwaXhlbHMgKHRvb2xiYXIsIGNvbnRleHQgbWVudSkKLSBgaWNvbi0zMi5wbmdgIC0gMzLDlzMyIHBpeGVscyAodG9vbGJhciwgV2luZG93cykKLSBgaWNvbi00OC5wbmdgIC0gNDjDlzQ4IHBpeGVscyAoZXh0ZW5zaW9uIG1hbmFnZW1lbnQgcGFnZSkKLSBgaWNvbi0xMjgucG5nYCAtIDEyOMOXMTI4IHBpeGVscyAoQ2hyb21lIFdlYiBTdG9yZSwgaW5zdGFsbGF0aW9uKQoKIyMgR2VuZXJhdGluZyBQTkcgSWNvbnMgZnJvbSBTVkcKCiMjIyBNZXRob2QgMTogVXNpbmcgT25saW5lIFRvb2xzCgoqKlJlY29tbWVuZGVkKio6IFtDbG91ZENvbnZlcnRdKGh0dHBzOi8vY2xvdWRjb252ZXJ0LmNvbS9zdmctdG8tcG5nKQoKMS4gVXBsb2FkIGBpY29uLnN2Z2AKMi4gU2V0IG91dHB1dCBzaXplICgxNiwgMzIsIDQ4LCBvciAxMjgpCjMuIERvd25sb2FkIHRoZSBQTkcKNC4gUmVuYW1lIHRvIG1hdGNoIHRoZSByZXF1aXJlZCBmaWxlbmFtZQoKKipBbHRlcm5hdGl2ZSoqOiBbU1ZHIHRvIFBORyBDb252ZXJ0ZXJdKGh0dHBzOi8vc3ZndG9wbmcuY29tLykKCiMjIyBNZXRob2QgMjogVXNpbmcgSW5rc2NhcGUgKENvbW1hbmQgTGluZSkKCklmIHlvdSBoYXZlIElua3NjYXBlIGluc3RhbGxlZDoKCmBgYGJhc2gKIyBJbnN0YWxsIElua3NjYXBlIGZpcnN0OiBodHRwczovL2lua3NjYXBlLm9yZy8KCiMgR2VuZXJhdGUgYWxsIHNpemVzCmlua3NjYXBlIGljb24uc3ZnIC0tZXhwb3J0LXR5cGU9cG5nIC0tZXhwb3J0LWZpbGVuYW1lPWljb24tMTYucG5nIC0tZXhwb3J0LXdpZHRoPTE2Cmlua3NjYXBlIGljb24uc3ZnIC0tZXhwb3J0LXR5cGU9cG5nIC0tZXhwb3J0LWZpbGVuYW1lPWljb24tMzIucG5nIC0tZXhwb3J0LXdpZHRoPTMyCmlua3NjYXBlIGljb24uc3ZnIC0tZXhwb3J0LXR5cGU9cG5nIC0tZXhwb3J0LWZpbGVuYW1lPWljb24tNDgucG5nIC0tZXhwb3J0LXdpZHRoPTQ4Cmlua3NjYXBlIGljb24uc3ZnIC0tZXhwb3J0LXR5cGU9cG5nIC0tZXhwb3J0LWZpbGVuYW1lPWljb24tMTI4LnBuZyAtLWV4cG9ydC13aWR0aD0xMjgKYGBgCgojIyMgTWV0aG9kIDM6IFVzaW5nIEltYWdlTWFnaWNrCgpJZiB5b3UgaGF2ZSBJbWFnZU1hZ2ljayBpbnN0YWxsZWQ6CgpgYGBiYXNoCiMgSW5zdGFsbCBJbWFnZU1hZ2ljayBmaXJzdDogaHR0cHM6Ly9pbWFnZW1hZ2ljay5vcmcvCgojIEdlbmVyYXRlIGFsbCBzaXplcwpjb252ZXJ0IC1iYWNrZ3JvdW5kIG5vbmUgaWNvbi5zdmcgLXJlc2l6ZSAxNngxNiBpY29uLTE2LnBuZwpjb252ZXJ0IC1iYWNrZ3JvdW5kIG5vbmUgaWNvbi5zdmcgLXJlc2l6ZSAzMngzMiBpY29uLTMyLnBuZwpjb252ZXJ0IC1iYWNrZ3JvdW5kIG5vbmUgaWNvbi5zdmcgLXJlc2l6ZSA0OHg0OCBpY29uLTQ4LnBuZwpjb252ZXJ0IC1iYWNrZ3JvdW5kIG5vbmUgaWNvbi5zdmcgLXJlc2l6ZSAxMjh4MTI4IGljb24tMTI4LnBuZwpgYGAKCiMjIyBNZXRob2QgNDogVXNpbmcgTm9kZS5qcyBTY3JpcHQKCkluc3RhbGwgc2hhcnAgcGFja2FnZToKCmBgYGJhc2gKbnBtIGluc3RhbGwgc2hhcnAKYGBgCgpDcmVhdGUgYGdlbmVyYXRlLWljb25zLmpzYDoKCmBgYGphdmFzY3JpcHQKY29uc3Qgc2hhcnAgPSByZXF1aXJlKCdzaGFycCcpOwpjb25zdCBmcyA9IHJlcXVpcmUoJ2ZzJyk7Cgpjb25zdCBzaXplcyA9IFsxNiwgMzIsIDQ4LCAxMjhdOwpjb25zdCBzdmdCdWZmZXIgPSBmcy5yZWFkRmlsZVN5bmMoJ2ljb24uc3ZnJyk7CgpzaXplcy5mb3JFYWNoKHNpemUgPT4gewogIHNoYXJwKHN2Z0J1ZmZlcikKICAgIC5yZXNpemUoc2l6ZSwgc2l6ZSkKICAgIC5wbmcoKQogICAgLnRvRmlsZShgaWNvbi0ke3NpemV9LnBuZ2ApCiAgICAudGhlbigoKSA9PiBjb25zb2xlLmxvZyhgR2VuZXJhdGVkIGljb24tJHtzaXplfS5wbmdgKSkKICAgIC5jYXRjaChlcnIgPT4gY29uc29sZS5lcnJvcihgRXJyb3IgZ2VuZXJhdGluZyAke3NpemV9OmAsIGVycikpOwp9KTsKYGBgCgpSdW46CgpgYGBiYXNoCm5vZGUgZ2VuZXJhdGUtaWNvbnMuanMKYGBgCgojIyBJY29uIERlc2lnbiBHdWlkZWxpbmVzCgpUaGUgcHJvdmlkZWQgU1ZHIGljb24gZmVhdHVyZXM6CgotICoqUHJpbWFyeSBDb2xvcioqOiBgIzQwOUVGRmAgKEVsZW1lbnQgUGx1cyBwcmltYXJ5IGJsdWUpCi0gKipEZXNpZ24qKjogRG93bmxvYWQgYXJyb3cgd2l0aCBzcGVlZCBsaW5lcwotICoqU3R5bGUqKjogTW9kZXJuLCBmbGF0IGRlc2lnbgotICoqVmlzaWJpbGl0eSoqOiBIaWdoIGNvbnRyYXN0IHdoaXRlIG9uIGJsdWUgZm9yIGNsYXJpdHkKCiMjIyBDdXN0b21pemluZyB0aGUgSWNvbgoKVG8gbW9kaWZ5IHRoZSBpY29uIGRlc2lnbjoKCjEuIE9wZW4gYGljb24uc3ZnYCBpbiBhIHZlY3RvciBlZGl0b3IgKElua3NjYXBlLCBJbGx1c3RyYXRvciwgRmlnbWEpCjIuIEVkaXQgY29sb3JzLCBzaGFwZXMsIG9yIGVsZW1lbnRzCjMuIFNhdmUgdGhlIFNWRwo0LiBSZS1nZW5lcmF0ZSBQTkcgZmlsZXMKCiMjIyBDb2xvciBWYXJpYXRpb25zCgpGb3IgZGlmZmVyZW50IHRoZW1lczoKCioqTGlnaHQgVGhlbWUqKiAoY3VycmVudCk6Ci0gQmFja2dyb3VuZDogYCM0MDlFRkZgCi0gRm9yZWdyb3VuZDogYCNGRkZGRkZgCgoqKkRhcmsgVGhlbWUqKjoKLSBCYWNrZ3JvdW5kOiBgIzFEMUUxRmAKLSBGb3JlZ3JvdW5kOiBgIzQwOUVGRmAKCioqTW9ub2Nocm9tZSoqOgotIFNpbmdsZSBjb2xvcjogYCMzMDMxMzNgCgojIyBQbGFjZWhvbGRlciBJY29ucwoKSWYgeW91IG5lZWQgdGVtcG9yYXJ5IHBsYWNlaG9sZGVyIGljb25zIGR1cmluZyBkZXZlbG9wbWVudDoKCjEuIFVzZSBhbnkgMTI4w5cxMjggaW1hZ2UKMi4gUmVzaXplIGl0IHRvIHJlcXVpcmVkIHNpemVzCjMuIFJlcGxhY2Ugd2l0aCBmaW5hbCBpY29ucyBiZWZvcmUgcmVsZWFzZQoKIyMgVmVyaWZpY2F0aW9uCgpBZnRlciBnZW5lcmF0aW5nIGljb25zLCB2ZXJpZnk6CgotIFsgXSBBbGwgZm91ciBzaXplcyAoMTYsIDMyLCA0OCwgMTI4KSBhcmUgcHJlc2VudAotIFsgXSBGaWxlcyBhcmUgaW4gUE5HIGZvcm1hdAotIFsgXSBGaWxlcyBhcmUgbmFtZWQgY29ycmVjdGx5IChgaWNvbi17c2l6ZX0ucG5nYCkKLSBbIF0gSW1hZ2VzIGhhdmUgdHJhbnNwYXJlbnQgYmFja2dyb3VuZAotIFsgXSBJY29ucyBhcmUgc2hhcnAgYW5kIGNsZWFyIGF0IGVhY2ggc2l6ZQotIFsgXSBtYW5pZmVzdC5qc29uIHJlZmVyZW5jZXMgdGhlIGNvcnJlY3QgcGF0aHMKCiMjIFRlc3RpbmcgSWNvbnMKCkxvYWQgdGhlIGV4dGVuc2lvbiBpbiBicm93c2VyIGFuZCBjaGVjazoKCi0gWyBdIFRvb2xiYXIgaWNvbiBkaXNwbGF5cyBjb3JyZWN0bHkKLSBbIF0gQ29udGV4dCBtZW51IGljb24gaXMgdmlzaWJsZQotIFsgXSBFeHRlbnNpb24gbWFuYWdlbWVudCBwYWdlIHNob3dzIHRoZSBpY29uCi0gWyBdIEljb24gc2NhbGVzIHdlbGwgYXQgZGlmZmVyZW50IHNpemVzCgotLS0KCioqQ3VycmVudCBTdGF0dXMqKjogU1ZHIHNvdXJjZSBwcm92aWRlZCwgUE5HIGZpbGVzIG5lZWQgdG8gYmUgZ2VuZXJhdGVkIGJlZm9yZSBmaXJzdCB1c2UuCg==
+# Icon Generation Guide
+
+This directory should contain the extension icons in PNG format. The SVG source is provided in `icon.svg`.
+
+## Required Icon Sizes
+
+For browser extension compatibility, you need the following PNG files:
+
+- `icon-16.png` - 16×16 pixels (toolbar, context menu)
+- `icon-32.png` - 32×32 pixels (toolbar, Windows)
+- `icon-48.png` - 48×48 pixels (extension management page)
+- `icon-128.png` - 128×128 pixels (Chrome Web Store, installation)
+
+## Generating PNG Icons from SVG
+
+### Method 1: Using Online Tools
+
+**Recommended**: [CloudConvert](https://cloudconvert.com/svg-to-png)
+
+1. Upload `icon.svg`
+2. Set output size (16, 32, 48, or 128)
+3. Download the PNG
+4. Rename to match the required filename
+
+**Alternative**: [SVG to PNG Converter](https://svgtopng.com/)
+
+### Method 2: Using Inkscape (Command Line)
+
+If you have Inkscape installed:
+
+```bash
+# Install Inkscape first: https://inkscape.org/
+
+# Generate all sizes
+inkscape icon.svg --export-type=png --export-filename=icon-16.png --export-width=16
+inkscape icon.svg --export-type=png --export-filename=icon-32.png --export-width=32
+inkscape icon.svg --export-type=png --export-filename=icon-48.png --export-width=48
+inkscape icon.svg --export-type=png --export-filename=icon-128.png --export-width=128
+```
+
+### Method 3: Using ImageMagick
+
+If you have ImageMagick installed:
+
+```bash
+# Install ImageMagick first: https://imagemagick.org/
+
+# Generate all sizes
+convert -background none icon.svg -resize 16x16 icon-16.png
+convert -background none icon.svg -resize 32x32 icon-32.png
+convert -background none icon.svg -resize 48x48 icon-48.png
+convert -background none icon.svg -resize 128x128 icon-128.png
+```
+
+### Method 4: Using Node.js Script
+
+Install sharp package:
+
+```bash
+npm install sharp
+```
+
+Create `generate-icons.js`:
+
+```javascript
+const sharp = require('sharp');
+const fs = require('fs');
+
+const sizes = [16, 32, 48, 128];
+const svgBuffer = fs.readFileSync('icon.svg');
+
+sizes.forEach(size => {
+  sharp(svgBuffer)
+    .resize(size, size)
+    .png()
+    .toFile(`icon-${size}.png`)
+    .then(() => console.log(`Generated icon-${size}.png`))
+    .catch(err => console.error(`Error generating ${size}:`, err));
+});
+```
+
+Run:
+
+```bash
+node generate-icons.js
+```
+
+## Icon Design Guidelines
+
+The provided SVG icon features:
+
+- **Primary Color**: `#409EFF` (Element Plus primary blue)
+- **Design**: Download arrow with speed lines
+- **Style**: Modern, flat design
+- **Visibility**: High contrast white on blue for clarity
+
+### Customizing the Icon
+
+To modify the icon design:
+
+1. Open `icon.svg` in a vector editor (Inkscape, Illustrator, Figma)
+2. Edit colors, shapes, or elements
+3. Save the SVG
+4. Re-generate PNG files
+
+### Color Variations
+
+For different themes:
+
+**Light Theme** (current):
+- Background: `#409EFF`
+- Foreground: `#FFFFFF`
+
+**Dark Theme**:
+- Background: `#1D1E1F`
+- Foreground: `#409EFF`
+
+**Monochrome**:
+- Single color: `#303133`
+
+## Placeholder Icons
+
+If you need temporary placeholder icons during development:
+
+1. Use any 128×128 image
+2. Resize it to required sizes
+3. Replace with final icons before release
+
+## Verification
+
+After generating icons, verify:
+
+- [ ] All four sizes (16, 32, 48, 128) are present
+- [ ] Files are in PNG format
+- [ ] Files are named correctly (`icon-{size}.png`)
+- [ ] Images have transparent background
+- [ ] Icons are sharp and clear at each size
+- [ ] manifest.json references the correct paths
+
+## Testing Icons
+
+Load the extension in browser and check:
+
+- [ ] Toolbar icon displays correctly
+- [ ] Context menu icon is visible
+- [ ] Extension management page shows the icon
+- [ ] Icon scales well at different sizes
+
+---
+
+**Current Status**: SVG source provided, PNG files need to be generated before first use.

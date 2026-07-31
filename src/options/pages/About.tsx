@@ -1,1 +1,343 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlLCB1c2VFZmZlY3QgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IEluZm8sIEdpdGh1YiwgTWFpbCwgRXh0ZXJuYWxMaW5rLCBGaWxlVGV4dCB9IGZyb20gJ2x1Y2lkZS1yZWFjdCc7CmltcG9ydCB7IGJyb3dzZXJBcGkgfSBmcm9tICcuLi8uLi9zaGFyZWQvdXRpbHMvYnJvd3NlckFwaSc7CmltcG9ydCB7IHQgfSBmcm9tICdAL3NoYXJlZC91dGlscy9pMThuJzsKCi8qKgogKiBBYm91dCDpobXpnaLnu4Tku7YKICog5pi+56S65omp5bGV54mI5pys5L+h5oGv44CB5YW85a655oCn44CB5LuT5bqT6ZO+5o6l562JCiAqLwpleHBvcnQgZnVuY3Rpb24gQWJvdXQoKSB7Cgljb25zdCBbZXh0ZW5zaW9uVmVyc2lvbiwgc2V0RXh0ZW5zaW9uVmVyc2lvbl0gPSB1c2VTdGF0ZSgnJyk7Cgljb25zdCBbbWFuaWZlc3REYXRhLCBzZXRNYW5pZmVzdERhdGFdID0gdXNlU3RhdGU8ewoJCW5hbWU6IHN0cmluZzsKCQl2ZXJzaW9uOiBzdHJpbmc7CgkJZGVzY3JpcHRpb246IHN0cmluZzsKCQlhdXRob3I6IHN0cmluZzsKCX0gfCBudWxsPihudWxsKTsKCgl1c2VFZmZlY3QoKCkgPT4gewoJCS8vIOiOt+WPluaJqeWxleeJiOacrOS/oeaBrwoJCWNvbnN0IG1hbmlmZXN0ID0gY2hyb21lLnJ1bnRpbWUuZ2V0TWFuaWZlc3QoKTsKCQlzZXRFeHRlbnNpb25WZXJzaW9uKG1hbmlmZXN0LnZlcnNpb24pOwoJCXNldE1hbmlmZXN0RGF0YSh7CgkJCW5hbWU6IG1hbmlmZXN0Lm5hbWUsCgkJCXZlcnNpb246IG1hbmlmZXN0LnZlcnNpb24sCgkJCWRlc2NyaXB0aW9uOiBtYW5pZmVzdC5kZXNjcmlwdGlvbiB8fCAnJywKCQkJYXV0aG9yOiBtYW5pZmVzdC5hdXRob3IgfHwgJ0dEb3dubG9hZCBUZWFtJwoJCX0pOwoJfSwgW10pOwoKCWNvbnN0IG9wZW5FeHRlcm5hbExpbmsgPSAodXJsOiBzdHJpbmcpID0+IHsKCQljaHJvbWUudGFicy5jcmVhdGUoeyB1cmwgfSk7Cgl9OwoKCXJldHVybiAoCgkJPGRpdiBzdHlsZT17eyBwYWRkaW5nOiAnMjBweCcgfX0+CgkJCXsvKiDpobXpnaLmoIfpopggKi99CgkJCTxkaXYgc3R5bGU9e3sKCQkJCWRpc3BsYXk6ICdmbGV4JywKCQkJCWFsaWduSXRlbXM6ICdjZW50ZXInLAoJCQkJbWFyZ2luQm90dG9tOiAnMjRweCcsCgkJCQlnYXA6ICc4cHgnCgkJCX19PgoJCQkJPEluZm8gc2l6ZT17MjR9IGNvbG9yPSJ2YXIoLS1jb2xvci1wcmltYXJ5KSIgLz4KCQkJCTxoMSBzdHlsZT17ewoJCQkJCW1hcmdpbjogMCwKCQkJCQlmb250U2l6ZTogJzI0cHgnLAoJCQkJCWZvbnRXZWlnaHQ6IDYwMCwKCQkJCQljb2xvcjogJ3ZhcigtLXRleHQtcHJpbWFyeSknCgkJCQl9fT4KCQkJCQl7dCgnYWJvdXRUaXRsZScpfQoJCQkJPC9oMT4KCQkJPC9kaXY+CgoJCQl7Lyog5omp5bGV5L+h5oGv5Y2h54mHICovfQoJCQk8ZGl2IHN0eWxlPXt7CgkJCQliYWNrZ3JvdW5kOiAndmFyKC0tYmctd2hpdGUpJywKCQkJCWJvcmRlcjogJzFweCBzb2xpZCB2YXIoLS1ib3JkZXItYmFzZSknLAoJCQkJYm9yZGVyUmFkaXVzOiAnOHB4JywKCQkJCXBhZGRpbmc6ICcyNHB4JywKCQkJCW1hcmdpbkJvdHRvbTogJzIwcHgnCgkJCX19PgoJCQkJPGgyIHN0eWxlPXt7CgkJCQkJbWFyZ2luOiAnMCAwIDE2cHggMCcsCgkJCQkJZm9udFNpemU6ICcxOHB4JywKCQkJCQlmb250V2VpZ2h0OiA2MDAsCgkJCQkJY29sb3I6ICd2YXIoLS10ZXh0LXByaW1hcnkpJwoJCQkJfX0+CgkJCQkJe3QoJ2Fib3V0RXh0ZW5zaW9uSW5mbycpfQoJCQkJPC9oMj4KCgkJCQl7bWFuaWZlc3REYXRhICYmICgKCQkJCQk8ZGl2IHN0eWxlPXt7IGRpc3BsYXk6ICdmbGV4JywgZmxleERpcmVjdGlvbjogJ2NvbHVtbicsIGdhcDogJzEycHgnIH19PgoJCQkJCQk8ZGl2IHN0eWxlPXt7IGRpc3BsYXk6ICdmbGV4JywganVzdGlmeUNvbnRlbnQ6ICdzcGFjZS1iZXR3ZWVuJyB9fT4KCQkJCQkJCTxzcGFuIHN0eWxlPXt7IGNvbG9yOiAndmFyKC0tdGV4dC1zZWNvbmRhcnkpJywgZm9udFdlaWdodDogNTAwIH19PgoJCQkJCQkJCXt0KCdhYm91dE5hbWUnKX0KCQkJCQkJCTwvc3Bhbj4KCQkJCQkJCTxzcGFuIHN0eWxlPXt7IGNvbG9yOiAndmFyKC0tdGV4dC1wcmltYXJ5KScsIGZvbnRXZWlnaHQ6IDYwMCB9fT4KCQkJCQkJCQl7bWFuaWZlc3REYXRhLm5hbWV9CgkJCQkJCQk8L3NwYW4+CgkJCQkJCTwvZGl2PgoKCQkJCQkJPGRpdiBzdHlsZT17eyBkaXNwbGF5OiAnZmxleCcsIGp1c3RpZnlDb250ZW50OiAnc3BhY2UtYmV0d2VlbicgfX0+CgkJCQkJCQk8c3BhbiBzdHlsZT17eyBjb2xvcjogJ3ZhcigtLXRleHQtc2Vjb25kYXJ5KScsIGZvbnRXZWlnaHQ6IDUwMCB9fT4KCQkJCQkJCQl7dCgnYWJvdXRWZXJzaW9uJyl9CgkJCQkJCQk8L3NwYW4+CgkJCQkJCQk8c3BhbiBzdHlsZT17eyBjb2xvcjogJ3ZhcigtLXRleHQtcHJpbWFyeSknLCBmb250V2VpZ2h0OiA2MDAgfX0+CgkJCQkJCQkJdnttYW5pZmVzdERhdGEudmVyc2lvbn0KCQkJCQkJCTwvc3Bhbj4KCQkJCQkJPC9kaXY+CgoJCQkJCQk8ZGl2IHN0eWxlPXt7IGRpc3BsYXk6ICdmbGV4JywganVzdGlmeUNvbnRlbnQ6ICdzcGFjZS1iZXR3ZWVuJyB9fT4KCQkJCQkJCTxzcGFuIHN0eWxlPXt7IGNvbG9yOiAndmFyKC0tdGV4dC1zZWNvbmRhcnkpJywgZm9udFdlaWdodDogNTAwIH19PgoJCQkJCQkJCXt0KCdhYm91dEF1dGhvcicpfQoJCQkJCQkJPC9zcGFuPgoJCQkJCQkJPHNwYW4gc3R5bGU9e3sgY29sb3I6ICd2YXIoLS10ZXh0LXByaW1hcnkpJyB9fT4KCQkJCQkJCQl7bWFuaWZlc3REYXRhLmF1dGhvcn0KCQkJCQkJCTwvc3Bhbj4KCQkJCQkJPC9kaXY+CgoJCQkJCQk8ZGl2IHN0eWxlPXt7CgkJCQkJCQltYXJnaW5Ub3A6ICc4cHgnLAoJCQkJCQkJcGFkZGluZ1RvcDogJzEycHgnLAoJCQkJCQkJYm9yZGVyVG9wOiAnMXB4IHNvbGlkIHZhcigtLWJvcmRlci1saWdodCknCgkJCQkJCX19PgoJCQkJCQkJPHAgc3R5bGU9e3sKCQkJCQkJCQltYXJnaW46IDAsCgkJCQkJCQkJZm9udFNpemU6ICcxNHB4JywKCQkJCQkJCQljb2xvcjogJ3ZhcigtLXRleHQtc2Vjb25kYXJ5KScsCgkJCQkJCQkJbGluZUhlaWdodDogJzEuNicKCQkJCQkJCX19PgoJCQkJCQkJCXttYW5pZmVzdERhdGEuZGVzY3JpcHRpb259CgkJCQkJCQk8L3A+CgkJCQkJCTwvZGl2PgoJCQkJCTwvZGl2PgoJCQkJKX0KCQkJPC9kaXY+CgoJCQl7Lyog5YW85a655oCn5L+h5oGv5Y2h54mHICovfQoJCQk8ZGl2IHN0eWxlPXt7CgkJCQliYWNrZ3JvdW5kOiAndmFyKC0tYmctd2hpdGUpJywKCQkJCWJvcmRlcjogJzFweCBzb2xpZCB2YXIoLS1ib3JkZXItYmFzZSknLAoJCQkJYm9yZGVyUmFkaXVzOiAnOHB4JywKCQkJCXBhZGRpbmc6ICcyNHB4JywKCQkJCW1hcmdpbkJvdHRvbTogJzIwcHgnCgkJCX19PgoJCQkJPGgyIHN0eWxlPXt7CgkJCQkJbWFyZ2luOiAnMCAwIDE2cHggMCcsCgkJCQkJZm9udFNpemU6ICcxOHB4JywKCQkJCQlmb250V2VpZ2h0OiA2MDAsCgkJCQkJY29sb3I6ICd2YXIoLS10ZXh0LXByaW1hcnkpJwoJCQkJfX0+CgkJCQkJe3QoJ2Fib3V0Q29tcGF0aWJpbGl0eScpfQoJCQkJPC9oMj4KCgkJCQk8ZGl2IHN0eWxlPXt7IGRpc3BsYXk6ICdmbGV4JywgZmxleERpcmVjdGlvbjogJ2NvbHVtbicsIGdhcDogJzEycHgnIH19PgoJCQkJCTxkaXYgc3R5bGU9e3sgZGlzcGxheTogJ2ZsZXgnLCBqdXN0aWZ5Q29udGVudDogJ3NwYWNlLWJldHdlZW4nIH19PgoJCQkJCQk8c3BhbiBzdHlsZT17eyBjb2xvcjogJ3ZhcigtLXRleHQtc2Vjb25kYXJ5KScsIGZvbnRXZWlnaHQ6IDUwMCB9fT4KCQkJCQkJCXt0KCdhYm91dEdEb3dubG9hZFZlcnNpb24nKX0KCQkJCQkJPC9zcGFuPgoJCQkJCQk8c3BhbiBzdHlsZT17eyBjb2xvcjogJ3ZhcigtLXRleHQtcHJpbWFyeSknIH19PgoJCQkJCQkJdjEuMC4wKwoJCQkJCQk8L3NwYW4+CgkJCQkJPC9kaXY+CgoJCQkJCTxkaXYgc3R5bGU9e3sgZGlzcGxheTogJ2ZsZXgnLCBqdXN0aWZ5Q29udGVudDogJ3NwYWNlLWJldHdlZW4nIH19PgoJCQkJCQk8c3BhbiBzdHlsZT17eyBjb2xvcjogJ3ZhcigtLXRleHQtc2Vjb25kYXJ5KScsIGZvbnRXZWlnaHQ6IDUwMCB9fT4KCQkJCQkJCXt0KCdhYm91dEFyaWEyVmVyc2lvbicpfQoJCQkJCQk8L3NwYW4+CgkJCQkJCTxzcGFuIHN0eWxlPXt7IGNvbG9yOiAndmFyKC0tdGV4dC1wcmltYXJ5KScgfX0+CgkJCQkJCQl2MS4zNi4wKwoJCQkJCQk8L3NwYW4+CgkJCQkJPC9kaXY+CgoJCQkJCTxkaXYgc3R5bGU9e3sgZGlzcGxheTogJ2ZsZXgnLCBqdXN0aWZ5Q29udGVudDogJ3NwYWNlLWJldHdlZW4nIH19PgoJCQkJCQk8c3BhbiBzdHlsZT17eyBjb2xvcjogJ3ZhcigtLXRleHQtc2Vjb25kYXJ5KScsIGZvbnRXZWlnaHQ6IDUwMCB9fT4KCQkJCQkJCXt0KCdhYm91dEJyb3dzZXJzJyl9CgkJCQkJCTwvc3Bhbj4KCQkJCQkJPHNwYW4gc3R5bGU9e3sgY29sb3I6ICd2YXIoLS10ZXh0LXByaW1hcnkpJyB9fT4KCQkJCQkJCUNocm9tZSAxMTArLCBGaXJlZm94IDExNSssIEVkZ2UgMTEwKwoJCQkJCQk8L3NwYW4+CgkJCQkJPC9kaXY+CgkJCQk8L2Rpdj4KCQkJPC9kaXY+CgoJCQl7Lyog6ZO+5o6l5Y2h54mHICovfQoJCQk8ZGl2IHN0eWxlPXt7CgkJCQliYWNrZ3JvdW5kOiAndmFyKC0tYmctd2hpdGUpJywKCQkJCWJvcmRlcjogJzFweCBzb2xpZCB2YXIoLS1ib3JkZXItYmFzZSknLAoJCQkJYm9yZGVyUmFkaXVzOiAnOHB4JywKCQkJCXBhZGRpbmc6ICcyNHB4JywKCQkJCW1hcmdpbkJvdHRvbTogJzIwcHgnCgkJCX19PgoJCQkJPGgyIHN0eWxlPXt7CgkJCQkJbWFyZ2luOiAnMCAwIDE2cHggMCcsCgkJCQkJZm9udFNpemU6ICcxOHB4JywKCQkJCQlmb250V2VpZ2h0OiA2MDAsCgkJCQkJY29sb3I6ICd2YXIoLS10ZXh0LXByaW1hcnkpJwoJCQkJfX0+CgkJCQkJe3QoJ2Fib3V0UmVzb3VyY2VzJyl9CgkJCQk8L2gyPgoKCQkJCTxkaXYgc3R5bGU9e3sgZGlzcGxheTogJ2ZsZXgnLCBmbGV4RGlyZWN0aW9uOiAnY29sdW1uJywgZ2FwOiAnMTJweCcgfX0+CgkJCQkJey8qIEdpdEh1YiBSZXBvc2l0b3J5ICovfQoJCQkJCTxidXR0b24KCQkJCQkJb25DbGljaz17KCkgPT4gb3BlbkV4dGVybmFsTGluaygnaHR0cHM6Ly9naXRodWIuY29tL3d1Z2UwL0dEb3dubG9hZCcpfQoJCQkJCQlzdHlsZT17ewoJCQkJCQkJZGlzcGxheTogJ2ZsZXgnLAoJCQkJCQkJYWxpZ25JdGVtczogJ2NlbnRlcicsCgkJCQkJCQlqdXN0aWZ5Q29udGVudDogJ3NwYWNlLWJldHdlZW4nLAoJCQkJCQkJd2lkdGg6ICcxMDAlJywKCQkJCQkJCXBhZGRpbmc6ICcxMnB4IDE2cHgnLAoJCQkJCQkJYmFja2dyb3VuZDogJ3ZhcigtLWZpbGwtbGlnaHQpJywKCQkJCQkJCWJvcmRlcjogJzFweCBzb2xpZCB2YXIoLS1ib3JkZXItYmFzZSknLAoJCQkJCQkJYm9yZGVyUmFkaXVzOiAnNnB4JywKCQkJCQkJCWN1cnNvcjogJ3BvaW50ZXInLAoJCQkJCQkJdHJhbnNpdGlvbjogJ2FsbCAwLjJzJwoJCQkJCQl9fQoJCQkJCQlvbk1vdXNlRW50ZXI9eyhlKSA9PiB7CgkJCQkJCQllLmN1cnJlbnRUYXJnZXQuc3R5bGUuYmFja2dyb3VuZCA9ICd2YXIoLS1maWxsLWJhc2UpJzsKCQkJCQkJCWUuY3VycmVudFRhcmdldC5zdHlsZS5ib3JkZXJDb2xvciA9ICd2YXIoLS1jb2xvci1wcmltYXJ5KSc7CgkJCQkJCX19CgkJCQkJCW9uTW91c2VMZWF2ZT17KGUpID0+IHsKCQkJCQkJCWUuY3VycmVudFRhcmdldC5zdHlsZS5iYWNrZ3JvdW5kID0gJ3ZhcigtLWZpbGwtbGlnaHQpJzsKCQkJCQkJCWUuY3VycmVudFRhcmdldC5zdHlsZS5ib3JkZXJDb2xvciA9ICd2YXIoLS1ib3JkZXItYmFzZSknOwoJCQkJCQl9fQoJCQkJCT4KCQkJCQkJPGRpdiBzdHlsZT17eyBkaXNwbGF5OiAnZmxleCcsIGFsaWduSXRlbXM6ICdjZW50ZXInLCBnYXA6ICcxMnB4JyB9fT4KCQkJCQkJCTxHaXRodWIgc2l6ZT17MjB9IGNvbG9yPSJ2YXIoLS10ZXh0LXByaW1hcnkpIiAvPgoJCQkJCQkJPGRpdiBzdHlsZT17eyB0ZXh0QWxpZ246ICdsZWZ0JyB9fT4KCQkJCQkJCQk8ZGl2IHN0eWxlPXt7IGNvbG9yOiAndmFyKC0tdGV4dC1wcmltYXJ5KScsIGZvbnRXZWlnaHQ6IDUwMCB9fT4KCQkJCQkJCQkJe3QoJ2Fib3V0R2l0SHViJyl9CgkJCQkJCQkJPC9kaXY+CgkJCQkJCQkJPGRpdiBzdHlsZT17eyBmb250U2l6ZTogJzEycHgnLCBjb2xvcjogJ3ZhcigtLXRleHQtc2Vjb25kYXJ5KScgfX0+CgkJCQkJCQkJCXt0KCdhYm91dEdpdEh1YkRlc2MnKX0KCQkJCQkJCQk8L2Rpdj4KCQkJCQkJCTwvZGl2PgoJCQkJCQk8L2Rpdj4KCQkJCQkJPEV4dGVybmFsTGluayBzaXplPXsxNn0gY29sb3I9InZhcigtLXRleHQtc2Vjb25kYXJ5KSIgLz4KCQkJCQk8L2J1dHRvbj4KCgkJCQkJey8qIFJlcG9ydCBJc3N1ZSAqL30KCQkJCQk8YnV0dG9uCgkJCQkJCW9uQ2xpY2s9eygpID0+IG9wZW5FeHRlcm5hbExpbmsoJ2h0dHBzOi8vZ2l0aHViLmNvbS93dWdlMC9HRG93bmxvYWQvaXNzdWVzJyl9CgkJCQkJCXN0eWxlPXt7CgkJCQkJCQlkaXNwbGF5OiAnZmxleCcsCgkJCQkJCQlhbGlnbkl0ZW1zOiAnY2VudGVyJywKCQkJCQkJCWp1c3RpZnlDb250ZW50OiAnc3BhY2UtYmV0d2VlbicsCgkJCQkJCQl3aWR0aDogJzEwMCUnLAoJCQkJCQkJcGFkZGluZzogJzEycHggMTZweCcsCgkJCQkJCQliYWNrZ3JvdW5kOiAndmFyKC0tZmlsbC1saWdodCknLAoJCQkJCQkJYm9yZGVyOiAnMXB4IHNvbGlkIHZhcigtLWJvcmRlci1iYXNlKScsCgkJCQkJCQlib3JkZXJSYWRpdXM6ICc2cHgnLAoJCQkJCQkJY3Vyc29yOiAncG9pbnRlcicsCgkJCQkJCQl0cmFuc2l0aW9uOiAnYWxsIDAuMnMnCgkJCQkJCX19CgkJCQkJCW9uTW91c2VFbnRlcj17KGUpID0+IHsKCQkJCQkJCWUuY3VycmVudFRhcmdldC5zdHlsZS5iYWNrZ3JvdW5kID0gJ3ZhcigtLWZpbGwtYmFzZSknOwoJCQkJCQkJZS5jdXJyZW50VGFyZ2V0LnN0eWxlLmJvcmRlckNvbG9yID0gJ3ZhcigtLWNvbG9yLXByaW1hcnkpJzsKCQkJCQkJfX0KCQkJCQkJb25Nb3VzZUxlYXZlPXsoZSkgPT4gewoJCQkJCQkJZS5jdXJyZW50VGFyZ2V0LnN0eWxlLmJhY2tncm91bmQgPSAndmFyKC0tZmlsbC1saWdodCknOwoJCQkJCQkJZS5jdXJyZW50VGFyZ2V0LnN0eWxlLmJvcmRlckNvbG9yID0gJ3ZhcigtLWJvcmRlci1iYXNlKSc7CgkJCQkJCX19CgkJCQkJPgoJCQkJCQk8ZGl2IHN0eWxlPXt7IGRpc3BsYXk6ICdmbGV4JywgYWxpZ25JdGVtczogJ2NlbnRlcicsIGdhcDogJzEycHgnIH19PgoJCQkJCQkJPE1haWwgc2l6ZT17MjB9IGNvbG9yPSJ2YXIoLS10ZXh0LXByaW1hcnkpIiAvPgoJCQkJCQkJPGRpdiBzdHlsZT17eyB0ZXh0QWxpZ246ICdsZWZ0JyB9fT4KCQkJCQkJCQk8ZGl2IHN0eWxlPXt7IGNvbG9yOiAndmFyKC0tdGV4dC1wcmltYXJ5KScsIGZvbnRXZWlnaHQ6IDUwMCB9fT4KCQkJCQkJCQkJe3QoJ2Fib3V0UmVwb3J0SXNzdWUnKX0KCQkJCQkJCQk8L2Rpdj4KCQkJCQkJCQk8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiAnMTJweCcsIGNvbG9yOiAndmFyKC0tdGV4dC1zZWNvbmRhcnkpJyB9fT4KCQkJCQkJCQkJe3QoJ2Fib3V0UmVwb3J0SXNzdWVEZXNjJyl9CgkJCQkJCQkJPC9kaXY+CgkJCQkJCQk8L2Rpdj4KCQkJCQkJPC9kaXY+CgkJCQkJCTxFeHRlcm5hbExpbmsgc2l6ZT17MTZ9IGNvbG9yPSJ2YXIoLS10ZXh0LXNlY29uZGFyeSkiIC8+CgkJCQkJPC9idXR0b24+CgoJCQkJCXsvKiBEb2N1bWVudGF0aW9uICovfQoJCQkJCTxidXR0b24KCQkJCQkJb25DbGljaz17KCkgPT4gb3BlbkV4dGVybmFsTGluaygnaHR0cHM6Ly9naXRodWIuY29tL3d1Z2UwL0dEb3dubG9hZCNyZWFkbWUnKX0KCQkJCQkJc3R5bGU9e3sKCQkJCQkJCWRpc3BsYXk6ICdmbGV4JywKCQkJCQkJCWFsaWduSXRlbXM6ICdjZW50ZXInLAoJCQkJCQkJanVzdGlmeUNvbnRlbnQ6ICdzcGFjZS1iZXR3ZWVuJywKCQkJCQkJCXdpZHRoOiAnMTAwJScsCgkJCQkJCQlwYWRkaW5nOiAnMTJweCAxNnB4JywKCQkJCQkJCWJhY2tncm91bmQ6ICd2YXIoLS1maWxsLWxpZ2h0KScsCgkJCQkJCQlib3JkZXI6ICcxcHggc29saWQgdmFyKC0tYm9yZGVyLWJhc2UpJywKCQkJCQkJCWJvcmRlclJhZGl1czogJzZweCcsCgkJCQkJCQljdXJzb3I6ICdwb2ludGVyJywKCQkJCQkJCXRyYW5zaXRpb246ICdhbGwgMC4ycycKCQkJCQkJfX0KCQkJCQkJb25Nb3VzZUVudGVyPXsoZSkgPT4gewoJCQkJCQkJZS5jdXJyZW50VGFyZ2V0LnN0eWxlLmJhY2tncm91bmQgPSAndmFyKC0tZmlsbC1iYXNlKSc7CgkJCQkJCQllLmN1cnJlbnRUYXJnZXQuc3R5bGUuYm9yZGVyQ29sb3IgPSAndmFyKC0tY29sb3ItcHJpbWFyeSknOwoJCQkJCQl9fQoJCQkJCQlvbk1vdXNlTGVhdmU9eyhlKSA9PiB7CgkJCQkJCQllLmN1cnJlbnRUYXJnZXQuc3R5bGUuYmFja2dyb3VuZCA9ICd2YXIoLS1maWxsLWxpZ2h0KSc7CgkJCQkJCQllLmN1cnJlbnRUYXJnZXQuc3R5bGUuYm9yZGVyQ29sb3IgPSAndmFyKC0tYm9yZGVyLWJhc2UpJzsKCQkJCQkJfX0KCQkJCQk+CgkJCQkJCTxkaXYgc3R5bGU9e3sgZGlzcGxheTogJ2ZsZXgnLCBhbGlnbkl0ZW1zOiAnY2VudGVyJywgZ2FwOiAnMTJweCcgfX0+CgkJCQkJCQk8RmlsZVRleHQgc2l6ZT17MjB9IGNvbG9yPSJ2YXIoLS10ZXh0LXByaW1hcnkpIiAvPgoJCQkJCQkJPGRpdiBzdHlsZT17eyB0ZXh0QWxpZ246ICdsZWZ0JyB9fT4KCQkJCQkJCQk8ZGl2IHN0eWxlPXt7IGNvbG9yOiAndmFyKC0tdGV4dC1wcmltYXJ5KScsIGZvbnRXZWlnaHQ6IDUwMCB9fT4KCQkJCQkJCQkJe3QoJ2Fib3V0RG9jdW1lbnRhdGlvbicpfQoJCQkJCQkJCTwvZGl2PgoJCQkJCQkJCTxkaXYgc3R5bGU9e3sgZm9udFNpemU6ICcxMnB4JywgY29sb3I6ICd2YXIoLS10ZXh0LXNlY29uZGFyeSknIH19PgoJCQkJCQkJCQl7dCgnYWJvdXREb2N1bWVudGF0aW9uRGVzYycpfQoJCQkJCQkJCTwvZGl2PgoJCQkJCQkJPC9kaXY+CgkJCQkJCTwvZGl2PgoJCQkJCQk8RXh0ZXJuYWxMaW5rIHNpemU9ezE2fSBjb2xvcj0idmFyKC0tdGV4dC1zZWNvbmRhcnkpIiAvPgoJCQkJCTwvYnV0dG9uPgoJCQkJPC9kaXY+CgkJCTwvZGl2PgoKCQkJey8qIExpY2Vuc2Ug5L+h5oGvICovfQoJCQk8ZGl2IHN0eWxlPXt7CgkJCQliYWNrZ3JvdW5kOiAndmFyKC0tYmctd2hpdGUpJywKCQkJCWJvcmRlcjogJzFweCBzb2xpZCB2YXIoLS1ib3JkZXItYmFzZSknLAoJCQkJYm9yZGVyUmFkaXVzOiAnOHB4JywKCQkJCXBhZGRpbmc6ICcyNHB4JwoJCQl9fT4KCQkJCTxoMiBzdHlsZT17ewoJCQkJCW1hcmdpbjogJzAgMCAxNnB4IDAnLAoJCQkJCWZvbnRTaXplOiAnMThweCcsCgkJCQkJZm9udFdlaWdodDogNjAwLAoJCQkJCWNvbG9yOiAndmFyKC0tdGV4dC1wcmltYXJ5KScKCQkJCX19PgoJCQkJCXt0KCdhYm91dExpY2Vuc2UnKX0KCQkJCTwvaDI+CgoJCQkJPHAgc3R5bGU9e3sKCQkJCQltYXJnaW46IDAsCgkJCQkJZm9udFNpemU6ICcxNHB4JywKCQkJCQljb2xvcjogJ3ZhcigtLXRleHQtc2Vjb25kYXJ5KScsCgkJCQkJbGluZUhlaWdodDogJzEuNicKCQkJCX19PgoJCQkJCXt0KCdhYm91dExpY2Vuc2VUZXh0Jyl9CgkJCQk8L3A+CgoJCQkJPGRpdiBzdHlsZT17ewoJCQkJCW1hcmdpblRvcDogJzE2cHgnLAoJCQkJCXBhZGRpbmc6ICcxMnB4JywKCQkJCQliYWNrZ3JvdW5kOiAndmFyKC0tZmlsbC1saWdodGVyKScsCgkJCQkJYm9yZGVyUmFkaXVzOiAnNnB4JwoJCQkJfX0+CgkJCQkJPHAgc3R5bGU9e3sKCQkJCQkJbWFyZ2luOiAwLAoJCQkJCQlmb250U2l6ZTogJzEycHgnLAoJCQkJCQljb2xvcjogJ3ZhcigtLXRleHQtc2Vjb25kYXJ5KScsCgkJCQkJCWxpbmVIZWlnaHQ6ICcxLjUnCgkJCQkJfX0+CgkJCQkJCXt0KCdhYm91dENvcHlyaWdodCcpfQoJCQkJCTwvcD4KCQkJCTwvZGl2PgoJCQk8L2Rpdj4KCQk8L2Rpdj4KCSk7Cn0K
+import React, { useState, useEffect } from 'react';
+import { Info, Github, Mail, ExternalLink, FileText } from 'lucide-react';
+import { browserApi } from '../../shared/utils/browserApi';
+import { t } from '@/shared/utils/i18n';
+
+/**
+ * About 页面组件
+ * 显示扩展版本信息、兼容性、仓库链接等
+ */
+export function About() {
+	const [extensionVersion, setExtensionVersion] = useState('');
+	const [manifestData, setManifestData] = useState<{
+		name: string;
+		version: string;
+		description: string;
+		author: string;
+	} | null>(null);
+
+	useEffect(() => {
+		// 获取扩展版本信息
+		const manifest = chrome.runtime.getManifest();
+		setExtensionVersion(manifest.version);
+		setManifestData({
+			name: manifest.name,
+			version: manifest.version,
+			description: manifest.description || '',
+			author: manifest.author || 'GDownload Team'
+		});
+	}, []);
+
+	const openExternalLink = (url: string) => {
+		chrome.tabs.create({ url });
+	};
+
+	return (
+		<div style={{ padding: '20px' }}>
+			{/* 页面标题 */}
+			<div style={{
+				display: 'flex',
+				alignItems: 'center',
+				marginBottom: '24px',
+				gap: '8px'
+			}}>
+				<Info size={24} color="var(--color-primary)" />
+				<h1 style={{
+					margin: 0,
+					fontSize: '24px',
+					fontWeight: 600,
+					color: 'var(--text-primary)'
+				}}>
+					{t('aboutTitle')}
+				</h1>
+			</div>
+
+			{/* 扩展信息卡片 */}
+			<div style={{
+				background: 'var(--bg-white)',
+				border: '1px solid var(--border-base)',
+				borderRadius: '8px',
+				padding: '24px',
+				marginBottom: '20px'
+			}}>
+				<h2 style={{
+					margin: '0 0 16px 0',
+					fontSize: '18px',
+					fontWeight: 600,
+					color: 'var(--text-primary)'
+				}}>
+					{t('aboutExtensionInfo')}
+				</h2>
+
+				{manifestData && (
+					<div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+						<div style={{ display: 'flex', justifyContent: 'space-between' }}>
+							<span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>
+								{t('aboutName')}
+							</span>
+							<span style={{ color: 'var(--text-primary)', fontWeight: 600 }}>
+								{manifestData.name}
+							</span>
+						</div>
+
+						<div style={{ display: 'flex', justifyContent: 'space-between' }}>
+							<span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>
+								{t('aboutVersion')}
+							</span>
+							<span style={{ color: 'var(--text-primary)', fontWeight: 600 }}>
+								v{manifestData.version}
+							</span>
+						</div>
+
+						<div style={{ display: 'flex', justifyContent: 'space-between' }}>
+							<span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>
+								{t('aboutAuthor')}
+							</span>
+							<span style={{ color: 'var(--text-primary)' }}>
+								{manifestData.author}
+							</span>
+						</div>
+
+						<div style={{
+							marginTop: '8px',
+							paddingTop: '12px',
+							borderTop: '1px solid var(--border-light)'
+						}}>
+							<p style={{
+								margin: 0,
+								fontSize: '14px',
+								color: 'var(--text-secondary)',
+								lineHeight: '1.6'
+							}}>
+								{manifestData.description}
+							</p>
+						</div>
+					</div>
+				)}
+			</div>
+
+			{/* 兼容性信息卡片 */}
+			<div style={{
+				background: 'var(--bg-white)',
+				border: '1px solid var(--border-base)',
+				borderRadius: '8px',
+				padding: '24px',
+				marginBottom: '20px'
+			}}>
+				<h2 style={{
+					margin: '0 0 16px 0',
+					fontSize: '18px',
+					fontWeight: 600,
+					color: 'var(--text-primary)'
+				}}>
+					{t('aboutCompatibility')}
+				</h2>
+
+				<div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+					<div style={{ display: 'flex', justifyContent: 'space-between' }}>
+						<span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>
+							{t('aboutGDownloadVersion')}
+						</span>
+						<span style={{ color: 'var(--text-primary)' }}>
+							v1.0.0+
+						</span>
+					</div>
+
+					<div style={{ display: 'flex', justifyContent: 'space-between' }}>
+						<span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>
+							{t('aboutAria2Version')}
+						</span>
+						<span style={{ color: 'var(--text-primary)' }}>
+							v1.36.0+
+						</span>
+					</div>
+
+					<div style={{ display: 'flex', justifyContent: 'space-between' }}>
+						<span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>
+							{t('aboutBrowsers')}
+						</span>
+						<span style={{ color: 'var(--text-primary)' }}>
+							Chrome 110+, Firefox 115+, Edge 110+
+						</span>
+					</div>
+				</div>
+			</div>
+
+			{/* 链接卡片 */}
+			<div style={{
+				background: 'var(--bg-white)',
+				border: '1px solid var(--border-base)',
+				borderRadius: '8px',
+				padding: '24px',
+				marginBottom: '20px'
+			}}>
+				<h2 style={{
+					margin: '0 0 16px 0',
+					fontSize: '18px',
+					fontWeight: 600,
+					color: 'var(--text-primary)'
+				}}>
+					{t('aboutResources')}
+				</h2>
+
+				<div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+					{/* GitHub Repository */}
+					<button
+						onClick={() => openExternalLink('https://github.com/wuge0/GDownload')}
+						style={{
+							display: 'flex',
+							alignItems: 'center',
+							justifyContent: 'space-between',
+							width: '100%',
+							padding: '12px 16px',
+							background: 'var(--fill-light)',
+							border: '1px solid var(--border-base)',
+							borderRadius: '6px',
+							cursor: 'pointer',
+							transition: 'all 0.2s'
+						}}
+						onMouseEnter={(e) => {
+							e.currentTarget.style.background = 'var(--fill-base)';
+							e.currentTarget.style.borderColor = 'var(--color-primary)';
+						}}
+						onMouseLeave={(e) => {
+							e.currentTarget.style.background = 'var(--fill-light)';
+							e.currentTarget.style.borderColor = 'var(--border-base)';
+						}}
+					>
+						<div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+							<Github size={20} color="var(--text-primary)" />
+							<div style={{ textAlign: 'left' }}>
+								<div style={{ color: 'var(--text-primary)', fontWeight: 500 }}>
+									{t('aboutGitHub')}
+								</div>
+								<div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
+									{t('aboutGitHubDesc')}
+								</div>
+							</div>
+						</div>
+						<ExternalLink size={16} color="var(--text-secondary)" />
+					</button>
+
+					{/* Report Issue */}
+					<button
+						onClick={() => openExternalLink('https://github.com/wuge0/GDownload/issues')}
+						style={{
+							display: 'flex',
+							alignItems: 'center',
+							justifyContent: 'space-between',
+							width: '100%',
+							padding: '12px 16px',
+							background: 'var(--fill-light)',
+							border: '1px solid var(--border-base)',
+							borderRadius: '6px',
+							cursor: 'pointer',
+							transition: 'all 0.2s'
+						}}
+						onMouseEnter={(e) => {
+							e.currentTarget.style.background = 'var(--fill-base)';
+							e.currentTarget.style.borderColor = 'var(--color-primary)';
+						}}
+						onMouseLeave={(e) => {
+							e.currentTarget.style.background = 'var(--fill-light)';
+							e.currentTarget.style.borderColor = 'var(--border-base)';
+						}}
+					>
+						<div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+							<Mail size={20} color="var(--text-primary)" />
+							<div style={{ textAlign: 'left' }}>
+								<div style={{ color: 'var(--text-primary)', fontWeight: 500 }}>
+									{t('aboutReportIssue')}
+								</div>
+								<div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
+									{t('aboutReportIssueDesc')}
+								</div>
+							</div>
+						</div>
+						<ExternalLink size={16} color="var(--text-secondary)" />
+					</button>
+
+					{/* Documentation */}
+					<button
+						onClick={() => openExternalLink('https://github.com/wuge0/GDownload#readme')}
+						style={{
+							display: 'flex',
+							alignItems: 'center',
+							justifyContent: 'space-between',
+							width: '100%',
+							padding: '12px 16px',
+							background: 'var(--fill-light)',
+							border: '1px solid var(--border-base)',
+							borderRadius: '6px',
+							cursor: 'pointer',
+							transition: 'all 0.2s'
+						}}
+						onMouseEnter={(e) => {
+							e.currentTarget.style.background = 'var(--fill-base)';
+							e.currentTarget.style.borderColor = 'var(--color-primary)';
+						}}
+						onMouseLeave={(e) => {
+							e.currentTarget.style.background = 'var(--fill-light)';
+							e.currentTarget.style.borderColor = 'var(--border-base)';
+						}}
+					>
+						<div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+							<FileText size={20} color="var(--text-primary)" />
+							<div style={{ textAlign: 'left' }}>
+								<div style={{ color: 'var(--text-primary)', fontWeight: 500 }}>
+									{t('aboutDocumentation')}
+								</div>
+								<div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
+									{t('aboutDocumentationDesc')}
+								</div>
+							</div>
+						</div>
+						<ExternalLink size={16} color="var(--text-secondary)" />
+					</button>
+				</div>
+			</div>
+
+			{/* License 信息 */}
+			<div style={{
+				background: 'var(--bg-white)',
+				border: '1px solid var(--border-base)',
+				borderRadius: '8px',
+				padding: '24px'
+			}}>
+				<h2 style={{
+					margin: '0 0 16px 0',
+					fontSize: '18px',
+					fontWeight: 600,
+					color: 'var(--text-primary)'
+				}}>
+					{t('aboutLicense')}
+				</h2>
+
+				<p style={{
+					margin: 0,
+					fontSize: '14px',
+					color: 'var(--text-secondary)',
+					lineHeight: '1.6'
+				}}>
+					{t('aboutLicenseText')}
+				</p>
+
+				<div style={{
+					marginTop: '16px',
+					padding: '12px',
+					background: 'var(--fill-lighter)',
+					borderRadius: '6px'
+				}}>
+					<p style={{
+						margin: 0,
+						fontSize: '12px',
+						color: 'var(--text-secondary)',
+						lineHeight: '1.5'
+					}}>
+						{t('aboutCopyright')}
+					</p>
+				</div>
+			</div>
+		</div>
+	);
+}

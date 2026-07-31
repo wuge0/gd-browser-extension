@@ -1,1 +1,93 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBkZWNpZGVUYWtlb3ZlciwgbWF0Y2hTaXRlUnVsZSwgdHlwZSBUYWtlb3ZlcklucHV0IH0gZnJvbSAnLi90YWtlb3ZlclBvbGljeSc7CmltcG9ydCB7IERFRkFVTFRfU0VUVElOR1MgfSBmcm9tICdAL3NoYXJlZC9jb25zdGFudHMnOwppbXBvcnQgdHlwZSB7IEV4dGVuc2lvblNldHRpbmdzIH0gZnJvbSAnQC9zaGFyZWQvdHlwZXMnOwoKZnVuY3Rpb24gc2V0dGluZ3Mob3ZlcnJpZGVzOiBQYXJ0aWFsPEV4dGVuc2lvblNldHRpbmdzPiA9IHt9KTogRXh0ZW5zaW9uU2V0dGluZ3MgewogIHJldHVybiB7IC4uLkRFRkFVTFRfU0VUVElOR1MsIC4uLm92ZXJyaWRlcyB9Owp9CgpmdW5jdGlvbiBpbnB1dChvdmVycmlkZXM6IFBhcnRpYWw8VGFrZW92ZXJJbnB1dD4gPSB7fSk6IFRha2VvdmVySW5wdXQgewogIHJldHVybiB7CiAgICB1cmw6ICdodHRwczovL2V4YW1wbGUuY29tL2ZpbGUuemlwJywKICAgIG1pbWU6ICdhcHBsaWNhdGlvbi96aXAnLAogICAgYnlFeHRlbnNpb25JZDogdW5kZWZpbmVkLAogICAgc2l6ZTogLTEsCiAgICBpc0Nvbm5lY3RlZDogdHJ1ZSwKICAgIGJ5cGFzc0FjdGl2ZTogZmFsc2UsCiAgICAuLi5vdmVycmlkZXMKICB9Owp9CgpkZXNjcmliZSgnZGVjaWRlVGFrZW92ZXIg5Yik5a6a6ZO+JywgKCkgPT4gewogIGl0KCfpu5jorqTorr7nva4gKyDlnKjnur8gKyDmma7pgJrkuIvovb0gLT4g5o6l566hJywgKCkgPT4gewogICAgZXhwZWN0KGRlY2lkZVRha2VvdmVyKGlucHV0KCksIHNldHRpbmdzKCkpKS50b0JlKHRydWUpOwogIH0pOwoKICBpdCgn5oC75byA5YWz5YWz6ZetIC0+IOaUvuihjCcsICgpID0+IHsKICAgIGV4cGVjdChkZWNpZGVUYWtlb3ZlcihpbnB1dCgpLCBzZXR0aW5ncyh7IHRha2VvdmVyRW5hYmxlZDogZmFsc2UgfSkpKS50b0JlKGZhbHNlKTsKICB9KTsKCiAgaXQoJ+emu+e6v++8iOacqui/nuaOpe+8iS0+IOaUvuihjO+8jOWGs+S4jeS4ouS4i+i9vScsICgpID0+IHsKICAgIGV4cGVjdChkZWNpZGVUYWtlb3ZlcihpbnB1dCh7IGlzQ29ubmVjdGVkOiBmYWxzZSB9KSwgc2V0dGluZ3MoKSkpLnRvQmUoZmFsc2UpOwogIH0pOwoKICBpdCgn5pys5omp5bGV6Ieq6Lqr5Y+R6LW377yIYnlFeHRlbnNpb25JZCDpnZ7nqbrvvIktPiDmlL7ooYzvvIzpmLLmrbvlvqrnjq8nLCAoKSA9PiB7CiAgICBleHBlY3QoZGVjaWRlVGFrZW92ZXIoaW5wdXQoeyBieUV4dGVuc2lvbklkOiAnc2VsZi1leHQtaWQnIH0pLCBzZXR0aW5ncygpKSkudG9CZShmYWxzZSk7CiAgfSk7CgogIGl0KCfpnZ4gaHR0cC9odHRwcy9mdHAgc2NoZW1lIC0+IOaUvuihjCcsICgpID0+IHsKICAgIGV4cGVjdChkZWNpZGVUYWtlb3ZlcihpbnB1dCh7IHVybDogJ21hZ25ldDo/eHQ9dXJuOmJ0aWg6YWJjJyB9KSwgc2V0dGluZ3MoKSkpLnRvQmUoZmFsc2UpOwogICAgZXhwZWN0KGRlY2lkZVRha2VvdmVyKGlucHV0KHsgdXJsOiAnYmxvYjpodHRwczovL2V4YW1wbGUuY29tL3V1aWQnIH0pLCBzZXR0aW5ncygpKSkudG9CZShmYWxzZSk7CiAgICBleHBlY3QoZGVjaWRlVGFrZW92ZXIoaW5wdXQoeyB1cmw6ICdkYXRhOnRleHQvcGxhaW47YmFzZTY0LEFBQUEnIH0pLCBzZXR0aW5ncygpKSkudG9CZShmYWxzZSk7CiAgfSk7CgogIGl0KCdmdHAgc2NoZW1lIC0+IOaOpeeuoScsICgpID0+IHsKICAgIGV4cGVjdChkZWNpZGVUYWtlb3ZlcihpbnB1dCh7IHVybDogJ2Z0cDovL21pcnJvci5leGFtcGxlLmNvbS94LmlzbycgfSksIHNldHRpbmdzKCkpKS50b0JlKHRydWUpOwogIH0pOwoKICBpdCgn5pS+6KGMIE1JTUXvvIh0ZXh0L2h0bWzvvIktPiDmlL7ooYwnLCAoKSA9PiB7CiAgICBleHBlY3QoZGVjaWRlVGFrZW92ZXIoaW5wdXQoeyBtaW1lOiAndGV4dC9odG1sJyB9KSwgc2V0dGluZ3MoKSkpLnRvQmUoZmFsc2UpOwogIH0pOwoKICBpdCgn5L2T56ev5bCP5LqO6ZiI5YC8IC0+IOaUvuihjO+8m+S9k+enr+acquefpSgtMSkg5LiN5Lul5aSn5bCP5oum5oiqJywgKCkgPT4gewogICAgY29uc3QgcyA9IHNldHRpbmdzKHsgdGFrZW92ZXJNaW5TaXplOiAxMDQ4NTc2IH0pOwogICAgZXhwZWN0KGRlY2lkZVRha2VvdmVyKGlucHV0KHsgc2l6ZTogMTAyNCB9KSwgcykpLnRvQmUoZmFsc2UpOwogICAgZXhwZWN0KGRlY2lkZVRha2VvdmVyKGlucHV0KHsgc2l6ZTogLTEgfSksIHMpKS50b0JlKHRydWUpOwogICAgZXhwZWN0KGRlY2lkZVRha2VvdmVyKGlucHV0KHsgc2l6ZTogMjA5NzE1MiB9KSwgcykpLnRvQmUodHJ1ZSk7CiAgfSk7CgogIGl0KCfnq5nngrnop4TliJkgdGFrZW92ZXI6ZmFsc2UgLT4g5pS+6KGMJywgKCkgPT4gewogICAgY29uc3QgcyA9IHNldHRpbmdzKHsgc2l0ZVJ1bGVzOiBbeyBkb21haW46ICdleGFtcGxlLmNvbScsIHRha2VvdmVyOiBmYWxzZSB9XSB9KTsKICAgIGV4cGVjdChkZWNpZGVUYWtlb3ZlcihpbnB1dCgpLCBzKSkudG9CZShmYWxzZSk7CiAgfSk7CgogIGl0KCfnq5nngrnop4TliJkgdGFrZW92ZXI6dHJ1ZSAtPiDku43mjqXnrqEnLCAoKSA9PiB7CiAgICBjb25zdCBzID0gc2V0dGluZ3MoeyBzaXRlUnVsZXM6IFt7IGRvbWFpbjogJ2V4YW1wbGUuY29tJywgdGFrZW92ZXI6IHRydWUgfV0gfSk7CiAgICBleHBlY3QoZGVjaWRlVGFrZW92ZXIoaW5wdXQoKSwgcykpLnRvQmUodHJ1ZSk7CiAgfSk7CgogIGl0KCdBbHQg57uV6L+H5qCH6K6w55Sf5pWIIC0+IOaUvuihjCcsICgpID0+IHsKICAgIGV4cGVjdChkZWNpZGVUYWtlb3ZlcihpbnB1dCh7IGJ5cGFzc0FjdGl2ZTogdHJ1ZSB9KSwgc2V0dGluZ3MoKSkpLnRvQmUoZmFsc2UpOwogIH0pOwp9KTsKCmRlc2NyaWJlKCdtYXRjaFNpdGVSdWxlIOWfn+WQjeWMuemFjScsICgpID0+IHsKICBjb25zdCBydWxlcyA9IFt7IGRvbWFpbjogJ2V4YW1wbGUuY29tJywgdGFrZW92ZXI6IGZhbHNlIH1dOwoKICBpdCgn57K+56Gu5Z+f5ZCN5ZG95LitJywgKCkgPT4gewogICAgZXhwZWN0KG1hdGNoU2l0ZVJ1bGUocnVsZXMsICdodHRwczovL2V4YW1wbGUuY29tL2EnKT8uZG9tYWluKS50b0JlKCdleGFtcGxlLmNvbScpOwogIH0pOwoKICBpdCgn5a2Q5Z+f5ZG95LitJywgKCkgPT4gewogICAgZXhwZWN0KG1hdGNoU2l0ZVJ1bGUocnVsZXMsICdodHRwczovL2RsLmV4YW1wbGUuY29tL2EnKT8uZG9tYWluKS50b0JlKCdleGFtcGxlLmNvbScpOwogIH0pOwoKICBpdCgn5peg5YWz5Z+f5ZCN5LiN5ZG95LitJywgKCkgPT4gewogICAgZXhwZWN0KG1hdGNoU2l0ZVJ1bGUocnVsZXMsICdodHRwczovL290aGVyLm9yZy9hJykpLnRvQmVVbmRlZmluZWQoKTsKICB9KTsKCiAgaXQoJ+epuuinhOWImei/lOWbniB1bmRlZmluZWQnLCAoKSA9PiB7CiAgICBleHBlY3QobWF0Y2hTaXRlUnVsZShbXSwgJ2h0dHBzOi8vZXhhbXBsZS5jb20vYScpKS50b0JlVW5kZWZpbmVkKCk7CiAgfSk7Cn0pOwo=
+import { describe, it, expect } from 'vitest';
+import { decideTakeover, matchSiteRule, type TakeoverInput } from './takeoverPolicy';
+import { DEFAULT_SETTINGS } from '@/shared/constants';
+import type { ExtensionSettings } from '@/shared/types';
+
+function settings(overrides: Partial<ExtensionSettings> = {}): ExtensionSettings {
+  return { ...DEFAULT_SETTINGS, ...overrides };
+}
+
+function input(overrides: Partial<TakeoverInput> = {}): TakeoverInput {
+  return {
+    url: 'https://example.com/file.zip',
+    mime: 'application/zip',
+    byExtensionId: undefined,
+    size: -1,
+    isConnected: true,
+    bypassActive: false,
+    ...overrides
+  };
+}
+
+describe('decideTakeover 判定链', () => {
+  it('默认设置 + 在线 + 普通下载 -> 接管', () => {
+    expect(decideTakeover(input(), settings())).toBe(true);
+  });
+
+  it('总开关关闭 -> 放行', () => {
+    expect(decideTakeover(input(), settings({ takeoverEnabled: false }))).toBe(false);
+  });
+
+  it('离线（未连接）-> 放行，决不丢下载', () => {
+    expect(decideTakeover(input({ isConnected: false }), settings())).toBe(false);
+  });
+
+  it('本扩展自身发起（byExtensionId 非空）-> 放行，防死循环', () => {
+    expect(decideTakeover(input({ byExtensionId: 'self-ext-id' }), settings())).toBe(false);
+  });
+
+  it('非 http/https/ftp scheme -> 放行', () => {
+    expect(decideTakeover(input({ url: 'magnet:?xt=urn:btih:abc' }), settings())).toBe(false);
+    expect(decideTakeover(input({ url: 'blob:https://example.com/uuid' }), settings())).toBe(false);
+    expect(decideTakeover(input({ url: 'data:text/plain;base64,AAAA' }), settings())).toBe(false);
+  });
+
+  it('ftp scheme -> 接管', () => {
+    expect(decideTakeover(input({ url: 'ftp://mirror.example.com/x.iso' }), settings())).toBe(true);
+  });
+
+  it('放行 MIME（text/html）-> 放行', () => {
+    expect(decideTakeover(input({ mime: 'text/html' }), settings())).toBe(false);
+  });
+
+  it('体积小于阈值 -> 放行；体积未知(-1) 不以大小拦截', () => {
+    const s = settings({ takeoverMinSize: 1048576 });
+    expect(decideTakeover(input({ size: 1024 }), s)).toBe(false);
+    expect(decideTakeover(input({ size: -1 }), s)).toBe(true);
+    expect(decideTakeover(input({ size: 2097152 }), s)).toBe(true);
+  });
+
+  it('站点规则 takeover:false -> 放行', () => {
+    const s = settings({ siteRules: [{ domain: 'example.com', takeover: false }] });
+    expect(decideTakeover(input(), s)).toBe(false);
+  });
+
+  it('站点规则 takeover:true -> 仍接管', () => {
+    const s = settings({ siteRules: [{ domain: 'example.com', takeover: true }] });
+    expect(decideTakeover(input(), s)).toBe(true);
+  });
+
+  it('Alt 绕过标记生效 -> 放行', () => {
+    expect(decideTakeover(input({ bypassActive: true }), settings())).toBe(false);
+  });
+});
+
+describe('matchSiteRule 域名匹配', () => {
+  const rules = [{ domain: 'example.com', takeover: false }];
+
+  it('精确域名命中', () => {
+    expect(matchSiteRule(rules, 'https://example.com/a')?.domain).toBe('example.com');
+  });
+
+  it('子域命中', () => {
+    expect(matchSiteRule(rules, 'https://dl.example.com/a')?.domain).toBe('example.com');
+  });
+
+  it('无关域名不命中', () => {
+    expect(matchSiteRule(rules, 'https://other.org/a')).toBeUndefined();
+  });
+
+  it('空规则返回 undefined', () => {
+    expect(matchSiteRule([], 'https://example.com/a')).toBeUndefined();
+  });
+});

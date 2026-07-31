@@ -1,1 +1,311 @@
-aW1wb3J0IHR5cGUgeyBFeHRlbnNpb25TZXR0aW5ncywgTWVkaWFJdGVtLCBNZWRpYVZhcmlhbnQsIFNpdGVSdWxlIH0gZnJvbSAnQC9zaGFyZWQvdHlwZXMnOwppbXBvcnQgeyBnZXREb21haW4gfSBmcm9tICdAL3NoYXJlZC91dGlscy91cmxQYXJzZXInOwppbXBvcnQgewogIGlzSGxzQ29udGVudCwKICBpc01hc3RlclBsYXlsaXN0LAogIHBhcnNlTWFzdGVyUGxheWxpc3QsCiAgcGFyc2VNZWRpYVBsYXlsaXN0Cn0gZnJvbSAnQC9zaGFyZWQvdXRpbHMvaGxzUGFyc2VyJzsKCi8qKgogKiDliKTmlq3nq5nngrnop4TliJnmmK/lkKbmmL7lvI/lhbPpl63kuobor6XpobXpnaLnmoTmtYHlqpLkvZPll4XmjqIKICovCmZ1bmN0aW9uIGlzU25pZmZpbmdEaXNhYmxlZEZvclNpdGUocnVsZXM6IFNpdGVSdWxlW10gfCB1bmRlZmluZWQsIHBhZ2VVcmw6IHN0cmluZyk6IGJvb2xlYW4gewogIGlmICghcnVsZXMgfHwgcnVsZXMubGVuZ3RoID09PSAwKSB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQogIGNvbnN0IGRvbWFpbiA9IGdldERvbWFpbihwYWdlVXJsKTsKICBpZiAoIWRvbWFpbikgewogICAgcmV0dXJuIGZhbHNlOwogIH0KICByZXR1cm4gcnVsZXMuc29tZSgocikgPT4gewogICAgY29uc3QgZCA9IHIuZG9tYWluLnRvTG93ZXJDYXNlKCk7CiAgICByZXR1cm4gKGRvbWFpbiA9PT0gZCB8fCBkb21haW4uZW5kc1dpdGgoJy4nICsgZCkpICYmIHIuc25pZmZpbmcgPT09IGZhbHNlOwogIH0pOwp9CgovKioKICog5rWB5aqS5L2T5ZeF5o6i77ya5o2V6I63IEhMUy9EQVNIIG1hbmlmZXN077yM6Kej5p6Q5qGj5L2N77yM5YiG54mH5om56YeP5LiL5Y+RIGFyaWEyCiAqLwoKZXhwb3J0IGludGVyZmFjZSBNZWRpYVNuaWZmZXJEZXBzIHsKICAvLyDmibnph4/kuIvlj5HkuIvovb3ku7vliqEKICBhZGRVcmlzOiAodGFza3M6IEFycmF5PHsgdXJsOiBzdHJpbmc7IG9wdGlvbnM6IFJlY29yZDxzdHJpbmcsIGFueT4gfT4pID0+IFByb21pc2U8dm9pZD47CiAgaXNDb25uZWN0ZWQ6ICgpID0+IGJvb2xlYW47CiAgZ2V0U2V0dGluZ3M6ICgpID0+IFByb21pc2U8RXh0ZW5zaW9uU2V0dGluZ3M+Owp9CgpsZXQgZGVwczogTWVkaWFTbmlmZmVyRGVwcyB8IG51bGwgPSBudWxsOwpsZXQgaW5pdGlhbGl6ZWQgPSBmYWxzZTsKCi8qKgogKiDlt7LmjZXojrfnmoTmtYHlqpLkvZPmnaHnm67vvIjlhoXlrZggTWFw77yM5oyJIHRhYklkK21hbmlmZXN0VXJsIOWOu+mHje+8iQogKi8KY29uc3QgbWVkaWFJdGVtcyA9IG5ldyBNYXA8c3RyaW5nLCBNZWRpYUl0ZW0+KCk7CgpmdW5jdGlvbiBpdGVtS2V5KHRhYklkOiBudW1iZXIsIG1hbmlmZXN0VXJsOiBzdHJpbmcpOiBzdHJpbmcgewogIHJldHVybiBgJHt0YWJJZH06OiR7bWFuaWZlc3RVcmx9YDsKfQoKLyoqCiAqIOWwhumhtemdouagh+mimOa4heeQhuS4uuWPr+eUqOeahOebruW9leWQjQogKi8KZXhwb3J0IGZ1bmN0aW9uIHNhbml0aXplRGlyTmFtZSh0aXRsZTogc3RyaW5nKTogc3RyaW5nIHsKICBjb25zdCBjbGVhbmVkID0gKHRpdGxlIHx8ICd2aWRlbycpCiAgICAucmVwbGFjZSgvWzw+OiIvXFx8PypceDAwLVx4MWZdL2csICdfJykKICAgIC50cmltKCkKICAgIC5zbGljZSgwLCA4MCk7CiAgcmV0dXJuIGNsZWFuZWQgfHwgJ3ZpZGVvJzsKfQoKLyoqCiAqIOS7jiBVUkwg5o+Q5Y+W5omp5bGV5ZCN77yI5ZCr54K577yJ77yM5peg5YiZ6L+U5Zue56m65LiyCiAqLwpmdW5jdGlvbiBleHRyYWN0RXh0KHVybDogc3RyaW5nKTogc3RyaW5nIHsKICB0cnkgewogICAgY29uc3QgcGF0aG5hbWUgPSBuZXcgVVJMKHVybCkucGF0aG5hbWU7CiAgICBjb25zdCBzZWcgPSBwYXRobmFtZS5zcGxpdCgnLycpLnBvcCgpIHx8ICcnOwogICAgY29uc3QgbSA9IHNlZy5tYXRjaCgvXC5bYS16QS1aMC05XSskLyk7CiAgICByZXR1cm4gbSA/IG1bMF0gOiAnJzsKICB9IGNhdGNoIHsKICAgIHJldHVybiAnJzsKICB9Cn0KCi8qKgogKiDkuLrliIbniYfliJfooajmnoTlu7ogYXJpYTIg5LiL6L295Lu75Yqh77yIb3V0IOaMieW6j+WPt+ihpembtu+8jGRpciDlvZLnu4TvvIkKICovCmV4cG9ydCBmdW5jdGlvbiBidWlsZFNlZ21lbnRUYXNrcygKICBzZWdtZW50czogc3RyaW5nW10sCiAgZGlyOiBzdHJpbmcsCiAgaGVhZGVyczogc3RyaW5nW10KKTogQXJyYXk8eyB1cmw6IHN0cmluZzsgb3B0aW9uczogUmVjb3JkPHN0cmluZywgYW55PiB9PiB7CiAgY29uc3QgcGFkID0gTWF0aC5tYXgoMywgU3RyaW5nKHNlZ21lbnRzLmxlbmd0aCkubGVuZ3RoKTsKICByZXR1cm4gc2VnbWVudHMubWFwKCh1cmwsIGluZGV4KSA9PiB7CiAgICBjb25zdCBleHQgPSBleHRyYWN0RXh0KHVybCkgfHwgJy50cyc7CiAgICBjb25zdCBvdXQgPSBgJHtTdHJpbmcoaW5kZXgpLnBhZFN0YXJ0KHBhZCwgJzAnKX0ke2V4dH1gOwogICAgY29uc3Qgb3B0aW9uczogUmVjb3JkPHN0cmluZywgYW55PiA9IHsgZGlyLCBvdXQgfTsKICAgIGlmIChoZWFkZXJzLmxlbmd0aCA+IDApIHsKICAgICAgb3B0aW9ucy5oZWFkZXIgPSBoZWFkZXJzOwogICAgfQogICAgcmV0dXJuIHsgdXJsLCBvcHRpb25zIH07CiAgfSk7Cn0KCi8qKgogKiDmi4nlj5bmlofmnKzlhoXlrrkKICovCmFzeW5jIGZ1bmN0aW9uIGZldGNoVGV4dCh1cmw6IHN0cmluZyk6IFByb21pc2U8c3RyaW5nIHwgbnVsbD4gewogIHRyeSB7CiAgICBjb25zdCByZXNwID0gYXdhaXQgZmV0Y2godXJsKTsKICAgIGlmICghcmVzcC5vaykgewogICAgICByZXR1cm4gbnVsbDsKICAgIH0KICAgIHJldHVybiBhd2FpdCByZXNwLnRleHQoKTsKICB9IGNhdGNoIHsKICAgIHJldHVybiBudWxsOwogIH0KfQoKLyoqCiAqIOWkhOeQhuWXheaOouWIsOeahCBtYW5pZmVzdCDlgJnpgInvvIjmnaXoh6ogd2ViUmVxdWVzdCDmiJYgTUFJTiB3b3JsZCDms6jlhaXvvIkKICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBoYW5kbGVNYW5pZmVzdENhbmRpZGF0ZSgKICBtYW5pZmVzdFVybDogc3RyaW5nLAogIHRhYklkOiBudW1iZXIsCiAgcGFnZVVybDogc3RyaW5nLAogIHBhZ2VUaXRsZTogc3RyaW5nCik6IFByb21pc2U8dm9pZD4gewogIGlmICghZGVwcykgewogICAgcmV0dXJuOwogIH0KICBjb25zdCBzZXR0aW5ncyA9IGF3YWl0IGRlcHMuZ2V0U2V0dGluZ3MoKTsKICBpZiAoIXNldHRpbmdzLm1lZGlhU25pZmZpbmdFbmFibGVkKSB7CiAgICByZXR1cm47CiAgfQoKICAvLyDnq5nngrnop4TliJnvvJrmnKznq5kgc25pZmZpbmcg5pi+5byP5YWz6Zet5YiZ6Lez6L+HCiAgaWYgKHBhZ2VVcmwgJiYgaXNTbmlmZmluZ0Rpc2FibGVkRm9yU2l0ZShzZXR0aW5ncy5zaXRlUnVsZXMsIHBhZ2VVcmwpKSB7CiAgICByZXR1cm47CiAgfQoKICBjb25zdCBrZXkgPSBpdGVtS2V5KHRhYklkLCBtYW5pZmVzdFVybCk7CiAgaWYgKG1lZGlhSXRlbXMuaGFzKGtleSkpIHsKICAgIHJldHVybjsgLy8g5bey5o2V6I6377yM5Y676YeNCiAgfQoKICBjb25zdCBpc0Rhc2ggPSAvXC5tcGQoXD98JCkvaS50ZXN0KG1hbmlmZXN0VXJsKTsKICBsZXQgdmFyaWFudHM6IE1lZGlhVmFyaWFudFtdID0gW107CiAgbGV0IHR5cGU6ICdobHMnIHwgJ2Rhc2gnID0gaXNEYXNoID8gJ2Rhc2gnIDogJ2hscyc7CgogIGlmICghaXNEYXNoKSB7CiAgICBjb25zdCBjb250ZW50ID0gYXdhaXQgZmV0Y2hUZXh0KG1hbmlmZXN0VXJsKTsKICAgIGlmICghY29udGVudCB8fCAhaXNIbHNDb250ZW50KGNvbnRlbnQpKSB7CiAgICAgIHJldHVybjsgLy8g6Z2eIEhMUyDlhoXlrrnvvIzlv73nlaUKICAgIH0KICAgIGlmIChpc01hc3RlclBsYXlsaXN0KGNvbnRlbnQpKSB7CiAgICAgIHZhcmlhbnRzID0gcGFyc2VNYXN0ZXJQbGF5bGlzdChjb250ZW50LCBtYW5pZmVzdFVybCk7CiAgICB9IGVsc2UgewogICAgICAvLyBtZWRpYSBwbGF5bGlzdO+8muS9nOS4uuWNleS4gCLljp/nlLsi5qGj5L2N77yMVVJMIOaMh+WQkSBtYW5pZmVzdCDoh6rouqsKICAgICAgdmFyaWFudHMgPSBbeyB1cmw6IG1hbmlmZXN0VXJsLCBiYW5kd2lkdGg6IDAsIG5hbWU6ICdhdXRvJyB9XTsKICAgIH0KICB9CgogIGNvbnN0IGl0ZW06IE1lZGlhSXRlbSA9IHsKICAgIGlkOiBrZXksCiAgICB0YWJJZCwKICAgIHBhZ2VVcmwsCiAgICBwYWdlVGl0bGU6IHBhZ2VUaXRsZSB8fCBwYWdlVXJsLAogICAgbWFuaWZlc3RVcmwsCiAgICB0eXBlLAogICAgdmFyaWFudHMsCiAgICB0aW1lc3RhbXA6IERhdGUubm93KCkKICB9OwogIG1lZGlhSXRlbXMuc2V0KGtleSwgaXRlbSk7CiAgYXdhaXQgcGVyc2lzdEl0ZW1zKCk7CgogIC8vIOmAmuefpSBwb3B1cO+8iOacquaJk+W8gOWImeW/veeVpe+8iQogIGNocm9tZS5ydW50aW1lLnNlbmRNZXNzYWdlKHsgYWN0aW9uOiAnbWVkaWFDYXB0dXJlZCcsIGl0ZW0gfSkuY2F0Y2goKCkgPT4ge30pOwp9CgovKioKICog572R57uc5bGC5YiG5rWB5YWl5Y+j77ya55SxIHRhYklkIOWPjeafpemhtemdoiBVUkwv5qCH6aKY5ZCO5Lqk57uZ5YCZ6YCJ5aSE55CGCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gaGFuZGxlTmV0d29ya01hbmlmZXN0KG1hbmlmZXN0VXJsOiBzdHJpbmcsIHRhYklkOiBudW1iZXIpOiBQcm9taXNlPHZvaWQ+IHsKICBpZiAodGFiSWQgPCAwKSB7CiAgICByZXR1cm47CiAgfQogIGxldCBwYWdlVXJsID0gJyc7CiAgbGV0IHBhZ2VUaXRsZSA9ICcnOwogIHRyeSB7CiAgICBjb25zdCB0YWIgPSBhd2FpdCBjaHJvbWUudGFicy5nZXQodGFiSWQpOwogICAgcGFnZVVybCA9IHRhYi51cmwgfHwgJyc7CiAgICBwYWdlVGl0bGUgPSB0YWIudGl0bGUgfHwgJyc7CiAgfSBjYXRjaCB7CiAgICAvLyDml6Dms5Xlj5bmoIfnrb7kv6Hmga/ml7bnlKjnqbrlgLwKICB9CiAgYXdhaXQgaGFuZGxlTWFuaWZlc3RDYW5kaWRhdGUobWFuaWZlc3RVcmwsIHRhYklkLCBwYWdlVXJsLCBwYWdlVGl0bGUpOwp9CgovKioKICog6L+U5Zue5YWo6YOo5bey5o2V6I6355qE5rWB5aqS5L2T5p2h55uuCiAqLwpleHBvcnQgZnVuY3Rpb24gZ2V0TWVkaWFJdGVtcygpOiBNZWRpYUl0ZW1bXSB7CiAgcmV0dXJuIEFycmF5LmZyb20obWVkaWFJdGVtcy52YWx1ZXMoKSk7Cn0KCi8qKgogKiDkuIvlj5HmjIflrprmnaHnm67nmoTmjIflrprmoaPkvY3liLAgYXJpYTLvvIjliIbniYfmibnph4/vvIkKICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBkb3dubG9hZE1lZGlhKG1lZGlhSWQ6IHN0cmluZywgdmFyaWFudEluZGV4OiBudW1iZXIpOiBQcm9taXNlPHsgb2s6IGJvb2xlYW47IGVycm9yPzogc3RyaW5nIH0+IHsKICBpZiAoIWRlcHMpIHsKICAgIHJldHVybiB7IG9rOiBmYWxzZSwgZXJyb3I6ICdub3QgcmVhZHknIH07CiAgfQogIGlmICghZGVwcy5pc0Nvbm5lY3RlZCgpKSB7CiAgICByZXR1cm4geyBvazogZmFsc2UsIGVycm9yOiAnR0Rvd25sb2FkIG5vdCBjb25uZWN0ZWQnIH07CiAgfQoKICBjb25zdCBpdGVtID0gbWVkaWFJdGVtcy5nZXQobWVkaWFJZCk7CiAgaWYgKCFpdGVtKSB7CiAgICByZXR1cm4geyBvazogZmFsc2UsIGVycm9yOiAnbWVkaWEgbm90IGZvdW5kJyB9OwogIH0KICBpZiAoaXRlbS50eXBlID09PSAnZGFzaCcpIHsKICAgIHJldHVybiB7IG9rOiBmYWxzZSwgZXJyb3I6ICdEQVNIIG5vdCBzdXBwb3J0ZWQgeWV0JyB9OwogIH0KICBjb25zdCB2YXJpYW50ID0gaXRlbS52YXJpYW50c1t2YXJpYW50SW5kZXhdOwogIGlmICghdmFyaWFudCkgewogICAgcmV0dXJuIHsgb2s6IGZhbHNlLCBlcnJvcjogJ3ZhcmlhbnQgbm90IGZvdW5kJyB9OwogIH0KCiAgLy8g5ouJ5Y+W6K+l5qGj5L2N55qEIG1lZGlhIHBsYXlsaXN0IOWPluWIhueJhwogIGNvbnN0IGNvbnRlbnQgPSBhd2FpdCBmZXRjaFRleHQodmFyaWFudC51cmwpOwogIGlmICghY29udGVudCkgewogICAgcmV0dXJuIHsgb2s6IGZhbHNlLCBlcnJvcjogJ2ZhaWxlZCB0byBmZXRjaCBwbGF5bGlzdCcgfTsKICB9CiAgY29uc3QgbWVkaWEgPSBwYXJzZU1lZGlhUGxheWxpc3QoY29udGVudCwgdmFyaWFudC51cmwpOwogIGlmIChtZWRpYS5lbmNyeXB0ZWQpIHsKICAgIHJldHVybiB7IG9rOiBmYWxzZSwgZXJyb3I6ICdFTkNSWVBURUQnIH07IC8vIOWKoOWvhua1geacrOmYtuauteS4jeaUr+aMge+8jFVJIOS+p+aPkOekugogIH0KICBpZiAobWVkaWEuc2VnbWVudHMubGVuZ3RoID09PSAwKSB7CiAgICByZXR1cm4geyBvazogZmFsc2UsIGVycm9yOiAnbm8gc2VnbWVudHMnIH07CiAgfQoKICBjb25zdCBzZXR0aW5ncyA9IGF3YWl0IGRlcHMuZ2V0U2V0dGluZ3MoKTsKICBjb25zdCBoZWFkZXJzID0gYnVpbGRIZWFkZXJzKGl0ZW0ucGFnZVVybCwgc2V0dGluZ3MpOwogIGNvbnN0IGRpciA9IHNhbml0aXplRGlyTmFtZShpdGVtLnBhZ2VUaXRsZSk7CiAgY29uc3QgdGFza3MgPSBidWlsZFNlZ21lbnRUYXNrcyhtZWRpYS5zZWdtZW50cywgZGlyLCBoZWFkZXJzKTsKCiAgYXdhaXQgZGVwcy5hZGRVcmlzKHRhc2tzKTsKICByZXR1cm4geyBvazogdHJ1ZSB9Owp9CgovKioKICog5oyJ6ZqQ56eB5byA5YWz5p6E5bu66K+35rGC5aS0CiAqLwpmdW5jdGlvbiBidWlsZEhlYWRlcnMocGFnZVVybDogc3RyaW5nLCBzZXR0aW5nczogRXh0ZW5zaW9uU2V0dGluZ3MpOiBzdHJpbmdbXSB7CiAgY29uc3QgaGVhZGVyczogc3RyaW5nW10gPSBbXTsKICBpZiAoc2V0dGluZ3Muc2VuZFJlZmVyZXIgJiYgcGFnZVVybCkgewogICAgaGVhZGVycy5wdXNoKGBSZWZlcmVyOiAke3BhZ2VVcmx9YCk7CiAgfQogIGlmIChzZXR0aW5ncy5zZW5kVXNlckFnZW50ICYmIHR5cGVvZiBuYXZpZ2F0b3IgIT09ICd1bmRlZmluZWQnICYmIG5hdmlnYXRvci51c2VyQWdlbnQpIHsKICAgIGhlYWRlcnMucHVzaChgVXNlci1BZ2VudDogJHtuYXZpZ2F0b3IudXNlckFnZW50fWApOwogIH0KICByZXR1cm4gaGVhZGVyczsKfQoKLyoqCiAqIOa4heeQhuaMh+Wumuagh+etvumhteeahOa1geWqkuS9k+adoeebrgogKi8KZXhwb3J0IGZ1bmN0aW9uIGNsZWFyVGFiTWVkaWEodGFiSWQ6IG51bWJlcik6IHZvaWQgewogIGZvciAoY29uc3QgW2tleSwgaXRlbV0gb2YgbWVkaWFJdGVtcy5lbnRyaWVzKCkpIHsKICAgIGlmIChpdGVtLnRhYklkID09PSB0YWJJZCkgewogICAgICBtZWRpYUl0ZW1zLmRlbGV0ZShrZXkpOwogICAgfQogIH0KICB2b2lkIHBlcnNpc3RJdGVtcygpOwp9CgovKioKICog6ZWc5YOP5YiwIHNlc3Npb24gc3RvcmFnZe+8jOS+myBwb3B1cCDor7vlj5bkuI4gU1cg6YeN5ZCv5oGi5aSNCiAqLwphc3luYyBmdW5jdGlvbiBwZXJzaXN0SXRlbXMoKTogUHJvbWlzZTx2b2lkPiB7CiAgdHJ5IHsKICAgIGF3YWl0IGNocm9tZS5zdG9yYWdlLnNlc3Npb24/LnNldCh7IG1lZGlhSXRlbXM6IGdldE1lZGlhSXRlbXMoKSB9KTsKICB9IGNhdGNoIHsKICAgIC8vIOW/veeVpQogIH0KfQoKLyoqCiAqIOS7jiBzZXNzaW9uIHN0b3JhZ2Ug5oGi5aSN77yIU1cg6YeN5ZCv5ZCO77yJCiAqLwphc3luYyBmdW5jdGlvbiByZXN0b3JlSXRlbXMoKTogUHJvbWlzZTx2b2lkPiB7CiAgdHJ5IHsKICAgIGNvbnN0IGRhdGEgPSBhd2FpdCBjaHJvbWUuc3RvcmFnZS5zZXNzaW9uPy5nZXQoJ21lZGlhSXRlbXMnKTsKICAgIGNvbnN0IHN0b3JlZDogTWVkaWFJdGVtW10gPSBkYXRhPy5tZWRpYUl0ZW1zIHx8IFtdOwogICAgZm9yIChjb25zdCBpdGVtIG9mIHN0b3JlZCkgewogICAgICBtZWRpYUl0ZW1zLnNldChpdGVtLmlkLCBpdGVtKTsKICAgIH0KICB9IGNhdGNoIHsKICAgIC8vIOW/veeVpQogIH0KfQoKLyoqCiAqIOWIneWni+WMlua1geWqkuS9k+WXheaOou+8iOazqOWFpeS+nei1liArIOazqOWGjOagh+etvumhtea4heeQhu+8iQogKi8KZXhwb3J0IGZ1bmN0aW9uIGluaXRNZWRpYVNuaWZmZXIoaW5qZWN0ZWQ6IE1lZGlhU25pZmZlckRlcHMpOiB2b2lkIHsKICBkZXBzID0gaW5qZWN0ZWQ7CiAgaWYgKGluaXRpYWxpemVkKSB7CiAgICByZXR1cm47CiAgfQogIGluaXRpYWxpemVkID0gdHJ1ZTsKCiAgdm9pZCByZXN0b3JlSXRlbXMoKTsKCiAgY2hyb21lLnRhYnMub25SZW1vdmVkLmFkZExpc3RlbmVyKCh0YWJJZCkgPT4gewogICAgY2xlYXJUYWJNZWRpYSh0YWJJZCk7CiAgfSk7CgogIGNvbnNvbGUubG9nKCdbTWVkaWFTbmlmZmVyXSBNZWRpYSBzbmlmZmVyIGluaXRpYWxpemVkJyk7Cn0K
+import type { ExtensionSettings, MediaItem, MediaVariant, SiteRule } from '@/shared/types';
+import { getDomain } from '@/shared/utils/urlParser';
+import {
+  isHlsContent,
+  isMasterPlaylist,
+  parseMasterPlaylist,
+  parseMediaPlaylist
+} from '@/shared/utils/hlsParser';
+
+/**
+ * 判断站点规则是否显式关闭了该页面的流媒体嗅探
+ */
+function isSniffingDisabledForSite(rules: SiteRule[] | undefined, pageUrl: string): boolean {
+  if (!rules || rules.length === 0) {
+    return false;
+  }
+  const domain = getDomain(pageUrl);
+  if (!domain) {
+    return false;
+  }
+  return rules.some((r) => {
+    const d = r.domain.toLowerCase();
+    return (domain === d || domain.endsWith('.' + d)) && r.sniffing === false;
+  });
+}
+
+/**
+ * 流媒体嗅探：捕获 HLS/DASH manifest，解析档位，分片批量下发 aria2
+ */
+
+export interface MediaSnifferDeps {
+  // 批量下发下载任务
+  addUris: (tasks: Array<{ url: string; options: Record<string, any> }>) => Promise<void>;
+  isConnected: () => boolean;
+  getSettings: () => Promise<ExtensionSettings>;
+}
+
+let deps: MediaSnifferDeps | null = null;
+let initialized = false;
+
+/**
+ * 已捕获的流媒体条目（内存 Map，按 tabId+manifestUrl 去重）
+ */
+const mediaItems = new Map<string, MediaItem>();
+
+function itemKey(tabId: number, manifestUrl: string): string {
+  return `${tabId}::${manifestUrl}`;
+}
+
+/**
+ * 将页面标题清理为可用的目录名
+ */
+export function sanitizeDirName(title: string): string {
+  const cleaned = (title || 'video')
+    .replace(/[<>:"/\\|?*\x00-\x1f]/g, '_')
+    .trim()
+    .slice(0, 80);
+  return cleaned || 'video';
+}
+
+/**
+ * 从 URL 提取扩展名（含点），无则返回空串
+ */
+function extractExt(url: string): string {
+  try {
+    const pathname = new URL(url).pathname;
+    const seg = pathname.split('/').pop() || '';
+    const m = seg.match(/\.[a-zA-Z0-9]+$/);
+    return m ? m[0] : '';
+  } catch {
+    return '';
+  }
+}
+
+/**
+ * 为分片列表构建 aria2 下载任务（out 按序号补零，dir 归组）
+ */
+export function buildSegmentTasks(
+  segments: string[],
+  dir: string,
+  headers: string[]
+): Array<{ url: string; options: Record<string, any> }> {
+  const pad = Math.max(3, String(segments.length).length);
+  return segments.map((url, index) => {
+    const ext = extractExt(url) || '.ts';
+    const out = `${String(index).padStart(pad, '0')}${ext}`;
+    const options: Record<string, any> = { dir, out };
+    if (headers.length > 0) {
+      options.header = headers;
+    }
+    return { url, options };
+  });
+}
+
+/**
+ * 拉取文本内容
+ */
+async function fetchText(url: string): Promise<string | null> {
+  try {
+    const resp = await fetch(url);
+    if (!resp.ok) {
+      return null;
+    }
+    return await resp.text();
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * 处理嗅探到的 manifest 候选（来自 webRequest 或 MAIN world 注入）
+ */
+export async function handleManifestCandidate(
+  manifestUrl: string,
+  tabId: number,
+  pageUrl: string,
+  pageTitle: string
+): Promise<void> {
+  if (!deps) {
+    return;
+  }
+  const settings = await deps.getSettings();
+  if (!settings.mediaSniffingEnabled) {
+    return;
+  }
+
+  // 站点规则：本站 sniffing 显式关闭则跳过
+  if (pageUrl && isSniffingDisabledForSite(settings.siteRules, pageUrl)) {
+    return;
+  }
+
+  const key = itemKey(tabId, manifestUrl);
+  if (mediaItems.has(key)) {
+    return; // 已捕获，去重
+  }
+
+  const isDash = /\.mpd(\?|$)/i.test(manifestUrl);
+  let variants: MediaVariant[] = [];
+  let type: 'hls' | 'dash' = isDash ? 'dash' : 'hls';
+
+  if (!isDash) {
+    const content = await fetchText(manifestUrl);
+    if (!content || !isHlsContent(content)) {
+      return; // 非 HLS 内容，忽略
+    }
+    if (isMasterPlaylist(content)) {
+      variants = parseMasterPlaylist(content, manifestUrl);
+    } else {
+      // media playlist：作为单一"原画"档位，URL 指向 manifest 自身
+      variants = [{ url: manifestUrl, bandwidth: 0, name: 'auto' }];
+    }
+  }
+
+  const item: MediaItem = {
+    id: key,
+    tabId,
+    pageUrl,
+    pageTitle: pageTitle || pageUrl,
+    manifestUrl,
+    type,
+    variants,
+    timestamp: Date.now()
+  };
+  mediaItems.set(key, item);
+  await persistItems();
+
+  // 通知 popup（未打开则忽略）
+  chrome.runtime.sendMessage({ action: 'mediaCaptured', item }).catch(() => {});
+}
+
+/**
+ * 网络层分流入口：由 tabId 反查页面 URL/标题后交给候选处理
+ */
+export async function handleNetworkManifest(manifestUrl: string, tabId: number): Promise<void> {
+  if (tabId < 0) {
+    return;
+  }
+  let pageUrl = '';
+  let pageTitle = '';
+  try {
+    const tab = await chrome.tabs.get(tabId);
+    pageUrl = tab.url || '';
+    pageTitle = tab.title || '';
+  } catch {
+    // 无法取标签信息时用空值
+  }
+  await handleManifestCandidate(manifestUrl, tabId, pageUrl, pageTitle);
+}
+
+/**
+ * 返回全部已捕获的流媒体条目
+ */
+export function getMediaItems(): MediaItem[] {
+  return Array.from(mediaItems.values());
+}
+
+/**
+ * 下发指定条目的指定档位到 aria2（分片批量）
+ */
+export async function downloadMedia(mediaId: string, variantIndex: number): Promise<{ ok: boolean; error?: string }> {
+  if (!deps) {
+    return { ok: false, error: 'not ready' };
+  }
+  if (!deps.isConnected()) {
+    return { ok: false, error: 'GDownload not connected' };
+  }
+
+  const item = mediaItems.get(mediaId);
+  if (!item) {
+    return { ok: false, error: 'media not found' };
+  }
+  if (item.type === 'dash') {
+    return { ok: false, error: 'DASH not supported yet' };
+  }
+  const variant = item.variants[variantIndex];
+  if (!variant) {
+    return { ok: false, error: 'variant not found' };
+  }
+
+  // 拉取该档位的 media playlist 取分片
+  const content = await fetchText(variant.url);
+  if (!content) {
+    return { ok: false, error: 'failed to fetch playlist' };
+  }
+  const media = parseMediaPlaylist(content, variant.url);
+  if (media.encrypted) {
+    return { ok: false, error: 'ENCRYPTED' }; // 加密流本阶段不支持，UI 侧提示
+  }
+  if (media.segments.length === 0) {
+    return { ok: false, error: 'no segments' };
+  }
+
+  const settings = await deps.getSettings();
+  const headers = buildHeaders(item.pageUrl, settings);
+  const dir = sanitizeDirName(item.pageTitle);
+  const tasks = buildSegmentTasks(media.segments, dir, headers);
+
+  await deps.addUris(tasks);
+  return { ok: true };
+}
+
+/**
+ * 按隐私开关构建请求头
+ */
+function buildHeaders(pageUrl: string, settings: ExtensionSettings): string[] {
+  const headers: string[] = [];
+  if (settings.sendReferer && pageUrl) {
+    headers.push(`Referer: ${pageUrl}`);
+  }
+  if (settings.sendUserAgent && typeof navigator !== 'undefined' && navigator.userAgent) {
+    headers.push(`User-Agent: ${navigator.userAgent}`);
+  }
+  return headers;
+}
+
+/**
+ * 清理指定标签页的流媒体条目
+ */
+export function clearTabMedia(tabId: number): void {
+  for (const [key, item] of mediaItems.entries()) {
+    if (item.tabId === tabId) {
+      mediaItems.delete(key);
+    }
+  }
+  void persistItems();
+}
+
+/**
+ * 镜像到 session storage，供 popup 读取与 SW 重启恢复
+ */
+async function persistItems(): Promise<void> {
+  try {
+    await chrome.storage.session?.set({ mediaItems: getMediaItems() });
+  } catch {
+    // 忽略
+  }
+}
+
+/**
+ * 从 session storage 恢复（SW 重启后）
+ */
+async function restoreItems(): Promise<void> {
+  try {
+    const data = await chrome.storage.session?.get('mediaItems');
+    const stored: MediaItem[] = data?.mediaItems || [];
+    for (const item of stored) {
+      mediaItems.set(item.id, item);
+    }
+  } catch {
+    // 忽略
+  }
+}
+
+/**
+ * 初始化流媒体嗅探（注入依赖 + 注册标签页清理）
+ */
+export function initMediaSniffer(injected: MediaSnifferDeps): void {
+  deps = injected;
+  if (initialized) {
+    return;
+  }
+  initialized = true;
+
+  void restoreItems();
+
+  chrome.tabs.onRemoved.addListener((tabId) => {
+    clearTabMedia(tabId);
+  });
+
+  console.log('[MediaSniffer] Media sniffer initialized');
+}

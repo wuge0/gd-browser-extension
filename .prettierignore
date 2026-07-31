@@ -1,1 +1,6 @@
-ZGlzdC8Kbm9kZV9tb2R1bGVzLwpjb3ZlcmFnZS8KKi5taW4uanMKKi5taW4uY3NzCnBhY2thZ2UtbG9jay5qc29uCg==
+dist/
+node_modules/
+coverage/
+*.min.js
+*.min.css
+package-lock.json

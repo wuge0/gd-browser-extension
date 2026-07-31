@@ -1,1 +1,105 @@
-aW1wb3J0IHsgU1RPUkFHRV9LRVlTIH0gZnJvbSAnQC9zaGFyZWQvY29uc3RhbnRzJzsKaW1wb3J0IHR5cGUgeyBFeHRlbnNpb25TZXR0aW5ncyB9IGZyb20gJ0Avc2hhcmVkL3R5cGVzJzsKCi8qKgogKiDorr7nva7ot6jorr7lpIflkIzmraXvvIhzdG9yYWdlLnN5bmPvvIkKICoKICog6K6+6K6h77yabG9jYWwg5aeL57uI5piv5omA5pyJ6K+75Y+W5pa555qE5pWw5o2u5rqQ77yIYmFja2dyb3VuZC9jb250ZW50L29wdGlvbnMvcG9wdXAg6YO96K+7IGxvY2Fs77yJ77yMCiAqIOacrOaooeWdl+S7heWcqCBiYWNrZ3JvdW5kIOWBmiBsb2NhbCA8LT4gc3luYyDlj4zlkJHplZzlg4/vvJoKICogICAtIOacrOWcsOWPmOabtCAtPiDliaXnprsgc2VjcmV0IOWQjuaOqOmAgeWIsCBzeW5j77yIc2VjcmV0IOawuOS4jeWHuiBsb2NhbO+8iQogKiAgIC0gc3luYyDlj5jmm7TvvIjku5borr7lpIfvvIktPiDlkIjlubbov5sgbG9jYWzvvIzkv53nlZnmnKzlnLAgc2VjcmV0CiAqIOmdoCLlhoXlrrnnm7jnrYnmiY3ot7Pov4flhpnlhaUi5pS25pWb77yM6YG/5YWN5peg6ZmQ6ZWc5YOP5b6q546v44CCCiAqIOS4jeaUueWKqOS7u+S9leivu+WPluaWue+8jOmbtuWbnuW9kumjjumZqeOAggogKi8KCmxldCBtaXJyb3JpbmcgPSBmYWxzZTsKCi8qKgogKiDliaXnprvov57mjqXlr4bpkqXvvIhzZWNyZXQg57ud5LiN5ZCM5q2l5Yiw5LqR56uv77yJCiAqLwpleHBvcnQgZnVuY3Rpb24gc3RyaXBTZWNyZXQoc2V0dGluZ3M6IEV4dGVuc2lvblNldHRpbmdzKTogRXh0ZW5zaW9uU2V0dGluZ3MgewogIHJldHVybiB7CiAgICAuLi5zZXR0aW5ncywKICAgIGFyaWEyQ29uZmlnOiB7IC4uLnNldHRpbmdzLmFyaWEyQ29uZmlnLCBzZWNyZXQ6ICcnIH0KICB9Owp9CgovKioKICog55So6L+c56uv6K6+572uICsg5pys5ZywIHNlY3JldCDlkIjlubYKICovCmV4cG9ydCBmdW5jdGlvbiBtZXJnZVdpdGhMb2NhbFNlY3JldChyZW1vdGU6IEV4dGVuc2lvblNldHRpbmdzLCBsb2NhbFNlY3JldDogc3RyaW5nKTogRXh0ZW5zaW9uU2V0dGluZ3MgewogIHJldHVybiB7CiAgICAuLi5yZW1vdGUsCiAgICBhcmlhMkNvbmZpZzogeyAuLi5yZW1vdGUuYXJpYTJDb25maWcsIHNlY3JldDogbG9jYWxTZWNyZXQgfQogIH07Cn0KCmZ1bmN0aW9uIGxvY2FsU2VjcmV0T2Yoc2V0dGluZ3M6IGFueSk6IHN0cmluZyB7CiAgcmV0dXJuIHNldHRpbmdzPy5hcmlhMkNvbmZpZz8uc2VjcmV0IHx8ICcnOwp9Cgphc3luYyBmdW5jdGlvbiBwdXNoTG9jYWxUb1N5bmMobG9jYWw6IEV4dGVuc2lvblNldHRpbmdzKTogUHJvbWlzZTx2b2lkPiB7CiAgY29uc3Qgc3RyaXBwZWQgPSBzdHJpcFNlY3JldChsb2NhbCk7CiAgY29uc3QgY3VycmVudCA9IGF3YWl0IGNocm9tZS5zdG9yYWdlLnN5bmMuZ2V0KFNUT1JBR0VfS0VZUy5TRVRUSU5HUyk7CiAgaWYgKEpTT04uc3RyaW5naWZ5KGN1cnJlbnRbU1RPUkFHRV9LRVlTLlNFVFRJTkdTXSkgPT09IEpTT04uc3RyaW5naWZ5KHN0cmlwcGVkKSkgewogICAgcmV0dXJuOyAvLyDlt7LkuIDoh7TvvIzot7Pov4fvvIjmlLbmlZvvvIkKICB9CiAgbWlycm9yaW5nID0gdHJ1ZTsKICB0cnkgewogICAgYXdhaXQgY2hyb21lLnN0b3JhZ2Uuc3luYy5zZXQoeyBbU1RPUkFHRV9LRVlTLlNFVFRJTkdTXTogc3RyaXBwZWQgfSk7CiAgfSBmaW5hbGx5IHsKICAgIG1pcnJvcmluZyA9IGZhbHNlOwogIH0KfQoKYXN5bmMgZnVuY3Rpb24gcHVsbFN5bmNUb0xvY2FsKHJlbW90ZTogRXh0ZW5zaW9uU2V0dGluZ3MpOiBQcm9taXNlPHZvaWQ+IHsKICBjb25zdCBsb2NhbERhdGEgPSBhd2FpdCBjaHJvbWUuc3RvcmFnZS5sb2NhbC5nZXQoU1RPUkFHRV9LRVlTLlNFVFRJTkdTKTsKICBjb25zdCBsb2NhbFNldHRpbmdzID0gbG9jYWxEYXRhW1NUT1JBR0VfS0VZUy5TRVRUSU5HU107CiAgY29uc3QgbWVyZ2VkID0gbWVyZ2VXaXRoTG9jYWxTZWNyZXQocmVtb3RlLCBsb2NhbFNlY3JldE9mKGxvY2FsU2V0dGluZ3MpKTsKICBpZiAoSlNPTi5zdHJpbmdpZnkobG9jYWxTZXR0aW5ncykgPT09IEpTT04uc3RyaW5naWZ5KG1lcmdlZCkpIHsKICAgIHJldHVybjsgLy8g5bey5LiA6Ie077yM6Lez6L+H77yI5pS25pWb77yJCiAgfQogIG1pcnJvcmluZyA9IHRydWU7CiAgdHJ5IHsKICAgIGF3YWl0IGNocm9tZS5zdG9yYWdlLmxvY2FsLnNldCh7IFtTVE9SQUdFX0tFWVMuU0VUVElOR1NdOiBtZXJnZWQgfSk7CiAgfSBmaW5hbGx5IHsKICAgIG1pcnJvcmluZyA9IGZhbHNlOwogIH0KfQoKLyoqCiAqIOWQr+WKqOihpeawtO+8mnN5bmMg5pyJ6K6+572u5pe25ZCI5bm26L+bIGxvY2Fs77yI5L+d55WZ5pys5ZywIHNlY3JldO+8iQogKi8KYXN5bmMgZnVuY3Rpb24gaHlkcmF0ZUZyb21TeW5jKCk6IFByb21pc2U8dm9pZD4gewogIHRyeSB7CiAgICBjb25zdCBzeW5jRGF0YSA9IGF3YWl0IGNocm9tZS5zdG9yYWdlLnN5bmMuZ2V0KFNUT1JBR0VfS0VZUy5TRVRUSU5HUyk7CiAgICBjb25zdCByZW1vdGUgPSBzeW5jRGF0YVtTVE9SQUdFX0tFWVMuU0VUVElOR1NdIGFzIEV4dGVuc2lvblNldHRpbmdzIHwgdW5kZWZpbmVkOwogICAgaWYgKHJlbW90ZSkgewogICAgICBhd2FpdCBwdWxsU3luY1RvTG9jYWwocmVtb3RlKTsKICAgIH0KICB9IGNhdGNoIHsKICAgIC8vIHN5bmMg5LiN5Y+v55So5pe25b+955WlCiAgfQp9CgovKioKICog5Yid5aeL5YyW6K6+572u5ZCM5q2l77yIYmFja2dyb3VuZCDpobblsYLosIPnlKjkuIDmrKHvvIkKICovCmV4cG9ydCBmdW5jdGlvbiBpbml0U2V0dGluZ3NTeW5jKCk6IHZvaWQgewogIGNocm9tZS5zdG9yYWdlLm9uQ2hhbmdlZC5hZGRMaXN0ZW5lcigoY2hhbmdlcywgYXJlYSkgPT4gewogICAgaWYgKG1pcnJvcmluZykgewogICAgICByZXR1cm47IC8vIOacrOaooeWdl+iHqui6q+WGmeWFpeW8leWPkeeahOS6i+S7tu+8jOW/veeVpQogICAgfQogICAgY29uc3QgY2hhbmdlID0gY2hhbmdlc1tTVE9SQUdFX0tFWVMuU0VUVElOR1NdOwogICAgaWYgKCFjaGFuZ2UpIHsKICAgICAgcmV0dXJuOwogICAgfQogICAgaWYgKGFyZWEgPT09ICdsb2NhbCcgJiYgY2hhbmdlLm5ld1ZhbHVlKSB7CiAgICAgIHZvaWQgcHVzaExvY2FsVG9TeW5jKGNoYW5nZS5uZXdWYWx1ZSBhcyBFeHRlbnNpb25TZXR0aW5ncyk7CiAgICB9IGVsc2UgaWYgKGFyZWEgPT09ICdzeW5jJyAmJiBjaGFuZ2UubmV3VmFsdWUpIHsKICAgICAgdm9pZCBwdWxsU3luY1RvTG9jYWwoY2hhbmdlLm5ld1ZhbHVlIGFzIEV4dGVuc2lvblNldHRpbmdzKTsKICAgIH0KICB9KTsKCiAgdm9pZCBoeWRyYXRlRnJvbVN5bmMoKTsKfQo=
+import { STORAGE_KEYS } from '@/shared/constants';
+import type { ExtensionSettings } from '@/shared/types';
+
+/**
+ * 设置跨设备同步（storage.sync）
+ *
+ * 设计：local 始终是所有读取方的数据源（background/content/options/popup 都读 local），
+ * 本模块仅在 background 做 local <-> sync 双向镜像：
+ *   - 本地变更 -> 剥离 secret 后推送到 sync（secret 永不出 local）
+ *   - sync 变更（他设备）-> 合并进 local，保留本地 secret
+ * 靠"内容相等才跳过写入"收敛，避免无限镜像循环。
+ * 不改动任何读取方，零回归风险。
+ */
+
+let mirroring = false;
+
+/**
+ * 剥离连接密钥（secret 绝不同步到云端）
+ */
+export function stripSecret(settings: ExtensionSettings): ExtensionSettings {
+  return {
+    ...settings,
+    aria2Config: { ...settings.aria2Config, secret: '' }
+  };
+}
+
+/**
+ * 用远端设置 + 本地 secret 合并
+ */
+export function mergeWithLocalSecret(remote: ExtensionSettings, localSecret: string): ExtensionSettings {
+  return {
+    ...remote,
+    aria2Config: { ...remote.aria2Config, secret: localSecret }
+  };
+}
+
+function localSecretOf(settings: any): string {
+  return settings?.aria2Config?.secret || '';
+}
+
+async function pushLocalToSync(local: ExtensionSettings): Promise<void> {
+  const stripped = stripSecret(local);
+  const current = await chrome.storage.sync.get(STORAGE_KEYS.SETTINGS);
+  if (JSON.stringify(current[STORAGE_KEYS.SETTINGS]) === JSON.stringify(stripped)) {
+    return; // 已一致，跳过（收敛）
+  }
+  mirroring = true;
+  try {
+    await chrome.storage.sync.set({ [STORAGE_KEYS.SETTINGS]: stripped });
+  } finally {
+    mirroring = false;
+  }
+}
+
+async function pullSyncToLocal(remote: ExtensionSettings): Promise<void> {
+  const localData = await chrome.storage.local.get(STORAGE_KEYS.SETTINGS);
+  const localSettings = localData[STORAGE_KEYS.SETTINGS];
+  const merged = mergeWithLocalSecret(remote, localSecretOf(localSettings));
+  if (JSON.stringify(localSettings) === JSON.stringify(merged)) {
+    return; // 已一致，跳过（收敛）
+  }
+  mirroring = true;
+  try {
+    await chrome.storage.local.set({ [STORAGE_KEYS.SETTINGS]: merged });
+  } finally {
+    mirroring = false;
+  }
+}
+
+/**
+ * 启动补水：sync 有设置时合并进 local（保留本地 secret）
+ */
+async function hydrateFromSync(): Promise<void> {
+  try {
+    const syncData = await chrome.storage.sync.get(STORAGE_KEYS.SETTINGS);
+    const remote = syncData[STORAGE_KEYS.SETTINGS] as ExtensionSettings | undefined;
+    if (remote) {
+      await pullSyncToLocal(remote);
+    }
+  } catch {
+    // sync 不可用时忽略
+  }
+}
+
+/**
+ * 初始化设置同步（background 顶层调用一次）
+ */
+export function initSettingsSync(): void {
+  chrome.storage.onChanged.addListener((changes, area) => {
+    if (mirroring) {
+      return; // 本模块自身写入引发的事件，忽略
+    }
+    const change = changes[STORAGE_KEYS.SETTINGS];
+    if (!change) {
+      return;
+    }
+    if (area === 'local' && change.newValue) {
+      void pushLocalToSync(change.newValue as ExtensionSettings);
+    } else if (area === 'sync' && change.newValue) {
+      void pullSyncToLocal(change.newValue as ExtensionSettings);
+    }
+  });
+
+  void hydrateFromSync();
+}

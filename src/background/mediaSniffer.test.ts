@@ -1,1 +1,62 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBidWlsZFNlZ21lbnRUYXNrcywgc2FuaXRpemVEaXJOYW1lIH0gZnJvbSAnLi9tZWRpYVNuaWZmZXInOwoKZGVzY3JpYmUoJ3Nhbml0aXplRGlyTmFtZScsICgpID0+IHsKICBpdCgn5pu/5o2i6Z2e5rOV5paH5Lu25ZCN5a2X56ymJywgKCkgPT4gewogICAgZXhwZWN0KHNhbml0aXplRGlyTmFtZSgnYS9iOmMqZD9lJykpLnRvQmUoJ2FfYl9jX2RfZScpOwogIH0pOwoKICBpdCgn56m65qCH6aKY5Zue6YCA5Li6IHZpZGVvJywgKCkgPT4gewogICAgZXhwZWN0KHNhbml0aXplRGlyTmFtZSgnJykpLnRvQmUoJ3ZpZGVvJyk7CiAgICBleHBlY3Qoc2FuaXRpemVEaXJOYW1lKCcgICAnKSkudG9CZSgndmlkZW8nKTsKICB9KTsKCiAgaXQoJ+aIquaWrei2hemVv+agh+mimOWIsCA4MCDlrZfnrKYnLCAoKSA9PiB7CiAgICBjb25zdCBsb25nID0gJ3gnLnJlcGVhdCgyMDApOwogICAgZXhwZWN0KHNhbml0aXplRGlyTmFtZShsb25nKS5sZW5ndGgpLnRvQmUoODApOwogIH0pOwp9KTsKCmRlc2NyaWJlKCdidWlsZFNlZ21lbnRUYXNrcycsICgpID0+IHsKICBjb25zdCBzZWdtZW50cyA9IFsKICAgICdodHRwczovL2Nkbi5leGFtcGxlLmNvbS92L3NlZzAudHMnLAogICAgJ2h0dHBzOi8vY2RuLmV4YW1wbGUuY29tL3Yvc2VnMS50cycsCiAgICAnaHR0cHM6Ly9jZG4uZXhhbXBsZS5jb20vdi9zZWcyLnRzJwogIF07CgogIGl0KCdvdXQg5oyJ5bqP5Y+36KGl6Zu277yI6Iez5bCRIDMg5L2N77yJKyBkaXIg5b2S57uEJywgKCkgPT4gewogICAgY29uc3QgdGFza3MgPSBidWlsZFNlZ21lbnRUYXNrcyhzZWdtZW50cywgJ015IFZpZGVvJywgW10pOwogICAgZXhwZWN0KHRhc2tzKS50b0hhdmVMZW5ndGgoMyk7CiAgICBleHBlY3QodGFza3NbMF0ub3B0aW9ucy5vdXQpLnRvQmUoJzAwMC50cycpOwogICAgZXhwZWN0KHRhc2tzWzJdLm9wdGlvbnMub3V0KS50b0JlKCcwMDIudHMnKTsKICAgIGV4cGVjdCh0YXNrc1swXS5vcHRpb25zLmRpcikudG9CZSgnTXkgVmlkZW8nKTsKICB9KTsKCiAgaXQoJ+S/neeVmeWIhueJh+aJqeWxleWQjScsICgpID0+IHsKICAgIGNvbnN0IHRhc2tzID0gYnVpbGRTZWdtZW50VGFza3MoWydodHRwczovL3guY29tL2EvZnJhZzEubTRzJ10sICdWJywgW10pOwogICAgZXhwZWN0KHRhc2tzWzBdLm9wdGlvbnMub3V0KS50b0JlKCcwMDAubTRzJyk7CiAgfSk7CgogIGl0KCfml6DmianlsZXlkI3lm57pgIAgLnRzJywgKCkgPT4gewogICAgY29uc3QgdGFza3MgPSBidWlsZFNlZ21lbnRUYXNrcyhbJ2h0dHBzOi8veC5jb20vYS9zZWdtZW50J10sICdWJywgW10pOwogICAgZXhwZWN0KHRhc2tzWzBdLm9wdGlvbnMub3V0KS50b0JlKCcwMDAudHMnKTsKICB9KTsKCiAgaXQoJ+acieivt+axguWktOaXtuWGmeWFpSBoZWFkZXIg6YCJ6aG5JywgKCkgPT4gewogICAgY29uc3QgaGVhZGVycyA9IFsnUmVmZXJlcjogaHR0cHM6Ly9wYWdlLmNvbSddOwogICAgY29uc3QgdGFza3MgPSBidWlsZFNlZ21lbnRUYXNrcyhzZWdtZW50cywgJ1YnLCBoZWFkZXJzKTsKICAgIGV4cGVjdCh0YXNrc1swXS5vcHRpb25zLmhlYWRlcikudG9FcXVhbChoZWFkZXJzKTsKICB9KTsKCiAgaXQoJ+aXoOivt+axguWktOaXtuS4jeWGmSBoZWFkZXIg6YCJ6aG5JywgKCkgPT4gewogICAgY29uc3QgdGFza3MgPSBidWlsZFNlZ21lbnRUYXNrcyhzZWdtZW50cywgJ1YnLCBbXSk7CiAgICBleHBlY3QodGFza3NbMF0ub3B0aW9ucy5oZWFkZXIpLnRvQmVVbmRlZmluZWQoKTsKICB9KTsKCiAgaXQoJ+WIhueJh+aVsOi2hei/hyA5OTkg5pe25bqP5Y+35L2N5pWw6Ieq6YCC5bqUJywgKCkgPT4gewogICAgY29uc3QgbWFueSA9IEFycmF5LmZyb20oeyBsZW5ndGg6IDEwMDAgfSwgKF8sIGkpID0+IGBodHRwczovL3guY29tL3Mke2l9LnRzYCk7CiAgICBjb25zdCB0YXNrcyA9IGJ1aWxkU2VnbWVudFRhc2tzKG1hbnksICdWJywgW10pOwogICAgZXhwZWN0KHRhc2tzWzBdLm9wdGlvbnMub3V0KS50b0JlKCcwMDAwLnRzJyk7CiAgICBleHBlY3QodGFza3NbOTk5XS5vcHRpb25zLm91dCkudG9CZSgnMDk5OS50cycpOwogIH0pOwp9KTsK
+import { describe, it, expect } from 'vitest';
+import { buildSegmentTasks, sanitizeDirName } from './mediaSniffer';
+
+describe('sanitizeDirName', () => {
+  it('替换非法文件名字符', () => {
+    expect(sanitizeDirName('a/b:c*d?e')).toBe('a_b_c_d_e');
+  });
+
+  it('空标题回退为 video', () => {
+    expect(sanitizeDirName('')).toBe('video');
+    expect(sanitizeDirName('   ')).toBe('video');
+  });
+
+  it('截断超长标题到 80 字符', () => {
+    const long = 'x'.repeat(200);
+    expect(sanitizeDirName(long).length).toBe(80);
+  });
+});
+
+describe('buildSegmentTasks', () => {
+  const segments = [
+    'https://cdn.example.com/v/seg0.ts',
+    'https://cdn.example.com/v/seg1.ts',
+    'https://cdn.example.com/v/seg2.ts'
+  ];
+
+  it('out 按序号补零（至少 3 位）+ dir 归组', () => {
+    const tasks = buildSegmentTasks(segments, 'My Video', []);
+    expect(tasks).toHaveLength(3);
+    expect(tasks[0].options.out).toBe('000.ts');
+    expect(tasks[2].options.out).toBe('002.ts');
+    expect(tasks[0].options.dir).toBe('My Video');
+  });
+
+  it('保留分片扩展名', () => {
+    const tasks = buildSegmentTasks(['https://x.com/a/frag1.m4s'], 'V', []);
+    expect(tasks[0].options.out).toBe('000.m4s');
+  });
+
+  it('无扩展名回退 .ts', () => {
+    const tasks = buildSegmentTasks(['https://x.com/a/segment'], 'V', []);
+    expect(tasks[0].options.out).toBe('000.ts');
+  });
+
+  it('有请求头时写入 header 选项', () => {
+    const headers = ['Referer: https://page.com'];
+    const tasks = buildSegmentTasks(segments, 'V', headers);
+    expect(tasks[0].options.header).toEqual(headers);
+  });
+
+  it('无请求头时不写 header 选项', () => {
+    const tasks = buildSegmentTasks(segments, 'V', []);
+    expect(tasks[0].options.header).toBeUndefined();
+  });
+
+  it('分片数超过 999 时序号位数自适应', () => {
+    const many = Array.from({ length: 1000 }, (_, i) => `https://x.com/s${i}.ts`);
+    const tasks = buildSegmentTasks(many, 'V', []);
+    expect(tasks[0].options.out).toBe('0000.ts');
+    expect(tasks[999].options.out).toBe('0999.ts');
+  });
+});

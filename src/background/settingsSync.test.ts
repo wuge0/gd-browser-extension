@@ -1,1 +1,35 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBzdHJpcFNlY3JldCwgbWVyZ2VXaXRoTG9jYWxTZWNyZXQgfSBmcm9tICcuL3NldHRpbmdzU3luYyc7CmltcG9ydCB7IERFRkFVTFRfU0VUVElOR1MgfSBmcm9tICdAL3NoYXJlZC9jb25zdGFudHMnOwppbXBvcnQgdHlwZSB7IEV4dGVuc2lvblNldHRpbmdzIH0gZnJvbSAnQC9zaGFyZWQvdHlwZXMnOwoKZnVuY3Rpb24gd2l0aFNlY3JldChzZWNyZXQ6IHN0cmluZyk6IEV4dGVuc2lvblNldHRpbmdzIHsKICByZXR1cm4geyAuLi5ERUZBVUxUX1NFVFRJTkdTLCBhcmlhMkNvbmZpZzogeyAuLi5ERUZBVUxUX1NFVFRJTkdTLmFyaWEyQ29uZmlnLCBzZWNyZXQgfSB9Owp9CgpkZXNjcmliZSgnc2V0dGluZ3NTeW5jIOWuieWFqOWxnuaApycsICgpID0+IHsKICBpdCgnc3RyaXBTZWNyZXQg5riF56m6IHNlY3JldO+8jOWFtuS9meWtl+auteS4jeWPmCcsICgpID0+IHsKICAgIGNvbnN0IHMgPSB3aXRoU2VjcmV0KCdzdXBlci1zZWNyZXQtdG9rZW4nKTsKICAgIGNvbnN0IHN0cmlwcGVkID0gc3RyaXBTZWNyZXQocyk7CiAgICBleHBlY3Qoc3RyaXBwZWQuYXJpYTJDb25maWcuc2VjcmV0KS50b0JlKCcnKTsKICAgIC8vIOWFtuWug+Wtl+auteS/neaMgQogICAgZXhwZWN0KHN0cmlwcGVkLmFyaWEyQ29uZmlnLnVybCkudG9CZShzLmFyaWEyQ29uZmlnLnVybCk7CiAgICBleHBlY3Qoc3RyaXBwZWQudGFrZW92ZXJFbmFibGVkKS50b0JlKHMudGFrZW92ZXJFbmFibGVkKTsKICAgIC8vIOS4jeaUueWOn+WvueixoQogICAgZXhwZWN0KHMuYXJpYTJDb25maWcuc2VjcmV0KS50b0JlKCdzdXBlci1zZWNyZXQtdG9rZW4nKTsKICB9KTsKCiAgaXQoJ21lcmdlV2l0aExvY2FsU2VjcmV0IOeUqOacrOWcsCBzZWNyZXQg6KaG55uW6L+c56uv77yI6L+c56uvIHNlY3JldCDmgZLkuLrnqbrvvIknLCAoKSA9PiB7CiAgICBjb25zdCByZW1vdGUgPSBzdHJpcFNlY3JldCh3aXRoU2VjcmV0KCcnKSk7IC8vIOi/nOerr+adpeeahOS4gOWumuaYr+WJpeemu+i/h+eahAogICAgY29uc3QgbWVyZ2VkID0gbWVyZ2VXaXRoTG9jYWxTZWNyZXQocmVtb3RlLCAnbG9jYWwtbWFjaGluZS1zZWNyZXQnKTsKICAgIGV4cGVjdChtZXJnZWQuYXJpYTJDb25maWcuc2VjcmV0KS50b0JlKCdsb2NhbC1tYWNoaW5lLXNlY3JldCcpOwogIH0pOwoKICBpdCgn5b6A6L+U77ya5pys5ZywIC0+IOWJpeemuyjkuIrooYwpIC0+IOWQiOW5tuWbnuacrOWcsCBzZWNyZXTvvIxzZWNyZXQg5LiN5Lii5LiU5LiN5aSW5rOEJywgKCkgPT4gewogICAgY29uc3QgbG9jYWwgPSB3aXRoU2VjcmV0KCdtYWNoaW5lQS1zZWNyZXQnKTsKICAgIGNvbnN0IHVwbG9hZGVkID0gc3RyaXBTZWNyZXQobG9jYWwpOyAvLyDkuIrkvKDliLAgc3luYyDnmoTlhoXlrrkKICAgIGV4cGVjdCh1cGxvYWRlZC5hcmlhMkNvbmZpZy5zZWNyZXQpLnRvQmUoJycpOyAvLyDkupHnq6/ml6Agc2VjcmV0CiAgICBjb25zdCBiYWNrVG9Mb2NhbCA9IG1lcmdlV2l0aExvY2FsU2VjcmV0KHVwbG9hZGVkLCBsb2NhbC5hcmlhMkNvbmZpZy5zZWNyZXQpOwogICAgZXhwZWN0KGJhY2tUb0xvY2FsLmFyaWEyQ29uZmlnLnNlY3JldCkudG9CZSgnbWFjaGluZUEtc2VjcmV0Jyk7IC8vIOacrOWcsCBzZWNyZXQg5L+d55WZCiAgfSk7Cn0pOwo=
+import { describe, it, expect } from 'vitest';
+import { stripSecret, mergeWithLocalSecret } from './settingsSync';
+import { DEFAULT_SETTINGS } from '@/shared/constants';
+import type { ExtensionSettings } from '@/shared/types';
+
+function withSecret(secret: string): ExtensionSettings {
+  return { ...DEFAULT_SETTINGS, aria2Config: { ...DEFAULT_SETTINGS.aria2Config, secret } };
+}
+
+describe('settingsSync 安全属性', () => {
+  it('stripSecret 清空 secret，其余字段不变', () => {
+    const s = withSecret('super-secret-token');
+    const stripped = stripSecret(s);
+    expect(stripped.aria2Config.secret).toBe('');
+    // 其它字段保持
+    expect(stripped.aria2Config.url).toBe(s.aria2Config.url);
+    expect(stripped.takeoverEnabled).toBe(s.takeoverEnabled);
+    // 不改原对象
+    expect(s.aria2Config.secret).toBe('super-secret-token');
+  });
+
+  it('mergeWithLocalSecret 用本地 secret 覆盖远端（远端 secret 恒为空）', () => {
+    const remote = stripSecret(withSecret('')); // 远端来的一定是剥离过的
+    const merged = mergeWithLocalSecret(remote, 'local-machine-secret');
+    expect(merged.aria2Config.secret).toBe('local-machine-secret');
+  });
+
+  it('往返：本地 -> 剥离(上行) -> 合并回本地 secret，secret 不丢且不外泄', () => {
+    const local = withSecret('machineA-secret');
+    const uploaded = stripSecret(local); // 上传到 sync 的内容
+    expect(uploaded.aria2Config.secret).toBe(''); // 云端无 secret
+    const backToLocal = mergeWithLocalSecret(uploaded, local.aria2Config.secret);
+    expect(backToLocal.aria2Config.secret).toBe('machineA-secret'); // 本地 secret 保留
+  });
+});

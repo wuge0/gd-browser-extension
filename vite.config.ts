@@ -1,1 +1,37 @@
-aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZSc7CmltcG9ydCByZWFjdCBmcm9tICdAdml0ZWpzL3BsdWdpbi1yZWFjdCc7CmltcG9ydCB7IGNyeCB9IGZyb20gJ0Bjcnhqcy92aXRlLXBsdWdpbic7CmltcG9ydCBtYW5pZmVzdCBmcm9tICcuL21hbmlmZXN0Lmpzb24nOwppbXBvcnQgcGF0aCBmcm9tICdwYXRoJzsKCmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyh7CiAgcGx1Z2luczogWwogICAgcmVhY3QoKSwKICAgIGNyeCh7IG1hbmlmZXN0OiBtYW5pZmVzdCBhcyBhbnkgfSkKICBdLAoKICByZXNvbHZlOiB7CiAgICBhbGlhczogewogICAgICAnQCc6IHBhdGgucmVzb2x2ZShfX2Rpcm5hbWUsICdzcmMnKQogICAgfQogIH0sCgogIGJ1aWxkOiB7CiAgICBvdXREaXI6ICdkaXN0JywKICAgIHNvdXJjZW1hcDogcHJvY2Vzcy5lbnYuTk9ERV9FTlYgPT09ICdkZXZlbG9wbWVudCcsCiAgICByb2xsdXBPcHRpb25zOiB7CiAgICAgIG91dHB1dDogewogICAgICAgIGNodW5rRmlsZU5hbWVzOiAnY2h1bmtzL1tuYW1lXS1baGFzaF0uanMnLAogICAgICAgIGFzc2V0RmlsZU5hbWVzOiAnYXNzZXRzL1tuYW1lXS1baGFzaF1bZXh0bmFtZV0nCiAgICAgIH0KICAgIH0KICB9LAoKICBzZXJ2ZXI6IHsKICAgIHBvcnQ6IDUxNzMsCiAgICBzdHJpY3RQb3J0OiB0cnVlLAogICAgaG1yOiB7CiAgICAgIHBvcnQ6IDUxNzMKICAgIH0KICB9Cn0pOwo=
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import { crx } from '@crxjs/vite-plugin';
+import manifest from './manifest.json';
+import path from 'path';
+
+export default defineConfig({
+  plugins: [
+    react(),
+    crx({ manifest: manifest as any })
+  ],
+
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src')
+    }
+  },
+
+  build: {
+    outDir: 'dist',
+    sourcemap: process.env.NODE_ENV === 'development',
+    rollupOptions: {
+      output: {
+        chunkFileNames: 'chunks/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash][extname]'
+      }
+    }
+  },
+
+  server: {
+    port: 5173,
+    strictPort: true,
+    hmr: {
+      port: 5173
+    }
+  }
+});

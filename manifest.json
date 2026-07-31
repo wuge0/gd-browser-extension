@@ -1,1 +1,110 @@
-ewogICJtYW5pZmVzdF92ZXJzaW9uIjogMywKICAibmFtZSI6ICJfX01TR19leHROYW1lX18iLAogICJzaG9ydF9uYW1lIjogIkdEb3dubG9hZCIsCiAgInZlcnNpb24iOiAiMS4wLjAiLAogICJkZXNjcmlwdGlvbiI6ICJfX01TR19leHREZXNjcmlwdGlvbl9fIiwKICAiZGVmYXVsdF9sb2NhbGUiOiAiZW4iLAogICJrZXkiOiAiTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF1cU9HNStxTWhkM1FQMlBEYzJBMzJrSmlxL2dhS3hobnZpaDhtemJoRkZKT0dvN3lzTWYyYWsyNE42UE80N3hzM3djb3NYenJBL3YzaUtlVzk1Vng3RHpTRVVzQ2pXNGhmQ2J1ek54Rzk2RzJPUXN1Q1FxN2pYT3dFQmFFb2tuK3UvMnJQazdtL1YrZUZnak12ejJoV3U1VHlJSVg5OFJrdGZEczJJNitKMFMzYVhMM2FBVDFlWlJ0RDBRbExZb2p1dWUwWmErTFZDNHFXdzFzL2hSZHc1VEV3d0VFRXdTSnk5M0xjb1JzOFNwWW90UndPRVJPck5MUENwZEJQNXY2dk9maUprdVRDYUlMZWtFK2pTZktmK040bkg1VDVPV0hqVnJtaE1ZWkNpVHhTbldQZVJvODRtSDJHZGJ3WG9XQnUvVkM0TWVkNld1QytvRGZDVDdNaFFJREFRQUIiLAogIAogICJhdXRob3IiOiAiR0Rvd25sb2FkIFRlYW0iLAogICJob21lcGFnZV91cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL3d1Z2UwL0dEb3dubG9hZCIsCiAgCiAgImljb25zIjogewogICAgIjE2IjogImljb25zL2ljb24tMTYucG5nIiwKICAgICIzMiI6ICJpY29ucy9pY29uLTMyLnBuZyIsCiAgICAiNDgiOiAiaWNvbnMvaWNvbi00OC5wbmciLAogICAgIjEyOCI6ICJpY29ucy9pY29uLTEyOC5wbmciCiAgfSwKICAKICAiYWN0aW9uIjogewogICAgImRlZmF1bHRfcG9wdXAiOiAic3JjL3BvcHVwL2luZGV4Lmh0bWwiLAogICAgImRlZmF1bHRfaWNvbiI6IHsKICAgICAgIjE2IjogImljb25zL2ljb24tMTYucG5nIiwKICAgICAgIjMyIjogImljb25zL2ljb24tMzIucG5nIgogICAgfSwKICAgICJkZWZhdWx0X3RpdGxlIjogIkdEb3dubG9hZCAtIENhcHR1cmUgTGlua3MiCiAgfSwKICAKICAiYmFja2dyb3VuZCI6IHsKICAgICJzZXJ2aWNlX3dvcmtlciI6ICJzcmMvYmFja2dyb3VuZC9pbmRleC50cyIsCiAgICAidHlwZSI6ICJtb2R1bGUiCiAgfSwKICAKICAiY29udGVudF9zY3JpcHRzIjogWwogICAgewogICAgICAibWF0Y2hlcyI6IFsiPGFsbF91cmxzPiJdLAogICAgICAianMiOiBbInNyYy9jb250ZW50L2luZGV4LnRzIl0sCiAgICAgICJydW5fYXQiOiAiZG9jdW1lbnRfaWRsZSIsCiAgICAgICJhbGxfZnJhbWVzIjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJtYXRjaGVzIjogWyI8YWxsX3VybHM+Il0sCiAgICAgICJqcyI6IFsic3JjL2NvbnRlbnQvcGFnZUluamVjdC50cyJdLAogICAgICAicnVuX2F0IjogImRvY3VtZW50X3N0YXJ0IiwKICAgICAgImFsbF9mcmFtZXMiOiB0cnVlLAogICAgICAid29ybGQiOiAiTUFJTiIKICAgIH0KICBdLAogIAogICJwZXJtaXNzaW9ucyI6IFsKICAgICJjb250ZXh0TWVudXMiLAogICAgInN0b3JhZ2UiLAogICAgImFjdGl2ZVRhYiIsCiAgICAid2ViUmVxdWVzdCIsCiAgICAiZG93bmxvYWRzIiwKICAgICJub3RpZmljYXRpb25zIiwKICAgICJhbGFybXMiCiAgXSwKICAKICAiaG9zdF9wZXJtaXNzaW9ucyI6IFsKICAgICI8YWxsX3VybHM+IgogIF0sCiAgCiAgIm9wdGlvbnNfdWkiOiB7CiAgICAicGFnZSI6ICJzcmMvb3B0aW9ucy9pbmRleC5odG1sIiwKICAgICJvcGVuX2luX3RhYiI6IHRydWUKICB9LAogIAogICJjb21tYW5kcyI6IHsKICAgICJfZXhlY3V0ZV9hY3Rpb24iOiB7CiAgICAgICJzdWdnZXN0ZWRfa2V5IjogewogICAgICAgICJkZWZhdWx0IjogIkN0cmwrU2hpZnQrRCIsCiAgICAgICAgIm1hYyI6ICJDb21tYW5kK1NoaWZ0K0QiCiAgICAgIH0sCiAgICAgICJkZXNjcmlwdGlvbiI6ICJPcGVuIEdEb3dubG9hZCBwb3B1cCIKICAgIH0sCiAgICAiY2FwdHVyZV9hbGxfbGlua3MiOiB7CiAgICAgICJzdWdnZXN0ZWRfa2V5IjogewogICAgICAgICJkZWZhdWx0IjogIkN0cmwrU2hpZnQrQSIsCiAgICAgICAgIm1hYyI6ICJDb21tYW5kK1NoaWZ0K0EiCiAgICAgIH0sCiAgICAgICJkZXNjcmlwdGlvbiI6ICJDYXB0dXJlIGFsbCBsaW5rcyBvbiBjdXJyZW50IHBhZ2UiCiAgICB9LAogICAgIm9wZW5fbWVkaWFfcGFuZWwiOiB7CiAgICAgICJzdWdnZXN0ZWRfa2V5IjogewogICAgICAgICJkZWZhdWx0IjogIkN0cmwrU2hpZnQrTSIsCiAgICAgICAgIm1hYyI6ICJDb21tYW5kK1NoaWZ0K00iCiAgICAgIH0sCiAgICAgICJkZXNjcmlwdGlvbiI6ICJPcGVuIG1lZGlhIHBhbmVsIgogICAgfQogIH0sCiAgCiAgImJyb3dzZXJfc3BlY2lmaWNfc2V0dGluZ3MiOiB7CiAgICAiZ2Vja28iOiB7CiAgICAgICJpZCI6ICJnZG93bmxvYWRAd3VnZTAuZ2l0aHViLmlvIiwKICAgICAgInN0cmljdF9taW5fdmVyc2lvbiI6ICIxMTUuMCIKICAgIH0KICB9LAogIAogICJjb250ZW50X3NlY3VyaXR5X3BvbGljeSI6IHsKICAgICJleHRlbnNpb25fcGFnZXMiOiAic2NyaXB0LXNyYyAnc2VsZic7IG9iamVjdC1zcmMgJ3NlbGYnIgogIH0sCiAgCiAgIndlYl9hY2Nlc3NpYmxlX3Jlc291cmNlcyI6IFsKICAgIHsKICAgICAgInJlc291cmNlcyI6IFsiaWNvbnMvKi5wbmciXSwKICAgICAgIm1hdGNoZXMiOiBbIjxhbGxfdXJscz4iXQogICAgfQogIF0KfQo=
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "short_name": "GDownload",
+  "version": "1.0.0",
+  "description": "__MSG_extDescription__",
+  "default_locale": "en",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuqOG5+qMhd3QP2PDc2A32kJiq/gaKxhnvih8mzbhFFJOGo7ysMf2ak24N6PO47xs3wcosXzrA/v3iKeW95Vx7DzSEUsCjW4hfCbuzNxG96G2OQsuCQq7jXOwEBaEokn+u/2rPk7m/V+eFgjMvz2hWu5TyIIX98RktfDs2I6+J0S3aXL3aAT1eZRtD0QlLYojuue0Za+LVC4qWw1s/hRdw5TEwwEEEwSJy93LcoRs8SpYotRwOEROrNLPCpdBP5v6vOfiJkuTCaILekE+jSfKf+N4nH5T5OWHjVrmhMYZCiTxSnWPeRo84mH2GdbwXoWBu/VC4Med6WuC+oDfCT7MhQIDAQAB",
+  
+  "author": "GDownload Team",
+  "homepage_url": "https://github.com/wuge0/GDownload",
+  
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  
+  "action": {
+    "default_popup": "src/popup/index.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    },
+    "default_title": "GDownload - Capture Links"
+  },
+  
+  "background": {
+    "service_worker": "src/background/index.ts",
+    "type": "module"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/index.ts"],
+      "run_at": "document_idle",
+      "all_frames": false
+    },
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/pageInject.ts"],
+      "run_at": "document_start",
+      "all_frames": true,
+      "world": "MAIN"
+    }
+  ],
+  
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "activeTab",
+    "webRequest",
+    "downloads",
+    "notifications",
+    "alarms"
+  ],
+  
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  
+  "options_ui": {
+    "page": "src/options/index.html",
+    "open_in_tab": true
+  },
+  
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+D",
+        "mac": "Command+Shift+D"
+      },
+      "description": "Open GDownload popup"
+    },
+    "capture_all_links": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+A",
+        "mac": "Command+Shift+A"
+      },
+      "description": "Capture all links on current page"
+    },
+    "open_media_panel": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+M",
+        "mac": "Command+Shift+M"
+      },
+      "description": "Open media panel"
+    }
+  },
+  
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "gdownload@wuge0.github.io",
+      "strict_min_version": "115.0"
+    }
+  },
+  
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  
+  "web_accessible_resources": [
+    {
+      "resources": ["icons/*.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

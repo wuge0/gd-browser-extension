@@ -1,1 +1,283 @@
-IyDmm7TmlrDml6Xlv5cgQ2hhbmdlbG9nCgrmnKzmlofku7borrDlvZXkuobpobnnm67nmoTmiYDmnInph43opoHlj5jmm7TjgIIKQWxsIG5vdGFibGUgY2hhbmdlcyB0byB0aGlzIHByb2plY3Qgd2lsbCBiZSBkb2N1bWVudGVkIGluIHRoaXMgZmlsZS4KCuagvOW8j+WfuuS6jiBbS2VlcCBhIENoYW5nZWxvZ10oaHR0cHM6Ly9rZWVwYWNoYW5nZWxvZy5jb20vZW4vMS4wLjAvKe+8jApUaGUgZm9ybWF0IGlzIGJhc2VkIG9uIFtLZWVwIGEgQ2hhbmdlbG9nXShodHRwczovL2tlZXBhY2hhbmdlbG9nLmNvbS9lbi8xLjAuMC8pLAoK5pys6aG555uu6YG15b6qIFvor63kuYnljJbniYjmnKxdKGh0dHBzOi8vc2VtdmVyLm9yZy9zcGVjL3YyLjAuMC5odG1sKeOAggphbmQgdGhpcyBwcm9qZWN0IGFkaGVyZXMgdG8gW1NlbWFudGljIFZlcnNpb25pbmddKGh0dHBzOi8vc2VtdmVyLm9yZy9zcGVjL3YyLjAuMC5odG1sKS4KCiMjIFvmnKrlj5HluIMgVW5yZWxlYXNlZF0KCiMjIyDorqHliJLkuK0gUGxhbm5lZAotIOS7juWJqui0tOadv+aJuemHj+WvvOWFpeaWh+S7tgogIEJhdGNoIGZpbGUgaW1wb3J0IGZyb20gY2xpcGJvYXJkCi0g6Ieq5a6a5LmJ5LiL6L2955uu5b2V6YCJ5oupCiAgQ3VzdG9tIGRvd25sb2FkIGRpcmVjdG9yeSBzZWxlY3Rpb24KLSDpq5jnuqfov4fmu6Top4TliJkKICBBZHZhbmNlZCBmaWx0ZXJpbmcgcnVsZXMKLSDpk77mjqXljoblj7LorrDlvZXlkozliIbmnpAKICBMaW5rIGhpc3RvcnkgYW5kIGFuYWx5dGljcwotIOKchSDlpJror63oqIDmlK/mjIHvvIjkuK3mlofjgIHml6XmlofnrYnvvIkKICDinIUgTXVsdGktbGFuZ3VhZ2Ugc3VwcG9ydCAoQ2hpbmVzZSwgSmFwYW5lc2UsIGV0Yy4pCgotLS0KCiMjIFsxLjAuMF0gLSAyMDI1LTAxLVhYCgojIyMg5paw5aKe5Yqf6IO9IEFkZGVkCgojIyMjIOaguOW/g+WKn+iDvSBDb3JlIEZlYXR1cmVzCi0g4pyoICoq6ZO+5o6l5o2V6I6357O757ufKioKICAqKkxpbmsgQ2FwdHVyZSBTeXN0ZW0qKgogIC0g6Ieq5Yqo5o2V6I63572R6aG15Lit55qE5Y+v5LiL6L296ZO+5o6lCiAgICBBdXRvbWF0aWMgY2FwdHVyZSBvZiBkb3dubG9hZGFibGUgbGlua3MgZnJvbSB3ZWIgcGFnZXMKICAtIOaUr+aMgSBgPGE+YOOAgWA8dmlkZW8+YOOAgWA8YXVkaW8+YCDlkowgYDxzb3VyY2U+YCDmoIfnrb4KICAgIFN1cHBvcnQgZm9yIGA8YT5gLCBgPHZpZGVvPmAsIGA8YXVkaW8+YCwgYW5kIGA8c291cmNlPmAgdGFncwogIC0g5L2/55SoIE11dGF0aW9uT2JzZXJ2ZXIg5qOA5rWL5Yqo5oCB5YaF5a65CiAgICBNdXRhdGlvbk9ic2VydmVyIGZvciBkeW5hbWljIGNvbnRlbnQgZGV0ZWN0aW9uCiAgLSDmjInmlofku7blpKflsI/lkoznsbvlnovmmbrog73ov4fmu6QKICAgIFNtYXJ0IGZpbHRlcmluZyBieSBmaWxlIHNpemUgYW5kIHR5cGUKCi0g8J+UlyAqKuWPs+mUruiPnOWNlembhuaIkCoqCiAgKipDb250ZXh0IE1lbnUgSW50ZWdyYXRpb24qKgogIC0gIuS9v+eUqCBHRG93bmxvYWQg5LiL6L29IiDnlKjkuo7ljZXkuKrpk77mjqUKICAgICJEb3dubG9hZCB3aXRoIEdEb3dubG9hZCIgZm9yIGluZGl2aWR1YWwgbGlua3MKICAtICLkuIvovb3pobXpnaLkuIrnmoTmiYDmnInpk77mjqUiIOeUqOS6juaJuemHj+aNleiOtwogICAgIkRvd25sb2FkIEFsbCBMaW5rcyBvbiBQYWdlIiBmb3IgYmF0Y2ggY2FwdHVyZQogIC0g5pSv5oyB6ZO+5o6l44CB5Zu+54mH44CB6KeG6aKR5ZKM6Z+z6aKRCiAgICBTdXBwb3J0IGZvciBsaW5rcywgaW1hZ2VzLCB2aWRlb3MsIGFuZCBhdWRpbwoKLSDwn5KsICoqYXJpYTIgUlBDIOmAmuS/oSoqCiAgKiphcmlhMiBSUEMgQ29tbXVuaWNhdGlvbioqCiAgLSDpgJrov4cgV2ViU29ja2V0IOebtOaOpei/nuaOpSBhcmlhMmMKICAgIERpcmVjdCBXZWJTb2NrZXQgY29ubmVjdGlvbiB0byBhcmlhMmMKICAtIOWunueOsCBKU09OLVJQQyAyLjAg5Y2P6K6uCiAgICBKU09OLVJQQyAyLjAgcHJvdG9jb2wgaW1wbGVtZW50YXRpb24KICAtIOW4puaMh+aVsOmAgOmBv+eahOiHquWKqOmHjei/ngogICAgQXV0b21hdGljIHJlY29ubmVjdGlvbiB3aXRoIGV4cG9uZW50aWFsIGJhY2tvZmYKICAtIOivt+axgui2heaXtuWkhOeQhu+8iDMw56eS77yJCiAgICBSZXF1ZXN0IHRpbWVvdXQgaGFuZGxpbmcgKDMwIHNlY29uZHMpCgojIyMjIOeUqOaIt+eVjOmdoiBVc2VyIEludGVyZmFjZQotIPCfjqggKirlvLnlh7rnqpflj6PnlYzpnaIqKgogICoqUG9wdXAgSW50ZXJmYWNlKioKICAtIOeugOa0geebtOingueahOmTvuaOpeWIl+ihqOaYvuekugogICAgQ2xlYW4sIGludHVpdGl2ZSBsaW5rIGxpc3QgZGlzcGxheQogIC0g5paH5Lu257G75Z6L5Zu+5qCH77yI6KeG6aKR44CB6Z+z6aKR44CB5Y6L57yp5YyF44CB5paH5qGj562J77yJCiAgICBGaWxlIHR5cGUgaWNvbnMgKFZpZGVvLCBBdWRpbywgQXJjaGl2ZSwgRG9jdW1lbnQsIGV0Yy4pCiAgLSDlrp7ml7bmlofku7blpKflsI/mmL7npLoKICAgIFJlYWwtdGltZSBmaWxlIHNpemUgZGlzcGxheQogIC0g5pCc57Si5ZKM6L+H5ruk5Yqf6IO9CiAgICBTZWFyY2ggYW5kIGZpbHRlciBmdW5jdGlvbmFsaXR5CiAgLSDlpI3pgInmoYbmibnph4/pgInmi6kKICAgIEJhdGNoIHNlbGVjdGlvbiB3aXRoIGNoZWNrYm94ZXMKICAtIOi/nuaOpeeKtuaAgeaMh+ekuuWZqAogICAgQ29ubmVjdGlvbiBzdGF0dXMgaW5kaWNhdG9yCgotIOKame+4jyAqKumAiemhuemhtemdoioqCiAgKipPcHRpb25zIFBhZ2UqKgogIC0gKirpgJrnlKjorr7nva4qKu+8muiHquWKqOaNleiOt+OAgemAmuefpeOAgeiHquWKqOWPkemAgQogICAgKipHZW5lcmFsIFNldHRpbmdzKio6IEF1dG8tY2FwdHVyZSwgbm90aWZpY2F0aW9ucywgYXV0by1zZW5kCiAgLSAqKui/nuaOpeiuvue9rioq77yaV2ViU29ja2V0IFVSTOOAgVJQQyDlr4bpkqXjgIHov57mjqXmtYvor5UKICAgICoqQ29ubmVjdGlvbiBTZXR0aW5ncyoqOiBXZWJTb2NrZXQgVVJMLCBSUEMgc2VjcmV0LCBjb25uZWN0aW9uIHRlc3QKICAtICoq6ZO+5o6l5o2V6I63KirvvJrmlofku7bnsbvlnovov4fmu6TjgIFVUkwg6buR5ZCN5Y2V44CB5Z+f5ZCN55m95ZCN5Y2VCiAgICAqKkxpbmsgQ2FwdHVyZSoqOiBGaWxlIHR5cGUgZmlsdGVyaW5nLCBVUkwgYmxhY2tsaXN0LCBkb21haW4gd2hpdGVsaXN0CiAgLSAqKumakOengeiuvue9rioq77ya6K+35rGC5aS06YWN572u77yIVXNlci1BZ2VudOOAgVJlZmVyZXLjgIFDb29raWXjgIFBdXRob3JpemF0aW9u77yJCiAgICAqKlByaXZhY3kgU2V0dGluZ3MqKjogUmVxdWVzdCBoZWFkZXIgY29uZmlndXJhdGlvbiAoVXNlci1BZ2VudCwgUmVmZXJlciwgQ29va2llLCBBdXRob3JpemF0aW9uKQogIC0gKirlhbPkuo7pobXpnaIqKu+8mueJiOacrOS/oeaBr+OAgeWFvOWuueaAp+OAgei1hOa6kOmTvuaOpQogICAgKipBYm91dCBQYWdlKio6IFZlcnNpb24gaW5mbywgY29tcGF0aWJpbGl0eSwgcmVzb3VyY2UgbGlua3MKCiMjIyMg5byA5Y+R6ICF5Yqf6IO9IERldmVsb3BlciBGZWF0dXJlcwotIPCfk6YgKirmnoTlu7rns7vnu58qKgogICoqQnVpbGQgU3lzdGVtKioKICAtIOS9v+eUqCBWaXRlIDUgKyBDUlhKUyDlrp7njrDlv6vpgJ/mnoTlu7oKICAgIFZpdGUgNSArIENSWEpTIGZvciBmYXN0IGJ1aWxkcwogIC0g5YiG5Yir5Li6IENocm9tZeOAgUZpcmVmb3gg5ZKMIEVkZ2Ug5p6E5bu6CiAgICBTZXBhcmF0ZSBidWlsZHMgZm9yIENocm9tZSwgRmlyZWZveCwgYW5kIEVkZ2UKICAtIOW8gOWPkeaooeW8j+eDremHjei9vQogICAgSG90IHJlbG9hZCBpbiBkZXZlbG9wbWVudCBtb2RlCiAgLSDlkK/nlKggVHlwZVNjcmlwdCDkuKXmoLzmqKHlvI8KICAgIFR5cGVTY3JpcHQgc3RyaWN0IG1vZGUgZW5hYmxlZAoKLSDwn6eqICoq5Luj56CB6LSo6YePKioKICAqKkNvZGUgUXVhbGl0eSoqCiAgLSDluKYgUmVhY3Qg6KeE5YiZ55qEIEVTTGludCDphY3nva4KICAgIEVTTGludCBjb25maWd1cmF0aW9uIHdpdGggUmVhY3QgcnVsZXMKICAtIFByZXR0aWVyIOS7o+eggeagvOW8j+WMlgogICAgUHJldHRpZXIgY29kZSBmb3JtYXR0aW5nCiAgLSBFZGl0b3JDb25maWcg5L+d5oyB5LiA6Ie05oCnCiAgICBFZGl0b3JDb25maWcgZm9yIGNvbnNpc3RlbmN5CiAgLSBUeXBlU2NyaXB0IOexu+Wei+WumuS5iQogICAgVHlwZVNjcmlwdCB0eXBlIGRlZmluaXRpb25zCgojIyMjIOaWh+ahoyBEb2N1bWVudGF0aW9uCi0g8J+TliAqKuWujOaVtOaWh+ahoyoqCiAgKipDb21wcmVoZW5zaXZlIERvY3VtZW50YXRpb24qKgogIC0g5YyF5ZCr5a6J6KOF5ZKM5L2/55So6K+05piO55qEIFJFQURNRQogICAgUkVBRE1FIHdpdGggaW5zdGFsbGF0aW9uIGFuZCB1c2FnZSBpbnN0cnVjdGlvbnMKICAtIOmdouWQkeW8gOWPkeiAheeahCBDT05UUklCVVRJTkcg5oyH5Y2XCiAgICBDT05UUklCVVRJTkcgZ3VpZGUgZm9yIGRldmVsb3BlcnMKICAtIOeJiOacrOi3n+i4queahCBDSEFOR0VMT0cKICAgIENIQU5HRUxPRyBmb3IgdmVyc2lvbiB0cmFja2luZwogIC0g5YaF6IGU5Luj56CB5rOo6YeK5ZKMIEpTRG9jCiAgICBJbmxpbmUgY29kZSBjb21tZW50cyBhbmQgSlNEb2MKCiMjIyDmioDmnK/nu4boioIgVGVjaG5pY2FsIERldGFpbHMKCiMjIyMg5p625p6EIEFyY2hpdGVjdHVyZQotICoqTWFuaWZlc3QgVjMqKu+8mueOsOS7oyBDaHJvbWUg5omp5bGV6KeE6IyDCiAgTW9kZXJuIENocm9tZSBleHRlbnNpb24gc3BlY2lmaWNhdGlvbgotICoqUmVhY3QgMTgqKu+8muS9v+eUqOWHveaVsOe7hOS7tuWSjCBIb29rcyDnmoTmnIDmlrAgUmVhY3QKICBMYXRlc3QgUmVhY3Qgd2l0aCBmdW5jdGlvbmFsIGNvbXBvbmVudHMgYW5kIGhvb2tzCi0gKipUeXBlU2NyaXB0KirvvJrkuKXmoLzmqKHlvI/nmoTnsbvlnovlronlhajlvIDlj5EKICBUeXBlLXNhZmUgZGV2ZWxvcG1lbnQgd2l0aCBzdHJpY3QgbW9kZQotICoqWnVzdGFuZCoq77ya6L276YeP57qn54q25oCB566h55CGCiAgTGlnaHR3ZWlnaHQgc3RhdGUgbWFuYWdlbWVudAotICoqTHVjaWRlIFJlYWN0KirvvJrnjrDku6Plm77moIflupMKICBNb2Rlcm4gaWNvbiBsaWJyYXJ5CgojIyMjIOa1j+iniOWZqOWFvOWuueaApyBCcm93c2VyIENvbXBhdGliaWxpdHkKLSBDaHJvbWUgMTEwKwotIEZpcmVmb3ggMTE1KwotIEVkZ2UgMTEwKwoKIyMjIyDkvp3otZbpobkgRGVwZW5kZW5jaWVzCi0gcmVhY3RAMTguMi4wCi0genVzdGFuZEA0LjQuNwotIGx1Y2lkZS1yZWFjdEAwLjI5NC4wCi0gQGNyeGpzL3ZpdGUtcGx1Z2luQDIuMC4wLWJldGEuMjEKCiMjIyDlronlhajmgKcgU2VjdXJpdHkKLSDwn5SSIOS7hemZkOacrOWcsOi/nuaOpe+8iDEyNy4wLjAuMe+8iQogIExvY2FsaG9zdC1vbmx5IGNvbm5lY3Rpb25zICgxMjcuMC4wLjEpCi0g8J+UkCBSUEMg5a+G6ZKl6K6k6K+BCiAgUlBDIHNlY3JldCBhdXRoZW50aWNhdGlvbgotIPCfm6HvuI8g5peg5aSW6YOo5pWw5o2u5Lyg6L6TCiAgTm8gZXh0ZXJuYWwgZGF0YSB0cmFuc21pc3Npb24KLSDwn5SRIOeUqOaIt+iuvue9rueahOWuieWFqOWtmOWCqAogIFNlY3VyZSBzdG9yYWdlIGZvciB1c2VyIHNldHRpbmdzCgojIyMg5oCn6IO9IFBlcmZvcm1hbmNlCi0g4pqhIOWkp+Wei+mTvuaOpeWIl+ihqOeahOiZmuaLn+a7muWKqAogIFZpcnR1YWwgc2Nyb2xsaW5nIGZvciBsYXJnZSBsaW5rIGxpc3RzCi0g8J+agCDpmLLmipbmkJzntKLovpPlhaUKICBEZWJvdW5jZWQgc2VhcmNoIGlucHV0Ci0g8J+SviDkvb/nlKggWnVzdGFuZCDnmoTpq5jmlYjnirbmgIHnrqHnkIYKICBFZmZpY2llbnQgc3RhdGUgbWFuYWdlbWVudCB3aXRoIFp1c3RhbmQKLSDwn5SEIOW7tui/n+i/nuaOpeW7uueriwogIExhenkgY29ubmVjdGlvbiBlc3RhYmxpc2htZW50CgotLS0KCiMjIOeJiOacrOWOhuWPsiBWZXJzaW9uIEhpc3RvcnkKCiMjIyDlj5HluIPml7bpl7Tnur8gUmVsZWFzZSBUaW1lbGluZQoKLSAqKnYxLjAuMCoqICgyMDI1LTAxLVhYKSAtIOmmluasoeWFrOW8gOWPkeW4gwogIEluaXRpYWwgcHVibGljIHJlbGVhc2UKCiMjIyDmnKrmnaXot6/nur/lm74gRnV0dXJlIFJvYWRtYXAKCiMjIyMgdjEuMS4w77yI6K6h5YiS5LitIFBsYW5uZWTvvIkKLSDku47ns7vnu5/oh6rliqjmo4DmtYvmt7HoibLmqKHlvI8KICBEYXJrIG1vZGUgYXV0by1kZXRlY3Rpb24gZnJvbSBzeXN0ZW0KLSDlj6/oh6rlrprkuYnplK7nm5jlv6vmjbfplK4KICBDdXN0b21pemFibGUga2V5Ym9hcmQgc2hvcnRjdXRzCi0g5by55Ye656qX5Y+j5Lit5pi+56S65LiL6L296L+b5bqmCiAgRG93bmxvYWQgcHJvZ3Jlc3MgZGlzcGxheSBpbiBwb3B1cAotIOmTvuaOpeWOu+mHjQogIExpbmsgZGVkdXBsaWNhdGlvbgoKIyMjIyB2MS4yLjDvvIjorqHliJLkuK0gUGxhbm5lZO+8iQotIOmTvuaOpeaNleiOt+WOhuWPsgogIExpbmsgY2FwdHVyZSBoaXN0b3J5Ci0g5a+85Ye6L+WvvOWFpeaNleiOt+eahOmTvuaOpQogIEV4cG9ydC9pbXBvcnQgY2FwdHVyZWQgbGlua3MKLSDpq5jnuqcgVVJMIOaooeW8j+WMuemFjQogIEFkdmFuY2VkIFVSTCBwYXR0ZXJuIG1hdGNoaW5nCi0g6Ieq5a6a5LmJIGFyaWEyIOS4i+i9vemAiemhuQogIEN1c3RvbSBhcmlhMiBkb3dubG9hZCBvcHRpb25zCgojIyMjIHYyLjAuMO+8iOacquadpSBGdXR1cmXvvIkKLSDoh6rlrprkuYnov4fmu6TlmajnmoTmj5Lku7bns7vnu58KICBQbHVnaW4gc3lzdGVtIGZvciBjdXN0b20gZmlsdGVycwotIOiuvue9rueahOS6keWQjOatpQogIENsb3VkIHN5bmMgZm9yIHNldHRpbmdzCi0gQUkg6amx5Yqo55qE6ZO+5o6l5YiG57G7CiAgQUktcG93ZXJlZCBsaW5rIGNsYXNzaWZpY2F0aW9uCi0g56ys5LiJ5pa56ZuG5oiQ55qE5rWP6KeI5Zmo5omp5bGVIEFQSQogIEJyb3dzZXIgZXh0ZW5zaW9uIEFQSSBmb3IgdGhpcmQtcGFydHkgaW50ZWdyYXRpb24KCi0tLQoKIyMg6L+B56e75oyH5Y2XIE1pZ3JhdGlvbiBHdWlkZQoKIyMjIOS7jiBDaHJvbWUg5omp5bGVIFYyIOi/geenu+WIsCBWMwojIyMgRnJvbSBDaHJvbWUgRXh0ZW5zaW9uIFYyIHRvIFYzCgrlpoLmnpzku47ml6fniYjmianlsZXov4Hnp7vvvJoKSWYgbWlncmF0aW5nIGZyb20gYW4gb2xkZXIgZXh0ZW5zaW9uOgoKMS4g5bCGIGBtYW5pZmVzdF92ZXJzaW9uYCDmm7TmlrDkuLogMwogICBVcGRhdGUgYG1hbmlmZXN0X3ZlcnNpb25gIHRvIDMKMi4g55SoIHNlcnZpY2Ugd29ya2VycyDmm7/mjaLlkI7lj7DpobXpnaIKICAgUmVwbGFjZSBiYWNrZ3JvdW5kIHBhZ2VzIHdpdGggc2VydmljZSB3b3JrZXJzCjMuIOabtOaWsOWGheWuueWuieWFqOetlueVpQogICBVcGRhdGUgY29udGVudCBzZWN1cml0eSBwb2xpY3kKNC4g6L+B56e75YiwIGNocm9tZS5zdG9yYWdlIEFQSSDnlKjkuo7orr7nva4KICAgTWlncmF0ZSB0byBjaHJvbWUuc3RvcmFnZSBBUEkgZm9yIHNldHRpbmdzCgojIyMg6YWN572u5pu05pS5IENvbmZpZ3VyYXRpb24gQ2hhbmdlcwoKKirpu5jorqTorr7nva4qKu+8iOWPr+WcqOmAiemhueS4reabtOaUue+8ie+8mgoqKkRlZmF1bHQgc2V0dGluZ3MqKiAoY2FuIGJlIGNoYW5nZWQgaW4gT3B0aW9ucyk6CmBgYGpzb24KewogICJhcmlhMiI6IHsKICAgICJ1cmwiOiAid3M6Ly8xMjcuMC4wLjE6MTY4ODgvanNvbnJwYyIsCiAgICAic2VjcmV0IjogIkdEb3dubG9hZF9zZWNyZXQiLAogICAgImF1dG9Db25uZWN0IjogdHJ1ZQogIH0KfQpgYGAKCi0tLQoKIyMg5bey55+l6Zeu6aKYIEtub3duIElzc3VlcwoKIyMjIOW9k+WJjemZkOWItiBDdXJyZW50IExpbWl0YXRpb25zCgotICoq5paH5Lu25aSn5bCP5qOA5rWLKirvvJrmn5DkupvmnI3liqHlmajkuI3ov5Tlm54gYENvbnRlbnQtTGVuZ3RoYCDlpLTvvIzmlofku7blpKflsI/lj6/og73mmL7npLrkuLoi5pyq55+lIgogICoqRmlsZSBTaXplIERldGVjdGlvbioqOiBTb21lIHNlcnZlcnMgZG9uJ3QgcmV0dXJuIGBDb250ZW50LUxlbmd0aGAgaGVhZGVyLCBmaWxlIHNpemUgbWF5IHNob3cgYXMgIlVua25vd24iCi0gKirliqjmgIHlhoXlrrkqKu+8mumhtemdouWKoOi9veWQjumAmui/hyBKYXZhU2NyaXB0IOWKoOi9veeahOmTvuaOpeWPr+iDvemcgOimgeWHoOenkumSn+aJjeiDveiiq+aNleiOtwogICoqRHluYW1pYyBDb250ZW50Kio6IExpbmtzIGxvYWRlZCB2aWEgSmF2YVNjcmlwdCBhZnRlciBwYWdlIGxvYWQgbWF5IHRha2UgYSBmZXcgc2Vjb25kcyB0byBiZSBjYXB0dXJlZAotICoqQ09SUyDpmZDliLYqKu+8muaXoOazleS7juWFt+acieS4peagvCBDT1JTIOetlueVpeeahOmhtemdouaNleiOt+mTvuaOpQogICoqQ09SUyBSZXN0cmljdGlvbnMqKjogQ2Fubm90IGNhcHR1cmUgbGlua3MgZnJvbSBwYWdlcyB3aXRoIHN0cmljdCBDT1JTIHBvbGljaWVzCgojIyMg6Kej5Yaz5pa55rOVIFdvcmthcm91bmRzCgotIOaWh+S7tuWkp+Wwj+ajgOa1i++8muaJqeWxleagueaNruaWh+S7tuaJqeWxleWQjeS8sOeul+Wkp+WwjwogIEZvciBmaWxlIHNpemUgZGV0ZWN0aW9uOiBFeHRlbnNpb24gZXN0aW1hdGVzIHNpemUgYmFzZWQgb24gZmlsZSBleHRlbnNpb24KLSDliqjmgIHlhoXlrrnvvJrmiYvliqjliLfmlrDlvLnlh7rnqpflj6Pku6Xph43mlrDmjZXojrfpk77mjqUKICBGb3IgZHluYW1pYyBjb250ZW50OiBNYW51YWwgcmVmcmVzaCBvZiBwb3B1cCB0byByZS1jYXB0dXJlIGxpbmtzCi0gQ09SUyDpmZDliLbvvJrkvb/nlKjlj7PplK7oj5zljZXkuIvovb3ljZXkuKrpk77mjqUKICBGb3IgQ09SUzogVXNlIGNvbnRleHQgbWVudSB0byBkb3dubG9hZCBpbmRpdmlkdWFsIGxpbmtzCgotLS0KCiMjIOaUr+aMgSBTdXBwb3J0CgotICoq6ZSZ6K+v5oql5ZGKKirvvJpbR2l0SHViIElzc3Vlc10oaHR0cHM6Ly9naXRodWIuY29tL3d1Z2UwL0dEb3dubG9hZC9pc3N1ZXMpCiAgKipCdWcgUmVwb3J0cyoqOiBbR2l0SHViIElzc3Vlc10oaHR0cHM6Ly9naXRodWIuY29tL3d1Z2UwL0dEb3dubG9hZC9pc3N1ZXMpCi0gKirlip/og73or7fmsYIqKu+8mltHaXRIdWIgRGlzY3Vzc2lvbnNdKGh0dHBzOi8vZ2l0aHViLmNvbS93dWdlMC9HRG93bmxvYWQvZGlzY3Vzc2lvbnMpCiAgKipGZWF0dXJlIFJlcXVlc3RzKio6IFtHaXRIdWIgRGlzY3Vzc2lvbnNdKGh0dHBzOi8vZ2l0aHViLmNvbS93dWdlMC9HRG93bmxvYWQvZGlzY3Vzc2lvbnMpCi0gKirmlofmoaMqKu+8mlvnlKjmiLfmjIfljZcgVXNlciBHdWlkZV0oaHR0cHM6Ly9naXRodWIuY29tL3d1Z2UwL0dEb3dubG9hZCNyZWFkbWUpCiAgKipEb2N1bWVudGF0aW9uKio6IFtVc2VyIEd1aWRlXShodHRwczovL2dpdGh1Yi5jb20vd3VnZTAvR0Rvd25sb2FkI3JlYWRtZSkKCi0tLQoKKirms6jmhI8qKu+8muaXpeacn+S9v+eUqCBZWVlZLU1NLUREIOagvOW8j+OAguaJgOacieabtOaUueaMieaXtumXtOWAkuW6j+iusOW9le+8iOacgOaWsOeahOWcqOWJje+8ieOAggoqKk5vdGUqKjogRGF0ZXMgdXNlIFlZWVktTU0tREQgZm9ybWF0LiBBbGwgY2hhbmdlcyBhcmUgZG9jdW1lbnRlZCBpbiByZXZlcnNlIGNocm9ub2xvZ2ljYWwgb3JkZXIgKG5ld2VzdCBmaXJzdCkuCg==
+# 更新日志 Changelog
+
+本文件记录了项目的所有重要变更。
+All notable changes to this project will be documented in this file.
+
+格式基于 [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)，
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+
+本项目遵循 [语义化版本](https://semver.org/spec/v2.0.0.html)。
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [未发布 Unreleased]
+
+### 计划中 Planned
+- 从剪贴板批量导入文件
+  Batch file import from clipboard
+- 自定义下载目录选择
+  Custom download directory selection
+- 高级过滤规则
+  Advanced filtering rules
+- 链接历史记录和分析
+  Link history and analytics
+- ✅ 多语言支持（中文、日文等）
+  ✅ Multi-language support (Chinese, Japanese, etc.)
+
+---
+
+## [1.0.0] - 2025-01-XX
+
+### 新增功能 Added
+
+#### 核心功能 Core Features
+- ✨ **链接捕获系统**
+  **Link Capture System**
+  - 自动捕获网页中的可下载链接
+    Automatic capture of downloadable links from web pages
+  - 支持 `<a>`、`<video>`、`<audio>` 和 `<source>` 标签
+    Support for `<a>`, `<video>`, `<audio>`, and `<source>` tags
+  - 使用 MutationObserver 检测动态内容
+    MutationObserver for dynamic content detection
+  - 按文件大小和类型智能过滤
+    Smart filtering by file size and type
+
+- 🔗 **右键菜单集成**
+  **Context Menu Integration**
+  - "使用 GDownload 下载" 用于单个链接
+    "Download with GDownload" for individual links
+  - "下载页面上的所有链接" 用于批量捕获
+    "Download All Links on Page" for batch capture
+  - 支持链接、图片、视频和音频
+    Support for links, images, videos, and audio
+
+- 💬 **aria2 RPC 通信**
+  **aria2 RPC Communication**
+  - 通过 WebSocket 直接连接 aria2c
+    Direct WebSocket connection to aria2c
+  - 实现 JSON-RPC 2.0 协议
+    JSON-RPC 2.0 protocol implementation
+  - 带指数退避的自动重连
+    Automatic reconnection with exponential backoff
+  - 请求超时处理（30秒）
+    Request timeout handling (30 seconds)
+
+#### 用户界面 User Interface
+- 🎨 **弹出窗口界面**
+  **Popup Interface**
+  - 简洁直观的链接列表显示
+    Clean, intuitive link list display
+  - 文件类型图标（视频、音频、压缩包、文档等）
+    File type icons (Video, Audio, Archive, Document, etc.)
+  - 实时文件大小显示
+    Real-time file size display
+  - 搜索和过滤功能
+    Search and filter functionality
+  - 复选框批量选择
+    Batch selection with checkboxes
+  - 连接状态指示器
+    Connection status indicator
+
+- ⚙️ **选项页面**
+  **Options Page**
+  - **通用设置**：自动捕获、通知、自动发送
+    **General Settings**: Auto-capture, notifications, auto-send
+  - **连接设置**：WebSocket URL、RPC 密钥、连接测试
+    **Connection Settings**: WebSocket URL, RPC secret, connection test
+  - **链接捕获**：文件类型过滤、URL 黑名单、域名白名单
+    **Link Capture**: File type filtering, URL blacklist, domain whitelist
+  - **隐私设置**：请求头配置（User-Agent、Referer、Cookie、Authorization）
+    **Privacy Settings**: Request header configuration (User-Agent, Referer, Cookie, Authorization)
+  - **关于页面**：版本信息、兼容性、资源链接
+    **About Page**: Version info, compatibility, resource links
+
+#### 开发者功能 Developer Features
+- 📦 **构建系统**
+  **Build System**
+  - 使用 Vite 5 + CRXJS 实现快速构建
+    Vite 5 + CRXJS for fast builds
+  - 分别为 Chrome、Firefox 和 Edge 构建
+    Separate builds for Chrome, Firefox, and Edge
+  - 开发模式热重载
+    Hot reload in development mode
+  - 启用 TypeScript 严格模式
+    TypeScript strict mode enabled
+
+- 🧪 **代码质量**
+  **Code Quality**
+  - 带 React 规则的 ESLint 配置
+    ESLint configuration with React rules
+  - Prettier 代码格式化
+    Prettier code formatting
+  - EditorConfig 保持一致性
+    EditorConfig for consistency
+  - TypeScript 类型定义
+    TypeScript type definitions
+
+#### 文档 Documentation
+- 📖 **完整文档**
+  **Comprehensive Documentation**
+  - 包含安装和使用说明的 README
+    README with installation and usage instructions
+  - 面向开发者的 CONTRIBUTING 指南
+    CONTRIBUTING guide for developers
+  - 版本跟踪的 CHANGELOG
+    CHANGELOG for version tracking
+  - 内联代码注释和 JSDoc
+    Inline code comments and JSDoc
+
+### 技术细节 Technical Details
+
+#### 架构 Architecture
+- **Manifest V3**：现代 Chrome 扩展规范
+  Modern Chrome extension specification
+- **React 18**：使用函数组件和 Hooks 的最新 React
+  Latest React with functional components and hooks
+- **TypeScript**：严格模式的类型安全开发
+  Type-safe development with strict mode
+- **Zustand**：轻量级状态管理
+  Lightweight state management
+- **Lucide React**：现代图标库
+  Modern icon library
+
+#### 浏览器兼容性 Browser Compatibility
+- Chrome 110+
+- Firefox 115+
+- Edge 110+
+
+#### 依赖项 Dependencies
+- react@18.2.0
+- zustand@4.4.7
+- lucide-react@0.294.0
+- @crxjs/vite-plugin@2.0.0-beta.21
+
+### 安全性 Security
+- 🔒 仅限本地连接（127.0.0.1）
+  Localhost-only connections (127.0.0.1)
+- 🔐 RPC 密钥认证
+  RPC secret authentication
+- 🛡️ 无外部数据传输
+  No external data transmission
+- 🔑 用户设置的安全存储
+  Secure storage for user settings
+
+### 性能 Performance
+- ⚡ 大型链接列表的虚拟滚动
+  Virtual scrolling for large link lists
+- 🚀 防抖搜索输入
+  Debounced search input
+- 💾 使用 Zustand 的高效状态管理
+  Efficient state management with Zustand
+- 🔄 延迟连接建立
+  Lazy connection establishment
+
+---
+
+## 版本历史 Version History
+
+### 发布时间线 Release Timeline
+
+- **v1.0.0** (2025-01-XX) - 首次公开发布
+  Initial public release
+
+### 未来路线图 Future Roadmap
+
+#### v1.1.0（计划中 Planned）
+- 从系统自动检测深色模式
+  Dark mode auto-detection from system
+- 可自定义键盘快捷键
+  Customizable keyboard shortcuts
+- 弹出窗口中显示下载进度
+  Download progress display in popup
+- 链接去重
+  Link deduplication
+
+#### v1.2.0（计划中 Planned）
+- 链接捕获历史
+  Link capture history
+- 导出/导入捕获的链接
+  Export/import captured links
+- 高级 URL 模式匹配
+  Advanced URL pattern matching
+- 自定义 aria2 下载选项
+  Custom aria2 download options
+
+#### v2.0.0（未来 Future）
+- 自定义过滤器的插件系统
+  Plugin system for custom filters
+- 设置的云同步
+  Cloud sync for settings
+- AI 驱动的链接分类
+  AI-powered link classification
+- 第三方集成的浏览器扩展 API
+  Browser extension API for third-party integration
+
+---
+
+## 迁移指南 Migration Guide
+
+### 从 Chrome 扩展 V2 迁移到 V3
+### From Chrome Extension V2 to V3
+
+如果从旧版扩展迁移：
+If migrating from an older extension:
+
+1. 将 `manifest_version` 更新为 3
+   Update `manifest_version` to 3
+2. 用 service workers 替换后台页面
+   Replace background pages with service workers
+3. 更新内容安全策略
+   Update content security policy
+4. 迁移到 chrome.storage API 用于设置
+   Migrate to chrome.storage API for settings
+
+### 配置更改 Configuration Changes
+
+**默认设置**（可在选项中更改）：
+**Default settings** (can be changed in Options):
+```json
+{
+  "aria2": {
+    "url": "ws://127.0.0.1:16888/jsonrpc",
+    "secret": "GDownload_secret",
+    "autoConnect": true
+  }
+}
+```
+
+---
+
+## 已知问题 Known Issues
+
+### 当前限制 Current Limitations
+
+- **文件大小检测**：某些服务器不返回 `Content-Length` 头，文件大小可能显示为"未知"
+  **File Size Detection**: Some servers don't return `Content-Length` header, file size may show as "Unknown"
+- **动态内容**：页面加载后通过 JavaScript 加载的链接可能需要几秒钟才能被捕获
+  **Dynamic Content**: Links loaded via JavaScript after page load may take a few seconds to be captured
+- **CORS 限制**：无法从具有严格 CORS 策略的页面捕获链接
+  **CORS Restrictions**: Cannot capture links from pages with strict CORS policies
+
+### 解决方法 Workarounds
+
+- 文件大小检测：扩展根据文件扩展名估算大小
+  For file size detection: Extension estimates size based on file extension
+- 动态内容：手动刷新弹出窗口以重新捕获链接
+  For dynamic content: Manual refresh of popup to re-capture links
+- CORS 限制：使用右键菜单下载单个链接
+  For CORS: Use context menu to download individual links
+
+---
+
+## 支持 Support
+
+- **错误报告**：[GitHub Issues](https://github.com/wuge0/GDownload/issues)
+  **Bug Reports**: [GitHub Issues](https://github.com/wuge0/GDownload/issues)
+- **功能请求**：[GitHub Discussions](https://github.com/wuge0/GDownload/discussions)
+  **Feature Requests**: [GitHub Discussions](https://github.com/wuge0/GDownload/discussions)
+- **文档**：[用户指南 User Guide](https://github.com/wuge0/GDownload#readme)
+  **Documentation**: [User Guide](https://github.com/wuge0/GDownload#readme)
+
+---
+
+**注意**：日期使用 YYYY-MM-DD 格式。所有更改按时间倒序记录（最新的在前）。
+**Note**: Dates use YYYY-MM-DD format. All changes are documented in reverse chronological order (newest first).

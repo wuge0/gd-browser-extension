@@ -1,1 +1,116 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgewogIGlzTWFzdGVyUGxheWxpc3QsCiAgaXNIbHNDb250ZW50LAogIHBhcnNlTWFzdGVyUGxheWxpc3QsCiAgcGFyc2VNZWRpYVBsYXlsaXN0Cn0gZnJvbSAnLi9obHNQYXJzZXInOwoKY29uc3QgTUFTVEVSID0gYCNFWFRNM1UKI0VYVC1YLVNUUkVBTS1JTkY6QkFORFdJRFRIPTEyODAwMDAsUkVTT0xVVElPTj02NDB4MzYwLENPREVDUz0iYXZjMS40MmMwMWUsbXA0YS40MC4yIgozNjBwL2luZGV4Lm0zdTgKI0VYVC1YLVNUUkVBTS1JTkY6QkFORFdJRFRIPTI1NjAwMDAsQVZFUkFHRS1CQU5EV0lEVEg9MjQwMDAwMCxSRVNPTFVUSU9OPTEyODB4NzIwLENPREVDUz0iYXZjMS40ZDQwMWYsbXA0YS40MC4yIixGUkFNRS1SQVRFPTMwCjcyMHAvaW5kZXgubTN1OAojRVhULVgtU1RSRUFNLUlORjpCQU5EV0lEVEg9NTAwMDAwMCxSRVNPTFVUSU9OPTE5MjB4MTA4MAoxMDgwcC9pbmRleC5tM3U4CmA7Cgpjb25zdCBNRURJQSA9IGAjRVhUTTNVCiNFWFQtWC1WRVJTSU9OOjMKI0VYVC1YLVRBUkdFVERVUkFUSU9OOjEwCiNFWFQtWC1NRURJQS1TRVFVRU5DRTowCiNFWFRJTkY6OS4wMDksCnNlZzAudHMKI0VYVElORjo5LjAwOSwKc2VnMS50cwojRVhUSU5GOjMuMDAzLApzZWcyLnRzCiNFWFQtWC1FTkRMSVNUCmA7Cgpjb25zdCBNRURJQV9FTkNSWVBURUQgPSBgI0VYVE0zVQojRVhULVgtVkVSU0lPTjozCiNFWFQtWC1LRVk6TUVUSE9EPUFFUy0xMjgsVVJJPSJodHRwczovL2V4YW1wbGUuY29tL2tleS5iaW4iLElWPTB4MTIzNAojRVhUSU5GOjEwLjAsCnNlZzAudHMKI0VYVElORjoxMC4wLApzZWcxLnRzCiNFWFQtWC1FTkRMSVNUCmA7CgpkZXNjcmliZSgnaGxzUGFyc2VyJywgKCkgPT4gewogIGRlc2NyaWJlKCdpc01hc3RlclBsYXlsaXN0IC8gaXNIbHNDb250ZW50JywgKCkgPT4gewogICAgaXQoJ+ivhuWIqyBtYXN0ZXIgcGxheWxpc3QnLCAoKSA9PiB7CiAgICAgIGV4cGVjdChpc01hc3RlclBsYXlsaXN0KE1BU1RFUikpLnRvQmUodHJ1ZSk7CiAgICAgIGV4cGVjdChpc01hc3RlclBsYXlsaXN0KE1FRElBKSkudG9CZShmYWxzZSk7CiAgICB9KTsKCiAgICBpdCgn6K+G5YirIEhMUyDlhoXlrrknLCAoKSA9PiB7CiAgICAgIGV4cGVjdChpc0hsc0NvbnRlbnQoTUFTVEVSKSkudG9CZSh0cnVlKTsKICAgICAgZXhwZWN0KGlzSGxzQ29udGVudCgnbm90IGEgcGxheWxpc3QnKSkudG9CZShmYWxzZSk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ3BhcnNlTWFzdGVyUGxheWxpc3QnLCAoKSA9PiB7CiAgICBjb25zdCB2YXJpYW50cyA9IHBhcnNlTWFzdGVyUGxheWxpc3QoTUFTVEVSLCAnaHR0cHM6Ly9jZG4uZXhhbXBsZS5jb20vdmlkZW8vbWFzdGVyLm0zdTgnKTsKCiAgICBpdCgn6Kej5p6Q5Ye65YWo6YOo5qGj5L2NJywgKCkgPT4gewogICAgICBleHBlY3QodmFyaWFudHMpLnRvSGF2ZUxlbmd0aCgzKTsKICAgIH0pOwoKICAgIGl0KCfmjInluKblrr3pmY3luo/mjpLliJcnLCAoKSA9PiB7CiAgICAgIGV4cGVjdCh2YXJpYW50cy5tYXAoKHYpID0+IHYuYmFuZHdpZHRoKSkudG9FcXVhbChbNTAwMDAwMCwgMjU2MDAwMCwgMTI4MDAwMF0pOwogICAgfSk7CgogICAgaXQoJ+ebuOWvuSBVUkkg6Kej5p6Q5Li657ud5a+5IFVSTCcsICgpID0+IHsKICAgICAgZXhwZWN0KHZhcmlhbnRzWzBdLnVybCkudG9CZSgnaHR0cHM6Ly9jZG4uZXhhbXBsZS5jb20vdmlkZW8vMTA4MHAvaW5kZXgubTN1OCcpOwogICAgfSk7CgogICAgaXQoJ+ino+aekOWIhui+qOeOh+S4juWxleekuuWQjScsICgpID0+IHsKICAgICAgY29uc3QgdjcyMCA9IHZhcmlhbnRzLmZpbmQoKHYpID0+IHYucmVzb2x1dGlvbiA9PT0gJzEyODB4NzIwJyk7CiAgICAgIGV4cGVjdCh2NzIwPy5uYW1lKS50b0JlKCc3MjBwJyk7CiAgICAgIGV4cGVjdCh2NzIwPy5mcmFtZVJhdGUpLnRvQmUoMzApOwogICAgfSk7CgogICAgaXQoJ0NPREVDUyDlkKvpgJflj7fnmoTlvJXlj7flgLzmraPnoa7op6PmnpAnLCAoKSA9PiB7CiAgICAgIGNvbnN0IHYzNjAgPSB2YXJpYW50cy5maW5kKCh2KSA9PiB2LnJlc29sdXRpb24gPT09ICc2NDB4MzYwJyk7CiAgICAgIGV4cGVjdCh2MzYwPy5jb2RlY3MpLnRvQmUoJ2F2YzEuNDJjMDFlLG1wNGEuNDAuMicpOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCdwYXJzZU1lZGlhUGxheWxpc3QnLCAoKSA9PiB7CiAgICBpdCgn6Kej5p6Q5YiG54mH5YiX6KGo5bm26Kej5p6Q57ud5a+5IFVSTCcsICgpID0+IHsKICAgICAgY29uc3QgcmVzdWx0ID0gcGFyc2VNZWRpYVBsYXlsaXN0KE1FRElBLCAnaHR0cHM6Ly9jZG4uZXhhbXBsZS5jb20vdmlkZW8vNzIwcC9pbmRleC5tM3U4Jyk7CiAgICAgIGV4cGVjdChyZXN1bHQuc2VnbWVudHMpLnRvRXF1YWwoWwogICAgICAgICdodHRwczovL2Nkbi5leGFtcGxlLmNvbS92aWRlby83MjBwL3NlZzAudHMnLAogICAgICAgICdodHRwczovL2Nkbi5leGFtcGxlLmNvbS92aWRlby83MjBwL3NlZzEudHMnLAogICAgICAgICdodHRwczovL2Nkbi5leGFtcGxlLmNvbS92aWRlby83MjBwL3NlZzIudHMnCiAgICAgIF0pOwogICAgICBleHBlY3QocmVzdWx0LmVuY3J5cHRlZCkudG9CZShmYWxzZSk7CiAgICB9KTsKCiAgICBpdCgn57Sv5Yqg5oC75pe26ZW/JywgKCkgPT4gewogICAgICBjb25zdCByZXN1bHQgPSBwYXJzZU1lZGlhUGxheWxpc3QoTUVESUEsICdodHRwczovL2Nkbi5leGFtcGxlLmNvbS92aWRlby83MjBwL2luZGV4Lm0zdTgnKTsKICAgICAgZXhwZWN0KHJlc3VsdC50b3RhbER1cmF0aW9uKS50b0JlQ2xvc2VUbygyMS4wMjEsIDIpOwogICAgfSk7CgogICAgaXQoJ+ivhuWIqyBBRVMtMTI4IOWKoOWvhua1gScsICgpID0+IHsKICAgICAgY29uc3QgcmVzdWx0ID0gcGFyc2VNZWRpYVBsYXlsaXN0KE1FRElBX0VOQ1JZUFRFRCwgJ2h0dHBzOi8vZXhhbXBsZS5jb20vdi9pbmRleC5tM3U4Jyk7CiAgICAgIGV4cGVjdChyZXN1bHQuZW5jcnlwdGVkKS50b0JlKHRydWUpOwogICAgICBleHBlY3QocmVzdWx0LmtleU1ldGhvZCkudG9CZSgnQUVTLTEyOCcpOwogICAgICBleHBlY3QocmVzdWx0LnNlZ21lbnRzKS50b0hhdmVMZW5ndGgoMik7CiAgICB9KTsKCiAgICBpdCgnTUVUSE9EPU5PTkUg5LiN566X5Yqg5a+GJywgKCkgPT4gewogICAgICBjb25zdCBjb250ZW50ID0gJyNFWFRNM1VcbiNFWFQtWC1LRVk6TUVUSE9EPU5PTkVcbiNFWFRJTkY6MS4wLFxuc2VnMC50c1xuJzsKICAgICAgY29uc3QgcmVzdWx0ID0gcGFyc2VNZWRpYVBsYXlsaXN0KGNvbnRlbnQsICdodHRwczovL2V4YW1wbGUuY29tL3YvaW5kZXgubTN1OCcpOwogICAgICBleHBlY3QocmVzdWx0LmVuY3J5cHRlZCkudG9CZShmYWxzZSk7CiAgICB9KTsKCiAgICBpdCgn57ud5a+5IFVSSSDliIbniYfkv53mjIHkuI3lj5gnLCAoKSA9PiB7CiAgICAgIGNvbnN0IGNvbnRlbnQgPSAnI0VYVE0zVVxuI0VYVElORjoxLjAsXG5odHRwczovL290aGVyLmNkbi5jb20vYS50c1xuJzsKICAgICAgY29uc3QgcmVzdWx0ID0gcGFyc2VNZWRpYVBsYXlsaXN0KGNvbnRlbnQsICdodHRwczovL2V4YW1wbGUuY29tL3YvaW5kZXgubTN1OCcpOwogICAgICBleHBlY3QocmVzdWx0LnNlZ21lbnRzWzBdKS50b0JlKCdodHRwczovL290aGVyLmNkbi5jb20vYS50cycpOwogICAgfSk7CiAgfSk7Cn0pOwo=
+import { describe, it, expect } from 'vitest';
+import {
+  isMasterPlaylist,
+  isHlsContent,
+  parseMasterPlaylist,
+  parseMediaPlaylist
+} from './hlsParser';
+
+const MASTER = `#EXTM3U
+#EXT-X-STREAM-INF:BANDWIDTH=1280000,RESOLUTION=640x360,CODECS="avc1.42c01e,mp4a.40.2"
+360p/index.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=2560000,AVERAGE-BANDWIDTH=2400000,RESOLUTION=1280x720,CODECS="avc1.4d401f,mp4a.40.2",FRAME-RATE=30
+720p/index.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=5000000,RESOLUTION=1920x1080
+1080p/index.m3u8
+`;
+
+const MEDIA = `#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:10
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:9.009,
+seg0.ts
+#EXTINF:9.009,
+seg1.ts
+#EXTINF:3.003,
+seg2.ts
+#EXT-X-ENDLIST
+`;
+
+const MEDIA_ENCRYPTED = `#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-KEY:METHOD=AES-128,URI="https://example.com/key.bin",IV=0x1234
+#EXTINF:10.0,
+seg0.ts
+#EXTINF:10.0,
+seg1.ts
+#EXT-X-ENDLIST
+`;
+
+describe('hlsParser', () => {
+  describe('isMasterPlaylist / isHlsContent', () => {
+    it('识别 master playlist', () => {
+      expect(isMasterPlaylist(MASTER)).toBe(true);
+      expect(isMasterPlaylist(MEDIA)).toBe(false);
+    });
+
+    it('识别 HLS 内容', () => {
+      expect(isHlsContent(MASTER)).toBe(true);
+      expect(isHlsContent('not a playlist')).toBe(false);
+    });
+  });
+
+  describe('parseMasterPlaylist', () => {
+    const variants = parseMasterPlaylist(MASTER, 'https://cdn.example.com/video/master.m3u8');
+
+    it('解析出全部档位', () => {
+      expect(variants).toHaveLength(3);
+    });
+
+    it('按带宽降序排列', () => {
+      expect(variants.map((v) => v.bandwidth)).toEqual([5000000, 2560000, 1280000]);
+    });
+
+    it('相对 URI 解析为绝对 URL', () => {
+      expect(variants[0].url).toBe('https://cdn.example.com/video/1080p/index.m3u8');
+    });
+
+    it('解析分辨率与展示名', () => {
+      const v720 = variants.find((v) => v.resolution === '1280x720');
+      expect(v720?.name).toBe('720p');
+      expect(v720?.frameRate).toBe(30);
+    });
+
+    it('CODECS 含逗号的引号值正确解析', () => {
+      const v360 = variants.find((v) => v.resolution === '640x360');
+      expect(v360?.codecs).toBe('avc1.42c01e,mp4a.40.2');
+    });
+  });
+
+  describe('parseMediaPlaylist', () => {
+    it('解析分片列表并解析绝对 URL', () => {
+      const result = parseMediaPlaylist(MEDIA, 'https://cdn.example.com/video/720p/index.m3u8');
+      expect(result.segments).toEqual([
+        'https://cdn.example.com/video/720p/seg0.ts',
+        'https://cdn.example.com/video/720p/seg1.ts',
+        'https://cdn.example.com/video/720p/seg2.ts'
+      ]);
+      expect(result.encrypted).toBe(false);
+    });
+
+    it('累加总时长', () => {
+      const result = parseMediaPlaylist(MEDIA, 'https://cdn.example.com/video/720p/index.m3u8');
+      expect(result.totalDuration).toBeCloseTo(21.021, 2);
+    });
+
+    it('识别 AES-128 加密流', () => {
+      const result = parseMediaPlaylist(MEDIA_ENCRYPTED, 'https://example.com/v/index.m3u8');
+      expect(result.encrypted).toBe(true);
+      expect(result.keyMethod).toBe('AES-128');
+      expect(result.segments).toHaveLength(2);
+    });
+
+    it('METHOD=NONE 不算加密', () => {
+      const content = '#EXTM3U\n#EXT-X-KEY:METHOD=NONE\n#EXTINF:1.0,\nseg0.ts\n';
+      const result = parseMediaPlaylist(content, 'https://example.com/v/index.m3u8');
+      expect(result.encrypted).toBe(false);
+    });
+
+    it('绝对 URI 分片保持不变', () => {
+      const content = '#EXTM3U\n#EXTINF:1.0,\nhttps://other.cdn.com/a.ts\n';
+      const result = parseMediaPlaylist(content, 'https://example.com/v/index.m3u8');
+      expect(result.segments[0]).toBe('https://other.cdn.com/a.ts');
+    });
+  });
+});

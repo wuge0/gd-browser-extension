@@ -1,1 +1,701 @@
-aW1wb3J0IHsgQXJpYTJScGNDbGllbnQgfSBmcm9tICcuL2FyaWEyUnBjQ2xpZW50JzsKaW1wb3J0IHsgaW5pdE5ldHdvcmtTbmlmZmVyIH0gZnJvbSAnLi9uZXR3b3JrU25pZmZlcic7CmltcG9ydCB7IGluaXREb3dubG9hZFRha2VyLCBtYXJrQnlwYXNzTmV4dCB9IGZyb20gJy4vZG93bmxvYWRUYWtlcic7CmltcG9ydCB7IGluaXRNZWRpYVNuaWZmZXIsIGdldE1lZGlhSXRlbXMsIGRvd25sb2FkTWVkaWEsIGhhbmRsZU5ldHdvcmtNYW5pZmVzdCB9IGZyb20gJy4vbWVkaWFTbmlmZmVyJzsKaW1wb3J0IHsgaW5pdFNldHRpbmdzU3luYyB9IGZyb20gJy4vc2V0dGluZ3NTeW5jJzsKaW1wb3J0IHsgYnJvd3NlckFwaSB9IGZyb20gJ0Avc2hhcmVkL3V0aWxzL2Jyb3dzZXJBcGknOwppbXBvcnQgeyBERUZBVUxUX0FSSUEyX0NPTkZJRywgU1RPUkFHRV9LRVlTLCBERUZBVUxUX1NFVFRJTkdTIH0gZnJvbSAnQC9zaGFyZWQvY29uc3RhbnRzJzsKaW1wb3J0IHsgc2FuaXRpemVGaWxlbmFtZSB9IGZyb20gJ0Avc2hhcmVkL3V0aWxzL3VybFBhcnNlcic7CmltcG9ydCB0eXBlIHsgRXh0ZW5zaW9uU2V0dGluZ3MsIE1lc3NhZ2UsIE1lc3NhZ2VSZXNwb25zZSwgTGluaywgU2VuZFJlc3VsdCwgQWN0aXZlVGFzayB9IGZyb20gJ0Avc2hhcmVkL3R5cGVzJzsKCi8qKgogKiDlhajlsYAgYXJpYTIg5a6i5oi356uv5a6e5L6LCiAqLwpsZXQgYXJpYTJDbGllbnQ6IEFyaWEyUnBjQ2xpZW50IHwgbnVsbCA9IG51bGw7CgpmdW5jdGlvbiBtZXJnZVNldHRpbmdzKHNldHRpbmdzOiBQYXJ0aWFsPEV4dGVuc2lvblNldHRpbmdzPiB8IHVuZGVmaW5lZCk6IEV4dGVuc2lvblNldHRpbmdzIHsKICByZXR1cm4gewogICAgLi4uREVGQVVMVF9TRVRUSU5HUywKICAgIC4uLnNldHRpbmdzLAogICAgYXJpYTJDb25maWc6IHsKICAgICAgLi4uREVGQVVMVF9BUklBMl9DT05GSUcsCiAgICAgIC4uLihzZXR0aW5ncz8uYXJpYTJDb25maWcgfHwge30pCiAgICB9CiAgfTsKfQoKYXN5bmMgZnVuY3Rpb24gcmVjcmVhdGVBcmlhMkNsaWVudChjb25maWcgPSBERUZBVUxUX0FSSUEyX0NPTkZJRykgewogIGlmIChhcmlhMkNsaWVudCkgewogICAgYXJpYTJDbGllbnQuZGlzY29ubmVjdCgpOwogIH0KCiAgYXJpYTJDbGllbnQgPSBuZXcgQXJpYTJScGNDbGllbnQoY29uZmlnKTsKICB3aXJlQ2xpZW50RXZlbnRzKGFyaWEyQ2xpZW50KTsKCiAgaWYgKGNvbmZpZy5hdXRvQ29ubmVjdCkgewogICAgYXdhaXQgYXJpYTJDbGllbnQuY29ubmVjdCgpOwogICAgY29uc29sZS5sb2coJ2FyaWEyIGNsaWVudCBjb25uZWN0ZWQnKTsKICB9Cn0KCi8qKgogKiDor7vlj5blkIjlubblkI7nmoTmianlsZXorr7nva4KICovCmFzeW5jIGZ1bmN0aW9uIGxvYWRTZXR0aW5ncygpOiBQcm9taXNlPEV4dGVuc2lvblNldHRpbmdzPiB7CiAgY29uc3QgcmVzdWx0ID0gYXdhaXQgYnJvd3NlckFwaS5zdG9yYWdlLmdldChbU1RPUkFHRV9LRVlTLlNFVFRJTkdTXSk7CiAgcmV0dXJuIG1lcmdlU2V0dGluZ3MocmVzdWx0W1NUT1JBR0VfS0VZUy5TRVRUSU5HU10pOwp9CgovKioKICog5Li6IGFyaWEyIOWuouaIt+err+aMgui9vemAmuefpeiuoumYheS4jui/nuaOpeeKtuaAgeW5v+aSrQogKiDmr4/mrKHph43lu7rlrqLmiLfnq6/pg73pnIDph43mlrDmjILovb0KICovCmZ1bmN0aW9uIHdpcmVDbGllbnRFdmVudHMoY2xpZW50OiBBcmlhMlJwY0NsaWVudCkgewogIC8vIOS7u+WKoeW8gOWni++8mua0u+WKqOiuoeaVsCArMQogIGNsaWVudC5vbk5vdGlmaWNhdGlvbignYXJpYTIub25Eb3dubG9hZFN0YXJ0JywgKCkgPT4gewogICAgdm9pZCBidW1wQWN0aXZlQ291bnQoMSk7CiAgfSk7CiAgLy8g5Lu75Yqh5a6M5oiQ77ya6K6h5pWwIC0xIOW5tuW8uemAmuefpQogIGNsaWVudC5vbk5vdGlmaWNhdGlvbignYXJpYTIub25Eb3dubG9hZENvbXBsZXRlJywgKHBhcmFtcykgPT4gewogICAgdm9pZCBoYW5kbGVUYXNrRmluaXNoZWQoY2xpZW50LCBwYXJhbXMsICdjb21wbGV0ZScpOwogIH0pOwogIGNsaWVudC5vbk5vdGlmaWNhdGlvbignYXJpYTIub25CdERvd25sb2FkQ29tcGxldGUnLCAocGFyYW1zKSA9PiB7CiAgICB2b2lkIGhhbmRsZVRhc2tGaW5pc2hlZChjbGllbnQsIHBhcmFtcywgJ2NvbXBsZXRlJyk7CiAgfSk7CiAgLy8g5Lu75Yqh5Ye66ZSZ77ya6K6h5pWwIC0xIOW5tuW8uemUmeivr+mAmuefpQogIGNsaWVudC5vbk5vdGlmaWNhdGlvbignYXJpYTIub25Eb3dubG9hZEVycm9yJywgKHBhcmFtcykgPT4gewogICAgdm9pZCBoYW5kbGVUYXNrRmluaXNoZWQoY2xpZW50LCBwYXJhbXMsICdlcnJvcicpOwogIH0pOwogIC8vIOS7u+WKoeiiq+enu+mZpO+8muS7heiuoeaVsCAtMQogIGNsaWVudC5vbk5vdGlmaWNhdGlvbignYXJpYTIub25Eb3dubG9hZFN0b3AnLCAoKSA9PiB7CiAgICB2b2lkIGJ1bXBBY3RpdmVDb3VudCgtMSk7CiAgfSk7CgogIC8vIOi/nuaOpeeKtuaAgeWPmOWMlu+8muW5v+aSree7mSBVSe+8jOi/nuS4iuWQjueUqCB0ZWxsQWN0aXZlIOagoeWHhuinkuaghwogIGNsaWVudC5vbkNvbm5lY3Rpb25TdGF0ZUNoYW5nZSgoY29ubmVjdGVkKSA9PiB7CiAgICBjaHJvbWUucnVudGltZS5zZW5kTWVzc2FnZSh7IGFjdGlvbjogJ2Nvbm5lY3Rpb25TdGF0ZUNoYW5nZWQnLCBjb25uZWN0ZWQgfSkuY2F0Y2goKCkgPT4gewogICAgICAvLyBwb3B1cCDmnKrmiZPlvIDml7bml6DmjqXmlLbmlrnvvIzlv73nlaUKICAgIH0pOwogICAgaWYgKGNvbm5lY3RlZCkgewogICAgICB2b2lkIGNhbGlicmF0ZUFjdGl2ZUNvdW50KGNsaWVudCk7CiAgICB9CiAgfSk7Cn0KCi8qKgogKiDor7vlj5bmtLvliqjku7vliqHorqHmlbDvvIjlrZjkuo4gc2Vzc2lvbiBzdG9yYWdl77yMU1cg6YeN5ZCv5ZCO5LuN5Zyo77yJCiAqLwphc3luYyBmdW5jdGlvbiBnZXRBY3RpdmVDb3VudCgpOiBQcm9taXNlPG51bWJlcj4gewogIHRyeSB7CiAgICBjb25zdCByID0gYXdhaXQgY2hyb21lLnN0b3JhZ2Uuc2Vzc2lvbi5nZXQoJ2FjdGl2ZVRhc2tDb3VudCcpOwogICAgcmV0dXJuIHR5cGVvZiByLmFjdGl2ZVRhc2tDb3VudCA9PT0gJ251bWJlcicgPyByLmFjdGl2ZVRhc2tDb3VudCA6IDA7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gMDsKICB9Cn0KCi8qKgogKiDorr7nva7mtLvliqjku7vliqHorqHmlbDlubbliLfmlrDop5LmoIcKICovCmFzeW5jIGZ1bmN0aW9uIHNldEFjdGl2ZUNvdW50KGNvdW50OiBudW1iZXIpOiBQcm9taXNlPHZvaWQ+IHsKICBjb25zdCB2YWx1ZSA9IE1hdGgubWF4KDAsIGNvdW50KTsKICB0cnkgewogICAgYXdhaXQgY2hyb21lLnN0b3JhZ2Uuc2Vzc2lvbi5zZXQoeyBhY3RpdmVUYXNrQ291bnQ6IHZhbHVlIH0pOwogIH0gY2F0Y2ggewogICAgLy8gc2Vzc2lvbiBzdG9yYWdlIOS4jeWPr+eUqOaXtuW/veeVpeaMgeS5heWMlgogIH0KICB0cnkgewogICAgYXdhaXQgY2hyb21lLmFjdGlvbi5zZXRCYWRnZVRleHQoeyB0ZXh0OiB2YWx1ZSA+IDAgPyBTdHJpbmcodmFsdWUpIDogJycgfSk7CiAgICBhd2FpdCBjaHJvbWUuYWN0aW9uLnNldEJhZGdlQmFja2dyb3VuZENvbG9yKHsgY29sb3I6ICcjNDA5RUZGJyB9KTsKICB9IGNhdGNoIHsKICAgIC8vIGFjdGlvbiBBUEkg5LiN5Y+v55So5pe25b+955WlCiAgfQp9CgovKioKICog5rS75Yqo5Lu75Yqh6K6h5pWw5aKe6YeP5pu05pawCiAqLwphc3luYyBmdW5jdGlvbiBidW1wQWN0aXZlQ291bnQoZGVsdGE6IG51bWJlcik6IFByb21pc2U8dm9pZD4gewogIGF3YWl0IHNldEFjdGl2ZUNvdW50KChhd2FpdCBnZXRBY3RpdmVDb3VudCgpKSArIGRlbHRhKTsKfQoKLyoqCiAqIOeUqCBhcmlhMi50ZWxsQWN0aXZlIOagoeWHhuinkuagh+iuoeaVsO+8jOmBv+WFjeS6i+S7tuS4ouWkseWvvOiHtOa8guenuwogKi8KYXN5bmMgZnVuY3Rpb24gY2FsaWJyYXRlQWN0aXZlQ291bnQoY2xpZW50OiBBcmlhMlJwY0NsaWVudCk6IFByb21pc2U8dm9pZD4gewogIHRyeSB7CiAgICBjb25zdCBhY3RpdmUgPSBhd2FpdCBjbGllbnQuY2FsbCgnYXJpYTIudGVsbEFjdGl2ZScsIFsnZ2lkJ10pOwogICAgYXdhaXQgc2V0QWN0aXZlQ291bnQoQXJyYXkuaXNBcnJheShhY3RpdmUpID8gYWN0aXZlLmxlbmd0aCA6IDApOwogIH0gY2F0Y2ggewogICAgLy8g5qCh5YeG5aSx6LSl5LiN5b2x5ZON5Yqf6IO9CiAgfQp9CgovKioKICog5aSE55CG5Lu75Yqh5a6M5oiQL+WHuumUme+8muiuoeaVsCAtMSDlubblvLnmtY/op4jlmajpgJrnn6XvvIjmoIfpopjlj5bmlofku7blkI3vvIkKICovCmFzeW5jIGZ1bmN0aW9uIGhhbmRsZVRhc2tGaW5pc2hlZCgKICBjbGllbnQ6IEFyaWEyUnBjQ2xpZW50LAogIHBhcmFtczogYW55LAogIGtpbmQ6ICdjb21wbGV0ZScgfCAnZXJyb3InCik6IFByb21pc2U8dm9pZD4gewogIGF3YWl0IGJ1bXBBY3RpdmVDb3VudCgtMSk7CgogIGNvbnN0IHNldHRpbmdzID0gYXdhaXQgbG9hZFNldHRpbmdzKCk7CiAgaWYgKCFzZXR0aW5ncy5zaG93Tm90aWZpY2F0aW9ucykgewogICAgcmV0dXJuOwogIH0KCiAgY29uc3QgZ2lkOiBzdHJpbmcgfCB1bmRlZmluZWQgPSBwYXJhbXM/LlswXT8uZ2lkOwogIGxldCBmaWxlbmFtZSA9ICdEb3dubG9hZCc7CiAgdHJ5IHsKICAgIGlmIChnaWQpIHsKICAgICAgY29uc3Qgc3RhdHVzID0gYXdhaXQgY2xpZW50LmNhbGwoJ2FyaWEyLnRlbGxTdGF0dXMnLCBnaWQsIFsnZmlsZXMnXSk7CiAgICAgIGNvbnN0IGZpbGVQYXRoOiBzdHJpbmcgfCB1bmRlZmluZWQgPSBzdGF0dXM/LmZpbGVzPy5bMF0/LnBhdGg7CiAgICAgIGlmIChmaWxlUGF0aCkgewogICAgICAgIGZpbGVuYW1lID0gZmlsZVBhdGguc3BsaXQoL1tcXC9dLykucG9wKCkgfHwgZmlsZW5hbWU7CiAgICAgIH0KICAgIH0KICB9IGNhdGNoIHsKICAgIC8vIOWPluaWh+S7tuWQjeWksei0peaXtueUqOWNoOS9jeagh+mimAogIH0KCiAgY29uc3QgdGl0bGUgPSBraW5kID09PSAnY29tcGxldGUnCiAgICA/IChjaHJvbWUuaTE4bi5nZXRNZXNzYWdlKCdub3RpZnlEb3dubG9hZENvbXBsZXRlJykgfHwgJ0Rvd25sb2FkIGNvbXBsZXRlJykKICAgIDogKGNocm9tZS5pMThuLmdldE1lc3NhZ2UoJ25vdGlmeURvd25sb2FkRXJyb3InKSB8fCAnRG93bmxvYWQgZmFpbGVkJyk7CgogIHRyeSB7CiAgICBjaHJvbWUubm90aWZpY2F0aW9ucy5jcmVhdGUoewogICAgICB0eXBlOiAnYmFzaWMnLAogICAgICBpY29uVXJsOiBjaHJvbWUucnVudGltZS5nZXRVUkwoJ2ljb25zL2ljb24tMTI4LnBuZycpLAogICAgICB0aXRsZSwKICAgICAgbWVzc2FnZTogZmlsZW5hbWUKICAgIH0pOwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICBjb25zb2xlLmRlYnVnKCdbTm90aWZpY2F0aW9uXSBjcmVhdGUgZmFpbGVkOicsIGVycm9yKTsKICB9Cn0KCi8qKgogKiDliJ3lp4vljJYgYXJpYTIg5a6i5oi356uvCiAqLwphc3luYyBmdW5jdGlvbiBpbml0QXJpYTJDbGllbnQoKSB7CiAgdHJ5IHsKICAgIGNvbnN0IHNldHRpbmdzID0gYXdhaXQgYnJvd3NlckFwaS5zdG9yYWdlLmdldChbU1RPUkFHRV9LRVlTLlNFVFRJTkdTXSk7CiAgICBjb25zdCBjb25maWcgPSBtZXJnZVNldHRpbmdzKHNldHRpbmdzW1NUT1JBR0VfS0VZUy5TRVRUSU5HU10pLmFyaWEyQ29uZmlnOwoKICAgIGF3YWl0IHJlY3JlYXRlQXJpYTJDbGllbnQoY29uZmlnKTsKICB9IGNhdGNoIChlcnJvcikgewogICAgY29uc29sZS5lcnJvcignRmFpbGVkIHRvIGluaXRpYWxpemUgYXJpYTIgY2xpZW50OicsIGVycm9yKTsKICB9Cn0KCi8qKgogKiDliJ3lp4vljJbov57mjqXlsYLvvJrmiYvliqjmqKHlvI/vvIzmjInnlKjmiLflnKjorr7nva7ph4zkv53lrZjnmoQgYXJpYTIgUlBDIOmFjee9ruebtOaOpei/nuaOpQogKiDvvIjljp8gbmF0aXZlIG1lc3NhZ2luZyDoh6rliqjphY3lr7nlt7Lpmo/moYzpnaLnq68gaG9zdCDkuIDlubbnp7vpmaTvvIkKICovCmZ1bmN0aW9uIGluaXRDb25uZWN0aW9uKCkgewogIHZvaWQgaW5pdEFyaWEyQ2xpZW50KCk7Cn0KCi8qKgogKiDliJvlu7rlj7PplK7oj5zljZUKICovCmZ1bmN0aW9uIGNyZWF0ZUNvbnRleHRNZW51cygpIHsKICBjaHJvbWUuY29udGV4dE1lbnVzLmNyZWF0ZSh7CiAgICBpZDogJ2Rvd25sb2FkLXdpdGgtZ2Rvd25sb2FkJywKICAgIHRpdGxlOiBjaHJvbWUuaTE4bi5nZXRNZXNzYWdlKCdjb250ZXh0TWVudURvd25sb2FkJyksCiAgICBjb250ZXh0czogWydsaW5rJywgJ2ltYWdlJywgJ3ZpZGVvJywgJ2F1ZGlvJ10KICB9KTsKCiAgY2hyb21lLmNvbnRleHRNZW51cy5jcmVhdGUoewogICAgaWQ6ICdkb3dubG9hZC1hbGwtbGlua3MnLAogICAgdGl0bGU6IGNocm9tZS5pMThuLmdldE1lc3NhZ2UoJ2NvbnRleHRNZW51RG93bmxvYWRBbGwnKSwKICAgIGNvbnRleHRzOiBbJ3BhZ2UnXQogIH0pOwp9CgovKioKICog5aSE55CG5Y+z6ZSu6I+c5Y2V54K55Ye7CiAqLwphc3luYyBmdW5jdGlvbiBoYW5kbGVDb250ZXh0TWVudUNsaWNrKAogIGluZm86IGNocm9tZS5jb250ZXh0TWVudXMuT25DbGlja0RhdGEsCiAgdGFiPzogY2hyb21lLnRhYnMuVGFiCikgewogIGlmIChpbmZvLm1lbnVJdGVtSWQgPT09ICdkb3dubG9hZC13aXRoLWdkb3dubG9hZCcpIHsKICAgIGNvbnN0IHVybCA9IGluZm8ubGlua1VybCB8fCBpbmZvLnNyY1VybDsKICAgIGlmICh1cmwgJiYgdGFiPy5pZCkgewogICAgICBhd2FpdCBzZW5kVG9HRG93bmxvYWQoW3sKICAgICAgICBpZDogRGF0ZS5ub3coKS50b1N0cmluZygpLAogICAgICAgIHVybCwKICAgICAgICBmaWxlbmFtZTogdXJsLnNwbGl0KCcvJykucG9wKCkgfHwgJ2Rvd25sb2FkJywKICAgICAgICBzaXplOiBudWxsLAogICAgICAgIGZpbGVUeXBlOiAnJywKICAgICAgICBzZWxlY3RlZDogdHJ1ZSwKICAgICAgICBjYXB0dXJlZEF0OiBEYXRlLm5vdygpLAogICAgICAgIHNvdXJjZTogJ2NvbnRleHRNZW51JwogICAgICB9XSk7CiAgICB9CiAgfSBlbHNlIGlmIChpbmZvLm1lbnVJdGVtSWQgPT09ICdkb3dubG9hZC1hbGwtbGlua3MnICYmIHRhYj8uaWQpIHsKICAgIC8vIOWPkemAgea2iOaBr+WIsCBDb250ZW50IFNjcmlwdCDmjZXojrfmiYDmnInpk77mjqUKICAgIGNocm9tZS50YWJzLnNlbmRNZXNzYWdlKAogICAgICB0YWIuaWQsCiAgICAgIHsgYWN0aW9uOiAnY2FwdHVyZUFsbExpbmtzJyB9LAogICAgICAoKSA9PiB7CiAgICAgICAgaWYgKGNocm9tZS5ydW50aW1lLmxhc3RFcnJvcikgewogICAgICAgICAgY29uc29sZS5kZWJ1ZygnW0NvbnRleHRNZW51XSBjYXB0dXJlQWxsTGlua3MgbWVzc2FnZSBmYWlsZWQ6JywgY2hyb21lLnJ1bnRpbWUubGFzdEVycm9yLm1lc3NhZ2UpOwogICAgICAgIH0KICAgICAgfQogICAgKTsKICB9Cn0KCi8qKgogKiDlj5HpgIHpk77mjqXliLAgR0Rvd25sb2FkCiAqIOi/lOWbnuavj+S4qumTvuaOpeeahOWPkemAgee7k+aenO+8jOS4gOS4quWksei0peS4jeW9seWTjeWFtuS7lumTvuaOpQogKi8KYXN5bmMgZnVuY3Rpb24gc2VuZFRvR0Rvd25sb2FkKGxpbmtzOiBMaW5rW10pOiBQcm9taXNlPFNlbmRSZXN1bHRbXT4gewogIGlmICghYXJpYTJDbGllbnQpIHsKICAgIHRocm93IG5ldyBFcnJvcignYXJpYTIgY2xpZW50IG5vdCBpbml0aWFsaXplZCcpOwogIH0KCiAgLy8g6I635Y+W55So5oi36K6+572uCiAgY29uc3QgcmVzdWx0ID0gYXdhaXQgYnJvd3NlckFwaS5zdG9yYWdlLmdldChbU1RPUkFHRV9LRVlTLlNFVFRJTkdTXSk7CiAgY29uc3Qgc2V0dGluZ3MgPSBtZXJnZVNldHRpbmdzKHJlc3VsdFtTVE9SQUdFX0tFWVMuU0VUVElOR1NdKTsKCiAgY29uc3QgcmVzdWx0czogU2VuZFJlc3VsdFtdID0gW107CiAgY29uc3Qgc2VlbkZpbGVuYW1lcyA9IG5ldyBTZXQ8c3RyaW5nPigpOwoKICBmb3IgKGNvbnN0IGxpbmsgb2YgbGlua3MpIHsKICAgIGlmICghbGluay5zZWxlY3RlZCkgewogICAgICBjb250aW51ZTsKICAgIH0KCiAgICB0cnkgewogICAgICAvLyAxLiDmuIXnkIblubbljrvph43mlofku7blkI0KICAgICAgbGV0IGZpbGVuYW1lID0gc2FuaXRpemVGaWxlbmFtZShsaW5rLmZpbGVuYW1lKTsKCiAgICAgIC8vIOWkhOeQhuaWh+S7tuWQjemHjeWkjQogICAgICBsZXQgY291bnRlciA9IDE7CiAgICAgIGNvbnN0IG9yaWdpbmFsRmlsZW5hbWUgPSBmaWxlbmFtZTsKICAgICAgY29uc3QgbGFzdERvdEluZGV4ID0gZmlsZW5hbWUubGFzdEluZGV4T2YoJy4nKTsKICAgICAgY29uc3QgYmFzZU5hbWUgPSBsYXN0RG90SW5kZXggPiAwID8gZmlsZW5hbWUuc3Vic3RyaW5nKDAsIGxhc3REb3RJbmRleCkgOiBmaWxlbmFtZTsKICAgICAgY29uc3QgZXh0ID0gbGFzdERvdEluZGV4ID4gMCA/IGZpbGVuYW1lLnN1YnN0cmluZyhsYXN0RG90SW5kZXgpIDogJyc7CgogICAgICB3aGlsZSAoc2VlbkZpbGVuYW1lcy5oYXMoZmlsZW5hbWUpKSB7CiAgICAgICAgZmlsZW5hbWUgPSBgJHtiYXNlTmFtZX1fJHtjb3VudGVyfSR7ZXh0fWA7CiAgICAgICAgY291bnRlcisrOwogICAgICB9CiAgICAgIHNlZW5GaWxlbmFtZXMuYWRkKGZpbGVuYW1lKTsKCiAgICAgIC8vIDIuIOaehOW7uiBhcmlhMiDpgInpobkKICAgICAgY29uc3Qgb3B0aW9uczogUmVjb3JkPHN0cmluZywgYW55PiA9IHsKICAgICAgICBvdXQ6IGZpbGVuYW1lCiAgICAgIH07CgogICAgICAvLyAzLiDmnoTlu7ror7fmsYLlpLTmlbDnu4TvvIjmoLnmja7nlKjmiLforr7nva7lhrPlrprmmK/lkKblj5HpgIHvvIkKICAgICAgY29uc3QgaGVhZGVyczogc3RyaW5nW10gPSBbXTsKCiAgICAgIC8vIFVzZXItQWdlbnQgKOmAmuW4uOWuieWFqO+8jOm7mOiupOWPkemAgSnvvJvlhZzlupXnlKjmtY/op4jlmajoh6rouqsgVUHvvIzpgb/lhY0gYXJpYTIg6buY6K6kIFVBIOiiq+acjeWKoeWZqOaLkgogICAgICBjb25zdCBlZmZlY3RpdmVVc2VyQWdlbnQgPSBsaW5rLnVzZXJBZ2VudCB8fCAodHlwZW9mIG5hdmlnYXRvciAhPT0gJ3VuZGVmaW5lZCcgPyBuYXZpZ2F0b3IudXNlckFnZW50IDogJycpOwogICAgICBpZiAoZWZmZWN0aXZlVXNlckFnZW50ICYmIHNldHRpbmdzLnNlbmRVc2VyQWdlbnQpIHsKICAgICAgICBoZWFkZXJzLnB1c2goYFVzZXItQWdlbnQ6ICR7ZWZmZWN0aXZlVXNlckFnZW50fWApOwogICAgICB9CgogICAgICAvLyBSZWZlcmVyICjlr7nkuo7lj5fkv53miqTotYTmupDlvojph43opoHvvIzpu5jorqTlj5HpgIEpCiAgICAgIGlmIChsaW5rLnJlZmVyZXIgJiYgc2V0dGluZ3Muc2VuZFJlZmVyZXIpIHsKICAgICAgICBoZWFkZXJzLnB1c2goYFJlZmVyZXI6ICR7bGluay5yZWZlcmVyfWApOwogICAgICB9CgogICAgICAvLyBDb29raWUgKOaVj+aEn+S/oeaBr++8jOmcgOimgeeUqOaIt+aYjuehruaOiOadg++8jOm7mOiupOWFs+mXrSkKICAgICAgaWYgKGxpbmsuY29va2llcyAmJiBzZXR0aW5ncy5zZW5kQ29va2llcykgewogICAgICAgIGhlYWRlcnMucHVzaChgQ29va2llOiAke2xpbmsuY29va2llc31gKTsKICAgICAgfQoKICAgICAgLy8gQXV0aG9yaXphdGlvbiAo5pWP5oSf5L+h5oGv77yM6ZyA6KaB55So5oi35piO56Gu5o6I5p2D77yM6buY6K6k5YWz6ZetKQogICAgICBpZiAobGluay5hdXRob3JpemF0aW9uICYmIHNldHRpbmdzLnNlbmRBdXRob3JpemF0aW9uKSB7CiAgICAgICAgaGVhZGVycy5wdXNoKGBBdXRob3JpemF0aW9uOiAke2xpbmsuYXV0aG9yaXphdGlvbn1gKTsKICAgICAgfQoKICAgICAgLy8g5aaC5p6c5pyJ6K+35rGC5aS077yM5re75Yqg5Yiw6YCJ6aG55LitCiAgICAgIGlmIChoZWFkZXJzLmxlbmd0aCA+IDApIHsKICAgICAgICBvcHRpb25zLmhlYWRlciA9IGhlYWRlcnM7CiAgICAgIH0KCiAgICAgIC8vIDQuIOiwg+eUqCBhcmlhMiDmt7vliqDkuIvovb0KICAgICAgLy8g5rOo5oSP77yaYXJpYTIuYWRkVXJpIOeahOesrOS4gOS4quWPguaVsOaYryBVUkwg5pWw57uEIFt1cmxd77yM5LiN5piv5bWM5aWX5pWw57uECiAgICAgIGNvbnN0IGdpZCA9IGF3YWl0IGFyaWEyQ2xpZW50LmNhbGwoJ2FyaWEyLmFkZFVyaScsIFtsaW5rLnVybF0sIG9wdGlvbnMpOwoKICAgICAgY29uc29sZS5sb2coYFtTZW5kVG9HRG93bmxvYWRdIOKckyBBZGRlZDogJHtmaWxlbmFtZX0gKEdJRDogJHtnaWR9KWApOwogICAgICByZXN1bHRzLnB1c2goeyBsaW5rLCBzdWNjZXNzOiB0cnVlLCBnaWQgfSk7CgogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgY29uc3QgZXJyb3JNZXNzYWdlID0gZXJyb3IgaW5zdGFuY2VvZiBFcnJvciA/IGVycm9yLm1lc3NhZ2UgOiBTdHJpbmcoZXJyb3IpOwogICAgICBjb25zb2xlLmVycm9yKGBbU2VuZFRvR0Rvd25sb2FkXSDinJcgRmFpbGVkOiAke2xpbmsuZmlsZW5hbWV9YCwgZXJyb3JNZXNzYWdlKTsKICAgICAgcmVzdWx0cy5wdXNoKHsKICAgICAgICBsaW5rLAogICAgICAgIHN1Y2Nlc3M6IGZhbHNlLAogICAgICAgIGVycm9yOiBlcnJvck1lc3NhZ2UKICAgICAgfSk7CiAgICB9CiAgfQoKICAvLyDovpPlh7rmsYfmgLvnu5/orqEKICBjb25zdCBzdWNjZXNzQ291bnQgPSByZXN1bHRzLmZpbHRlcihyID0+IHIuc3VjY2VzcykubGVuZ3RoOwogIGNvbnN0IGZhaWxDb3VudCA9IHJlc3VsdHMuZmlsdGVyKHIgPT4gIXIuc3VjY2VzcykubGVuZ3RoOwogIGNvbnNvbGUubG9nKGBbU2VuZFRvR0Rvd25sb2FkXSBTdW1tYXJ5OiAke3N1Y2Nlc3NDb3VudH0gc3VjY2VlZGVkLCAke2ZhaWxDb3VudH0gZmFpbGVkYCk7CgogIHJldHVybiByZXN1bHRzOwp9CgovKioKICog5bCGIGFyaWEyIOeKtuaAgeWvueixoei9rOaNouS4uiBwb3B1cCDnlKjnmoQgQWN0aXZlVGFza++8iOa0vueUn+aWh+S7tuWQje+8iQogKi8KZnVuY3Rpb24gdG9BY3RpdmVUYXNrKHN0YXR1czogYW55KTogQWN0aXZlVGFzayB7CiAgY29uc3QgZmlsZVBhdGg6IHN0cmluZyB8IHVuZGVmaW5lZCA9IHN0YXR1cz8uZmlsZXM/LlswXT8ucGF0aDsKICBsZXQgZmlsZW5hbWUgPSAnJzsKICBpZiAoZmlsZVBhdGgpIHsKICAgIGZpbGVuYW1lID0gZmlsZVBhdGguc3BsaXQoL1tcXC9dLykucG9wKCkgfHwgJyc7CiAgfQogIGlmICghZmlsZW5hbWUpIHsKICAgIC8vIOaXoOaWh+S7tuWQjeaXtuWbnumAgOWIsCBVUkkg5pyr5q615oiWIGdpZAogICAgY29uc3QgdXJpOiBzdHJpbmcgfCB1bmRlZmluZWQgPSBzdGF0dXM/LmZpbGVzPy5bMF0/LnVyaXM/LlswXT8udXJpOwogICAgaWYgKHVyaSkgewogICAgICB0cnkgewogICAgICAgIGZpbGVuYW1lID0gZGVjb2RlVVJJQ29tcG9uZW50KG5ldyBVUkwodXJpKS5wYXRobmFtZS5zcGxpdCgnLycpLnBvcCgpIHx8ICcnKTsKICAgICAgfSBjYXRjaCB7CiAgICAgICAgZmlsZW5hbWUgPSAnJzsKICAgICAgfQogICAgfQogIH0KICByZXR1cm4gewogICAgZ2lkOiBzdGF0dXMuZ2lkLAogICAgc3RhdHVzOiBzdGF0dXMuc3RhdHVzLAogICAgdG90YWxMZW5ndGg6IHN0YXR1cy50b3RhbExlbmd0aCB8fCAnMCcsCiAgICBjb21wbGV0ZWRMZW5ndGg6IHN0YXR1cy5jb21wbGV0ZWRMZW5ndGggfHwgJzAnLAogICAgZG93bmxvYWRTcGVlZDogc3RhdHVzLmRvd25sb2FkU3BlZWQgfHwgJzAnLAogICAgZmlsZW5hbWU6IGZpbGVuYW1lIHx8IHN0YXR1cy5naWQKICB9Owp9CgovKioKICog5aSE55CG5p2l6Ieq5YW25LuW57uE5Lu255qE5raI5oGvCiAqLwphc3luYyBmdW5jdGlvbiBoYW5kbGVNZXNzYWdlKAogIG1lc3NhZ2U6IE1lc3NhZ2UsCiAgc2VuZGVyOiBjaHJvbWUucnVudGltZS5NZXNzYWdlU2VuZGVyCik6IFByb21pc2U8TWVzc2FnZVJlc3BvbnNlPiB7CiAgdHJ5IHsKICAgIHN3aXRjaCAobWVzc2FnZS5hY3Rpb24pIHsKICAgICAgY2FzZSAnc2VuZFRvR0Rvd25sb2FkJzogewogICAgICAgIGNvbnN0IHJlc3VsdHMgPSBhd2FpdCBzZW5kVG9HRG93bmxvYWQobWVzc2FnZS5saW5rcyk7CiAgICAgICAgY29uc3Qgc3VjY2Vzc0NvdW50ID0gcmVzdWx0cy5maWx0ZXIociA9PiByLnN1Y2Nlc3MpLmxlbmd0aDsKICAgICAgICBjb25zdCBmYWlsQ291bnQgPSByZXN1bHRzLmZpbHRlcihyID0+ICFyLnN1Y2Nlc3MpLmxlbmd0aDsKICAgICAgICBjb25zdCBlcnJvcnMgPSByZXN1bHRzLmZpbHRlcihyID0+ICFyLnN1Y2Nlc3MpLm1hcChyID0+ICh7CiAgICAgICAgICBmaWxlbmFtZTogci5saW5rLmZpbGVuYW1lLAogICAgICAgICAgZXJyb3I6IHIuZXJyb3IKICAgICAgICB9KSk7CgogICAgICAgIC8vIOWPquacieWFqOmDqOaIkOWKn+aXtuaJjei/lOWbniBzdWNjZXNzOiB0cnVlCiAgICAgICAgLy8g6YOo5YiG5aSx6LSl5oiW5YWo6YOo5aSx6LSl6YO96L+U5ZueIHN1Y2Nlc3M6IGZhbHNlCiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgIHN1Y2Nlc3M6IGZhaWxDb3VudCA9PT0gMCwKICAgICAgICAgIGVycm9yOiBmYWlsQ291bnQgPiAwID8gYCR7ZmFpbENvdW50fSBsaW5rKHMpIGZhaWxlZCB0byBzZW5kYCA6IHVuZGVmaW5lZCwKICAgICAgICAgIGRhdGE6IHsKICAgICAgICAgICAgdG90YWw6IHJlc3VsdHMubGVuZ3RoLAogICAgICAgICAgICBzdWNjZWVkZWQ6IHN1Y2Nlc3NDb3VudCwKICAgICAgICAgICAgZmFpbGVkOiBmYWlsQ291bnQsCiAgICAgICAgICAgIGVycm9yczogZXJyb3JzLmxlbmd0aCA+IDAgPyBlcnJvcnMgOiB1bmRlZmluZWQsCiAgICAgICAgICAgIHJlc3VsdHMgLy8g5a6M5pW055qE57uT5p6c5YiX6KGo77yM5L6bIFVJIOWxleekuuivpue7huS/oeaBrwogICAgICAgICAgfQogICAgICAgIH07CiAgICAgIH0KCiAgICAgIGNhc2UgJ3Rlc3RDb25uZWN0aW9uJzogewogICAgICAgIC8vIOS8mOWFiOa1i+ivleihqOWNleS8oOWFpeeahOmFjee9ru+8iOaXoOmcgOWFiOS/neWtmO+8ie+8m+WQpuWImea1i+W9k+WJjeW3suS/neWtmOmFjee9rgogICAgICAgIGlmIChtZXNzYWdlLmNvbmZpZykgewogICAgICAgICAgY29uc3QgdGVtcENsaWVudCA9IG5ldyBBcmlhMlJwY0NsaWVudChtZXNzYWdlLmNvbmZpZyk7CiAgICAgICAgICB0cnkgewogICAgICAgICAgICBhd2FpdCB0ZW1wQ2xpZW50LmNvbm5lY3QoKTsKICAgICAgICAgICAgY29uc3Qgc3RhdHMgPSBhd2FpdCB0ZW1wQ2xpZW50LmNhbGwoJ2FyaWEyLmdldEdsb2JhbFN0YXQnKTsKICAgICAgICAgICAgcmV0dXJuIHsgc3VjY2VzczogdHJ1ZSwgZGF0YTogc3RhdHMgfTsKICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgIHRlbXBDbGllbnQuZGlzY29ubmVjdCgpOwogICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBhd2FpdCBpbml0QXJpYTJDbGllbnQoKTsKICAgICAgICBjb25zdCBzdGF0cyA9IGF3YWl0IGFyaWEyQ2xpZW50IS5jYWxsKCdhcmlhMi5nZXRHbG9iYWxTdGF0Jyk7CiAgICAgICAgcmV0dXJuIHsgc3VjY2VzczogdHJ1ZSwgZGF0YTogc3RhdHMgfTsKICAgICAgfQoKICAgICAgY2FzZSAnZ2V0Q29ubmVjdGlvblN0YXR1cyc6CiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgIHN1Y2Nlc3M6IHRydWUsCiAgICAgICAgICBkYXRhOiB7CiAgICAgICAgICAgIGNvbm5lY3RlZDogYXJpYTJDbGllbnQ/LmlzQ29ubmVjdGVkKCkgfHwgZmFsc2UsCiAgICAgICAgICAgIHJlYWR5U3RhdGU6IGFyaWEyQ2xpZW50Py5nZXRSZWFkeVN0YXRlKCkgfHwgV2ViU29ja2V0LkNMT1NFRAogICAgICAgICAgfQogICAgICAgIH07CgogICAgICBjYXNlICdieXBhc3NOZXh0JzoKICAgICAgICAvLyDlhoXlrrnohJrmnKwgQWx0K+eCueWHuyAtPiDkuIvkuIDkuKrkuIvovb3mlL7ooYzmtY/op4jlmagKICAgICAgICBtYXJrQnlwYXNzTmV4dCgpOwogICAgICAgIHJldHVybiB7IHN1Y2Nlc3M6IHRydWUgfTsKCiAgICAgIGNhc2UgJ2dldENvbm5lY3Rpb25JbmZvJzoKICAgICAgICByZXR1cm4gewogICAgICAgICAgc3VjY2VzczogdHJ1ZSwKICAgICAgICAgIGRhdGE6IHsKICAgICAgICAgICAgY29ubmVjdGVkOiBhcmlhMkNsaWVudD8uaXNDb25uZWN0ZWQoKSB8fCBmYWxzZQogICAgICAgICAgfQogICAgICAgIH07CgogICAgICBjYXNlICdnZXRNZWRpYUl0ZW1zJzoKICAgICAgICByZXR1cm4geyBzdWNjZXNzOiB0cnVlLCBkYXRhOiB7IGl0ZW1zOiBnZXRNZWRpYUl0ZW1zKCkgfSB9OwoKICAgICAgY2FzZSAnZG93bmxvYWRNZWRpYSc6IHsKICAgICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBkb3dubG9hZE1lZGlhKG1lc3NhZ2UubWVkaWFJZCwgbWVzc2FnZS52YXJpYW50SW5kZXgpOwogICAgICAgIHJldHVybiByZXN1bHQub2sKICAgICAgICAgID8geyBzdWNjZXNzOiB0cnVlIH0KICAgICAgICAgIDogeyBzdWNjZXNzOiBmYWxzZSwgZXJyb3I6IHJlc3VsdC5lcnJvciB9OwogICAgICB9CgogICAgICBjYXNlICdtYW5pZmVzdENhbmRpZGF0ZSc6IHsKICAgICAgICAvLyDmnaXoh6ogTUFJTiB3b3JsZCDms6jlhaXnu4/lhoXlrrnohJrmnKzkuK3ovaznmoQgbWFuaWZlc3Qg5LiK5oqlCiAgICAgICAgY29uc3QgdGFiSWQgPSBzZW5kZXIudGFiPy5pZCA/PyAtMTsKICAgICAgICBpZiAodGFiSWQgPj0gMCkgewogICAgICAgICAgdm9pZCBoYW5kbGVOZXR3b3JrTWFuaWZlc3QobWVzc2FnZS51cmwsIHRhYklkKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHsgc3VjY2VzczogdHJ1ZSB9OwogICAgICB9CgogICAgICBjYXNlICdiYXRjaExpbmtzQ2FwdHVyZWQnOiB7CiAgICAgICAgLy8g5ouW5qGG6YCJ6ZO+57uT5p6c5a2Y5YWlIHNlc3Npb24gbmV0d29ya0xpbmtz77yMcG9wdXAg5omT5byA5pe25ZCI5bm25pi+56S6CiAgICAgICAgdHJ5IHsKICAgICAgICAgIGNvbnN0IG5vdyA9IERhdGUubm93KCk7CiAgICAgICAgICBjb25zdCBuZXdMaW5rczogTGlua1tdID0gbWVzc2FnZS5saW5rcy5tYXAoKGwsIGkpID0+ICh7CiAgICAgICAgICAgIGlkOiBgZHJhZ18ke25vd31fJHtpfWAsCiAgICAgICAgICAgIHVybDogbC51cmwsCiAgICAgICAgICAgIGZpbGVuYW1lOiBzYW5pdGl6ZUZpbGVuYW1lKGwuZmlsZW5hbWUpLAogICAgICAgICAgICBzaXplOiBudWxsLAogICAgICAgICAgICBmaWxlVHlwZTogbC5maWxlbmFtZS5tYXRjaCgvXC5bXi5dKyQvKT8uWzBdIHx8ICcnLAogICAgICAgICAgICBzZWxlY3RlZDogdHJ1ZSwKICAgICAgICAgICAgY2FwdHVyZWRBdDogbm93LAogICAgICAgICAgICBzb3VyY2U6ICdwYWdlJwogICAgICAgICAgfSkpOwogICAgICAgICAgY29uc3QgeyBuZXR3b3JrTGlua3MgPSBbXSB9ID0gYXdhaXQgY2hyb21lLnN0b3JhZ2Uuc2Vzc2lvbi5nZXQoJ25ldHdvcmtMaW5rcycpOwogICAgICAgICAgY29uc3QgbWVyZ2VkID0gWy4uLm5ldHdvcmtMaW5rcywgLi4ubmV3TGlua3NdLnNsaWNlKC0xMDApOwogICAgICAgICAgYXdhaXQgY2hyb21lLnN0b3JhZ2Uuc2Vzc2lvbi5zZXQoeyBuZXR3b3JrTGlua3M6IG1lcmdlZCB9KTsKICAgICAgICB9IGNhdGNoIChlcnJvcikgewogICAgICAgICAgY29uc29sZS5kZWJ1ZygnW0JhdGNoQ2FwdHVyZV0gc3RvcmUgZmFpbGVkOicsIGVycm9yKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHsgc3VjY2VzczogdHJ1ZSB9OwogICAgICB9CgogICAgICBjYXNlICdmbG9hdEJ1dHRvbkRvd25sb2FkJzogewogICAgICAgIC8vIOS8mOWFiOWFs+iBlOivpeagh+etvumhteacgOi/keaNleiOt+eahOa1geWqkuS9k++8jOWQpuWImeebtOWPkeinhumikSBzcmMKICAgICAgICBjb25zdCB0YWJJZCA9IHNlbmRlci50YWI/LmlkID8/IC0xOwogICAgICAgIGNvbnN0IHRhYk1lZGlhID0gZ2V0TWVkaWFJdGVtcygpCiAgICAgICAgICAuZmlsdGVyKChtKSA9PiBtLnRhYklkID09PSB0YWJJZCAmJiBtLnR5cGUgPT09ICdobHMnICYmIG0udmFyaWFudHMubGVuZ3RoID4gMCkKICAgICAgICAgIC5zb3J0KChhLCBiKSA9PiBiLnRpbWVzdGFtcCAtIGEudGltZXN0YW1wKTsKICAgICAgICBpZiAodGFiTWVkaWEubGVuZ3RoID4gMCkgewogICAgICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgZG93bmxvYWRNZWRpYSh0YWJNZWRpYVswXS5pZCwgMCk7IC8vIGluZGV4IDAgPSDmnIDpq5jnoIHnjocKICAgICAgICAgIHJldHVybiByZXN1bHQub2sgPyB7IHN1Y2Nlc3M6IHRydWUgfSA6IHsgc3VjY2VzczogZmFsc2UsIGVycm9yOiByZXN1bHQuZXJyb3IgfTsKICAgICAgICB9CiAgICAgICAgY29uc3Qgc3JjID0gbWVzc2FnZS52aWRlb1NyYzsKICAgICAgICBpZiAoc3JjICYmIC9eaHR0cHM/Oi9pLnRlc3Qoc3JjKSkgewogICAgICAgICAgY29uc3QgcmVzdWx0cyA9IGF3YWl0IHNlbmRUb0dEb3dubG9hZChbewogICAgICAgICAgICBpZDogRGF0ZS5ub3coKS50b1N0cmluZygpLAogICAgICAgICAgICB1cmw6IHNyYywKICAgICAgICAgICAgZmlsZW5hbWU6IHNhbml0aXplRmlsZW5hbWUoc3JjLnNwbGl0KCcvJykucG9wKCk/LnNwbGl0KCc/JylbMF0gfHwgJ3ZpZGVvJyksCiAgICAgICAgICAgIHNpemU6IG51bGwsCiAgICAgICAgICAgIGZpbGVUeXBlOiAnJywKICAgICAgICAgICAgc2VsZWN0ZWQ6IHRydWUsCiAgICAgICAgICAgIGNhcHR1cmVkQXQ6IERhdGUubm93KCksCiAgICAgICAgICAgIHNvdXJjZTogJ3BhZ2UnCiAgICAgICAgICB9XSk7CiAgICAgICAgICByZXR1cm4gcmVzdWx0c1swXT8uc3VjY2VzcwogICAgICAgICAgICA/IHsgc3VjY2VzczogdHJ1ZSB9CiAgICAgICAgICAgIDogeyBzdWNjZXNzOiBmYWxzZSwgZXJyb3I6IHJlc3VsdHNbMF0/LmVycm9yIHx8ICdzZW5kIGZhaWxlZCcgfTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHsgc3VjY2VzczogZmFsc2UsIGVycm9yOiAnbm8gZG93bmxvYWRhYmxlIG1lZGlhJyB9OwogICAgICB9CgogICAgICBjYXNlICdnZXRBY3RpdmVUYXNrcyc6IHsKICAgICAgICBpZiAoIWFyaWEyQ2xpZW50IHx8ICFhcmlhMkNsaWVudC5pc0Nvbm5lY3RlZCgpKSB7CiAgICAgICAgICByZXR1cm4geyBzdWNjZXNzOiB0cnVlLCBkYXRhOiB7IHRhc2tzOiBbXSB9IH07CiAgICAgICAgfQogICAgICAgIC8vIOW5tuihjOWPlua0u+WKqOS7u+WKoSArIOetieW+hemYn+WIl++8iOWJjSAyMCDmnaHvvInvvIzpgb/lhY0gbXVsdGljYWxsIOeahCB0b2tlbiDljIXoo7nlpI3mnYLluqYKICAgICAgICBjb25zdCBrZXlzID0gWydnaWQnLCAnc3RhdHVzJywgJ3RvdGFsTGVuZ3RoJywgJ2NvbXBsZXRlZExlbmd0aCcsICdkb3dubG9hZFNwZWVkJywgJ2ZpbGVzJ107CiAgICAgICAgY29uc3QgW2FjdGl2ZSwgd2FpdGluZ10gPSBhd2FpdCBQcm9taXNlLmFsbChbCiAgICAgICAgICBhcmlhMkNsaWVudC5jYWxsKCdhcmlhMi50ZWxsQWN0aXZlJywga2V5cyksCiAgICAgICAgICBhcmlhMkNsaWVudC5jYWxsKCdhcmlhMi50ZWxsV2FpdGluZycsIDAsIDIwLCBrZXlzKQogICAgICAgIF0pOwogICAgICAgIGNvbnN0IHRhc2tzOiBBY3RpdmVUYXNrW10gPSBbCiAgICAgICAgICAuLi4oQXJyYXkuaXNBcnJheShhY3RpdmUpID8gYWN0aXZlIDogW10pLAogICAgICAgICAgLi4uKEFycmF5LmlzQXJyYXkod2FpdGluZykgPyB3YWl0aW5nIDogW10pCiAgICAgICAgXS5tYXAodG9BY3RpdmVUYXNrKTsKICAgICAgICByZXR1cm4geyBzdWNjZXNzOiB0cnVlLCBkYXRhOiB7IHRhc2tzIH0gfTsKICAgICAgfQoKICAgICAgY2FzZSAncGF1c2VUYXNrJzoKICAgICAgICBpZiAoIWFyaWEyQ2xpZW50KSByZXR1cm4geyBzdWNjZXNzOiBmYWxzZSwgZXJyb3I6ICdOb3QgY29ubmVjdGVkJyB9OwogICAgICAgIGF3YWl0IGFyaWEyQ2xpZW50LmNhbGwoJ2FyaWEyLnBhdXNlJywgbWVzc2FnZS5naWQpOwogICAgICAgIHJldHVybiB7IHN1Y2Nlc3M6IHRydWUgfTsKCiAgICAgIGNhc2UgJ3Jlc3VtZVRhc2snOgogICAgICAgIGlmICghYXJpYTJDbGllbnQpIHJldHVybiB7IHN1Y2Nlc3M6IGZhbHNlLCBlcnJvcjogJ05vdCBjb25uZWN0ZWQnIH07CiAgICAgICAgYXdhaXQgYXJpYTJDbGllbnQuY2FsbCgnYXJpYTIudW5wYXVzZScsIG1lc3NhZ2UuZ2lkKTsKICAgICAgICByZXR1cm4geyBzdWNjZXNzOiB0cnVlIH07CgogICAgICBjYXNlICdjYW5jZWxUYXNrJzoKICAgICAgICBpZiAoIWFyaWEyQ2xpZW50KSByZXR1cm4geyBzdWNjZXNzOiBmYWxzZSwgZXJyb3I6ICdOb3QgY29ubmVjdGVkJyB9OwogICAgICAgIGF3YWl0IGFyaWEyQ2xpZW50LmNhbGwoJ2FyaWEyLnJlbW92ZScsIG1lc3NhZ2UuZ2lkKTsKICAgICAgICByZXR1cm4geyBzdWNjZXNzOiB0cnVlIH07CgogICAgICBkZWZhdWx0OgogICAgICAgIHJldHVybiB7IHN1Y2Nlc3M6IGZhbHNlLCBlcnJvcjogJ1Vua25vd24gYWN0aW9uJyB9OwogICAgfQogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICBjb25zb2xlLmVycm9yKCdNZXNzYWdlIGhhbmRsZXIgZXJyb3I6JywgZXJyb3IpOwogICAgcmV0dXJuIHsKICAgICAgc3VjY2VzczogZmFsc2UsCiAgICAgIGVycm9yOiBlcnJvciBpbnN0YW5jZW9mIEVycm9yID8gZXJyb3IubWVzc2FnZSA6ICdVbmtub3duIGVycm9yJwogICAgfTsKICB9Cn0KCi8qKgogKiDmianlsZXlronoo4Uv5pu05paw5pe255qE5aSE55CGCiAqLwpjaHJvbWUucnVudGltZS5vbkluc3RhbGxlZC5hZGRMaXN0ZW5lcigoKSA9PiB7CiAgY29uc29sZS5sb2coJ0dEb3dubG9hZCBFeHRlbnNpb24gaW5zdGFsbGVkJyk7CiAgY3JlYXRlQ29udGV4dE1lbnVzKCk7CiAgaW5pdE5ldHdvcmtTbmlmZmVyKCk7IC8vIOWIneWni+WMlue9kee7nOWXheaOogp9KTsKCi8qKgogKiDmianlsZXlkK/liqjml7bnmoTlpITnkIYKICovCmNocm9tZS5ydW50aW1lLm9uU3RhcnR1cC5hZGRMaXN0ZW5lcigoKSA9PiB7CiAgY29uc29sZS5sb2coJ0dEb3dubG9hZCBFeHRlbnNpb24gc3RhcnRlZCcpOwogIGluaXROZXR3b3JrU25pZmZlcigpOyAvLyDliJ3lp4vljJbnvZHnu5zll4XmjqIKfSk7CgovKioKICog5L+d5rS7IGFsYXJt77ya5a6a5pyf5b+D6Lez77yM5YW85Lu7IFNXIOiiq+WbnuaUtuWQjuWUpOmGkueahOmHjei/nuinpuWPkeWZqAogKiDms6jvvJpDaHJvbWUvRmlyZWZveCDlr7kgYWxhcm0g5ZGo5pyf5pyJ5pyA5bCP5YC877yI57qmIDAuNSDliIbpkp/vvInvvIzkvY7kuo7mraTlgLzkvJrooqvkuIrosIMKICovCmNvbnN0IEtFRVBBTElWRV9BTEFSTSA9ICdhcmlhMi1rZWVwYWxpdmUnOwpjaHJvbWUuYWxhcm1zLmNyZWF0ZShLRUVQQUxJVkVfQUxBUk0sIHsgcGVyaW9kSW5NaW51dGVzOiAwLjUgfSk7CgpjaHJvbWUuYWxhcm1zLm9uQWxhcm0uYWRkTGlzdGVuZXIoKGFsYXJtKSA9PiB7CiAgaWYgKGFsYXJtLm5hbWUgIT09IEtFRVBBTElWRV9BTEFSTSkgewogICAgcmV0dXJuOwogIH0KICBpZiAoIWFyaWEyQ2xpZW50KSB7CiAgICAvLyDov57mjqXlsYLlsJrmnKrlsLHnu6rvvIhuYXRpdmUg5Y+R546wL+mFjeWvuei/m+ihjOS4re+8iS0+IOinpuWPkeWIneWni+WMlgogICAgaW5pdENvbm5lY3Rpb24oKTsKICAgIHJldHVybjsKICB9CiAgaWYgKGFyaWEyQ2xpZW50LmlzQ29ubmVjdGVkKCkpIHsKICAgIC8vIOW3sui/nuaOpe+8muWPkeW/g+i3s+S/neaMgSBTVyDlrZjmtLsKICAgIGFyaWEyQ2xpZW50LmNhbGwoJ2FyaWEyLmdldEdsb2JhbFN0YXQnKS5jYXRjaCgoKSA9PiB7CiAgICAgIC8vIOW/g+i3s+Wksei0peS8muinpuWPkSBvbmNsb3NlIC0+IOiHquWKqOmHjei/ngogICAgfSk7CiAgfSBlbHNlIHsKICAgIC8vIOaWree6v++8mueri+WNs+WPkei1t+mHjei/ngogICAgYXJpYTJDbGllbnQucmVjb25uZWN0Tm93KCk7CiAgfQp9KTsKCi8qKgogKiDliJ3lp4vljJbov57mjqXlsYLvvJpuYXRpdmUg5LyY5YWI77yMaG9zdCDkuI3lj6/nlKjpmY3nuqfmiYvliqjvvIjpobblsYLmiafooYzvvIzopobnm5bmr4/mrKEgU1cg5Yqg6L2977yJCiAqLwppbml0Q29ubmVjdGlvbigpOwoKLyoqCiAqIOWIneWni+WMluiuvue9rui3qOiuvuWkh+WQjOatpe+8iGxvY2FsIDwtPiBzeW5jIOmVnOWDj++8jHNlY3JldCDmsLjkuI3lkIzmraXvvIkKICovCmluaXRTZXR0aW5nc1N5bmMoKTsKCi8qKgogKiDliJ3lp4vljJbmtYHlqpLkvZPll4XmjqLvvIjliIbniYfkuIvlj5Hkvp3otZbmg7DmgKfor7vlj5YgYXJpYTJDbGllbnTvvIkKICovCmluaXRNZWRpYVNuaWZmZXIoewogIGFkZFVyaXM6IGFzeW5jICh0YXNrcykgPT4gewogICAgaWYgKCFhcmlhMkNsaWVudCkgewogICAgICB0aHJvdyBuZXcgRXJyb3IoJ2FyaWEyIGNsaWVudCBub3QgaW5pdGlhbGl6ZWQnKTsKICAgIH0KICAgIGF3YWl0IFByb21pc2UuYWxsKAogICAgICB0YXNrcy5tYXAoKHRhc2spID0+IGFyaWEyQ2xpZW50IS5jYWxsKCdhcmlhMi5hZGRVcmknLCBbdGFzay51cmxdLCB0YXNrLm9wdGlvbnMpKQogICAgKTsKICB9LAogIGlzQ29ubmVjdGVkOiAoKSA9PiBhcmlhMkNsaWVudD8uaXNDb25uZWN0ZWQoKSA/PyBmYWxzZSwKICBnZXRTZXR0aW5nczogbG9hZFNldHRpbmdzCn0pOwoKLyoqCiAqIOWIneWni+WMluS4i+i9veaOpeeuoe+8iOmhtuWxguazqOWGjOS4gOasoe+8jOS+nei1luaDsOaAp+ivu+WPliBhcmlhMkNsaWVudO+8iQogKi8KaW5pdERvd25sb2FkVGFrZXIoewogIGRpc3BhdGNoOiAobGlua3MpID0+IHNlbmRUb0dEb3dubG9hZChsaW5rcyksCiAgaXNDb25uZWN0ZWQ6ICgpID0+IGFyaWEyQ2xpZW50Py5pc0Nvbm5lY3RlZCgpID8/IGZhbHNlLAogIHJlbW92ZVRhc2s6IGFzeW5jIChnaWQpID0+IHsKICAgIGF3YWl0IGFyaWEyQ2xpZW50Py5jYWxsKCdhcmlhMi5yZW1vdmUnLCBnaWQpOwogIH0KfSk7CgovKioKICog6ZSu55uY5b+r5o236ZSu77yaQ3RybCtTaGlmdCtNIOaJk+W8gOWqkuS9k+mdouadvwogKiDorrDlvZXnm67moIcgVGFiIOWIsCBzZXNzaW9u77yMcG9wdXAg5omT5byA5pe26K+75Y+W5bm25YiH5o2i77yb5bm25bCd6K+V55u05o6l5omT5byAIHBvcHVwCiAqLwpjaHJvbWUuY29tbWFuZHMub25Db21tYW5kLmFkZExpc3RlbmVyKChjb21tYW5kKSA9PiB7CiAgaWYgKGNvbW1hbmQgIT09ICdvcGVuX21lZGlhX3BhbmVsJykgewogICAgcmV0dXJuOwogIH0KICBjaHJvbWUuc3RvcmFnZS5zZXNzaW9uPy5zZXQoeyBwb3B1cFRhYjogJ21lZGlhJyB9KS5jYXRjaCgoKSA9PiB7fSk7CiAgLy8gY2hyb21lLmFjdGlvbi5vcGVuUG9wdXAg6ZyAIENocm9tZSAxMjcr77yM5Y+v6IO95LiN5Y+v55So77yMYmVzdC1lZmZvcnQKICAoY2hyb21lLmFjdGlvbiBhcyBhbnkpLm9wZW5Qb3B1cD8uKCkuY2F0Y2g/LigoKSA9PiB7fSk7Cn0pOwoKLyoqCiAqIOWPs+mUruiPnOWNleeCueWHu+ebkeWQrAogKi8KY2hyb21lLmNvbnRleHRNZW51cy5vbkNsaWNrZWQuYWRkTGlzdGVuZXIoaGFuZGxlQ29udGV4dE1lbnVDbGljayk7Cgpicm93c2VyQXBpLnN0b3JhZ2Uub25DaGFuZ2VkLmFkZExpc3RlbmVyKChjaGFuZ2VzOiBSZWNvcmQ8c3RyaW5nLCBjaHJvbWUuc3RvcmFnZS5TdG9yYWdlQ2hhbmdlPiwgYXJlYU5hbWU/OiBjaHJvbWUuc3RvcmFnZS5BcmVhTmFtZSkgPT4gewogIGlmIChhcmVhTmFtZSAhPT0gJ3N5bmMnICYmIGFyZWFOYW1lICE9PSAnbG9jYWwnKSB7CiAgICByZXR1cm47CiAgfQoKICBjb25zdCBzZXR0aW5nc0NoYW5nZSA9IGNoYW5nZXNbU1RPUkFHRV9LRVlTLlNFVFRJTkdTXTsKICBpZiAoIXNldHRpbmdzQ2hhbmdlKSB7CiAgICByZXR1cm47CiAgfQoKICBjb25zdCBvbGRDb25maWcgPSBtZXJnZVNldHRpbmdzKHNldHRpbmdzQ2hhbmdlLm9sZFZhbHVlKS5hcmlhMkNvbmZpZzsKICBjb25zdCBuZXdDb25maWcgPSBtZXJnZVNldHRpbmdzKHNldHRpbmdzQ2hhbmdlLm5ld1ZhbHVlKS5hcmlhMkNvbmZpZzsKICBpZiAoSlNPTi5zdHJpbmdpZnkob2xkQ29uZmlnKSAhPT0gSlNPTi5zdHJpbmdpZnkobmV3Q29uZmlnKSkgewogICAgcmVjcmVhdGVBcmlhMkNsaWVudChuZXdDb25maWcpLmNhdGNoKGVycm9yID0+IHsKICAgICAgY29uc29sZS5lcnJvcignRmFpbGVkIHRvIHJlY3JlYXRlIGFyaWEyIGNsaWVudCBhZnRlciBzZXR0aW5ncyBjaGFuZ2U6JywgZXJyb3IpOwogICAgfSk7CiAgfQp9KTsKCi8qKgogKiDmtojmga/nm5HlkKwKICovCmNocm9tZS5ydW50aW1lLm9uTWVzc2FnZS5hZGRMaXN0ZW5lcigobWVzc2FnZSwgc2VuZGVyLCBzZW5kUmVzcG9uc2UpID0+IHsKICBoYW5kbGVNZXNzYWdlKG1lc3NhZ2UsIHNlbmRlcikKICAgIC50aGVuKHNlbmRSZXNwb25zZSkKICAgIC5jYXRjaChlcnJvciA9PiB7CiAgICAgIHNlbmRSZXNwb25zZSh7CiAgICAgICAgc3VjY2VzczogZmFsc2UsCiAgICAgICAgZXJyb3I6IGVycm9yIGluc3RhbmNlb2YgRXJyb3IgPyBlcnJvci5tZXNzYWdlIDogJ1Vua25vd24gZXJyb3InCiAgICAgIH0pOwogICAgfSk7CiAgCiAgLy8g6L+U5ZueIHRydWUg6KGo56S65byC5q2l5ZON5bqUCiAgcmV0dXJuIHRydWU7Cn0pOwo=
+import { Aria2RpcClient } from './aria2RpcClient';
+import { initNetworkSniffer } from './networkSniffer';
+import { initDownloadTaker, markBypassNext } from './downloadTaker';
+import { initMediaSniffer, getMediaItems, downloadMedia, handleNetworkManifest } from './mediaSniffer';
+import { initSettingsSync } from './settingsSync';
+import { browserApi } from '@/shared/utils/browserApi';
+import { DEFAULT_ARIA2_CONFIG, STORAGE_KEYS, DEFAULT_SETTINGS } from '@/shared/constants';
+import { sanitizeFilename } from '@/shared/utils/urlParser';
+import type { ExtensionSettings, Message, MessageResponse, Link, SendResult, ActiveTask } from '@/shared/types';
+
+/**
+ * 全局 aria2 客户端实例
+ */
+let aria2Client: Aria2RpcClient | null = null;
+
+function mergeSettings(settings: Partial<ExtensionSettings> | undefined): ExtensionSettings {
+  return {
+    ...DEFAULT_SETTINGS,
+    ...settings,
+    aria2Config: {
+      ...DEFAULT_ARIA2_CONFIG,
+      ...(settings?.aria2Config || {})
+    }
+  };
+}
+
+async function recreateAria2Client(config = DEFAULT_ARIA2_CONFIG) {
+  if (aria2Client) {
+    aria2Client.disconnect();
+  }
+
+  aria2Client = new Aria2RpcClient(config);
+  wireClientEvents(aria2Client);
+
+  if (config.autoConnect) {
+    await aria2Client.connect();
+    console.log('aria2 client connected');
+  }
+}
+
+/**
+ * 读取合并后的扩展设置
+ */
+async function loadSettings(): Promise<ExtensionSettings> {
+  const result = await browserApi.storage.get([STORAGE_KEYS.SETTINGS]);
+  return mergeSettings(result[STORAGE_KEYS.SETTINGS]);
+}
+
+/**
+ * 为 aria2 客户端挂载通知订阅与连接状态广播
+ * 每次重建客户端都需重新挂载
+ */
+function wireClientEvents(client: Aria2RpcClient) {
+  // 任务开始：活动计数 +1
+  client.onNotification('aria2.onDownloadStart', () => {
+    void bumpActiveCount(1);
+  });
+  // 任务完成：计数 -1 并弹通知
+  client.onNotification('aria2.onDownloadComplete', (params) => {
+    void handleTaskFinished(client, params, 'complete');
+  });
+  client.onNotification('aria2.onBtDownloadComplete', (params) => {
+    void handleTaskFinished(client, params, 'complete');
+  });
+  // 任务出错：计数 -1 并弹错误通知
+  client.onNotification('aria2.onDownloadError', (params) => {
+    void handleTaskFinished(client, params, 'error');
+  });
+  // 任务被移除：仅计数 -1
+  client.onNotification('aria2.onDownloadStop', () => {
+    void bumpActiveCount(-1);
+  });
+
+  // 连接状态变化：广播给 UI，连上后用 tellActive 校准角标
+  client.onConnectionStateChange((connected) => {
+    chrome.runtime.sendMessage({ action: 'connectionStateChanged', connected }).catch(() => {
+      // popup 未打开时无接收方，忽略
+    });
+    if (connected) {
+      void calibrateActiveCount(client);
+    }
+  });
+}
+
+/**
+ * 读取活动任务计数（存于 session storage，SW 重启后仍在）
+ */
+async function getActiveCount(): Promise<number> {
+  try {
+    const r = await chrome.storage.session.get('activeTaskCount');
+    return typeof r.activeTaskCount === 'number' ? r.activeTaskCount : 0;
+  } catch {
+    return 0;
+  }
+}
+
+/**
+ * 设置活动任务计数并刷新角标
+ */
+async function setActiveCount(count: number): Promise<void> {
+  const value = Math.max(0, count);
+  try {
+    await chrome.storage.session.set({ activeTaskCount: value });
+  } catch {
+    // session storage 不可用时忽略持久化
+  }
+  try {
+    await chrome.action.setBadgeText({ text: value > 0 ? String(value) : '' });
+    await chrome.action.setBadgeBackgroundColor({ color: '#409EFF' });
+  } catch {
+    // action API 不可用时忽略
+  }
+}
+
+/**
+ * 活动任务计数增量更新
+ */
+async function bumpActiveCount(delta: number): Promise<void> {
+  await setActiveCount((await getActiveCount()) + delta);
+}
+
+/**
+ * 用 aria2.tellActive 校准角标计数，避免事件丢失导致漂移
+ */
+async function calibrateActiveCount(client: Aria2RpcClient): Promise<void> {
+  try {
+    const active = await client.call('aria2.tellActive', ['gid']);
+    await setActiveCount(Array.isArray(active) ? active.length : 0);
+  } catch {
+    // 校准失败不影响功能
+  }
+}
+
+/**
+ * 处理任务完成/出错：计数 -1 并弹浏览器通知（标题取文件名）
+ */
+async function handleTaskFinished(
+  client: Aria2RpcClient,
+  params: any,
+  kind: 'complete' | 'error'
+): Promise<void> {
+  await bumpActiveCount(-1);
+
+  const settings = await loadSettings();
+  if (!settings.showNotifications) {
+    return;
+  }
+
+  const gid: string | undefined = params?.[0]?.gid;
+  let filename = 'Download';
+  try {
+    if (gid) {
+      const status = await client.call('aria2.tellStatus', gid, ['files']);
+      const filePath: string | undefined = status?.files?.[0]?.path;
+      if (filePath) {
+        filename = filePath.split(/[\\/]/).pop() || filename;
+      }
+    }
+  } catch {
+    // 取文件名失败时用占位标题
+  }
+
+  const title = kind === 'complete'
+    ? (chrome.i18n.getMessage('notifyDownloadComplete') || 'Download complete')
+    : (chrome.i18n.getMessage('notifyDownloadError') || 'Download failed');
+
+  try {
+    chrome.notifications.create({
+      type: 'basic',
+      iconUrl: chrome.runtime.getURL('icons/icon-128.png'),
+      title,
+      message: filename
+    });
+  } catch (error) {
+    console.debug('[Notification] create failed:', error);
+  }
+}
+
+/**
+ * 初始化 aria2 客户端
+ */
+async function initAria2Client() {
+  try {
+    const settings = await browserApi.storage.get([STORAGE_KEYS.SETTINGS]);
+    const config = mergeSettings(settings[STORAGE_KEYS.SETTINGS]).aria2Config;
+
+    await recreateAria2Client(config);
+  } catch (error) {
+    console.error('Failed to initialize aria2 client:', error);
+  }
+}
+
+/**
+ * 初始化连接层：手动模式，按用户在设置里保存的 aria2 RPC 配置直接连接
+ * （原 native messaging 自动配对已随桌面端 host 一并移除）
+ */
+function initConnection() {
+  void initAria2Client();
+}
+
+/**
+ * 创建右键菜单
+ */
+function createContextMenus() {
+  chrome.contextMenus.create({
+    id: 'download-with-gdownload',
+    title: chrome.i18n.getMessage('contextMenuDownload'),
+    contexts: ['link', 'image', 'video', 'audio']
+  });
+
+  chrome.contextMenus.create({
+    id: 'download-all-links',
+    title: chrome.i18n.getMessage('contextMenuDownloadAll'),
+    contexts: ['page']
+  });
+}
+
+/**
+ * 处理右键菜单点击
+ */
+async function handleContextMenuClick(
+  info: chrome.contextMenus.OnClickData,
+  tab?: chrome.tabs.Tab
+) {
+  if (info.menuItemId === 'download-with-gdownload') {
+    const url = info.linkUrl || info.srcUrl;
+    if (url && tab?.id) {
+      await sendToGDownload([{
+        id: Date.now().toString(),
+        url,
+        filename: url.split('/').pop() || 'download',
+        size: null,
+        fileType: '',
+        selected: true,
+        capturedAt: Date.now(),
+        source: 'contextMenu'
+      }]);
+    }
+  } else if (info.menuItemId === 'download-all-links' && tab?.id) {
+    // 发送消息到 Content Script 捕获所有链接
+    chrome.tabs.sendMessage(
+      tab.id,
+      { action: 'captureAllLinks' },
+      () => {
+        if (chrome.runtime.lastError) {
+          console.debug('[ContextMenu] captureAllLinks message failed:', chrome.runtime.lastError.message);
+        }
+      }
+    );
+  }
+}
+
+/**
+ * 发送链接到 GDownload
+ * 返回每个链接的发送结果，一个失败不影响其他链接
+ */
+async function sendToGDownload(links: Link[]): Promise<SendResult[]> {
+  if (!aria2Client) {
+    throw new Error('aria2 client not initialized');
+  }
+
+  // 获取用户设置
+  const result = await browserApi.storage.get([STORAGE_KEYS.SETTINGS]);
+  const settings = mergeSettings(result[STORAGE_KEYS.SETTINGS]);
+
+  const results: SendResult[] = [];
+  const seenFilenames = new Set<string>();
+
+  for (const link of links) {
+    if (!link.selected) {
+      continue;
+    }
+
+    try {
+      // 1. 清理并去重文件名
+      let filename = sanitizeFilename(link.filename);
+
+      // 处理文件名重复
+      let counter = 1;
+      const originalFilename = filename;
+      const lastDotIndex = filename.lastIndexOf('.');
+      const baseName = lastDotIndex > 0 ? filename.substring(0, lastDotIndex) : filename;
+      const ext = lastDotIndex > 0 ? filename.substring(lastDotIndex) : '';
+
+      while (seenFilenames.has(filename)) {
+        filename = `${baseName}_${counter}${ext}`;
+        counter++;
+      }
+      seenFilenames.add(filename);
+
+      // 2. 构建 aria2 选项
+      const options: Record<string, any> = {
+        out: filename
+      };
+
+      // 3. 构建请求头数组（根据用户设置决定是否发送）
+      const headers: string[] = [];
+
+      // User-Agent (通常安全，默认发送)；兜底用浏览器自身 UA，避免 aria2 默认 UA 被服务器拒
+      const effectiveUserAgent = link.userAgent || (typeof navigator !== 'undefined' ? navigator.userAgent : '');
+      if (effectiveUserAgent && settings.sendUserAgent) {
+        headers.push(`User-Agent: ${effectiveUserAgent}`);
+      }
+
+      // Referer (对于受保护资源很重要，默认发送)
+      if (link.referer && settings.sendReferer) {
+        headers.push(`Referer: ${link.referer}`);
+      }
+
+      // Cookie (敏感信息，需要用户明确授权，默认关闭)
+      if (link.cookies && settings.sendCookies) {
+        headers.push(`Cookie: ${link.cookies}`);
+      }
+
+      // Authorization (敏感信息，需要用户明确授权，默认关闭)
+      if (link.authorization && settings.sendAuthorization) {
+        headers.push(`Authorization: ${link.authorization}`);
+      }
+
+      // 如果有请求头，添加到选项中
+      if (headers.length > 0) {
+        options.header = headers;
+      }
+
+      // 4. 调用 aria2 添加下载
+      // 注意：aria2.addUri 的第一个参数是 URL 数组 [url]，不是嵌套数组
+      const gid = await aria2Client.call('aria2.addUri', [link.url], options);
+
+      console.log(`[SendToGDownload] ✓ Added: ${filename} (GID: ${gid})`);
+      results.push({ link, success: true, gid });
+
+    } catch (error) {
+      const errorMessage = error instanceof Error ? error.message : String(error);
+      console.error(`[SendToGDownload] ✗ Failed: ${link.filename}`, errorMessage);
+      results.push({
+        link,
+        success: false,
+        error: errorMessage
+      });
+    }
+  }
+
+  // 输出汇总统计
+  const successCount = results.filter(r => r.success).length;
+  const failCount = results.filter(r => !r.success).length;
+  console.log(`[SendToGDownload] Summary: ${successCount} succeeded, ${failCount} failed`);
+
+  return results;
+}
+
+/**
+ * 将 aria2 状态对象转换为 popup 用的 ActiveTask（派生文件名）
+ */
+function toActiveTask(status: any): ActiveTask {
+  const filePath: string | undefined = status?.files?.[0]?.path;
+  let filename = '';
+  if (filePath) {
+    filename = filePath.split(/[\\/]/).pop() || '';
+  }
+  if (!filename) {
+    // 无文件名时回退到 URI 末段或 gid
+    const uri: string | undefined = status?.files?.[0]?.uris?.[0]?.uri;
+    if (uri) {
+      try {
+        filename = decodeURIComponent(new URL(uri).pathname.split('/').pop() || '');
+      } catch {
+        filename = '';
+      }
+    }
+  }
+  return {
+    gid: status.gid,
+    status: status.status,
+    totalLength: status.totalLength || '0',
+    completedLength: status.completedLength || '0',
+    downloadSpeed: status.downloadSpeed || '0',
+    filename: filename || status.gid
+  };
+}
+
+/**
+ * 处理来自其他组件的消息
+ */
+async function handleMessage(
+  message: Message,
+  sender: chrome.runtime.MessageSender
+): Promise<MessageResponse> {
+  try {
+    switch (message.action) {
+      case 'sendToGDownload': {
+        const results = await sendToGDownload(message.links);
+        const successCount = results.filter(r => r.success).length;
+        const failCount = results.filter(r => !r.success).length;
+        const errors = results.filter(r => !r.success).map(r => ({
+          filename: r.link.filename,
+          error: r.error
+        }));
+
+        // 只有全部成功时才返回 success: true
+        // 部分失败或全部失败都返回 success: false
+        return {
+          success: failCount === 0,
+          error: failCount > 0 ? `${failCount} link(s) failed to send` : undefined,
+          data: {
+            total: results.length,
+            succeeded: successCount,
+            failed: failCount,
+            errors: errors.length > 0 ? errors : undefined,
+            results // 完整的结果列表，供 UI 展示详细信息
+          }
+        };
+      }
+
+      case 'testConnection': {
+        // 优先测试表单传入的配置（无需先保存）；否则测当前已保存配置
+        if (message.config) {
+          const tempClient = new Aria2RpcClient(message.config);
+          try {
+            await tempClient.connect();
+            const stats = await tempClient.call('aria2.getGlobalStat');
+            return { success: true, data: stats };
+          } finally {
+            tempClient.disconnect();
+          }
+        }
+        await initAria2Client();
+        const stats = await aria2Client!.call('aria2.getGlobalStat');
+        return { success: true, data: stats };
+      }
+
+      case 'getConnectionStatus':
+        return {
+          success: true,
+          data: {
+            connected: aria2Client?.isConnected() || false,
+            readyState: aria2Client?.getReadyState() || WebSocket.CLOSED
+          }
+        };
+
+      case 'bypassNext':
+        // 内容脚本 Alt+点击 -> 下一个下载放行浏览器
+        markBypassNext();
+        return { success: true };
+
+      case 'getConnectionInfo':
+        return {
+          success: true,
+          data: {
+            connected: aria2Client?.isConnected() || false
+          }
+        };
+
+      case 'getMediaItems':
+        return { success: true, data: { items: getMediaItems() } };
+
+      case 'downloadMedia': {
+        const result = await downloadMedia(message.mediaId, message.variantIndex);
+        return result.ok
+          ? { success: true }
+          : { success: false, error: result.error };
+      }
+
+      case 'manifestCandidate': {
+        // 来自 MAIN world 注入经内容脚本中转的 manifest 上报
+        const tabId = sender.tab?.id ?? -1;
+        if (tabId >= 0) {
+          void handleNetworkManifest(message.url, tabId);
+        }
+        return { success: true };
+      }
+
+      case 'batchLinksCaptured': {
+        // 拖框选链结果存入 session networkLinks，popup 打开时合并显示
+        try {
+          const now = Date.now();
+          const newLinks: Link[] = message.links.map((l, i) => ({
+            id: `drag_${now}_${i}`,
+            url: l.url,
+            filename: sanitizeFilename(l.filename),
+            size: null,
+            fileType: l.filename.match(/\.[^.]+$/)?.[0] || '',
+            selected: true,
+            capturedAt: now,
+            source: 'page'
+          }));
+          const { networkLinks = [] } = await chrome.storage.session.get('networkLinks');
+          const merged = [...networkLinks, ...newLinks].slice(-100);
+          await chrome.storage.session.set({ networkLinks: merged });
+        } catch (error) {
+          console.debug('[BatchCapture] store failed:', error);
+        }
+        return { success: true };
+      }
+
+      case 'floatButtonDownload': {
+        // 优先关联该标签页最近捕获的流媒体，否则直发视频 src
+        const tabId = sender.tab?.id ?? -1;
+        const tabMedia = getMediaItems()
+          .filter((m) => m.tabId === tabId && m.type === 'hls' && m.variants.length > 0)
+          .sort((a, b) => b.timestamp - a.timestamp);
+        if (tabMedia.length > 0) {
+          const result = await downloadMedia(tabMedia[0].id, 0); // index 0 = 最高码率
+          return result.ok ? { success: true } : { success: false, error: result.error };
+        }
+        const src = message.videoSrc;
+        if (src && /^https?:/i.test(src)) {
+          const results = await sendToGDownload([{
+            id: Date.now().toString(),
+            url: src,
+            filename: sanitizeFilename(src.split('/').pop()?.split('?')[0] || 'video'),
+            size: null,
+            fileType: '',
+            selected: true,
+            capturedAt: Date.now(),
+            source: 'page'
+          }]);
+          return results[0]?.success
+            ? { success: true }
+            : { success: false, error: results[0]?.error || 'send failed' };
+        }
+        return { success: false, error: 'no downloadable media' };
+      }
+
+      case 'getActiveTasks': {
+        if (!aria2Client || !aria2Client.isConnected()) {
+          return { success: true, data: { tasks: [] } };
+        }
+        // 并行取活动任务 + 等待队列（前 20 条），避免 multicall 的 token 包裹复杂度
+        const keys = ['gid', 'status', 'totalLength', 'completedLength', 'downloadSpeed', 'files'];
+        const [active, waiting] = await Promise.all([
+          aria2Client.call('aria2.tellActive', keys),
+          aria2Client.call('aria2.tellWaiting', 0, 20, keys)
+        ]);
+        const tasks: ActiveTask[] = [
+          ...(Array.isArray(active) ? active : []),
+          ...(Array.isArray(waiting) ? waiting : [])
+        ].map(toActiveTask);
+        return { success: true, data: { tasks } };
+      }
+
+      case 'pauseTask':
+        if (!aria2Client) return { success: false, error: 'Not connected' };
+        await aria2Client.call('aria2.pause', message.gid);
+        return { success: true };
+
+      case 'resumeTask':
+        if (!aria2Client) return { success: false, error: 'Not connected' };
+        await aria2Client.call('aria2.unpause', message.gid);
+        return { success: true };
+
+      case 'cancelTask':
+        if (!aria2Client) return { success: false, error: 'Not connected' };
+        await aria2Client.call('aria2.remove', message.gid);
+        return { success: true };
+
+      default:
+        return { success: false, error: 'Unknown action' };
+    }
+  } catch (error) {
+    console.error('Message handler error:', error);
+    return {
+      success: false,
+      error: error instanceof Error ? error.message : 'Unknown error'
+    };
+  }
+}
+
+/**
+ * 扩展安装/更新时的处理
+ */
+chrome.runtime.onInstalled.addListener(() => {
+  console.log('GDownload Extension installed');
+  createContextMenus();
+  initNetworkSniffer(); // 初始化网络嗅探
+});
+
+/**
+ * 扩展启动时的处理
+ */
+chrome.runtime.onStartup.addListener(() => {
+  console.log('GDownload Extension started');
+  initNetworkSniffer(); // 初始化网络嗅探
+});
+
+/**
+ * 保活 alarm：定期心跳，兼任 SW 被回收后唤醒的重连触发器
+ * 注：Chrome/Firefox 对 alarm 周期有最小值（约 0.5 分钟），低于此值会被上调
+ */
+const KEEPALIVE_ALARM = 'aria2-keepalive';
+chrome.alarms.create(KEEPALIVE_ALARM, { periodInMinutes: 0.5 });
+
+chrome.alarms.onAlarm.addListener((alarm) => {
+  if (alarm.name !== KEEPALIVE_ALARM) {
+    return;
+  }
+  if (!aria2Client) {
+    // 连接层尚未就绪（native 发现/配对进行中）-> 触发初始化
+    initConnection();
+    return;
+  }
+  if (aria2Client.isConnected()) {
+    // 已连接：发心跳保持 SW 存活
+    aria2Client.call('aria2.getGlobalStat').catch(() => {
+      // 心跳失败会触发 onclose -> 自动重连
+    });
+  } else {
+    // 断线：立即发起重连
+    aria2Client.reconnectNow();
+  }
+});
+
+/**
+ * 初始化连接层：native 优先，host 不可用降级手动（顶层执行，覆盖每次 SW 加载）
+ */
+initConnection();
+
+/**
+ * 初始化设置跨设备同步（local <-> sync 镜像，secret 永不同步）
+ */
+initSettingsSync();
+
+/**
+ * 初始化流媒体嗅探（分片下发依赖惰性读取 aria2Client）
+ */
+initMediaSniffer({
+  addUris: async (tasks) => {
+    if (!aria2Client) {
+      throw new Error('aria2 client not initialized');
+    }
+    await Promise.all(
+      tasks.map((task) => aria2Client!.call('aria2.addUri', [task.url], task.options))
+    );
+  },
+  isConnected: () => aria2Client?.isConnected() ?? false,
+  getSettings: loadSettings
+});
+
+/**
+ * 初始化下载接管（顶层注册一次，依赖惰性读取 aria2Client）
+ */
+initDownloadTaker({
+  dispatch: (links) => sendToGDownload(links),
+  isConnected: () => aria2Client?.isConnected() ?? false,
+  removeTask: async (gid) => {
+    await aria2Client?.call('aria2.remove', gid);
+  }
+});
+
+/**
+ * 键盘快捷键：Ctrl+Shift+M 打开媒体面板
+ * 记录目标 Tab 到 session，popup 打开时读取并切换；并尝试直接打开 popup
+ */
+chrome.commands.onCommand.addListener((command) => {
+  if (command !== 'open_media_panel') {
+    return;
+  }
+  chrome.storage.session?.set({ popupTab: 'media' }).catch(() => {});
+  // chrome.action.openPopup 需 Chrome 127+，可能不可用，best-effort
+  (chrome.action as any).openPopup?.().catch?.(() => {});
+});
+
+/**
+ * 右键菜单点击监听
+ */
+chrome.contextMenus.onClicked.addListener(handleContextMenuClick);
+
+browserApi.storage.onChanged.addListener((changes: Record<string, chrome.storage.StorageChange>, areaName?: chrome.storage.AreaName) => {
+  if (areaName !== 'sync' && areaName !== 'local') {
+    return;
+  }
+
+  const settingsChange = changes[STORAGE_KEYS.SETTINGS];
+  if (!settingsChange) {
+    return;
+  }
+
+  const oldConfig = mergeSettings(settingsChange.oldValue).aria2Config;
+  const newConfig = mergeSettings(settingsChange.newValue).aria2Config;
+  if (JSON.stringify(oldConfig) !== JSON.stringify(newConfig)) {
+    recreateAria2Client(newConfig).catch(error => {
+      console.error('Failed to recreate aria2 client after settings change:', error);
+    });
+  }
+});
+
+/**
+ * 消息监听
+ */
+chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  handleMessage(message, sender)
+    .then(sendResponse)
+    .catch(error => {
+      sendResponse({
+        success: false,
+        error: error instanceof Error ? error.message : 'Unknown error'
+      });
+    });
+  
+  // 返回 true 表示异步响应
+  return true;
+});

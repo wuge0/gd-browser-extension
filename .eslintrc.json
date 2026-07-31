@@ -1,1 +1,55 @@
-ewogICJlbnYiOiB7CiAgICAiYnJvd3NlciI6IHRydWUsCiAgICAiZXMyMDIxIjogdHJ1ZSwKICAgICJ3ZWJleHRlbnNpb25zIjogdHJ1ZQogIH0sCiAgImV4dGVuZHMiOiBbCiAgICAiZXNsaW50OnJlY29tbWVuZGVkIiwKICAgICJwbHVnaW46cmVhY3QvcmVjb21tZW5kZWQiLAogICAgInBsdWdpbjpyZWFjdC1ob29rcy9yZWNvbW1lbmRlZCIsCiAgICAicGx1Z2luOkB0eXBlc2NyaXB0LWVzbGludC9yZWNvbW1lbmRlZCIKICBdLAogICJwYXJzZXIiOiAiQHR5cGVzY3JpcHQtZXNsaW50L3BhcnNlciIsCiAgInBhcnNlck9wdGlvbnMiOiB7CiAgICAiZWNtYUZlYXR1cmVzIjogewogICAgICAianN4IjogdHJ1ZQogICAgfSwKICAgICJlY21hVmVyc2lvbiI6ICJsYXRlc3QiLAogICAgInNvdXJjZVR5cGUiOiAibW9kdWxlIgogIH0sCiAgInBsdWdpbnMiOiBbCiAgICAicmVhY3QiLAogICAgInJlYWN0LWhvb2tzIiwKICAgICJAdHlwZXNjcmlwdC1lc2xpbnQiCiAgXSwKICAicnVsZXMiOiB7CiAgICAiaW5kZW50IjogWyJlcnJvciIsICJ0YWIiLCB7ICJTd2l0Y2hDYXNlIjogMSB9XSwKICAgICJsaW5lYnJlYWstc3R5bGUiOiBbImVycm9yIiwgIndpbmRvd3MiXSwKICAgICJxdW90ZXMiOiBbImVycm9yIiwgInNpbmdsZSJdLAogICAgInNlbWkiOiBbImVycm9yIiwgImFsd2F5cyJdLAogICAgIm5vLXVudXNlZC12YXJzIjogIm9mZiIsCiAgICAiQHR5cGVzY3JpcHQtZXNsaW50L25vLXVudXNlZC12YXJzIjogWyJ3YXJuIiwgewogICAgICAiYXJnc0lnbm9yZVBhdHRlcm4iOiAiXl8iLAogICAgICAidmFyc0lnbm9yZVBhdHRlcm4iOiAiXl8iCiAgICB9XSwKICAgICJAdHlwZXNjcmlwdC1lc2xpbnQvbm8tZXhwbGljaXQtYW55IjogIndhcm4iLAogICAgIkB0eXBlc2NyaXB0LWVzbGludC9leHBsaWNpdC1tb2R1bGUtYm91bmRhcnktdHlwZXMiOiAib2ZmIiwKICAgICJyZWFjdC9yZWFjdC1pbi1qc3gtc2NvcGUiOiAib2ZmIiwKICAgICJyZWFjdC9wcm9wLXR5cGVzIjogIm9mZiIsCiAgICAicmVhY3QtaG9va3MvcnVsZXMtb2YtaG9va3MiOiAiZXJyb3IiLAogICAgInJlYWN0LWhvb2tzL2V4aGF1c3RpdmUtZGVwcyI6ICJ3YXJuIgogIH0sCiAgInNldHRpbmdzIjogewogICAgInJlYWN0IjogewogICAgICAidmVyc2lvbiI6ICJkZXRlY3QiCiAgICB9CiAgfSwKICAiaWdub3JlUGF0dGVybnMiOiBbCiAgICAiZGlzdC8iLAogICAgIm5vZGVfbW9kdWxlcy8iLAogICAgIiouY29uZmlnLmpzIiwKICAgICIqLmNvbmZpZy50cyIsCiAgICAidml0ZS5jb25maWcudHMiCiAgXQp9Cg==
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "webextensions": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "react-hooks",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "indent": ["error", "tab", { "SwitchCase": 1 }],
+    "linebreak-style": ["error", "windows"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["warn", {
+      "argsIgnorePattern": "^_",
+      "varsIgnorePattern": "^_"
+    }],
+    "@typescript-eslint/no-explicit-any": "warn",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "ignorePatterns": [
+    "dist/",
+    "node_modules/",
+    "*.config.js",
+    "*.config.ts",
+    "vite.config.ts"
+  ]
+}

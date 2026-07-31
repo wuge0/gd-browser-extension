@@ -1,1 +1,14 @@
-LyoqCiAqIOS4u+mimOW6lOeUqO+8muWcqCA8aHRtbD4g5LiK6K6+572uIGRhdGEtdGhlbWXvvIzphY3lkIggQ1NTIOaal+iJsiB0b2tlbiDnlJ/mlYgKICogYXV0byA9IOi3n+maj+ezu+e7n++8iOenu+mZpOWxnuaAp++8jOS6pOe7mSBwcmVmZXJzLWNvbG9yLXNjaGVtZe+8iQogKi8KZXhwb3J0IHR5cGUgVGhlbWVNb2RlID0gJ2xpZ2h0JyB8ICdkYXJrJyB8ICdhdXRvJzsKCmV4cG9ydCBmdW5jdGlvbiBhcHBseVRoZW1lKHRoZW1lOiBUaGVtZU1vZGUpOiB2b2lkIHsKICBjb25zdCByb290ID0gZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50OwogIGlmICh0aGVtZSA9PT0gJ2F1dG8nKSB7CiAgICByb290LnJlbW92ZUF0dHJpYnV0ZSgnZGF0YS10aGVtZScpOwogIH0gZWxzZSB7CiAgICByb290LnNldEF0dHJpYnV0ZSgnZGF0YS10aGVtZScsIHRoZW1lKTsKICB9Cn0K
+/**
+ * 主题应用：在 <html> 上设置 data-theme，配合 CSS 暗色 token 生效
+ * auto = 跟随系统（移除属性，交给 prefers-color-scheme）
+ */
+export type ThemeMode = 'light' | 'dark' | 'auto';
+
+export function applyTheme(theme: ThemeMode): void {
+  const root = document.documentElement;
+  if (theme === 'auto') {
+    root.removeAttribute('data-theme');
+  } else {
+    root.setAttribute('data-theme', theme);
+  }
+}

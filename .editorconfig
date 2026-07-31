@@ -1,1 +1,18 @@
-cm9vdCA9IHRydWUKClsqXQpjaGFyc2V0ID0gdXRmLTgKZW5kX29mX2xpbmUgPSBjcmxmCmluc2VydF9maW5hbF9uZXdsaW5lID0gdHJ1ZQp0cmltX3RyYWlsaW5nX3doaXRlc3BhY2UgPSB0cnVlCgpbKi57anMsanN4LHRzLHRzeCxqc29uLGNzc31dCmluZGVudF9zdHlsZSA9IHRhYgppbmRlbnRfc2l6ZSA9IDQKClsqLnt5bWwseWFtbH1dCmluZGVudF9zdHlsZSA9IHNwYWNlCmluZGVudF9zaXplID0gMgoKWyoubWRdCnRyaW1fdHJhaWxpbmdfd2hpdGVzcGFjZSA9IGZhbHNlCg==
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{js,jsx,ts,tsx,json,css}]
+indent_style = tab
+indent_size = 4
+
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false

@@ -1,1 +1,183 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QsIHZpLCBiZWZvcmVFYWNoLCBhZnRlckVhY2ggfSBmcm9tICd2aXRlc3QnOwppbXBvcnQgeyBBcmlhMlJwY0NsaWVudCB9IGZyb20gJy4vYXJpYTJScGNDbGllbnQnOwppbXBvcnQgdHlwZSB7IEFyaWEyQ29uZmlnIH0gZnJvbSAnQC9zaGFyZWQvdHlwZXMnOwoKLyoqCiAqIOaooeaLnyBXZWJTb2NrZXTvvIzlj6/miYvliqjop6blj5Egb3Blbi9tZXNzYWdlL2Nsb3Nl77yM5L6b6L+e5o6l5bGC5rWL6K+V5L2/55SoCiAqLwpjbGFzcyBNb2NrV2ViU29ja2V0IHsKICBzdGF0aWMgQ09OTkVDVElORyA9IDA7CiAgc3RhdGljIE9QRU4gPSAxOwogIHN0YXRpYyBDTE9TSU5HID0gMjsKICBzdGF0aWMgQ0xPU0VEID0gMzsKICBzdGF0aWMgaW5zdGFuY2VzOiBNb2NrV2ViU29ja2V0W10gPSBbXTsKCiAgdXJsOiBzdHJpbmc7CiAgcmVhZHlTdGF0ZSA9IE1vY2tXZWJTb2NrZXQuQ09OTkVDVElORzsKICBzZW50OiBzdHJpbmdbXSA9IFtdOwogIG9ub3BlbjogKCgpID0+IHZvaWQpIHwgbnVsbCA9IG51bGw7CiAgb25jbG9zZTogKCgpID0+IHZvaWQpIHwgbnVsbCA9IG51bGw7CiAgb25lcnJvcjogKChlcnI6IGFueSkgPT4gdm9pZCkgfCBudWxsID0gbnVsbDsKICBvbm1lc3NhZ2U6ICgoZXZlbnQ6IHsgZGF0YTogc3RyaW5nIH0pID0+IHZvaWQpIHwgbnVsbCA9IG51bGw7CgogIGNvbnN0cnVjdG9yKHVybDogc3RyaW5nKSB7CiAgICB0aGlzLnVybCA9IHVybDsKICAgIE1vY2tXZWJTb2NrZXQuaW5zdGFuY2VzLnB1c2godGhpcyk7CiAgfQoKICBzZW5kKGRhdGE6IHN0cmluZykgewogICAgdGhpcy5zZW50LnB1c2goZGF0YSk7CiAgfQoKICBjbG9zZSgpIHsKICAgIHRoaXMucmVhZHlTdGF0ZSA9IE1vY2tXZWJTb2NrZXQuQ0xPU0VEOwogICAgdGhpcy5vbmNsb3NlPy4oKTsKICB9CgogIC8vIOa1i+ivlei+heWKqe+8muaooeaLn+i/nuaOpeW7uueriwogIF9vcGVuKCkgewogICAgdGhpcy5yZWFkeVN0YXRlID0gTW9ja1dlYlNvY2tldC5PUEVOOwogICAgdGhpcy5vbm9wZW4/LigpOwogIH0KCiAgLy8g5rWL6K+V6L6F5Yqp77ya5qih5ouf5pS25Yiw5LiA5p2h5raI5oGvCiAgX21lc3NhZ2UocGF5bG9hZDogYW55KSB7CiAgICB0aGlzLm9ubWVzc2FnZT8uKHsgZGF0YTogSlNPTi5zdHJpbmdpZnkocGF5bG9hZCkgfSk7CiAgfQp9Cgpjb25zdCBDT05GSUc6IEFyaWEyQ29uZmlnID0gewogIHVybDogJ3dzOi8vMTI3LjAuMC4xOjE2ODg4L2pzb25ycGMnLAogIHNlY3JldDogJ3Rlc3Qtc2VjcmV0JywKICBhdXRvQ29ubmVjdDogdHJ1ZSwKICByZWNvbm5lY3RJbnRlcnZhbDogNTAwMCwKICByZXF1ZXN0VGltZW91dDogMTAwMAp9OwoKZGVzY3JpYmUoJ0FyaWEyUnBjQ2xpZW50JywgKCkgPT4gewogIGJlZm9yZUVhY2goKCkgPT4gewogICAgTW9ja1dlYlNvY2tldC5pbnN0YW5jZXMgPSBbXTsKICAgIC8vIEB0cy1leHBlY3QtZXJyb3Ig55SoIE1vY2sg6KaG55uW5YWo5bGAIFdlYlNvY2tldAogICAgZ2xvYmFsLldlYlNvY2tldCA9IE1vY2tXZWJTb2NrZXQ7CiAgfSk7CgogIGFmdGVyRWFjaCgoKSA9PiB7CiAgICB2aS51c2VSZWFsVGltZXJzKCk7CiAgICB2aS5yZXN0b3JlQWxsTW9ja3MoKTsKICB9KTsKCiAgLyoqIOW7uui/nuW5tui/lOWbnuWvueW6lOeahCBtb2NrIHNvY2tldCAqLwogIGFzeW5jIGZ1bmN0aW9uIGNvbm5lY3RDbGllbnQoY2xpZW50OiBBcmlhMlJwY0NsaWVudCk6IFByb21pc2U8TW9ja1dlYlNvY2tldD4gewogICAgY29uc3QgcHJvbWlzZSA9IGNsaWVudC5jb25uZWN0KCk7CiAgICBjb25zdCB3cyA9IE1vY2tXZWJTb2NrZXQuaW5zdGFuY2VzW01vY2tXZWJTb2NrZXQuaW5zdGFuY2VzLmxlbmd0aCAtIDFdOwogICAgd3MuX29wZW4oKTsKICAgIGF3YWl0IHByb21pc2U7CiAgICByZXR1cm4gd3M7CiAgfQoKICBpdCgn5YiG5Y+R5pyN5Yqh56uv6YCa55+l77yI5pyJIG1ldGhvZOOAgeaXoCBpZO+8ieWIsOW3suazqOWGjOWkhOeQhuWZqCcsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGNsaWVudCA9IG5ldyBBcmlhMlJwY0NsaWVudChDT05GSUcpOwogICAgY29uc3Qgd3MgPSBhd2FpdCBjb25uZWN0Q2xpZW50KGNsaWVudCk7CgogICAgY29uc3QgaGFuZGxlciA9IHZpLmZuKCk7CiAgICBjbGllbnQub25Ob3RpZmljYXRpb24oJ2FyaWEyLm9uRG93bmxvYWRTdGFydCcsIGhhbmRsZXIpOwoKICAgIHdzLl9tZXNzYWdlKHsganNvbnJwYzogJzIuMCcsIG1ldGhvZDogJ2FyaWEyLm9uRG93bmxvYWRTdGFydCcsIHBhcmFtczogW3sgZ2lkOiAnYWJjJyB9XSB9KTsKCiAgICBleHBlY3QoaGFuZGxlcikudG9IYXZlQmVlbkNhbGxlZFRpbWVzKDEpOwogICAgZXhwZWN0KGhhbmRsZXIpLnRvSGF2ZUJlZW5DYWxsZWRXaXRoKFt7IGdpZDogJ2FiYycgfV0pOwogIH0pOwoKICBpdCgn6YCa55+l5LiN5Lya6KKr6ZSZ6K+v5b2T5oiQ6K+35rGC5ZON5bqU5aSE55CGJywgYXN5bmMgKCkgPT4gewogICAgY29uc3QgY2xpZW50ID0gbmV3IEFyaWEyUnBjQ2xpZW50KENPTkZJRyk7CiAgICBjb25zdCB3cyA9IGF3YWl0IGNvbm5lY3RDbGllbnQoY2xpZW50KTsKCiAgICAvLyDku4Xms6jlhozpgJrnn6XlpITnkIblmajvvIzkuI3lupTmipvplJkKICAgIGNvbnN0IGhhbmRsZXIgPSB2aS5mbigpOwogICAgY2xpZW50Lm9uTm90aWZpY2F0aW9uKCdhcmlhMi5vbkRvd25sb2FkQ29tcGxldGUnLCBoYW5kbGVyKTsKICAgIHdzLl9tZXNzYWdlKHsganNvbnJwYzogJzIuMCcsIG1ldGhvZDogJ2FyaWEyLm9uRG93bmxvYWRDb21wbGV0ZScsIHBhcmFtczogW3sgZ2lkOiAnZzEnIH1dIH0pOwogICAgZXhwZWN0KGhhbmRsZXIpLnRvSGF2ZUJlZW5DYWxsZWRPbmNlKCk7CiAgfSk7CgogIGl0KCdjYWxsKCkg5oyJIGlkIOWMuemFjeWTjeW6lOW5tuino+aekOe7k+aenCcsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGNsaWVudCA9IG5ldyBBcmlhMlJwY0NsaWVudChDT05GSUcpOwogICAgY29uc3Qgd3MgPSBhd2FpdCBjb25uZWN0Q2xpZW50KGNsaWVudCk7CgogICAgY29uc3QgY2FsbFByb21pc2UgPSBjbGllbnQuY2FsbCgnYXJpYTIuZ2V0R2xvYmFsU3RhdCcpOwogICAgLy8gY2FsbCgpIOWGhemDqCBhd2FpdCBlbnN1cmVDb25uZWN0ZWQoKSDlkI7miY0gc2VuZO+8jOmcgOWFiCBmbHVzaCDlvq7ku7vliqEKICAgIGF3YWl0IG5ldyBQcm9taXNlKChyZXNvbHZlKSA9PiBzZXRUaW1lb3V0KHJlc29sdmUsIDApKTsKICAgIGNvbnN0IHNlbnQgPSBKU09OLnBhcnNlKHdzLnNlbnRbd3Muc2VudC5sZW5ndGggLSAxXSk7CiAgICBleHBlY3Qoc2VudC5tZXRob2QpLnRvQmUoJ2FyaWEyLmdldEdsb2JhbFN0YXQnKTsKICAgIGV4cGVjdChzZW50LnBhcmFtc1swXSkudG9CZSgndG9rZW46dGVzdC1zZWNyZXQnKTsKCiAgICB3cy5fbWVzc2FnZSh7IGpzb25ycGM6ICcyLjAnLCBpZDogc2VudC5pZCwgcmVzdWx0OiB7IG51bUFjdGl2ZTogJzInIH0gfSk7CiAgICBhd2FpdCBleHBlY3QoY2FsbFByb21pc2UpLnJlc29sdmVzLnRvRXF1YWwoeyBudW1BY3RpdmU6ICcyJyB9KTsKICB9KTsKCiAgaXQoJ2NhbGwoKSDlnKjlk43lupTlkKsgZXJyb3Ig5pe2IHJlamVjdCcsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGNsaWVudCA9IG5ldyBBcmlhMlJwY0NsaWVudChDT05GSUcpOwogICAgY29uc3Qgd3MgPSBhd2FpdCBjb25uZWN0Q2xpZW50KGNsaWVudCk7CgogICAgY29uc3QgY2FsbFByb21pc2UgPSBjbGllbnQuY2FsbCgnYXJpYTIudGVsbFN0YXR1cycsICdiYWQtZ2lkJyk7CiAgICBhd2FpdCBuZXcgUHJvbWlzZSgocmVzb2x2ZSkgPT4gc2V0VGltZW91dChyZXNvbHZlLCAwKSk7CiAgICBjb25zdCBzZW50ID0gSlNPTi5wYXJzZSh3cy5zZW50W3dzLnNlbnQubGVuZ3RoIC0gMV0pOwogICAgd3MuX21lc3NhZ2UoeyBqc29ucnBjOiAnMi4wJywgaWQ6IHNlbnQuaWQsIGVycm9yOiB7IGNvZGU6IDEsIG1lc3NhZ2U6ICdub3QgZm91bmQnIH0gfSk7CgogICAgYXdhaXQgZXhwZWN0KGNhbGxQcm9taXNlKS5yZWplY3RzLnRvVGhyb3coJ25vdCBmb3VuZCcpOwogIH0pOwoKICBpdCgn6L+e5o6l54q25oCB5Y+Y5YyW5bm/5pKtIGNvbm5lY3RlZD10cnVlL2ZhbHNlJywgYXN5bmMgKCkgPT4gewogICAgY29uc3QgY2xpZW50ID0gbmV3IEFyaWEyUnBjQ2xpZW50KENPTkZJRyk7CiAgICBjb25zdCBzdGF0ZUhhbmRsZXIgPSB2aS5mbigpOwogICAgY2xpZW50Lm9uQ29ubmVjdGlvblN0YXRlQ2hhbmdlKHN0YXRlSGFuZGxlcik7CgogICAgY29uc3Qgd3MgPSBhd2FpdCBjb25uZWN0Q2xpZW50KGNsaWVudCk7CiAgICBleHBlY3Qoc3RhdGVIYW5kbGVyKS50b0hhdmVCZWVuQ2FsbGVkV2l0aCh0cnVlKTsKCiAgICB3cy5jbG9zZSgpOwogICAgZXhwZWN0KHN0YXRlSGFuZGxlcikudG9IYXZlQmVlbkNhbGxlZFdpdGgoZmFsc2UpOwogIH0pOwoKICBpdCgn6Z2e5Li75Yqo5pat5byA5pe25oyJ5oyH5pWw6YCA6YG/6Ieq5Yqo6YeN6L+eJywgYXN5bmMgKCkgPT4gewogICAgdmkudXNlRmFrZVRpbWVycygpOwogICAgY29uc3QgY2xpZW50ID0gbmV3IEFyaWEyUnBjQ2xpZW50KENPTkZJRyk7CgogICAgY29uc3QgcHJvbWlzZSA9IGNsaWVudC5jb25uZWN0KCk7CiAgICBjb25zdCB3czEgPSBNb2NrV2ViU29ja2V0Lmluc3RhbmNlc1swXTsKICAgIHdzMS5fb3BlbigpOwogICAgYXdhaXQgcHJvbWlzZTsKICAgIGV4cGVjdChNb2NrV2ViU29ja2V0Lmluc3RhbmNlcykudG9IYXZlTGVuZ3RoKDEpOwoKICAgIC8vIOaooeaLn+aEj+WkluaWreW8gO+8iOmdniBkaXNjb25uZWN0KCnvvIkKICAgIHdzMS5jbG9zZSgpOwoKICAgIC8vIOWfuuehgOmAgOmBvyAxcyDlkI7lupTlj5HotbfnrKzkuozmrKHlu7rov54KICAgIGF3YWl0IHZpLmFkdmFuY2VUaW1lcnNCeVRpbWVBc3luYygxMDAwKTsKICAgIGV4cGVjdChNb2NrV2ViU29ja2V0Lmluc3RhbmNlcykudG9IYXZlTGVuZ3RoKDIpOwogIH0pOwoKICBpdCgn5Li75YqoIGRpc2Nvbm5lY3QoKSDlkI7kuI3lho3oh6rliqjph43ov54nLCBhc3luYyAoKSA9PiB7CiAgICB2aS51c2VGYWtlVGltZXJzKCk7CiAgICBjb25zdCBjbGllbnQgPSBuZXcgQXJpYTJScGNDbGllbnQoQ09ORklHKTsKCiAgICBjb25zdCBwcm9taXNlID0gY2xpZW50LmNvbm5lY3QoKTsKICAgIGNvbnN0IHdzMSA9IE1vY2tXZWJTb2NrZXQuaW5zdGFuY2VzWzBdOwogICAgd3MxLl9vcGVuKCk7CiAgICBhd2FpdCBwcm9taXNlOwoKICAgIGNsaWVudC5kaXNjb25uZWN0KCk7CiAgICBhd2FpdCB2aS5hZHZhbmNlVGltZXJzQnlUaW1lQXN5bmMoNTAwMCk7CgogICAgLy8g5LiN5bqU5pyJ5paw55qE5bu66L+eCiAgICBleHBlY3QoTW9ja1dlYlNvY2tldC5pbnN0YW5jZXMpLnRvSGF2ZUxlbmd0aCgxKTsKICB9KTsKCiAgaXQoJ2lzQ29ubmVjdGVkIOWPjeaYoOW6leWxgiBzb2NrZXQg54q25oCBJywgYXN5bmMgKCkgPT4gewogICAgY29uc3QgY2xpZW50ID0gbmV3IEFyaWEyUnBjQ2xpZW50KENPTkZJRyk7CiAgICBleHBlY3QoY2xpZW50LmlzQ29ubmVjdGVkKCkpLnRvQmUoZmFsc2UpOwogICAgY29uc3Qgd3MgPSBhd2FpdCBjb25uZWN0Q2xpZW50KGNsaWVudCk7CiAgICBleHBlY3QoY2xpZW50LmlzQ29ubmVjdGVkKCkpLnRvQmUodHJ1ZSk7CiAgICB3cy5jbG9zZSgpOwogICAgZXhwZWN0KGNsaWVudC5pc0Nvbm5lY3RlZCgpKS50b0JlKGZhbHNlKTsKICB9KTsKfSk7Cg==
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
+import { Aria2RpcClient } from './aria2RpcClient';
+import type { Aria2Config } from '@/shared/types';
+
+/**
+ * 模拟 WebSocket，可手动触发 open/message/close，供连接层测试使用
+ */
+class MockWebSocket {
+  static CONNECTING = 0;
+  static OPEN = 1;
+  static CLOSING = 2;
+  static CLOSED = 3;
+  static instances: MockWebSocket[] = [];
+
+  url: string;
+  readyState = MockWebSocket.CONNECTING;
+  sent: string[] = [];
+  onopen: (() => void) | null = null;
+  onclose: (() => void) | null = null;
+  onerror: ((err: any) => void) | null = null;
+  onmessage: ((event: { data: string }) => void) | null = null;
+
+  constructor(url: string) {
+    this.url = url;
+    MockWebSocket.instances.push(this);
+  }
+
+  send(data: string) {
+    this.sent.push(data);
+  }
+
+  close() {
+    this.readyState = MockWebSocket.CLOSED;
+    this.onclose?.();
+  }
+
+  // 测试辅助：模拟连接建立
+  _open() {
+    this.readyState = MockWebSocket.OPEN;
+    this.onopen?.();
+  }
+
+  // 测试辅助：模拟收到一条消息
+  _message(payload: any) {
+    this.onmessage?.({ data: JSON.stringify(payload) });
+  }
+}
+
+const CONFIG: Aria2Config = {
+  url: 'ws://127.0.0.1:16888/jsonrpc',
+  secret: 'test-secret',
+  autoConnect: true,
+  reconnectInterval: 5000,
+  requestTimeout: 1000
+};
+
+describe('Aria2RpcClient', () => {
+  beforeEach(() => {
+    MockWebSocket.instances = [];
+    // @ts-expect-error 用 Mock 覆盖全局 WebSocket
+    global.WebSocket = MockWebSocket;
+  });
+
+  afterEach(() => {
+    vi.useRealTimers();
+    vi.restoreAllMocks();
+  });
+
+  /** 建连并返回对应的 mock socket */
+  async function connectClient(client: Aria2RpcClient): Promise<MockWebSocket> {
+    const promise = client.connect();
+    const ws = MockWebSocket.instances[MockWebSocket.instances.length - 1];
+    ws._open();
+    await promise;
+    return ws;
+  }
+
+  it('分发服务端通知（有 method、无 id）到已注册处理器', async () => {
+    const client = new Aria2RpcClient(CONFIG);
+    const ws = await connectClient(client);
+
+    const handler = vi.fn();
+    client.onNotification('aria2.onDownloadStart', handler);
+
+    ws._message({ jsonrpc: '2.0', method: 'aria2.onDownloadStart', params: [{ gid: 'abc' }] });
+
+    expect(handler).toHaveBeenCalledTimes(1);
+    expect(handler).toHaveBeenCalledWith([{ gid: 'abc' }]);
+  });
+
+  it('通知不会被错误当成请求响应处理', async () => {
+    const client = new Aria2RpcClient(CONFIG);
+    const ws = await connectClient(client);
+
+    // 仅注册通知处理器，不应抛错
+    const handler = vi.fn();
+    client.onNotification('aria2.onDownloadComplete', handler);
+    ws._message({ jsonrpc: '2.0', method: 'aria2.onDownloadComplete', params: [{ gid: 'g1' }] });
+    expect(handler).toHaveBeenCalledOnce();
+  });
+
+  it('call() 按 id 匹配响应并解析结果', async () => {
+    const client = new Aria2RpcClient(CONFIG);
+    const ws = await connectClient(client);
+
+    const callPromise = client.call('aria2.getGlobalStat');
+    // call() 内部 await ensureConnected() 后才 send，需先 flush 微任务
+    await new Promise((resolve) => setTimeout(resolve, 0));
+    const sent = JSON.parse(ws.sent[ws.sent.length - 1]);
+    expect(sent.method).toBe('aria2.getGlobalStat');
+    expect(sent.params[0]).toBe('token:test-secret');
+
+    ws._message({ jsonrpc: '2.0', id: sent.id, result: { numActive: '2' } });
+    await expect(callPromise).resolves.toEqual({ numActive: '2' });
+  });
+
+  it('call() 在响应含 error 时 reject', async () => {
+    const client = new Aria2RpcClient(CONFIG);
+    const ws = await connectClient(client);
+
+    const callPromise = client.call('aria2.tellStatus', 'bad-gid');
+    await new Promise((resolve) => setTimeout(resolve, 0));
+    const sent = JSON.parse(ws.sent[ws.sent.length - 1]);
+    ws._message({ jsonrpc: '2.0', id: sent.id, error: { code: 1, message: 'not found' } });
+
+    await expect(callPromise).rejects.toThrow('not found');
+  });
+
+  it('连接状态变化广播 connected=true/false', async () => {
+    const client = new Aria2RpcClient(CONFIG);
+    const stateHandler = vi.fn();
+    client.onConnectionStateChange(stateHandler);
+
+    const ws = await connectClient(client);
+    expect(stateHandler).toHaveBeenCalledWith(true);
+
+    ws.close();
+    expect(stateHandler).toHaveBeenCalledWith(false);
+  });
+
+  it('非主动断开时按指数退避自动重连', async () => {
+    vi.useFakeTimers();
+    const client = new Aria2RpcClient(CONFIG);
+
+    const promise = client.connect();
+    const ws1 = MockWebSocket.instances[0];
+    ws1._open();
+    await promise;
+    expect(MockWebSocket.instances).toHaveLength(1);
+
+    // 模拟意外断开（非 disconnect()）
+    ws1.close();
+
+    // 基础退避 1s 后应发起第二次建连
+    await vi.advanceTimersByTimeAsync(1000);
+    expect(MockWebSocket.instances).toHaveLength(2);
+  });
+
+  it('主动 disconnect() 后不再自动重连', async () => {
+    vi.useFakeTimers();
+    const client = new Aria2RpcClient(CONFIG);
+
+    const promise = client.connect();
+    const ws1 = MockWebSocket.instances[0];
+    ws1._open();
+    await promise;
+
+    client.disconnect();
+    await vi.advanceTimersByTimeAsync(5000);
+
+    // 不应有新的建连
+    expect(MockWebSocket.instances).toHaveLength(1);
+  });
+
+  it('isConnected 反映底层 socket 状态', async () => {
+    const client = new Aria2RpcClient(CONFIG);
+    expect(client.isConnected()).toBe(false);
+    const ws = await connectClient(client);
+    expect(client.isConnected()).toBe(true);
+    ws.close();
+    expect(client.isConnected()).toBe(false);
+  });
+});

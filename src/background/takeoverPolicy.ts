@@ -1,1 +1,102 @@
-aW1wb3J0IHR5cGUgeyBFeHRlbnNpb25TZXR0aW5ncywgU2l0ZVJ1bGUgfSBmcm9tICdAL3NoYXJlZC90eXBlcyc7CmltcG9ydCB7IGdldERvbWFpbiB9IGZyb20gJ0Avc2hhcmVkL3V0aWxzL3VybFBhcnNlcic7CgovKioKICog5LiL6L295o6l566h55qE57qv5Yik5a6a6YC76L6R77yI5pegIGNocm9tZSAvIOe9kee7nOS+nei1lu+8jOS+v+S6juWNlea1i++8iQogKi8KCi8qKgogKiDlt7Lnn6XmlL7ooYznmoQgTUlNRe+8iOa1j+iniOWZqOWGheiBlOafpeeci+exu++8jOmAmuW4uOS4jeW6lOaOpeeuoe+8iQogKi8KY29uc3QgUEFTU1RIUk9VR0hfTUlNRSA9IG5ldyBTZXQoWwogICd0ZXh0L2h0bWwnLAogICdhcHBsaWNhdGlvbi94aHRtbCt4bWwnCl0pOwoKLyoqCiAqIOaOpeeuoeWIpOWumui+k+WFpQogKi8KZXhwb3J0IGludGVyZmFjZSBUYWtlb3ZlcklucHV0IHsKICAvLyDnm67moIcgVVJM77yI5LyY5YWIIGZpbmFsVXJs77yJCiAgdXJsOiBzdHJpbmc7CiAgLy8g5LiL6L296aG5IE1JTUXvvIjlj6/nqbrvvIkKICBtaW1lPzogc3RyaW5nOwogIC8vIOWPkei1t+S4i+i9veeahOaJqeWxlSBJRO+8iOacrOaJqeWxleWbnumAgOS4i+i9veS8muW4puiHqui6qyBJRO+8iQogIGJ5RXh0ZW5zaW9uSWQ/OiBzdHJpbmc7CiAgLy8g5paH5Lu25L2T56ev77yI5a2X6IqC77yJ77yM5pyq55+l5Li6IC0xCiAgc2l6ZTogbnVtYmVyOwogIC8vIGFyaWEyIOW9k+WJjeaYr+WQpuW3sui/nuaOpQogIGlzQ29ubmVjdGVkOiBib29sZWFuOwogIC8vIEFsdCDnu5Xov4fmoIforrDmmK/lkKbnlJ/mlYgKICBieXBhc3NBY3RpdmU6IGJvb2xlYW47Cn0KCi8qKgogKiDljLnphY3nq5nngrnop4TliJnvvIjln5/lkI3lkKvlrZDln5/vvIkKICovCmV4cG9ydCBmdW5jdGlvbiBtYXRjaFNpdGVSdWxlKHJ1bGVzOiBTaXRlUnVsZVtdLCB1cmw6IHN0cmluZyk6IFNpdGVSdWxlIHwgdW5kZWZpbmVkIHsKICBpZiAoIXJ1bGVzIHx8IHJ1bGVzLmxlbmd0aCA9PT0gMCkgewogICAgcmV0dXJuIHVuZGVmaW5lZDsKICB9CiAgY29uc3QgZG9tYWluID0gZ2V0RG9tYWluKHVybCk7CiAgaWYgKCFkb21haW4pIHsKICAgIHJldHVybiB1bmRlZmluZWQ7CiAgfQogIHJldHVybiBydWxlcy5maW5kKChydWxlKSA9PiB7CiAgICBjb25zdCBkID0gcnVsZS5kb21haW4udG9Mb3dlckNhc2UoKTsKICAgIHJldHVybiBkb21haW4gPT09IGQgfHwgZG9tYWluLmVuZHNXaXRoKCcuJyArIGQpOwogIH0pOwp9CgovKioKICog5Yik5a6a5piv5ZCm5o6l566h6K+l5LiL6L2977yI6aG65bqP5pWP5oSf55qE5Yik5a6a6ZO+77yJCiAqIHRydWUgPSDmjqXnrqHvvIjlj5bmtojmtY/op4jlmajkuIvovb3ovazkuqQgR0Rvd25sb2Fk77yJ77ybZmFsc2UgPSDmlL7ooYzmtY/op4jlmagKICovCmV4cG9ydCBmdW5jdGlvbiBkZWNpZGVUYWtlb3ZlcihpbnB1dDogVGFrZW92ZXJJbnB1dCwgc2V0dGluZ3M6IEV4dGVuc2lvblNldHRpbmdzKTogYm9vbGVhbiB7CiAgLy8gMS4g5oC75byA5YWzICsg5Zyo57q/77yI56a757q/5pS+6KGM77yM5Yaz5LiN5Lii5LiL6L2977yJCiAgaWYgKCFzZXR0aW5ncy50YWtlb3ZlckVuYWJsZWQpIHsKICAgIHJldHVybiBmYWxzZTsKICB9CiAgaWYgKCFpbnB1dC5pc0Nvbm5lY3RlZCkgewogICAgcmV0dXJuIGZhbHNlOwogIH0KCiAgLy8gMi4g5o6S6Zmk5pys5omp5bGV6Ieq6Lqr5Y+R6LW355qE5LiL6L2977yI6Ziy5Zue6YCA5LiL6L296KKr5LqM5qyh5o6l566h6YCg5oiQ5q275b6q546v77yJCiAgaWYgKGlucHV0LmJ5RXh0ZW5zaW9uSWQpIHsKICAgIHJldHVybiBmYWxzZTsKICB9CgogIC8vIDMuIHNjaGVtZSDpmZDlrpogaHR0cC9odHRwcy9mdHAKICBsZXQgc2NoZW1lID0gJyc7CiAgdHJ5IHsKICAgIHNjaGVtZSA9IG5ldyBVUkwoaW5wdXQudXJsKS5wcm90b2NvbC5yZXBsYWNlKCc6JywgJycpLnRvTG93ZXJDYXNlKCk7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQogIGlmIChzY2hlbWUgIT09ICdodHRwJyAmJiBzY2hlbWUgIT09ICdodHRwcycgJiYgc2NoZW1lICE9PSAnZnRwJykgewogICAgcmV0dXJuIGZhbHNlOwogIH0KCiAgLy8gNC4g5bey55+l5pS+6KGMIE1JTUXvvIhtaW1lIOmdnuepuuaXtuaJjeWIpOaWre+8iQogIGlmIChpbnB1dC5taW1lICYmIFBBU1NUSFJPVUdIX01JTUUuaGFzKGlucHV0Lm1pbWUudG9Mb3dlckNhc2UoKSkpIHsKICAgIHJldHVybiBmYWxzZTsKICB9CgogIC8vIDUuIOS9k+enr+i/h+Wwj+aUvuihjO+8iHNpemUg5pyq55+l5Li6IC0xIOaXtuS4jeS7peWkp+Wwj+aLpuaIqu+8iQogIGlmIChpbnB1dC5zaXplID4gMCAmJiBpbnB1dC5zaXplIDwgc2V0dGluZ3MudGFrZW92ZXJNaW5TaXplKSB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQoKICAvLyA2LiDnq5nngrnop4TliJnlkb3kuK0gdGFrZW92ZXI6ZmFsc2Ug5pS+6KGMCiAgY29uc3QgcnVsZSA9IG1hdGNoU2l0ZVJ1bGUoc2V0dGluZ3Muc2l0ZVJ1bGVzLCBpbnB1dC51cmwpOwogIGlmIChydWxlICYmIHJ1bGUudGFrZW92ZXIgPT09IGZhbHNlKSB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQoKICAvLyA3LiBBbHQg57uV6L+H5qCH6K6w5ZG95Lit5pS+6KGMCiAgaWYgKGlucHV0LmJ5cGFzc0FjdGl2ZSkgewogICAgcmV0dXJuIGZhbHNlOwogIH0KCiAgcmV0dXJuIHRydWU7Cn0K
+import type { ExtensionSettings, SiteRule } from '@/shared/types';
+import { getDomain } from '@/shared/utils/urlParser';
+
+/**
+ * 下载接管的纯判定逻辑（无 chrome / 网络依赖，便于单测）
+ */
+
+/**
+ * 已知放行的 MIME（浏览器内联查看类，通常不应接管）
+ */
+const PASSTHROUGH_MIME = new Set([
+  'text/html',
+  'application/xhtml+xml'
+]);
+
+/**
+ * 接管判定输入
+ */
+export interface TakeoverInput {
+  // 目标 URL（优先 finalUrl）
+  url: string;
+  // 下载项 MIME（可空）
+  mime?: string;
+  // 发起下载的扩展 ID（本扩展回退下载会带自身 ID）
+  byExtensionId?: string;
+  // 文件体积（字节），未知为 -1
+  size: number;
+  // aria2 当前是否已连接
+  isConnected: boolean;
+  // Alt 绕过标记是否生效
+  bypassActive: boolean;
+}
+
+/**
+ * 匹配站点规则（域名含子域）
+ */
+export function matchSiteRule(rules: SiteRule[], url: string): SiteRule | undefined {
+  if (!rules || rules.length === 0) {
+    return undefined;
+  }
+  const domain = getDomain(url);
+  if (!domain) {
+    return undefined;
+  }
+  return rules.find((rule) => {
+    const d = rule.domain.toLowerCase();
+    return domain === d || domain.endsWith('.' + d);
+  });
+}
+
+/**
+ * 判定是否接管该下载（顺序敏感的判定链）
+ * true = 接管（取消浏览器下载转交 GDownload）；false = 放行浏览器
+ */
+export function decideTakeover(input: TakeoverInput, settings: ExtensionSettings): boolean {
+  // 1. 总开关 + 在线（离线放行，决不丢下载）
+  if (!settings.takeoverEnabled) {
+    return false;
+  }
+  if (!input.isConnected) {
+    return false;
+  }
+
+  // 2. 排除本扩展自身发起的下载（防回退下载被二次接管造成死循环）
+  if (input.byExtensionId) {
+    return false;
+  }
+
+  // 3. scheme 限定 http/https/ftp
+  let scheme = '';
+  try {
+    scheme = new URL(input.url).protocol.replace(':', '').toLowerCase();
+  } catch {
+    return false;
+  }
+  if (scheme !== 'http' && scheme !== 'https' && scheme !== 'ftp') {
+    return false;
+  }
+
+  // 4. 已知放行 MIME（mime 非空时才判断）
+  if (input.mime && PASSTHROUGH_MIME.has(input.mime.toLowerCase())) {
+    return false;
+  }
+
+  // 5. 体积过小放行（size 未知为 -1 时不以大小拦截）
+  if (input.size > 0 && input.size < settings.takeoverMinSize) {
+    return false;
+  }
+
+  // 6. 站点规则命中 takeover:false 放行
+  const rule = matchSiteRule(settings.siteRules, input.url);
+  if (rule && rule.takeover === false) {
+    return false;
+  }
+
+  // 7. Alt 绕过标记命中放行
+  if (input.bypassActive) {
+    return false;
+  }
+
+  return true;
+}

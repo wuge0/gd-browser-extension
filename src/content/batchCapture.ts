@@ -1,1 +1,175 @@
-aW1wb3J0IHsgcGlja0xhcmdlc3RGcm9tU3Jjc2V0IH0gZnJvbSAnQC9zaGFyZWQvdXRpbHMvc3Jjc2V0JzsKaW1wb3J0IHsgYnJvd3NlckFwaSB9IGZyb20gJ0Avc2hhcmVkL3V0aWxzL2Jyb3dzZXJBcGknOwoKLyoqCiAqIOaJuemHj+aKk+WPlu+8muWbvueJh+eUu+W7iumHh+mbhiArIOaLluahhumAiemTvgogKi8KCmV4cG9ydCBpbnRlcmZhY2UgQ2FwdHVyZWRJbWFnZSB7CiAgdXJsOiBzdHJpbmc7CiAgd2lkdGg6IG51bWJlcjsKICBoZWlnaHQ6IG51bWJlcjsKfQoKLyoqCiAqIOaJq+aPj+mhtemdouaJgOacieWbvueJh++8jHNyY3NldCDlj5bmnIDlpKfmoaPvvIzmjIkgVVJMIOWOu+mHjQogKi8KZXhwb3J0IGZ1bmN0aW9uIGNhcHR1cmVJbWFnZXMoKTogQ2FwdHVyZWRJbWFnZVtdIHsKICBjb25zdCBtYXAgPSBuZXcgTWFwPHN0cmluZywgQ2FwdHVyZWRJbWFnZT4oKTsKICBmb3IgKGNvbnN0IGltZyBvZiBBcnJheS5mcm9tKGRvY3VtZW50LmltYWdlcykpIHsKICAgIGNvbnN0IHVybCA9IGltZy5jdXJyZW50U3JjIHx8IHBpY2tMYXJnZXN0RnJvbVNyY3NldChpbWcuc3Jjc2V0LCBpbWcuc3JjKSB8fCBpbWcuc3JjOwogICAgaWYgKCF1cmwgfHwgIS9eaHR0cHM/Oi9pLnRlc3QodXJsKSkgewogICAgICBjb250aW51ZTsKICAgIH0KICAgIGlmICghbWFwLmhhcyh1cmwpKSB7CiAgICAgIG1hcC5zZXQodXJsLCB7CiAgICAgICAgdXJsLAogICAgICAgIHdpZHRoOiBpbWcubmF0dXJhbFdpZHRoIHx8IGltZy53aWR0aCB8fCAwLAogICAgICAgIGhlaWdodDogaW1nLm5hdHVyYWxIZWlnaHQgfHwgaW1nLmhlaWdodCB8fCAwCiAgICAgIH0pOwogICAgfQogIH0KICByZXR1cm4gQXJyYXkuZnJvbShtYXAudmFsdWVzKCkpOwp9CgovLyA9PT09PSDmi5bmoYbpgInpk74gPT09PT0KCmxldCBkcmFnT3ZlcmxheTogSFRNTEVsZW1lbnQgfCBudWxsID0gbnVsbDsKbGV0IHNlbGVjdGlvbkJveDogSFRNTERpdkVsZW1lbnQgfCBudWxsID0gbnVsbDsKbGV0IHN0YXJ0WCA9IDA7CmxldCBzdGFydFkgPSAwOwpsZXQgZHJhZ2dpbmcgPSBmYWxzZTsKCi8qKgogKiDlkK/liqjmi5bmoYbpgInmi6nmqKHlvI8KICovCmV4cG9ydCBmdW5jdGlvbiBzdGFydERyYWdTZWxlY3QoKTogdm9pZCB7CiAgaWYgKGRyYWdPdmVybGF5KSB7CiAgICByZXR1cm47CiAgfQogIGRyYWdPdmVybGF5ID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZGl2Jyk7CiAgZHJhZ092ZXJsYXkuc3R5bGUuY3NzVGV4dCA9IFsKICAgICdwb3NpdGlvbjpmaXhlZCcsCiAgICAnaW5zZXQ6MCcsCiAgICAnei1pbmRleDoyMTQ3NDgzNjQ3JywKICAgICdjdXJzb3I6Y3Jvc3NoYWlyJywKICAgICdiYWNrZ3JvdW5kOnJnYmEoNjQsMTU4LDI1NSwwLjA2KScKICBdLmpvaW4oJzsnKTsKCiAgc2VsZWN0aW9uQm94ID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZGl2Jyk7CiAgc2VsZWN0aW9uQm94LnN0eWxlLmNzc1RleHQgPSBbCiAgICAncG9zaXRpb246Zml4ZWQnLAogICAgJ2JvcmRlcjoycHggc29saWQgIzQwOUVGRicsCiAgICAnYmFja2dyb3VuZDpyZ2JhKDY0LDE1OCwyNTUsMC4xNSknLAogICAgJ2Rpc3BsYXk6bm9uZScsCiAgICAncG9pbnRlci1ldmVudHM6bm9uZScsCiAgICAnei1pbmRleDoyMTQ3NDgzNjQ3JwogIF0uam9pbignOycpOwoKICBkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuYXBwZW5kQ2hpbGQoZHJhZ092ZXJsYXkpOwogIGRvY3VtZW50LmRvY3VtZW50RWxlbWVudC5hcHBlbmRDaGlsZChzZWxlY3Rpb25Cb3gpOwoKICBkcmFnT3ZlcmxheS5hZGRFdmVudExpc3RlbmVyKCdtb3VzZWRvd24nLCBvbkRvd24pOwogIGRyYWdPdmVybGF5LmFkZEV2ZW50TGlzdGVuZXIoJ21vdXNlbW92ZScsIG9uTW92ZSk7CiAgZHJhZ092ZXJsYXkuYWRkRXZlbnRMaXN0ZW5lcignbW91c2V1cCcsIG9uVXApOwogIGRvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoJ2tleWRvd24nLCBvbkVzYywgdHJ1ZSk7Cn0KCmZ1bmN0aW9uIG9uRXNjKGU6IEtleWJvYXJkRXZlbnQpIHsKICBpZiAoZS5rZXkgPT09ICdFc2NhcGUnKSB7CiAgICB0ZWFyZG93bkRyYWcoKTsKICB9Cn0KCmZ1bmN0aW9uIG9uRG93bihlOiBNb3VzZUV2ZW50KSB7CiAgZHJhZ2dpbmcgPSB0cnVlOwogIHN0YXJ0WCA9IGUuY2xpZW50WDsKICBzdGFydFkgPSBlLmNsaWVudFk7CiAgaWYgKHNlbGVjdGlvbkJveCkgewogICAgc2VsZWN0aW9uQm94LnN0eWxlLmRpc3BsYXkgPSAnYmxvY2snOwogICAgdXBkYXRlQm94KGUuY2xpZW50WCwgZS5jbGllbnRZKTsKICB9Cn0KCmZ1bmN0aW9uIG9uTW92ZShlOiBNb3VzZUV2ZW50KSB7CiAgaWYgKGRyYWdnaW5nKSB7CiAgICB1cGRhdGVCb3goZS5jbGllbnRYLCBlLmNsaWVudFkpOwogIH0KfQoKZnVuY3Rpb24gdXBkYXRlQm94KHg6IG51bWJlciwgeTogbnVtYmVyKSB7CiAgaWYgKCFzZWxlY3Rpb25Cb3gpIHsKICAgIHJldHVybjsKICB9CiAgY29uc3QgbGVmdCA9IE1hdGgubWluKHN0YXJ0WCwgeCk7CiAgY29uc3QgdG9wID0gTWF0aC5taW4oc3RhcnRZLCB5KTsKICBjb25zdCB3aWR0aCA9IE1hdGguYWJzKHggLSBzdGFydFgpOwogIGNvbnN0IGhlaWdodCA9IE1hdGguYWJzKHkgLSBzdGFydFkpOwogIHNlbGVjdGlvbkJveC5zdHlsZS5sZWZ0ID0gYCR7bGVmdH1weGA7CiAgc2VsZWN0aW9uQm94LnN0eWxlLnRvcCA9IGAke3RvcH1weGA7CiAgc2VsZWN0aW9uQm94LnN0eWxlLndpZHRoID0gYCR7d2lkdGh9cHhgOwogIHNlbGVjdGlvbkJveC5zdHlsZS5oZWlnaHQgPSBgJHtoZWlnaHR9cHhgOwp9CgpmdW5jdGlvbiBvblVwKGU6IE1vdXNlRXZlbnQpIHsKICBpZiAoIWRyYWdnaW5nKSB7CiAgICByZXR1cm47CiAgfQogIGRyYWdnaW5nID0gZmFsc2U7CiAgY29uc3QgcmVjdCA9IHsKICAgIGxlZnQ6IE1hdGgubWluKHN0YXJ0WCwgZS5jbGllbnRYKSwKICAgIHRvcDogTWF0aC5taW4oc3RhcnRZLCBlLmNsaWVudFkpLAogICAgcmlnaHQ6IE1hdGgubWF4KHN0YXJ0WCwgZS5jbGllbnRYKSwKICAgIGJvdHRvbTogTWF0aC5tYXgoc3RhcnRZLCBlLmNsaWVudFkpCiAgfTsKICBjb25zdCBsaW5rcyA9IGNvbGxlY3RMaW5rc0luUmVjdChyZWN0KTsKICB0ZWFyZG93bkRyYWcoKTsKICBpZiAobGlua3MubGVuZ3RoID4gMCkgewogICAgYnJvd3NlckFwaS5ydW50aW1lLnNlbmRNZXNzYWdlKHsgYWN0aW9uOiAnYmF0Y2hMaW5rc0NhcHR1cmVkJywgbGlua3MgfSkuY2F0Y2goKCkgPT4ge30pOwogIH0KfQoKLyoqCiAqIOaUtumbhumAieahhuWGheeahOmTvuaOpeS4juWbvueJhwogKi8KZnVuY3Rpb24gY29sbGVjdExpbmtzSW5SZWN0KHJlY3Q6IHsgbGVmdDogbnVtYmVyOyB0b3A6IG51bWJlcjsgcmlnaHQ6IG51bWJlcjsgYm90dG9tOiBudW1iZXIgfSk6IEFycmF5PHsgdXJsOiBzdHJpbmc7IGZpbGVuYW1lOiBzdHJpbmcgfT4gewogIGNvbnN0IG91dCA9IG5ldyBNYXA8c3RyaW5nLCB7IHVybDogc3RyaW5nOyBmaWxlbmFtZTogc3RyaW5nIH0+KCk7CgogIGNvbnN0IGluUmVjdCA9IChlbDogRWxlbWVudCk6IGJvb2xlYW4gPT4gewogICAgY29uc3QgciA9IGVsLmdldEJvdW5kaW5nQ2xpZW50UmVjdCgpOwogICAgY29uc3QgY3ggPSByLmxlZnQgKyByLndpZHRoIC8gMjsKICAgIGNvbnN0IGN5ID0gci50b3AgKyByLmhlaWdodCAvIDI7CiAgICByZXR1cm4gY3ggPj0gcmVjdC5sZWZ0ICYmIGN4IDw9IHJlY3QucmlnaHQgJiYgY3kgPj0gcmVjdC50b3AgJiYgY3kgPD0gcmVjdC5ib3R0b207CiAgfTsKCiAgY29uc3QgYWRkID0gKHVybDogc3RyaW5nKSA9PiB7CiAgICBpZiAoIXVybCB8fCAhL15odHRwcz86L2kudGVzdCh1cmwpIHx8IG91dC5oYXModXJsKSkgewogICAgICByZXR1cm47CiAgICB9CiAgICBjb25zdCBmaWxlbmFtZSA9IGRlY29kZVVSSUNvbXBvbmVudCh1cmwuc3BsaXQoJy8nKS5wb3AoKT8uc3BsaXQoJz8nKVswXSB8fCAnZmlsZScpOwogICAgb3V0LnNldCh1cmwsIHsgdXJsLCBmaWxlbmFtZSB9KTsKICB9OwoKICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdhW2hyZWZdJykuZm9yRWFjaCgoYSkgPT4gewogICAgaWYgKGluUmVjdChhKSkgewogICAgICBhZGQoKGEgYXMgSFRNTEFuY2hvckVsZW1lbnQpLmhyZWYpOwogICAgfQogIH0pOwogIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJ2ltZycpLmZvckVhY2goKGltZykgPT4gewogICAgaWYgKGluUmVjdChpbWcpKSB7CiAgICAgIGNvbnN0IGVsID0gaW1nIGFzIEhUTUxJbWFnZUVsZW1lbnQ7CiAgICAgIGFkZChlbC5jdXJyZW50U3JjIHx8IHBpY2tMYXJnZXN0RnJvbVNyY3NldChlbC5zcmNzZXQsIGVsLnNyYykgfHwgZWwuc3JjKTsKICAgIH0KICB9KTsKCiAgcmV0dXJuIEFycmF5LmZyb20ob3V0LnZhbHVlcygpKTsKfQoKZnVuY3Rpb24gdGVhcmRvd25EcmFnKCkgewogIGRvY3VtZW50LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ2tleWRvd24nLCBvbkVzYywgdHJ1ZSk7CiAgZHJhZ092ZXJsYXk/LnJlbW92ZSgpOwogIHNlbGVjdGlvbkJveD8ucmVtb3ZlKCk7CiAgZHJhZ092ZXJsYXkgPSBudWxsOwogIHNlbGVjdGlvbkJveCA9IG51bGw7CiAgZHJhZ2dpbmcgPSBmYWxzZTsKfQo=
+import { pickLargestFromSrcset } from '@/shared/utils/srcset';
+import { browserApi } from '@/shared/utils/browserApi';
+
+/**
+ * 批量抓取：图片画廊采集 + 拖框选链
+ */
+
+export interface CapturedImage {
+  url: string;
+  width: number;
+  height: number;
+}
+
+/**
+ * 扫描页面所有图片，srcset 取最大档，按 URL 去重
+ */
+export function captureImages(): CapturedImage[] {
+  const map = new Map<string, CapturedImage>();
+  for (const img of Array.from(document.images)) {
+    const url = img.currentSrc || pickLargestFromSrcset(img.srcset, img.src) || img.src;
+    if (!url || !/^https?:/i.test(url)) {
+      continue;
+    }
+    if (!map.has(url)) {
+      map.set(url, {
+        url,
+        width: img.naturalWidth || img.width || 0,
+        height: img.naturalHeight || img.height || 0
+      });
+    }
+  }
+  return Array.from(map.values());
+}
+
+// ===== 拖框选链 =====
+
+let dragOverlay: HTMLElement | null = null;
+let selectionBox: HTMLDivElement | null = null;
+let startX = 0;
+let startY = 0;
+let dragging = false;
+
+/**
+ * 启动拖框选择模式
+ */
+export function startDragSelect(): void {
+  if (dragOverlay) {
+    return;
+  }
+  dragOverlay = document.createElement('div');
+  dragOverlay.style.cssText = [
+    'position:fixed',
+    'inset:0',
+    'z-index:2147483647',
+    'cursor:crosshair',
+    'background:rgba(64,158,255,0.06)'
+  ].join(';');
+
+  selectionBox = document.createElement('div');
+  selectionBox.style.cssText = [
+    'position:fixed',
+    'border:2px solid #409EFF',
+    'background:rgba(64,158,255,0.15)',
+    'display:none',
+    'pointer-events:none',
+    'z-index:2147483647'
+  ].join(';');
+
+  document.documentElement.appendChild(dragOverlay);
+  document.documentElement.appendChild(selectionBox);
+
+  dragOverlay.addEventListener('mousedown', onDown);
+  dragOverlay.addEventListener('mousemove', onMove);
+  dragOverlay.addEventListener('mouseup', onUp);
+  document.addEventListener('keydown', onEsc, true);
+}
+
+function onEsc(e: KeyboardEvent) {
+  if (e.key === 'Escape') {
+    teardownDrag();
+  }
+}
+
+function onDown(e: MouseEvent) {
+  dragging = true;
+  startX = e.clientX;
+  startY = e.clientY;
+  if (selectionBox) {
+    selectionBox.style.display = 'block';
+    updateBox(e.clientX, e.clientY);
+  }
+}
+
+function onMove(e: MouseEvent) {
+  if (dragging) {
+    updateBox(e.clientX, e.clientY);
+  }
+}
+
+function updateBox(x: number, y: number) {
+  if (!selectionBox) {
+    return;
+  }
+  const left = Math.min(startX, x);
+  const top = Math.min(startY, y);
+  const width = Math.abs(x - startX);
+  const height = Math.abs(y - startY);
+  selectionBox.style.left = `${left}px`;
+  selectionBox.style.top = `${top}px`;
+  selectionBox.style.width = `${width}px`;
+  selectionBox.style.height = `${height}px`;
+}
+
+function onUp(e: MouseEvent) {
+  if (!dragging) {
+    return;
+  }
+  dragging = false;
+  const rect = {
+    left: Math.min(startX, e.clientX),
+    top: Math.min(startY, e.clientY),
+    right: Math.max(startX, e.clientX),
+    bottom: Math.max(startY, e.clientY)
+  };
+  const links = collectLinksInRect(rect);
+  teardownDrag();
+  if (links.length > 0) {
+    browserApi.runtime.sendMessage({ action: 'batchLinksCaptured', links }).catch(() => {});
+  }
+}
+
+/**
+ * 收集选框内的链接与图片
+ */
+function collectLinksInRect(rect: { left: number; top: number; right: number; bottom: number }): Array<{ url: string; filename: string }> {
+  const out = new Map<string, { url: string; filename: string }>();
+
+  const inRect = (el: Element): boolean => {
+    const r = el.getBoundingClientRect();
+    const cx = r.left + r.width / 2;
+    const cy = r.top + r.height / 2;
+    return cx >= rect.left && cx <= rect.right && cy >= rect.top && cy <= rect.bottom;
+  };
+
+  const add = (url: string) => {
+    if (!url || !/^https?:/i.test(url) || out.has(url)) {
+      return;
+    }
+    const filename = decodeURIComponent(url.split('/').pop()?.split('?')[0] || 'file');
+    out.set(url, { url, filename });
+  };
+
+  document.querySelectorAll('a[href]').forEach((a) => {
+    if (inRect(a)) {
+      add((a as HTMLAnchorElement).href);
+    }
+  });
+  document.querySelectorAll('img').forEach((img) => {
+    if (inRect(img)) {
+      const el = img as HTMLImageElement;
+      add(el.currentSrc || pickLargestFromSrcset(el.srcset, el.src) || el.src);
+    }
+  });
+
+  return Array.from(out.values());
+}
+
+function teardownDrag() {
+  document.removeEventListener('keydown', onEsc, true);
+  dragOverlay?.remove();
+  selectionBox?.remove();
+  dragOverlay = null;
+  selectionBox = null;
+  dragging = false;
+}
